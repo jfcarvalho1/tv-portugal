@@ -8,9 +8,8 @@ jobs:
       - run: |
           U=$(grep -A4 'tvg-id="SIC.pt"' <(curl -s https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/tv/portugal.m3u) | grep '^http' | head -1)
           echo "url: $U"
-          echo "== sem nada"; curl -s -o /tmp/a -w '%{http_code} %{content_type}\n' "$U"; head -c 400 /tmp/a; echo
-          echo "== CORS (Origin da app)"; curl -s -D - -o /tmp/b -H "Origin: https://jfcarvalho1.github.io" "$U" | grep -i -E '^HTTP|access-control'
-          echo "== CORS (Origin sic.pt)"; curl -s -D - -o /tmp/c -H "Origin: https://sic.pt" -e https://opto.sic.pt/ "$U" | grep -i -E '^HTTP|access-control'
-          V=$(dirname "$U")/$(grep -v '^#' /tmp/a | head -1); echo "segmento/variante: $V"
-          curl -s -D - -o /dev/null -H "Origin: https://jfcarvalho1.github.io" "$V" | grep -i -E '^HTTP|access-control'
-          echo "== opções preflight"; curl -s -X OPTIONS -D - -o /dev/null -H "Origin: https://jfcarvalho1.github.io" -H "Access-Control-Request-Method: GET" "$U" | grep -i -E '^HTTP|access-control'
+          echo "== cabeçalhos"; curl -s -D - -o /dev/null "$U" | head -20
+          echo "== seguir"; curl -s -L -D - -o /tmp/a -H "Origin: https://jfcarvalho1.github.io" "$U" | grep -i -E '^HTTP|^location|access-control'; head -c 500 /tmp/a; echo
+          F=$(curl -s -L -o /dev/null -w '%{url_effective}' "$U"); echo "final: $F"
+          V=$(grep -v '^#' /tmp/a | head -1); case "$V" in http*) ;; *) V=$(dirname "$F")/$V;; esac; echo "seguinte: $V"
+          curl -s -L -D - -o /tmp/v -H "Origin: https://jfcarvalho1.github.io" "$V" | grep -i -E '^HTTP|^location|access-control'; head -c 300 /tmp/v; echo
