@@ -33,6 +33,12 @@ UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
 UA_API = "TVRadiosPortugal-Jellyfin/2.0"
 M3UPT = "https://m3upt.com/iptv"
 IPTVORG = "https://iptv-org.github.io/iptv/index.country.m3u"
+FREETV = "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"  # só canais oficiais e gratuitos
+FREETV_PAIS = {"usa": "United States", "us": "United States", "uk": "United Kingdom", "spain": "Spain",
+               "france": "France", "italy": "Italy", "germany": "Germany", "netherlands": "Netherlands",
+               "belgium": "Belgium", "brazil": "Brazil", "portugal": "Portugal", "ireland": "Ireland",
+               "canada": "Canada", "australia": "Australia", "switzerland": "Switzerland", "austria": "Austria",
+               "luxembourg": "Luxembourg", "andorra": "Andorra", "mexico": "Mexico", "argentina": "Argentina"}
 RADIO_BROWSER = ["https://de1.api.radio-browser.info", "https://nl1.api.radio-browser.info",
                  "https://at1.api.radio-browser.info", "https://de2.api.radio-browser.info",
                  "https://fi1.api.radio-browser.info"]
@@ -528,6 +534,20 @@ def main():
             tv_bruto.append(c)
     except Exception as e:
         log(f"iptv-org falhou: {e}")
+    try:
+        lst = parse_m3u(baixar(FREETV, timeout=120), "Free-TV")
+        n = 0
+        for c in lst:
+            g = sem_acentos(c["attrs"].get("group-title", "")).strip()
+            pais = FREETV_PAIS.get(g)
+            if not pais:
+                continue  # grupos que não são países (serviços, categorias): ficam de fora
+            c["pais"] = pais
+            tv_bruto.append(c)
+            n += 1
+        log(f"Free-TV: {len(lst)} entradas, {n} por país")
+    except Exception as e:
+        log(f"Free-TV falhou: {e}")
     if cfg["INCLUIR_ADULTOS"] == "1":
         try:
             lst = parse_m3u(baixar(IPTVORG_ADULTOS, timeout=120), "iptv-org")
