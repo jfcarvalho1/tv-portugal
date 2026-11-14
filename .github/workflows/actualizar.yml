@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Gerar listas
-        run: python3 actualizar.py .
+        run: python3 actualizar.py . && python3 dividir.py .
       - name: Guardar no repositório
         run: |
           git config user.name "actualizador"

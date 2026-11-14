@@ -423,9 +423,9 @@ def main():
                 fora.append(("qualidade desconhecida", c["nome"], c["pais"]))
             else:
                 tv_ok.append(c)
-        r_ok = [c for c in radios if ok[c["url"]][0]]
-        fora += [("link não respondeu", c["nome"], "Rádio") for c in radios if not ok[c["url"]][0]]
-        tv, radios = tv_ok, r_ok
+        # Rádios ficam todas: o GitHub testa fora de Portugal e muitas rádios portuguesas
+        # bloqueiam ou demoram a responder lá fora (o Radio Browser já tira as avariadas).
+        tv = tv_ok
 
     if not tv and not radios:
         log("ERRO: não obtive nenhum canal (sem internet?). Mantenho as listas antigas.")

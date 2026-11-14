@@ -20,6 +20,12 @@
   .icone { font-size: 34px; width: 44px; text-align: center; }
   .titulo { font-size: 21px; font-weight: 600; }
   .desc { color: #9a9ca3; font-size: 14px; margin-top: 3px; }
+  h2 { font-size: 18px; margin: 28px 0 12px; color: #c9cbd1; }
+  .grelha { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  a.mini { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff;
+           background: #1c1e24; border-radius: 14px; padding: 16px 14px; font-size: 16px; }
+  a.mini:active { background: #2a2d35; }
+  a.mini span { font-size: 22px; }
   details { margin-top: 30px; color: #9a9ca3; font-size: 14px; }
   details li { margin-bottom: 8px; }
   code { font-size: 12px; word-break: break-all; color: #c9cbd1; }
@@ -29,21 +35,35 @@
   <h1>TV e Rádios</h1>
   <p class="sub">Toca e abre no VLC. As listas actualizam-se sozinhas todos os dias.</p>
 
-  <a class="botao" data-lista="tv.m3u" href="#">
+  <a class="botao" data-lista="tv/portugal.m3u" href="#">
     <span class="icone">📺</span>
-    <span><div class="titulo">Televisão</div><div class="desc">Portugal primeiro, depois por países</div></span>
+    <span><div class="titulo">TV Portugal</div><div class="desc">RTP, SIC, TVI, CNN e os outros canais portugueses</div></span>
   </a>
   <a class="botao" data-lista="radios.m3u" href="#">
     <span class="icone">📻</span>
     <span><div class="titulo">Rádios</div><div class="desc">Nacionais, regionais e locais</div></span>
   </a>
+  <h2>TV de outros países</h2>
+  <div class="grelha">
+    <a class="mini" data-lista="tv/espanha.m3u" href="#"><span>🇪🇸</span>Espanha</a>
+    <a class="mini" data-lista="tv/franca.m3u" href="#"><span>🇫🇷</span>França</a>
+    <a class="mini" data-lista="tv/italia.m3u" href="#"><span>🇮🇹</span>Itália</a>
+    <a class="mini" data-lista="tv/holanda.m3u" href="#"><span>🇳🇱</span>Holanda</a>
+    <a class="mini" data-lista="tv/belgica.m3u" href="#"><span>🇧🇪</span>Bélgica</a>
+    <a class="mini" data-lista="tv/alemanha.m3u" href="#"><span>🇩🇪</span>Alemanha</a>
+    <a class="mini" data-lista="tv/brasil.m3u" href="#"><span>🇧🇷</span>Brasil</a>
+    <a class="mini" data-lista="tv/eua.m3u" href="#"><span>🇺🇸</span>EUA</a>
+    <a class="mini" data-lista="tv/internacional.m3u" href="#"><span>🌍</span>Internacional</a>
+    <a class="mini" data-lista="tv/resto-do-mundo.m3u" href="#"><span>🗺️</span>Resto do mundo</a>
+    <a class="mini" data-lista="tv/adultos.m3u" href="#"><span>🔞</span>Adultos</a>
+  </div>
 
   <details>
     <summary>Se o VLC não abrir</summary>
     <ol>
       <li>Confirma que tens a app VLC instalada (App Store, gratuita).</li>
       <li>No VLC: Rede → Abrir fluxo de rede → cola o endereço:<br>
-        <code>https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/tv.m3u</code><br>
+        <code>https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/tv/portugal.m3u</code><br>
         <code>https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/radios.m3u</code></li>
     </ol>
   </details>

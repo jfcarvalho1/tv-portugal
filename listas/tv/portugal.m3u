@@ -1,0 +1,67 @@
+#EXTM3U url-tvg="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/EPG/epg-m3upt.xml.xz"
+#EXTINF:-1 tvg-id="RTP1.pt" tvg-name="RTP 1" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.pt.png" tvg-chno="1" group-title="Portugal",RTP 1
+https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTP2.pt" tvg-name="RTP 2" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP2.pt.png" tvg-chno="2" group-title="Portugal",RTP 2
+https://streaming-live.rtp.pt/liverepeater/rtp2HD.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SIC.pt" tvg-name="SIC" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SIC.pt.png" tvg-chno="3" group-title="Portugal",SIC
+https://sic.live.impresa.pt/sic1080p.m3u8
+#EXTINF:-1 tvg-id="TVI.pt" tvg-name="TVI" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVI.pt.png" tvg-chno="4" group-title="Portugal",TVI
+https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/TVI.m3u8
+#EXTINF:-1 tvg-id="RTPNoticias.pt" tvg-name="RTP Notícias" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTPNoticias.pt.png" tvg-chno="5" group-title="Portugal",RTP Notícias
+https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SICNoticias.pt" tvg-name="SIC Notícias" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SICNoticias.pt.png" tvg-chno="6" group-title="Portugal",SIC Notícias
+https://sicnot.live.impresa.pt/sicnot.m3u8
+#EXTINF:-1 tvg-id="CNNPortugal.pt" tvg-name="CNN Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/CNNPortugal.pt.png" tvg-chno="7" group-title="Portugal",CNN Portugal
+https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/CNN_Portugal.m3u8
+#EXTINF:-1 tvg-id="RTPMemoria.pt" tvg-name="RTP Memória" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTPMemoria.pt.png" tvg-chno="8" group-title="Portugal",RTP Memória
+https://streaming-live.rtp.pt/liverepeater/rtpmem.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ARTV.pt" tvg-name="ARTV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ARTV.pt.png" tvg-chno="9" group-title="Portugal",ARTV
+https://playout175.livextend.cloud/livenlin4/_definst_/2liveartvpub2/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal11.pt" tvg-name="Canal 11 Internacional" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Canal11.pt.png" tvg-chno="10" group-title="Portugal",Canal 11 Internacional
+https://dy4isoelz3s0x.cloudfront.net/0_hd.m3u8
+#EXTINF:-1 tvg-id="PortoCanal.pt" tvg-name="Porto Canal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/PortoCanal.pt.png" tvg-chno="11" group-title="Portugal",Porto Canal
+https://pull-live-156-1.global.ssl.fastly.net/pc5865dc25400thmb-ea6bf03b14fa318f7133/pc1-jhrgyuoqe5865db-68tkgb14fa318f7133f03.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPAcores.pt" tvg-name="RTP Açores" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTPAcores.pt.png" tvg-chno="12" group-title="Portugal",RTP Açores
+https://streaming-live.rtp.pt/liverepeater/rtpacoresHD.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPMadeira.pt" tvg-name="RTP Madeira" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTPMadeira.pt.png" tvg-chno="13" group-title="Portugal",RTP Madeira
+https://streaming-live.rtp.pt/liverepeater/rtpmadeira.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPAfrica.pt" tvg-name="RTP África" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTPAfrica.pt.png" tvg-chno="14" group-title="Portugal",RTP África
+https://streaming-live.rtp.pt/liverepeater/rtpafrica.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVIInternacional.pt" tvg-name="TVI Internacional" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVIInternacional.pt.png" tvg-chno="15" group-title="Portugal",TVI Internacional
+https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/TVI_Internacional.m3u8
+#EXTINF:-1 tvg-id="VPlusTVI.pt" tvg-name="V+ TVI" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/VPlusTVI.pt.png" tvg-chno="16" group-title="Portugal",V+ TVI
+https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/Vmais_TVI.m3u8
+#EXTINF:-1 tvg-id="EuronewsPortuguese.fr" tvg-name="Euronews PT" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/EuronewsPortuguese.fr.png" tvg-chno="17" group-title="Portugal",Euronews PT
+https://6e52fb8b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c1BvcnR1Z3Vlc19ITFM/playlist.m3u8
+#EXTINF:-1 tvg-id="AssimePortugal.pt" tvg-name="Assim é Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/AssimePortugal.pt.png" tvg-chno="18" group-title="Portugal",Assim é Portugal
+https://video04.logicahost.com.br/assimeportugal/assimeportugal/playlist.m3u8
+#EXTINF:-1 tvg-id="ConecTVAlgarve.pt" tvg-name="ConecTV Algarve" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ConecTVAlgarve.pt.png" tvg-chno="19" group-title="Portugal",ConecTV Algarve
+https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8
+#EXTINF:-1 tvg-id="Famatv.pt" tvg-name="Fama TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Famatv.pt.png" tvg-chno="20" group-title="Portugal",Fama TV
+https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8
+#EXTINF:-1 tvg-id="NMTTV.pt" tvg-name="NMT TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NMTTV.pt.png" tvg-chno="21" group-title="Portugal",NMT TV
+https://rtmp.w2.stream-sx.com/live/K6Ole9wB/index.m3u8
+#EXTINF:-1 tvg-id="ONFM.pt" tvg-name="On FM Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ONFM.pt.png" tvg-chno="22" group-title="Portugal",On FM Portugal
+https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioSines.pt" tvg-name="Rádio Sines" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RadioSines.pt.png" tvg-chno="23" group-title="Portugal",Rádio Sines
+https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RFPtv.pt" tvg-name="RFPtv" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RFPtv.pt.png" tvg-chno="24" group-title="Portugal",RFPtv
+https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
+#EXTINF:-1 tvg-id="RTPMundo.pt" tvg-name="RTP Mundo" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTPMundo.pt.png" tvg-chno="25" group-title="Portugal",RTP Mundo
+https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SICAltaDefinicao.pt" tvg-name="SIC Alta Definição" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SICAltaDefinicao.pt.png" tvg-chno="26" group-title="Portugal",SIC Alta Definição
+https://production-fast-sic.content.okast.tv/fa2e8c4385712f9aa54bbe52b1bd9b6b/channels/d9070446-8448-455e-8075-773b1ba12562/fc831b20-f252-4e7d-8cc5-2d05f4d43c1c/media_.m3u8
+#EXTINF:-1 tvg-id="SICReplay.pt" tvg-name="SIC Replay" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/SICReplay.pt.png" tvg-chno="27" group-title="Portugal",SIC Replay
+https://production-fast-sic.content.okast.tv/fa2e8c4385712f9a7dce4ff2dcebac2e/channels/d9070446-8448-455e-8075-773b1ba12562/d47eae0f-ad77-414a-9a1d-2a6628ba18c3/media_.m3u8
+#EXTINF:-1 tvg-id="TDS.pt" tvg-name="TDS" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TDS.pt.png" tvg-chno="28" group-title="Portugal",TDS
+https://load-balancer.azotosolutions.com/cdnedge36/canale5/playlist.m3u8
+#EXTINF:-1 tvg-id="TVIFiccao.pt" tvg-name="TVI Ficção" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVIFiccao.pt.png" tvg-chno="29" group-title="Portugal",TVI Ficção
+https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/TVI_Ficcao.m3u8
+#EXTINF:-1 tvg-id="TVIReality.pt" tvg-name="TVI Reality" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/TVIReality.pt.png" tvg-chno="30" group-title="Portugal",TVI Reality
+https://raw.githubusercontent.com/LITUATUI/M3UPT/main/M3U/TVI_Reality.m3u8
+#EXTINF:-1 tvg-id="FIFAPlus.uk@Portuguese" tvg-name="FIFA+ Portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" tvg-chno="31" group-title="Portugal",FIFA+ Portuguese
+https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="NPCRadioeTV.pt@SD" tvg-name="NPC Radio e TV" tvg-logo="https://i.imgur.com/mw1lYWE.png" tvg-chno="32" group-title="Portugal",NPC Radio e TV
+https://stmv5.samcast.com.br/nasciparacantartv/nasciparacantartv/playlist.m3u8
+#EXTINF:-1 tvg-id="Trailers.es@UK" tvg-name="Trailers UK" tvg-logo="https://i.imgur.com/RwZ1hCN.png" tvg-chno="33" group-title="Portugal",Trailers UK
+https://amg01821-lovetvchannels-lovemagazineuk-samsungse-p1sf1.amagi.tv/playlist/amg01821-lovetvchannels-lovemagazineuk-samsungse/playlist.m3u8
