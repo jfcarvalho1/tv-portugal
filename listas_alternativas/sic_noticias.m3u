@@ -1,0 +1,8 @@
+#EXTM3U
+# Lista alternativa de teste SIC Notícias. URLs recolhidos de listas públicas, reprodução não validada neste commit.
+#EXTINF:-1 tvg-id="SICNoticias.pt" group-title="SIC",SIC Notícias, stream Impresa
+#EXTVLCOPT:http-origin=https://sicnoticias.pt
+#EXTVLCOPT:http-referrer=https://sicnoticias.pt/
+https://sicnot.live.impresa.pt/sicnot.m3u8
+#EXTINF:-1 tvg-id="SICNoticias.pt" group-title="SIC",SIC Notícias, alternativa Kaltura
+https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8
