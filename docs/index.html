@@ -265,7 +265,7 @@ function falhou(c) {
   const site = siteOficial(c);
   if (site) {
     fecharTv();
-    avisar(c, "<b></b> não pode ser reproduzido directamente nesta aplicação. Vou abrir o site oficial do canal.", site, "Abrir SIC Notícias");
+    avisar(c, "<b></b> não pode ser reproduzido directamente nesta aplicação.<br>Abre o directo no site oficial do canal, é gratuito.", site, "Abrir site oficial");
     return;
   }
   marcarFalha(c); avisar(c); desenhar();
@@ -283,6 +283,10 @@ function avisar(c, msg, link, rotulo) {
 
 // Canais que só emitem para o site do próprio canal (SIC, TVI…): o navegador não se pode fazer passar
 // pelo site deles, por isso, se não abrirem cá dentro, abre-se a página oficial de directo (gratuita).
+// Endereços alternativos oficiais que não exigem cabeçalhos (experimentados antes do endereço da lista)
+const ALTERNATIVAS = {
+  "sicnoticias.pt": ["https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8"],
+};
 const SITES = { "sic.pt": "https://sic.pt/direto", "sicnoticias.pt": "https://sicnoticias.pt/" };
 function siteOficial(c) {
   if (!c.cab) return "";
@@ -292,7 +296,7 @@ function siteOficial(c) {
 }
 function experimentar(el, c, aoFalhar) {
   // o iPhone recusa endereços http dentro de uma página segura: tenta primeiro a versão https
-  const tentativas = [...new Set([c.url.replace(/^http:\/\//i, "https://"), c.url])];
+  const tentativas = [...new Set([...(ALTERNATIVAS[c.tid] || []), c.url.replace(/^http:\/\//i, "https://"), c.url])];
   let i = 0, ok = false;
   const proxima = () => {
     if (ok) return;
@@ -311,7 +315,7 @@ function experimentar(el, c, aoFalhar) {
   };
   el.onerror = proxima;
   clearTimeout(el._prazo);
-  el._prazo = setTimeout(() => { if (!ok && estado.aTocar === c) { i = tentativas.length; proxima(); } }, siteOficial(c) ? 8000 : 20000);
+  el._prazo = setTimeout(() => { if (!ok && estado.aTocar === c) { i = tentativas.length; proxima(); } }, siteOficial(c) ? 12000 : 20000);
   el.onplaying = () => { ok = true; marcarBom(c); if (el === audio) aTocarRadio(); };
   proxima();
 }

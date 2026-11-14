@@ -7,7 +7,6 @@ pequeno, para a app carregar depressa. Corre no GitHub de 6 em 6 horas.
 """
 import glob
 import gzip
-import io
 import json
 import lzma
 import os
@@ -25,7 +24,7 @@ SAIDA = os.path.join(LISTAS, "epg")
 UA = "Mozilla/5.0 (TV-Radios-Portugal EPG)"
 ES = "https://epgshare01.online/epgshare01/epg_ripper_{}.xml.gz"
 FONTES = ["https://raw.githubusercontent.com/LITUATUI/M3UPT/main/EPG/epg-m3upt.xml.xz"] + [
-    ES.format(p) for p in ("PT1", "ES1", "FR1", "IT1", "NL1", "BE2", "DE1", "BR1", "UK1", "US2")]
+    ES.format(p) for p in ("PT1", "ES1", "FR1", "IT1", "NL1", "BE2", "DE1", "BR1", "UK1", "US2", "ALL_SOURCES1")]
 ANTES, DEPOIS = 1 * 3600, 14 * 3600
 
 
@@ -37,6 +36,10 @@ def chave(nome):  # igual à da app (docs/index.html) e à do actualizar.py
     n = re.sub(r"\(.*?\)|\[.*?\]", "", nome or "")
     n = re.sub(r"[^a-z0-9]", "", sem_acentos(n))
     return re.sub(r"(fhd|uhd|hd|sd|4k)$", "", n)
+
+
+def idn(t):
+    return re.sub(r"[^a-z0-9]", "", sem_acentos(t))
 
 
 def os_nossos():
@@ -66,13 +69,14 @@ def hora(t):
 
 
 def abrir(url):
+    """Abre o guia em fluxo (sem o carregar todo para a memória): há guias com centenas de MB."""
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    dados = urllib.request.urlopen(req, timeout=180).read()
-    if url.endswith(".xz") or dados[:6] == b"\xfd7zXZ\x00":
-        dados = lzma.decompress(dados)
-    elif url.endswith(".gz") or dados[:2] == b"\x1f\x8b":
-        dados = gzip.decompress(dados)
-    return io.BytesIO(dados)
+    r = urllib.request.urlopen(req, timeout=300)
+    if url.endswith(".xz"):
+        return lzma.LZMAFile(r)
+    if url.endswith(".gz"):
+        return gzip.GzipFile(fileobj=r)
+    return r
 
 
 def ler_guia(url, ids_procurados, nomes_procurados, agora, guia):
@@ -85,6 +89,8 @@ def ler_guia(url, ids_procurados, nomes_procurados, agora, guia):
             ks = set()
             if cid.lower() in ids_procurados:
                 ks.add(cid.lower())
+            elif "i:" + idn(cid) in ids_procurados:
+                ks.add("i:" + idn(cid))
             for dn in el.findall("display-name"):
                 k = "n:" + chave(dn.text or "")
                 if k[2:] and k[2:] in nomes_procurados:
@@ -109,6 +115,7 @@ def main():
     agora = int(time.time())
     nossos = os_nossos()
     ids = {tid for p in nossos.values() for tid, _ in p.values() if tid}
+    ids |= {"i:" + idn(t) for t in list(ids)}
     nomes = {nk for p in nossos.values() for _, nk in p.values() if nk}
     guia = {}
     for url in FONTES:
@@ -129,7 +136,7 @@ def main():
     for pais, canais in nossos.items():
         saida = {}
         for k, (tid, nk) in canais.items():
-            progs = (guia.get(tid) if tid else None) or guia.get("n:" + nk)
+            progs = ((guia.get(tid) or guia.get("i:" + idn(tid))) if tid else None) or guia.get("n:" + nk)
             if progs:
                 saida[k] = progs
         total += len(saida)
