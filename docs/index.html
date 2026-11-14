@@ -4,75 +4,287 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="TV e Rádios">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0e0f12">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
 <title>TV e Rádios</title>
 <style>
-  :root { color-scheme: dark; }
-  body { margin: 0; min-height: 100vh; background: #0e0f12; color: #f2f2f2;
-         font: 17px -apple-system, system-ui, sans-serif;
-         padding: calc(env(safe-area-inset-top) + 28px) 20px 40px; box-sizing: border-box; }
-  h1 { font-size: 28px; margin: 0 0 6px; }
-  p.sub { color: #9a9ca3; margin: 0 0 28px; }
-  a.botao { display: flex; align-items: center; gap: 16px; text-decoration: none; color: #fff;
-            background: #1c1e24; border-radius: 18px; padding: 22px 20px; margin-bottom: 14px; }
-  a.botao:active { background: #2a2d35; }
-  .icone { font-size: 34px; width: 44px; text-align: center; }
-  .titulo { font-size: 21px; font-weight: 600; }
-  .desc { color: #9a9ca3; font-size: 14px; margin-top: 3px; }
-  h2 { font-size: 18px; margin: 28px 0 12px; color: #c9cbd1; }
-  .grelha { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  a.mini { display: flex; align-items: center; gap: 10px; text-decoration: none; color: #fff;
-           background: #1c1e24; border-radius: 14px; padding: 16px 14px; font-size: 16px; }
-  a.mini:active { background: #2a2d35; }
-  a.mini span { font-size: 22px; }
-  details { margin-top: 30px; color: #9a9ca3; font-size: 14px; }
-  details li { margin-bottom: 8px; }
-  code { font-size: 12px; word-break: break-all; color: #c9cbd1; }
+  :root { color-scheme: dark; --fundo:#0e0f12; --cartao:#1b1d23; --cartao2:#262932; --texto:#f2f2f4; --fraco:#9a9ca3; }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; background: var(--fundo); color: var(--texto); font: 16px -apple-system, system-ui, sans-serif; }
+  button, input { font-family: inherit; }
+  header { position: sticky; top: 0; z-index: 5; background: rgba(14,15,18,.94);
+           backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+           padding: calc(env(safe-area-inset-top) + 10px) 16px 10px; }
+  h1 { font-size: 26px; margin: 4px 0 10px; }
+  .abas { display: flex; gap: 6px; background: var(--cartao); border-radius: 12px; padding: 4px; }
+  .abas button { flex: 1; border: 0; background: none; color: var(--fraco); font-weight: 600; font-size: 15px; padding: 9px 0; border-radius: 9px; }
+  .abas button.activa { background: var(--cartao2); color: var(--texto); }
+  input[type=search] { width: 100%; margin-top: 10px; border: 0; border-radius: 11px; padding: 11px 14px;
+                       background: var(--cartao); color: var(--texto); font-size: 16px; }
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding: 10px 0 2px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; border: 0; border-radius: 20px; padding: 8px 14px; background: var(--cartao); color: var(--texto); font-size: 15px; white-space: nowrap; }
+  .chip.activo { background: var(--texto); color: #000; font-weight: 600; }
+  main { padding: 6px 12px calc(env(safe-area-inset-bottom) + 110px); }
+  .grupo { color: var(--fraco); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; margin: 18px 6px 8px; }
+  .linha { display: flex; align-items: center; gap: 12px; padding: 9px 8px; border-radius: 12px; }
+  .linha:active { background: var(--cartao); }
+  .logo { flex: none; width: 46px; height: 46px; border-radius: 10px; background: #fff center/contain no-repeat;
+          display: grid; place-items: center; color: #000; font-weight: 700; font-size: 15px; overflow: hidden; }
+  .logo.sem { background: var(--cartao2); color: var(--texto); }
+  .nome { flex: 1; min-width: 0; }
+  .nome b { display: block; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .nome small { color: var(--fraco); }
+  .fav { border: 0; background: none; font-size: 22px; padding: 6px; color: #555; }
+  .fav.sim { color: #f5c542; }
+  .vazio { color: var(--fraco); text-align: center; padding: 50px 20px; line-height: 1.5; }
+  #tv { display: none; position: fixed; inset: 0; z-index: 20; background: #000; flex-direction: column; }
+  #tv.aberto { display: flex; }
+  #tv .topo { display: flex; align-items: center; gap: 10px; padding: calc(env(safe-area-inset-top) + 8px) 12px 8px; }
+  #tv .topo b { flex: 1; font-size: 17px; }
+  #tv button { border: 0; background: var(--cartao2); color: #fff; border-radius: 10px; padding: 9px 13px; font-size: 15px; }
+  #tv video { flex: 1; width: 100%; min-height: 0; background: #000; }
+  #tv .zap { display: flex; gap: 10px; padding: 10px 12px calc(env(safe-area-inset-bottom) + 12px); }
+  #tv .zap button { flex: 1; padding: 14px; font-size: 17px; }
+  #barra { display: none; position: fixed; left: 10px; right: 10px; bottom: calc(env(safe-area-inset-bottom) + 10px);
+           z-index: 10; background: var(--cartao2); border-radius: 16px; padding: 10px 12px;
+           align-items: center; gap: 12px; box-shadow: 0 8px 30px rgba(0,0,0,.5); }
+  #barra.visivel { display: flex; }
+  #barra .nome small { display: block; }
+  #barra button { border: 0; background: var(--texto); color: #000; width: 46px; height: 46px; border-radius: 50%; font-size: 19px; flex: none; }
+  #barra button.parar { background: none; color: var(--fraco); width: 36px; }
+  #aviso { display: none; position: fixed; left: 16px; right: 16px; top: 38%; z-index: 30; background: var(--cartao2);
+           border-radius: 16px; padding: 18px; text-align: center; line-height: 1.45; box-shadow: 0 10px 40px #000; }
+  #aviso.visivel { display: block; }
+  #aviso a, #aviso button { display: inline-block; margin: 12px 6px 0; padding: 10px 16px; border-radius: 10px; border: 0;
+                            background: var(--texto); color: #000; text-decoration: none; font-weight: 600; font-size: 15px; }
+  #aviso button { background: var(--cartao); color: var(--texto); }
 </style>
 </head>
 <body>
+<header>
   <h1>TV e Rádios</h1>
-  <p class="sub">Toca e abre no VLC. As listas actualizam-se sozinhas todos os dias.</p>
-
-  <a class="botao" data-lista="tv/portugal.m3u" href="#">
-    <span class="icone">📺</span>
-    <span><div class="titulo">TV Portugal</div><div class="desc">RTP, SIC, TVI, CNN e os outros canais portugueses</div></span>
-  </a>
-  <a class="botao" data-lista="radios.m3u" href="#">
-    <span class="icone">📻</span>
-    <span><div class="titulo">Rádios</div><div class="desc">Nacionais, regionais e locais</div></span>
-  </a>
-  <h2>TV de outros países</h2>
-  <div class="grelha">
-    <a class="mini" data-lista="tv/espanha.m3u" href="#"><span>🇪🇸</span>Espanha</a>
-    <a class="mini" data-lista="tv/franca.m3u" href="#"><span>🇫🇷</span>França</a>
-    <a class="mini" data-lista="tv/italia.m3u" href="#"><span>🇮🇹</span>Itália</a>
-    <a class="mini" data-lista="tv/holanda.m3u" href="#"><span>🇳🇱</span>Holanda</a>
-    <a class="mini" data-lista="tv/belgica.m3u" href="#"><span>🇧🇪</span>Bélgica</a>
-    <a class="mini" data-lista="tv/alemanha.m3u" href="#"><span>🇩🇪</span>Alemanha</a>
-    <a class="mini" data-lista="tv/brasil.m3u" href="#"><span>🇧🇷</span>Brasil</a>
-    <a class="mini" data-lista="tv/eua.m3u" href="#"><span>🇺🇸</span>EUA</a>
-    <a class="mini" data-lista="tv/internacional.m3u" href="#"><span>🌍</span>Internacional</a>
-    <a class="mini" data-lista="tv/resto-do-mundo.m3u" href="#"><span>🗺️</span>Resto do mundo</a>
-    <a class="mini" data-lista="tv/adultos.m3u" href="#"><span>🔞</span>Adultos</a>
+  <div class="abas">
+    <button data-aba="tv" class="activa">📺 TV</button>
+    <button data-aba="radio">📻 Rádios</button>
+    <button data-aba="fav">⭐ Favoritos</button>
   </div>
+  <input type="search" id="procura" placeholder="Procurar canal ou rádio" autocomplete="off">
+  <div class="chips" id="chips"></div>
+</header>
+<main id="lista"><div class="vazio">A carregar…</div></main>
 
-  <details>
-    <summary>Se o VLC não abrir</summary>
-    <ol>
-      <li>Confirma que tens a app VLC instalada (App Store, gratuita).</li>
-      <li>No VLC: Rede → Abrir fluxo de rede → cola o endereço:<br>
-        <code>https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/tv/portugal.m3u</code><br>
-        <code>https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/radios.m3u</code></li>
-    </ol>
-  </details>
+<div id="tv">
+  <div class="topo"><button id="fecharTv">✕ Fechar</button><b id="tvNome"></b></div>
+  <video id="video" playsinline controls autoplay></video>
+  <div class="zap"><button id="ant">◀︎ Anterior</button><button id="seg">Seguinte ▶︎</button></div>
+</div>
+
+<div id="barra">
+  <div class="logo sem" id="barraLogo"></div>
+  <div class="nome"><b id="barraNome"></b><small id="barraEstado"></small></div>
+  <button id="tocar">⏸</button>
+  <button class="parar" id="parar">✕</button>
+</div>
+<audio id="audio" preload="none"></audio>
+
+<div id="aviso"><div id="avisoTexto"></div><div id="avisoBotoes"></div></div>
 
 <script>
-  var BASE = "https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/";
-  document.querySelectorAll("a[data-lista]").forEach(function (a) {
-    a.href = "vlc-x-callback://x-callback-url/stream?url=" + encodeURIComponent(BASE + a.dataset.lista);
-  });
+"use strict";
+const RAW = "https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/";
+const PAISES = [["portugal","🇵🇹 Portugal"],["espanha","🇪🇸 Espanha"],["franca","🇫🇷 França"],["italia","🇮🇹 Itália"],
+  ["holanda","🇳🇱 Holanda"],["belgica","🇧🇪 Bélgica"],["alemanha","🇩🇪 Alemanha"],["brasil","🇧🇷 Brasil"],
+  ["eua","🇺🇸 EUA"],["internacional","🌍 Internacional"],["resto-do-mundo","🗺️ Resto do mundo"],["adultos","🔞 Adultos"]];
+
+const $ = s => document.querySelector(s);
+const estado = { aba: "tv", pais: "portugal", regiao: "Todas", procura: "", tv: {}, radios: null, aTocar: null, listaVisivel: [] };
+
+// favoritos e último país ficam guardados só neste iPhone
+function ler(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch (e) { return d; } }
+function gravar(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+let favoritos = ler("favoritos", []);
+estado.pais = ler("pais", "portugal");
+
+function lerM3U(texto, tipo) {
+  const canais = []; let atual = null;
+  for (const bruta of texto.split(/\r?\n/)) {
+    const l = bruta.trim();
+    if (l.startsWith("#EXTINF")) {
+      const at = {}; l.replace(/([\w-]+)="([^"]*)"/g, (_, k, v) => { at[k] = v; });
+      atual = { nome: l.slice(l.lastIndexOf(",") + 1).trim(), logo: at["tvg-logo"] || "", grupo: at["group-title"] || "", tipo };
+    } else if (l && !l.startsWith("#") && atual) {
+      atual.url = l; atual.id = tipo + "|" + l; canais.push(atual); atual = null;
+    }
+  }
+  return canais;
+}
+async function buscar(nome, tipo) {
+  const r = await fetch(RAW + nome + "?h=" + Math.floor(Date.now() / 3600000), { cache: "no-store" });
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  return lerM3U(await r.text(), tipo);
+}
+async function tvDoPais(p) { if (!estado.tv[p]) estado.tv[p] = await buscar("tv/" + p + ".m3u", "tv"); return estado.tv[p]; }
+async function radios() { if (!estado.radios) estado.radios = await buscar("radios.m3u", "radio"); return estado.radios; }
+
+const semAcentos = t => (t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+function iniciais(n) { return n.replace(/^r[áa]dio\s+/i, "").split(/\s+/).slice(0, 2).map(p => p[0] || "").join("").toUpperCase(); }
+function nomeGrupo(g) { return (g || "").replace(/^Rádios Locais - /, "").replace(/^Rádios /, ""); }
+
+function chips(lista, activo, aoEscolher) {
+  const c = $("#chips"); c.innerHTML = "";
+  for (const [v, t] of lista) {
+    const b = document.createElement("button");
+    b.className = "chip" + (v === activo ? " activo" : ""); b.textContent = t;
+    b.onclick = () => aoEscolher(v); c.appendChild(b);
+  }
+  const a = c.querySelector(".activo"); if (a) a.scrollIntoView({ inline: "center", block: "nearest" });
+}
+
+function pintarLogo(el, c) {
+  el.textContent = ""; el.style.backgroundImage = ""; el.className = "logo";
+  const sem = () => { el.classList.add("sem"); el.textContent = iniciais(c.nome); };
+  if (!c.logo) return sem();
+  const img = new Image(); img.onload = () => { el.style.backgroundImage = `url("${c.logo}")`; }; img.onerror = sem; img.src = c.logo;
+}
+
+function linha(c) {
+  const d = document.createElement("div"); d.className = "linha";
+  const logo = document.createElement("div"); pintarLogo(logo, c);
+  const n = document.createElement("div"); n.className = "nome";
+  const b = document.createElement("b"); b.textContent = c.nome;
+  const s = document.createElement("small"); s.textContent = c.tipo === "radio" && estado.aba !== "radio" ? nomeGrupo(c.grupo) : "";
+  n.append(b, s);
+  const f = document.createElement("button"); const e = favoritos.some(x => x.id === c.id);
+  f.className = "fav" + (e ? " sim" : ""); f.textContent = e ? "★" : "☆";
+  f.onclick = ev => { ev.stopPropagation(); alternarFav(c); };
+  d.append(logo, n, f); d.onclick = () => tocar(c);
+  return d;
+}
+
+async function desenhar() {
+  const m = $("#lista"); const q = semAcentos(estado.procura);
+  let canais = [];
+  try {
+    if (estado.aba === "tv") {
+      chips(PAISES, estado.pais, p => { estado.pais = p; gravar("pais", p); window.scrollTo(0, 0); desenhar(); });
+      canais = await tvDoPais(estado.pais);
+    } else if (estado.aba === "radio") {
+      const todas = await radios();
+      const grupos = ["Todas", ...new Set(todas.map(r => r.grupo))];
+      chips(grupos.map(g => [g, g === "Todas" ? "Todas" : nomeGrupo(g)]), estado.regiao, g => { estado.regiao = g; window.scrollTo(0, 0); desenhar(); });
+      canais = estado.regiao === "Todas" ? todas : todas.filter(r => r.grupo === estado.regiao);
+    } else {
+      $("#chips").innerHTML = ""; canais = favoritos;
+    }
+  } catch (e) {
+    m.innerHTML = '<div class="vazio">Não consegui carregar a lista.<br>Confirma a ligação à internet e volta a tentar.</div>'; return;
+  }
+  if (q) canais = canais.filter(c => semAcentos(c.nome).includes(q));
+  estado.listaVisivel = canais;
+  m.innerHTML = "";
+  if (!canais.length) {
+    m.innerHTML = `<div class="vazio">${estado.aba === "fav" ? "Ainda não tens favoritos.<br>Toca na ☆ ao lado de um canal ou rádio." : "Nada encontrado."}</div>`;
+    return;
+  }
+  let ultimo = null; const frag = document.createDocumentFragment();
+  for (const c of canais) {
+    const g = estado.aba === "tv" ? "" : (c.tipo === "radio" ? nomeGrupo(c.grupo) : "Televisão");
+    if (g && g !== ultimo) { const h = document.createElement("div"); h.className = "grupo"; h.textContent = g; frag.appendChild(h); ultimo = g; }
+    frag.appendChild(linha(c));
+  }
+  m.appendChild(frag);
+}
+
+function alternarFav(c) {
+  const i = favoritos.findIndex(x => x.id === c.id);
+  if (i >= 0) favoritos.splice(i, 1);
+  else favoritos.push({ id: c.id, nome: c.nome, logo: c.logo, url: c.url, grupo: c.grupo, tipo: c.tipo });
+  gravar("favoritos", favoritos); desenhar();
+}
+
+// ---------- tocar
+const video = $("#video"), audio = $("#audio");
+
+function avisar(c) {
+  $("#avisoTexto").innerHTML = "";
+  const t = document.createElement("div"); t.innerHTML = "<b></b> não abre aqui agora.<br>Pode estar em baixo, ou só funcionar no VLC.";
+  t.firstChild.textContent = c.nome; $("#avisoTexto").appendChild(t);
+  const b = $("#avisoBotoes"); b.innerHTML = "";
+  const a = document.createElement("a"); a.textContent = "Abrir no VLC";
+  a.href = "vlc-x-callback://x-callback-url/stream?url=" + encodeURIComponent(c.url);
+  const f = document.createElement("button"); f.textContent = "Fechar"; f.onclick = () => $("#aviso").classList.remove("visivel");
+  b.append(a, f); $("#aviso").classList.add("visivel");
+}
+
+function experimentar(el, c, aoFalhar) {
+  // o iPhone recusa endereços http dentro de uma página segura: tenta primeiro a versão https
+  const tentativas = [...new Set([c.url.replace(/^http:\/\//i, "https://"), c.url])];
+  let i = 0, ok = false;
+  const proxima = () => {
+    if (ok) return;
+    if (i >= tentativas.length) { aoFalhar(); return; }
+    el.src = tentativas[i++]; el.play().catch(() => {});
+  };
+  el.onerror = proxima;
+  el.onplaying = () => { ok = true; if (el === audio) aTocarRadio(); };
+  proxima();
+}
+
+function tocar(c) {
+  $("#aviso").classList.remove("visivel");
+  estado.aTocar = c;
+  if (c.tipo === "tv") {
+    pararRadio();
+    $("#tvNome").textContent = c.nome; $("#tv").classList.add("aberto");
+    experimentar(video, c, () => avisar(c));
+  } else {
+    fecharTv();
+    $("#barra").classList.add("visivel");
+    $("#barraNome").textContent = c.nome; $("#barraEstado").textContent = "A ligar…";
+    pintarLogo($("#barraLogo"), c);
+    experimentar(audio, c, () => { $("#barraEstado").textContent = "Sem emissão"; avisar(c); });
+    if ("mediaSession" in navigator) {
+      navigator.mediaSession.metadata = new MediaMetadata({ title: c.nome, artist: nomeGrupo(c.grupo) || "Rádio",
+        artwork: c.logo ? [{ src: c.logo, sizes: "512x512" }] : [] });
+      try {
+        navigator.mediaSession.setActionHandler("previoustrack", () => zap(-1));
+        navigator.mediaSession.setActionHandler("nexttrack", () => zap(1));
+      } catch (e) {}
+    }
+  }
+}
+
+function aTocarRadio() { $("#barraEstado").textContent = "Em directo"; $("#tocar").textContent = "⏸"; }
+audio.onpause = () => { $("#tocar").textContent = "▶︎"; };
+audio.onwaiting = () => { $("#barraEstado").textContent = "A carregar…"; };
+$("#tocar").onclick = () => audio.paused ? audio.play().catch(() => {}) : audio.pause();
+function pararRadio() { audio.onerror = null; audio.pause(); audio.removeAttribute("src"); audio.load(); $("#barra").classList.remove("visivel"); }
+$("#parar").onclick = () => { pararRadio(); estado.aTocar = null; };
+function fecharTv() { video.onerror = null; video.pause(); video.removeAttribute("src"); video.load(); $("#tv").classList.remove("aberto"); }
+$("#fecharTv").onclick = () => { fecharTv(); estado.aTocar = null; };
+
+function zap(d) {
+  const l = estado.listaVisivel.filter(c => estado.aTocar && c.tipo === estado.aTocar.tipo);
+  if (!l.length) return;
+  const i = l.findIndex(c => c.id === estado.aTocar.id);
+  tocar(l[(i + d + l.length) % l.length]);
+}
+$("#ant").onclick = () => zap(-1);
+$("#seg").onclick = () => zap(1);
+
+document.querySelectorAll(".abas button").forEach(b => b.onclick = () => {
+  document.querySelectorAll(".abas button").forEach(x => x.classList.toggle("activa", x === b));
+  estado.aba = b.dataset.aba; window.scrollTo(0, 0); desenhar();
+});
+let espera;
+$("#procura").oninput = e => { clearTimeout(espera); espera = setTimeout(() => { estado.procura = e.target.value; desenhar(); }, 150); };
+
+desenhar();
 </script>
 </body>
 </html>
