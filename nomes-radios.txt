@@ -1,0 +1,4 @@
+# Nomes de rádios corrigidos à mão — uma por linha:  nome que aparece = nome certo
+# Exemplo:
+# Radio Commercial = Rádio Comercial
+Radio Commercial = Rádio Comercial

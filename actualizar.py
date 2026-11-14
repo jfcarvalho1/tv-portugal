@@ -279,6 +279,47 @@ def altura_no_nome(c):
     return int(m.group(1)) if m else 0
 
 
+NOMES_FIXOS = {}  # nomes corrigidos à mão: ficheiro nomes-radios.txt ("nome errado = nome certo")
+if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), "nomes-radios.txt")):
+    for _l in open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "nomes-radios.txt"), encoding="utf-8"):
+        if "=" in _l and not _l.lstrip().startswith("#"):
+            _a, _b = _l.split("=", 1)
+            NOMES_FIXOS[_a.strip().lower()] = _b.strip()
+
+
+def nome_radio(nome):
+    """Arruma o nome: tira lixo técnico, põe 'Rádio' com acento e preposições em minúsculas."""
+    n = " ".join((nome or "").split())
+    if n.lower() in NOMES_FIXOS:
+        return NOMES_FIXOS[n.lower()]
+    n = re.sub(r"\s*\((portugal|aac|mp3|hls|main)\)|\s+-\s+main$", "", n, flags=re.I).strip()
+    if n.isupper() and len(n) > 6:
+        n = n.title()
+        n = re.sub(r"\b(Fm|Am|Rtp|Tsf|Rfm|Rdp|Sbsr|Rcp|Rvb|Rcs|Rds|Ii|Tv)\b", lambda m: m.group(1).upper(), n)
+    n = re.sub(r"^r[aá]dio\b", "Rádio", n, flags=re.I)
+    n = re.sub(r"(?<=\s)(Da|De|Do|Das|Dos|E)(?=\s)", lambda m: m.group(1).lower(), n)
+    return NOMES_FIXOS.get(n.lower(), n)
+
+
+def chave_radio(nome):
+    """Chave para apanhar duplicados: sem 'rádio', 'fm', frequências nem parênteses."""
+    n = re.sub(r"\(.*?\)|\[.*?\]", "", sem_acentos(nome))
+    n = re.sub(r"\b(radio|fm|am|online|portugal)\b|\b\d{2,3}[.,]\d\b", "", n)
+    return re.sub(r"[^a-z0-9]", "", n)
+
+
+def radios_tunein():
+    """Rádios do TuneIn (recolhidas pelo radios_tunein.py): têm as locais todas e com nome certo."""
+    f = os.path.join(LISTAS, "radios-tunein.json")
+    if not os.path.exists(f):
+        log("TuneIn: sem radios-tunein.json (corre o radios_tunein.py)")
+        return []
+    dados = json.load(open(f, encoding="utf-8"))
+    log(f"TuneIn: {len(dados)} rádios")
+    return [{"nome": d["nome"], "url": d["url"], "fonte": "tunein", "regiao": d.get("regiao") or "",
+             "attrs": {"tvg-logo": d.get("logo") or ""}} for d in dados if d.get("url")]
+
+
 def radio_browser():
     for m in RADIO_BROWSER:
         try:
@@ -413,7 +454,7 @@ def main():
             c["pais"] = GRUPO_ADULTOS
     if cfg["INCLUIR_ADULTOS"] != "1":
         tv_bruto = [c for c in tv_bruto if c["pais"] != GRUPO_ADULTOS]
-    radios_bruto += radio_browser()
+    radios_bruto = radios_tunein() + radios_bruto + radio_browser()
     excl_url, excl_id = {}, {}
     for motivo, url in CATEGORIAS_FORA.items():
         try:
@@ -453,8 +494,10 @@ def main():
     # ---------- rádios: sem duplicados
     radios, vistos = [], set()
     for c in radios_bruto:
-        k = chave(c["nome"])
-        if k and k not in vistos and not bloqueado(c["nome"]):
+        c["nome"] = nome_radio(c["nome"])
+        k = chave_radio(c["nome"]) or chave(c["nome"])
+        if k and k not in vistos and c["url"] not in vistos and not bloqueado(c["nome"]):
+            vistos.add(c["url"])
             vistos.add(k)
             radios.append(c)
 
@@ -518,13 +561,19 @@ def main():
     def r_pos(c):
         k = chave(c["nome"])
         return next((i for i, rx in enumerate(RADIOS_NACIONAIS) if re.search(rx, k)), 999)
-    radios.sort(key=lambda c: (r_pos(c), sem_acentos(c["nome"])))
+    def r_grupo(c):
+        if r_pos(c) < 999:
+            return "Rádios Nacionais"
+        if c.get("regiao"):
+            return "Rádios Locais - " + c["regiao"]
+        return "Outras Rádios"
+    radios.sort(key=lambda c: (r_pos(c), r_grupo(c) == "Outras Rádios", sem_acentos(r_grupo(c)), sem_acentos(c["nome"])))
     linhas_r, rel_r, numerados, nn, nl = [f'#EXTM3U url-tvg="{epg}"'], [], [], 1, 101
     for c in radios:
         nac = r_pos(c) < 999
         n = nn if nac else nl
         nn, nl = (nn + 1, nl) if nac else (nn, nl + 1)
-        g = "Rádios Nacionais" if nac else "Rádios Regionais e Locais"
+        g = r_grupo(c)
         linhas_r += [linha_extinf(c, n, g, radio=True), c["url"]]
         rel_r.append(f"{n:>6}  [{g}]  {c['nome']}")
         numerados.append((n, nac, c))
