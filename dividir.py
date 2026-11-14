@@ -19,9 +19,42 @@ FICHEIROS = {
 RESTO = "resto-do-mundo"
 
 
+def substituicoes():
+    """tv-substituir.txt: tvg-id = endereço oficial que não exige cabeçalhos."""
+    f = os.path.join(BASE, "tv-substituir.txt")
+    out = {}
+    if os.path.exists(f):
+        for l in open(f, encoding="utf-8"):
+            if "=" in l and not l.lstrip().startswith("#"):
+                a, b = l.split("=", 1)
+                out[a.strip().lower()] = b.strip()
+    return out
+
+
+def aplicar_substituicoes(linhas):
+    subs = substituicoes()
+    if not subs:
+        return linhas
+    out, tid = [], None
+    for l in linhas:
+        if l.startswith("#EXTINF"):
+            tid = l.split('tvg-id="', 1)[1].split('"', 1)[0].lower() if 'tvg-id="' in l else None
+            out.append(l)
+        elif l.startswith("#EXTVLCOPT") and tid in subs:
+            continue  # o endereço oficial não precisa de cabeçalhos
+        elif l and not l.startswith("#") and tid in subs:
+            out.append(subs[tid])
+            tid = None
+        else:
+            out.append(l)
+    return out
+
+
 def main():
     with open(ORIGEM, encoding="utf-8") as f:
-        linhas = f.read().splitlines()
+        linhas = aplicar_substituicoes(f.read().splitlines())
+    with open(ORIGEM, "w", encoding="utf-8") as f:  # a lista completa (Jellyfin, VLC) também fica corrigida
+        f.write("\n".join(linhas) + "\n")
     cabecalho = linhas[0] if linhas and linhas[0].startswith("#EXTM3U") else "#EXTM3U"
     grupos, bloco = {}, []
     for linha in linhas[1:]:

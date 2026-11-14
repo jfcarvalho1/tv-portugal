@@ -2,6 +2,7 @@ name: Actualizar listas
 on:
   schedule:
     - cron: "17 5 * * *"   # todos os dias às 05:17 UTC
+    - cron: "47 16 * * *"  # e às 16:47 UTC (se o GitHub falhar uma, a outra apanha)
   workflow_dispatch:        # botão "Run workflow" para actualizar à mão
 permissions:
   contents: write
