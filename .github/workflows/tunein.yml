@@ -16,10 +16,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: python3 radios_tunein.py .
+      - run: python3 radios_referencia.py .
       - run: |
           git config user.name "actualizador"
           git config user.email "actions@users.noreply.github.com"
-          git add listas/radios-tunein.json listas/radios-tunein-relatorio.txt
+          git add listas/radios-tunein.json listas/radios-tunein-relatorio.txt listas/radios-referencia.json listas/radios-referencia-relatorio.txt
           git diff --cached --quiet || git commit -m "Rádios TuneIn $(date -u +%F)"
           git pull --rebase -X theirs origin main || true
           git push

@@ -25,6 +25,8 @@ BASE = sys.argv[1] if len(sys.argv) > 1 else AQUI
 LISTAS = os.path.join(BASE, "listas")
 UA = "Mozilla/5.0 (TV-Radios-Portugal)"
 RB = ["https://de1.api.radio-browser.info", "https://nl1.api.radio-browser.info", "https://at1.api.radio-browser.info"]
+VISTOS = {}  # nome procurado -> candidatos que as fontes devolveram (para rever à mão)
+ERROS = {}
 PALAVRAS_VAZIAS = {"radio", "radios", "fm", "am", "de", "da", "do", "das", "dos", "e", "clube", "voz", "a", "o"}
 
 
@@ -60,24 +62,45 @@ def obter(url):
         return json.loads(r.read().decode("utf-8", "replace"))
 
 
+def nota(nome, fonte, candidatos):
+    VISTOS.setdefault(nome, []).extend(f"{fonte}: {c}" for c in candidatos[:4])
+
+
+def termos_de(nome, concelho):
+    pal = distintivas(nome)
+    t = [nome, " ".join(pal)] + ([f"{' '.join(pal)} {concelho}"] if pal else []) + [concelho]
+    return [x for i, x in enumerate(t) if x and x not in t[:i]]
+
+
 def no_tunein(nome, concelho):
     try:
-        for termo in (nome, f"{nome} {concelho}"):
-            for est in ti.procurar(termo)[:8]:
+        for termo in termos_de(nome, concelho):
+            res = ti.procurar(termo)
+            nota(nome, "TuneIn", [e["nome"] for e in res])
+            for est in res[:15]:
                 if parecido(nome, est["nome"]):
                     ti.ficha(est)
                     if est.get("pais_ok"):
                         ti.resolver(est)
                         return {"nome": nome, "url": est["url"], "logo": est.get("logo", ""), "fonte": "tunein"}
-    except Exception:
-        pass
+    except Exception as e:
+        ERROS["TuneIn"] = str(e)
     return None
 
 
 def no_radio_garden(nome):
     try:
-        dados = obter("https://radio.garden/api/search?q=" + urllib.parse.quote(nome))
-        for h in dados.get("hits", {}).get("hits", []):
+        termo = " ".join(distintivas(nome)) or nome
+        dados = {}
+        for ep in ("https://radio.garden/api/search/secure?q=", "https://radio.garden/api/search?q="):
+            try:
+                dados = obter(ep + urllib.parse.quote(termo))
+                break
+            except Exception as e:
+                ERROS["Radio Garden " + ep] = str(e)
+        hits = dados.get("hits", {}).get("hits", [])
+        nota(nome, "Radio Garden", [f"{h.get('_source', {}).get('title')} ({h.get('_source', {}).get('subtitle')})" for h in hits])
+        for h in hits:
             s = h.get("_source", {})
             if s.get("type") != "channel" or "portugal" not in simples(s.get("subtitle", "")):
                 continue
@@ -85,22 +108,26 @@ def no_radio_garden(nome):
                 cid = (s.get("url") or "").rstrip("/").split("/")[-1]
                 est = ti.seguir({"url": f"https://radio.garden/api/ara/content/listen/{cid}/channel.mp3"})
                 return {"nome": nome, "url": est["url"], "logo": "", "fonte": "radiogarden"}
-    except Exception:
-        pass
+    except Exception as e:
+        ERROS["Radio Garden"] = str(e)
     return None
 
 
 def no_radio_browser(nome):
     for m in RB:
         try:
-            q = urllib.parse.urlencode({"name": nome, "countrycode": "PT", "hidebroken": "true", "limit": 20})
-            for s in obter(f"{m}/json/stations/search?{q}"):
+            pal = sorted(distintivas(nome), key=len, reverse=True)
+            q = urllib.parse.urlencode({"name": pal[0] if pal else nome, "countrycode": "PT", "limit": 30})
+            res = obter(f"{m}/json/stations/search?{q}")
+            nota(nome, "Radio Browser", [s.get("name", "") for s in res])
+            for s in res:
                 if parecido(nome, s.get("name", "")):
                     u = (s.get("url_resolved") or s.get("url") or "").strip()
                     if u.startswith("http"):
                         return {"nome": nome, "url": u, "logo": s.get("favicon") or "", "fonte": "radio-browser"}
             return None
-        except Exception:
+        except Exception as e:
+            ERROS["Radio Browser"] = str(e)
             continue
     return None
 
@@ -150,7 +177,14 @@ def main():
            f"Já estavam nas listas: {len(ref) - len(em_falta)}",
            f"Encontradas agora (TuneIn / Radio Garden / Radio Browser): {len(achadas)}",
            f"Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): {len(faltam)}", ""]
-    rel += [f"  + {a['nome']}  ({a['fonte']})" for a in achadas] + [""] + [f"  - {f}" for f in faltam]
+    rel += [f"  + {a['nome']}  ({a['fonte']})" for a in achadas] + [""]
+    for f in faltam:
+        rel.append(f"  - {f}")
+        n = f.split(" — ")[0]
+        vistos = list(dict.fromkeys(VISTOS.get(n, [])))[:8]
+        rel += [f"        visto: {v}" for v in vistos]
+    if ERROS:
+        rel += ["", "Erros nas fontes:"] + [f"  {k}: {v}" for k, v in ERROS.items()]
     open(os.path.join(LISTAS, "radios-referencia-relatorio.txt"), "w", encoding="utf-8").write("\n".join(rel) + "\n")
     print("\n".join(rel[:5]))
 
