@@ -5,6 +5,7 @@ O VLC do iPhone engasga-se com a lista completa (milhares de canais);
 com listas pequenas abre logo. Corre depois do actualizar.py.
 """
 import os
+import re
 import sys
 
 BASE = sys.argv[1] if len(sys.argv) > 1 else "."
@@ -67,9 +68,34 @@ def aplicar_substituicoes(linhas):
     return out
 
 
+RADIO = re.compile(r"r[aá]dio|\bfm\b", re.I)
+TV = re.compile(r"\btv\b|t[ée]l[ée]|televis", re.I)
+
+
+def sem_radios(linhas):
+    """Tira da TV as rádios com imagem (On FM, Rádio Sines, Radio 538…): as rádios ficam na aba Rádios."""
+    out, bloco, fora = [], [], 0
+    for l in linhas:
+        bloco.append(l)
+        if l and not l.startswith("#"):
+            inf = next((b for b in bloco if b.startswith("#EXTINF")), "")
+            nome = inf.rsplit(",", 1)[-1]
+            if inf and RADIO.search(nome) and not TV.search(nome):
+                fora += 1
+            else:
+                out += bloco
+            bloco = []
+        elif l.startswith("#EXTM3U"):
+            out += bloco
+            bloco = []
+    print(f"rádios tiradas da TV: {fora}")
+    return out + bloco
+
+
 def main():
     with open(ORIGEM, encoding="utf-8") as f:
         linhas = aplicar_substituicoes(f.read().splitlines())
+    linhas = sem_radios(linhas)
     sites = {u[5:] for u in substituicoes().values() if u.startswith("site:")}
     linhas = [l[5:] if l.startswith("site:") else l for l in linhas]
     # a lista completa (Jellyfin, VLC) fica corrigida e sem os canais que só abrem no site oficial
