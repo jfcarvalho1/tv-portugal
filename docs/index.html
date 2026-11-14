@@ -8,6 +8,7 @@
 <meta name="apple-mobile-web-app-title" content="TV e Rádios">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#0e0f12">
+<meta name="referrer" content="no-referrer">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.json">
 <title>TV e Rádios</title>
@@ -80,7 +81,7 @@
 
 <div id="tv">
   <div class="topo"><button id="fecharTv">✕ Fechar</button><b id="tvNome"></b></div>
-  <video id="video" playsinline controls autoplay></video>
+  <video id="video" playsinline controls autoplay referrerpolicy="no-referrer"></video>
   <div class="zap"><button id="ant">◀︎ Anterior</button><button id="seg">Seguinte ▶︎</button></div>
 </div>
 
@@ -109,6 +110,11 @@ const estado = { aba: "tv", pais: "portugal", regiao: "Todas", procura: "", tv: 
 function ler(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch (e) { return d; } }
 function gravar(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
 let favoritos = ler("favoritos", []);
+let falhados = ler("falhados", {});            // id -> data em que falhou
+const TRES_DIAS = 3 * 24 * 3600 * 1000;
+for (const k in falhados) if (Date.now() - falhados[k] > TRES_DIAS) delete falhados[k];
+function marcarFalha(c) { falhados[c.id] = Date.now(); gravar("falhados", falhados); }
+function marcarBom(c) { if (falhados[c.id]) { delete falhados[c.id]; gravar("falhados", falhados); } }
 estado.pais = ler("pais", "portugal");
 
 function lerM3U(texto, tipo) {
@@ -186,6 +192,8 @@ async function desenhar() {
     m.innerHTML = '<div class="vazio">Não consegui carregar a lista.<br>Confirma a ligação à internet e volta a tentar.</div>'; return;
   }
   if (q) canais = canais.filter(c => semAcentos(c.nome).includes(q));
+  const escondidos = estado.aba === "fav" ? [] : canais.filter(c => falhados[c.id]);
+  if (!estado.verFalhados) canais = canais.filter(c => !falhados[c.id]);
   estado.listaVisivel = canais;
   m.innerHTML = "";
   if (!canais.length) {
@@ -199,6 +207,12 @@ async function desenhar() {
     frag.appendChild(linha(c));
   }
   m.appendChild(frag);
+  if (escondidos.length) {
+    const b = document.createElement("button"); b.className = "chip"; b.style.margin = "22px auto"; b.style.display = "block";
+    b.textContent = estado.verFalhados ? "Esconder os que não abriram" : `Mostrar ${escondidos.length} que não abriram`;
+    b.onclick = () => { estado.verFalhados = !estado.verFalhados; desenhar(); };
+    m.appendChild(b);
+  }
 }
 
 function alternarFav(c) {
@@ -213,7 +227,7 @@ const video = $("#video"), audio = $("#audio");
 
 function avisar(c) {
   $("#avisoTexto").innerHTML = "";
-  const t = document.createElement("div"); t.innerHTML = "<b></b> não abre aqui agora.<br>Pode estar em baixo agora, ou só abrir fora da app: experimenta “Abrir à parte”.";
+  const t = document.createElement("div"); t.innerHTML = "<b></b> não abriu, por isso escondi-o da lista.<br>Volto a experimentá-lo daqui a 3 dias. Podes tentar já “Abrir à parte”.";
   t.firstChild.textContent = c.nome; $("#avisoTexto").appendChild(t);
   const b = $("#avisoBotoes"); b.innerHTML = "";
   const a = document.createElement("a"); a.textContent = "Abrir à parte";
@@ -242,7 +256,9 @@ function experimentar(el, c, aoFalhar) {
     }
   };
   el.onerror = proxima;
-  el.onplaying = () => { ok = true; if (el === audio) aTocarRadio(); };
+  clearTimeout(el._prazo);
+  el._prazo = setTimeout(() => { if (!ok && estado.aTocar === c) { i = tentativas.length; proxima(); } }, 20000);
+  el.onplaying = () => { ok = true; marcarBom(c); if (el === audio) aTocarRadio(); };
   proxima();
 }
 
@@ -252,13 +268,13 @@ function tocar(c) {
   if (c.tipo === "tv") {
     pararRadio();
     $("#tvNome").textContent = c.nome; $("#tv").classList.add("aberto");
-    experimentar(video, c, () => avisar(c));
+    experimentar(video, c, () => { marcarFalha(c); avisar(c); desenhar(); });
   } else {
     fecharTv();
     $("#barra").classList.add("visivel");
     $("#barraNome").textContent = c.nome; $("#barraEstado").textContent = "A ligar…";
     pintarLogo($("#barraLogo"), c);
-    experimentar(audio, c, () => { $("#barraEstado").textContent = "Sem emissão"; avisar(c); });
+    experimentar(audio, c, () => { $("#barraEstado").textContent = "Sem emissão"; marcarFalha(c); avisar(c); desenhar(); });
     if ("mediaSession" in navigator) {
       navigator.mediaSession.metadata = new MediaMetadata({ title: c.nome, artist: nomeGrupo(c.grupo) || "Rádio",
         artwork: c.logo ? [{ src: c.logo, sizes: "512x512" }] : [] });
