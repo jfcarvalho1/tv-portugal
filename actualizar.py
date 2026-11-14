@@ -293,6 +293,7 @@ def nome_radio(nome):
     if n.lower() in NOMES_FIXOS:
         return NOMES_FIXOS[n.lower()]
     n = re.sub(r"\s*\((portugal|aac|mp3|hls|main)\)|\s+-\s+main$", "", n, flags=re.I).strip()
+    n = re.sub(r"\s*\((?![^)]*\+18)[^)]*\)\s*$", "", n).strip()  # tira "(Música Mundial)", "(Talk)", etc.
     if n.isupper() and len(n) > 6:
         n = n.title()
         n = re.sub(r"\b(Fm|Am|Rtp|Tsf|Rfm|Rdp|Sbsr|Rcp|Rvb|Rcs|Rds|Ii|Tv)\b", lambda m: m.group(1).upper(), n)
