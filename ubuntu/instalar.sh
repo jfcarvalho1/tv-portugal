@@ -30,7 +30,7 @@ cat > "$LANCADOR" <<FIM
 Type=Application
 Name=TV e Rádios
 Comment=TV em directo e rádios portuguesas
-Exec=$NAV --app=$URL --class=TVRadios --user-data-dir=$PASTA/perfil
+Exec=$NAV --app=$URL --class=TVRadios
 Icon=$PASTA/icone.png
 Terminal=false
 Categories=AudioVideo;TV;Audio;Video;
@@ -50,4 +50,4 @@ fi
 echo
 echo "✔ Pronto! Procura \"TV e Rádios\" no menu de aplicações (ou usa o ícone no ambiente de trabalho)."
 echo "  Para a fixar na barra lateral: abre-a, clica com o botão direito no ícone → Fixar no painel."
-nohup $NAV --app=$URL --class=TVRadios --user-data-dir=$PASTA/perfil >/dev/null 2>&1 &
+nohup $NAV --app=$URL --class=TVRadios >/dev/null 2>&1 &
