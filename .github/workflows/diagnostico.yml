@@ -20,6 +20,7 @@ jobs:
                   pg.on("pageerror", lambda e: print("ERRO:", e))
                   pg.on("requestfailed", lambda r: print("FALHOU:", r.url[:150], r.failure))
                   pg.on("response", lambda r: print("RESP:", r.status, r.url[:150]) if ("okast" in r.url or "kaltura" in r.url or "cloudfront" in r.url) and r.status >= 300 else None)
+                  await pg.add_init_script("const o=HTMLMediaElement.prototype.canPlayType;HTMLMediaElement.prototype.canPlayType=function(t){return /mpegurl/i.test(t)?'':o.call(this,t)};")
                   await pg.goto("https://jfcarvalho1.github.io/tv-portugal/?v=diag")
                   await pg.wait_for_timeout(4000)
                   for nome in ["SIC", "SIC Notícias", "RTP 1"]:
