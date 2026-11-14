@@ -1,0 +1,26 @@
+name: Guia de programação (EPG)
+on:
+  schedule:
+    - cron: "40 */6 * * *"   # de 6 em 6 horas
+  workflow_dispatch:
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  epg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 epg.py .
+      - run: |
+          git config user.name "actualizador"
+          git config user.email "actions@users.noreply.github.com"
+          git add listas/epg
+          git diff --cached --quiet || git commit -m "Guia de programação $(date -u +%F' '%H:%M)"
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 5; done

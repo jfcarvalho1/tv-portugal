@@ -22,7 +22,7 @@ jobs:
       - name: Rádios locais da lista de referência (CNE) que faltam
         run: python3 radios_referencia.py . || echo "Procura da referência falhou; sigo sem ela"
       - name: Gerar listas
-        run: python3 actualizar.py . && python3 dividir.py .
+        run: python3 actualizar.py . && python3 dividir.py . && (python3 epg.py . || echo "EPG falhou")
       - name: Guardar no repositório
         run: |
           git config user.name "actualizador"
