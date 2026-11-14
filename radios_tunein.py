@@ -29,7 +29,7 @@ INGLES = {"lisbon": "Lisboa", "azores": "Açores", "oporto": "Porto"}
 SPARQL = """SELECT ?mLabel ?dLabel WHERE {
   ?m wdt:P31 wd:Q13217644 .
   OPTIONAL { ?m wdt:P131+ ?d . ?d rdfs:label ?dl . FILTER(LANG(?dl) = "pt")
-             FILTER(STRSTARTS(?dl, "Distrito d") || STRSTARTS(?dl, "Região Autónoma")) }
+             FILTER(STRSTARTS(LCASE(?dl), "distrito d") || STRSTARTS(LCASE(?dl), "região autónoma")) }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "pt". }
 }"""
 relatorio = []
@@ -140,6 +140,51 @@ def resolver(est):
     return est
 
 
+def radio_garden():
+    """Rádios portuguesas do Radio Garden (cidade a cidade): apanha locais que o TuneIn não tem."""
+    rg = "https://radio.garden/api/ara/content"
+    lugares = [l for l in obter(f"{rg}/places").get("data", {}).get("list", [])
+               if simples(l.get("country")) == "portugal"]
+    out = {}
+
+    def canais(lugar):
+        dados = obter(f"{rg}/page/{lugar['id']}/channels")
+        achados = []
+        def andar(x):
+            if isinstance(x, dict):
+                pg = x.get("page") if isinstance(x.get("page"), dict) else x
+                url = pg.get("url") or pg.get("href") or ""
+                if isinstance(url, str) and "/listen/" in url and pg.get("title"):
+                    achados.append((pg["title"].strip(), url.rstrip("/").split("/")[-1]))
+                for v in x.values():
+                    andar(v)
+            elif isinstance(x, list):
+                for v in x:
+                    andar(v)
+        andar(dados)
+        return lugar["title"], achados
+
+    with cf.ThreadPoolExecutor(max_workers=8) as ex:
+        for cidade, lista in ex.map(canais, lugares):
+            for nome, cid in lista:
+                out.setdefault(cid, {"id": "rg-" + cid, "nome": nome, "logo": "", "local": cidade + ", Portugal",
+                                     "url": f"{rg}/listen/{cid}/channel.mp3", "fonte": "radiogarden"})
+    relatorio.append(f"Radio Garden: {len(lugares)} lugares em Portugal, {len(out)} rádios")
+    return list(out.values())
+
+
+def seguir(est):
+    """Segue o redireccionamento do Radio Garden até ao endereço da própria rádio."""
+    try:
+        req = urllib.request.Request(est["url"], headers={"User-Agent": UA}, method="HEAD")
+        with urllib.request.urlopen(req, timeout=20) as r:
+            if r.geturl().startswith("http") and "radio.garden" not in r.geturl():
+                est["url"] = r.geturl()
+    except Exception:
+        pass
+    return est
+
+
 def main():
     achadas = {}
     navegar(achadas)
@@ -160,6 +205,11 @@ def main():
         open(DEBUG, "w", encoding="utf-8").write("\n".join(relatorio) + "\n")
         sys.exit("Muito poucas rádios (TuneIn mudou?); mantenho a lista anterior.")
 
+    for e in pt:
+        e["fonte"] = "tunein"
+    garden = radio_garden()
+    with cf.ThreadPoolExecutor(max_workers=16) as ex:
+        garden = list(ex.map(seguir, garden))
     por_concelho = {simples(c): d for c, d in conc.items()}
     for e in pt:
         cidade = simples(e["local"].split(",")[0])
@@ -167,6 +217,10 @@ def main():
                        or next((d for c, d in por_concelho.items() if d and len(c) > 4 and c in simples(e["nome"])), ""))
     with cf.ThreadPoolExecutor(max_workers=16) as ex:
         pt = list(ex.map(resolver, pt))
+    for e in garden:  # o Radio Garden já vem com endereço
+        cidade = simples(e["local"].split(",")[0])
+        e["regiao"] = distrito_de(e["local"].split(",")[0]) or por_concelho.get(cidade) or ""
+    pt += garden
     pt.sort(key=lambda e: (DISTRITOS.index(e["regiao"]) if e["regiao"] in DISTRITOS else 99, simples(e["nome"])))
     for e in pt:
         e.pop("pais_ok", None)
