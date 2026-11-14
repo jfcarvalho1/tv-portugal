@@ -51,6 +51,7 @@
   #tvGuia b { color: var(--texto); font-weight: 600; }
   #tv button { border: 0; background: var(--cartao2); color: #fff; border-radius: 10px; padding: 9px 13px; font-size: 15px; }
   #tv video { flex: 1; width: 100%; min-height: 0; background: #000; }
+  #tvSite { flex: 1; width: 100%; min-height: 0; border: 0; background: #000; display: none; }
   #tv .zap { display: flex; gap: 10px; padding: 10px 12px calc(env(safe-area-inset-bottom) + 12px); }
   #tv .zap button { flex: 1; padding: 14px; font-size: 17px; }
   #barra { display: none; position: fixed; left: 10px; right: 10px; bottom: calc(env(safe-area-inset-bottom) + 10px);
@@ -82,7 +83,8 @@
 <main id="lista"><div class="vazio">A carregar…</div></main>
 
 <div id="tv">
-  <div class="topo"><button id="fecharTv">✕ Fechar</button><b id="tvNome"></b></div>
+  <div class="topo"><button id="fecharTv">✕ Fechar</button><b id="tvNome"></b>
+    <a id="tvSiteFora" target="_blank" rel="noopener" style="display:none;color:#fff;background:var(--cartao2);border-radius:10px;padding:9px 13px;text-decoration:none;font-size:15px">Abrir à parte</a></div>
   <div id="tvGuia"></div>
   <video id="video" playsinline controls autoplay referrerpolicy="no-referrer"></video>
   <div class="zap"><button id="ant">◀︎ Anterior</button><button id="seg">Seguinte ▶︎</button></div>
@@ -117,7 +119,7 @@ let falhados = ler("falhados", {});            // id -> data em que falhou
 const TRES_DIAS = 3 * 24 * 3600 * 1000;
 for (const k in falhados) if (Date.now() - falhados[k] > TRES_DIAS) delete falhados[k];
 // versão nova da app: esquecer as falhas antigas (podem já estar resolvidas)
-const VERSAO = "2026-11-14e";
+const VERSAO = "2026-11-14f";
 if (ler("versao", "") !== VERSAO) { falhados = {}; gravar("falhados", falhados); gravar("versao", VERSAO); }
 function marcarFalha(c) {
   if (c.pais === "portugal") return;  // os canais portugueses nunca se escondem
@@ -342,12 +344,19 @@ function tocar(c) {
   $("#aviso").classList.remove("visivel");
   estado.aTocar = c;
   if (c.tipo === "tv" && /^https:\/\/(www\.)?(sic\.pt|sicnoticias\.pt|tviplayer\.iol\.pt|rtp\.pt|opto\.sic\.pt)\//i.test(c.url) && !/\.m3u8?(\?|$)/i.test(c.url)) {
-    // canal sem emissão aberta (ex.: SIC): o directo só está no site oficial
-    avisar(c, "<b></b> só tem directo no site oficial do canal.", c.url, "Abrir site oficial");
+    // canal sem emissão aberta (ex.: SIC): mostra o directo do site oficial dentro da app
+    pararRadio(); video.style.display = "none";
+    estado.aTocar = c; $("#tvNome").textContent = c.nome; $("#tv").classList.add("aberto"); mostrarGuia(c);
+    let f = $("#tvSite");
+    if (!f) { f = document.createElement("iframe"); f.id = "tvSite"; f.allow = "autoplay; fullscreen; encrypted-media; picture-in-picture";
+              f.setAttribute("allowfullscreen", ""); video.after(f); }
+    f.style.display = "block"; f.src = c.url;
+    const b = $("#tvSiteFora"); if (b) b.href = c.url;
+    $("#tvSiteFora").style.display = "inline-block";
     return;
   }
   if (c.tipo === "tv") {
-    pararRadio();
+    pararRadio(); fecharSite();
     $("#tvNome").textContent = c.nome; $("#tv").classList.add("aberto");
     mostrarGuia(c);
     experimentar(video, c, () => falhou(c));
@@ -382,7 +391,8 @@ audio.onwaiting = () => { $("#barraEstado").textContent = "A carregar…"; };
 $("#tocar").onclick = () => audio.paused ? audio.play().catch(() => {}) : audio.pause();
 function pararRadio() { if (audio._hls) { audio._hls.destroy(); audio._hls = null; } audio.onerror = null; audio.pause(); audio.removeAttribute("src"); audio.load(); $("#barra").classList.remove("visivel"); }
 $("#parar").onclick = () => { pararRadio(); estado.aTocar = null; };
-function fecharTv() { if (video._hls) { video._hls.destroy(); video._hls = null; } video.onerror = null; video.pause(); video.removeAttribute("src"); video.load(); $("#tv").classList.remove("aberto"); }
+function fecharSite() { const f = $("#tvSite"); if (f) { f.src = "about:blank"; f.style.display = "none"; } video.style.display = ""; $("#tvSiteFora").style.display = "none"; }
+function fecharTv() { fecharSite(); if (video._hls) { video._hls.destroy(); video._hls = null; } video.onerror = null; video.pause(); video.removeAttribute("src"); video.load(); $("#tv").classList.remove("aberto"); }
 $("#fecharTv").onclick = () => { fecharTv(); estado.aTocar = null; };
 
 function zap(d) {
