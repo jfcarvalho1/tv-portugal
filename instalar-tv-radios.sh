@@ -35,6 +35,7 @@ import re
 import sys
 import time
 import unicodedata
+import urllib.parse
 import urllib.request
 
 BASE = sys.argv[1] if len(sys.argv) > 1 else "/opt/tv-radios"
@@ -129,7 +130,7 @@ PAGOS = ["sport tv", "sporttv", "dazn", "eurosport", "axn", "star channel", "sta
          "dazn", "max ", "paramount+", "fx ", "e! ", "mtv"]
 # ANTI-PIRATARIA 2: links em servidores caseiros (endereço IP ou DNS dinâmico) não são emissões oficiais
 HOST_SUSPEITO = re.compile(r"^(\d{1,3}\.){3}\d{1,3}$|dyndns|ddns|no-ip|noip|duckdns|myftp|hopto|zapto|"
-                           r"serveftp|sytes|redirectme|ddnsfree|freeddns|dynu|servebeer|servehttp")
+                           r"serveftp|sytes|redirectme|ddnsfree|freeddns|dynu|servebeer|servehttp|freem3u|mcquack")
 
 # Categorias do iptv-org que ficam de fora: religião e televendas
 CATEGORIAS_FORA = {
@@ -186,6 +187,24 @@ def chave(nome):
     return re.sub(r"(fhd|uhd|hd|sd|4k)$", "", n)
 
 
+OPCOES = {}  # url -> linhas #EXTVLCOPT que o leitor precisa (user-agent, referer)
+UA_TESTE = "VLC/3.0.21 LibVLC/3.0.21"  # testamos como o VLC, que é o que vais usar
+
+
+def cabecalhos(url):
+    h = {"User-Agent": UA_TESTE, "Icy-MetaData": "0"}
+    for o in OPCOES.get(url, []):
+        k, _, v = o[len("#EXTVLCOPT:"):].partition("=")
+        k = k.strip().lower()
+        if k == "http-user-agent":
+            h["User-Agent"] = v.strip()
+        elif k == "http-referrer":
+            h["Referer"] = v.strip()
+        elif k == "http-origin":
+            h["Origin"] = v.strip()
+    return h
+
+
 def parse_m3u(texto, fonte):
     canais, atual = [], None
     for linha in texto.splitlines():
@@ -198,13 +217,17 @@ def parse_m3u(texto, fonte):
             virg = linha.find(",", ult if ult > 0 else 0)
             bruto = linha[virg + 1:].strip() if virg >= 0 else attrs.get("tvg-name", "")
             nome = re.sub(r"\s*(\(\d+p\)|\[[^\]]*\])", "", bruto).strip()
-            atual = {"nome": nome, "bruto": bruto, "attrs": attrs, "fonte": fonte}
+            atual = {"nome": nome, "bruto": bruto, "attrs": attrs, "fonte": fonte, "opts": []}
+        elif linha.startswith("#EXTVLCOPT:") and atual is not None:
+            atual["opts"].append(linha)
         elif linha.startswith("#"):
             continue
         elif atual is not None:
             url = linha.split("|", 1)[0].strip()
             if url.startswith("http"):
                 atual["url"] = url
+                if atual["opts"]:
+                    OPCOES[url] = atual["opts"]
                 canais.append(atual)
             atual = None
     return canais
@@ -215,16 +238,53 @@ def e_radio(c):
     return a.get("radio", "").lower() == "true" or "radio" in sem_acentos(a.get("group-title", ""))
 
 
+def _abrir(url, h, n=65536):
+    req = urllib.request.Request(url, headers=h)
+    with urllib.request.urlopen(req, timeout=12) as r:
+        if r.status >= 400:
+            raise OSError(r.status)
+        return r.geturl(), r.read(n)
+
+
 def testar(url):
-    """Devolve (funciona, altura_em_linhas). A altura vem da playlist HLS (RESOLUTION=1280x720), se houver."""
+    """Teste a sério, como um leitor: abre a lista, escolhe a qualidade, abre a sub-lista
+    e descarrega um pedaço de vídeo. Devolve (funciona, altura). Recusa: gravações (não é directo),
+    vídeo protegido (DRM) e links que só abrem a primeira lista."""
+    h = cabecalhos(url)
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA, "Icy-MetaData": "0"})
-        with urllib.request.urlopen(req, timeout=12) as r:
-            dados = r.read(65536)
-            if r.status >= 400 or not dados:
-                return (False, 0)
-            alturas = [int(h) for h in re.findall(rb"RESOLUTION=\d+x(\d+)", dados)]
-            return (True, max(alturas) if alturas else 0)
+        final, dados = _abrir(url, h)
+        if not dados:
+            return (False, 0)
+        if not dados.lstrip().startswith(b"#EXTM3U"):
+            return (len(dados) > 1000, 0)  # stream directo (ts/mp3/aac)
+        altura = 0
+        for _ in range(3):  # master -> variante -> (eventual) outra variante
+            texto = dados.decode("utf-8", "replace")
+            if "#EXT-X-STREAM-INF" in texto:
+                variantes, linhas = [], texto.splitlines()
+                for i, l in enumerate(linhas):
+                    if l.startswith("#EXT-X-STREAM-INF"):
+                        m = re.search(r"RESOLUTION=\d+x(\d+)", l)
+                        alt = int(m.group(1)) if m else 0
+                        for nl in linhas[i + 1:]:
+                            if nl.strip() and not nl.startswith("#"):
+                                variantes.append((alt, urllib.parse.urljoin(final, nl.strip())))
+                                break
+                if not variantes:
+                    return (False, 0)
+                altura = max(a for a, _ in variantes)
+                final, dados = _abrir(max(variantes)[1], h)
+                continue
+            if "#EXT-X-ENDLIST" in texto:
+                return (False, altura)  # é uma gravação, não é directo
+            if re.search(r"METHOD=SAMPLE-AES|skd://|com\.widevine|com\.microsoft\.playready", texto):
+                return (False, altura)  # protegido com DRM: o VLC não abre
+            segs = [l.strip() for l in texto.splitlines() if l.strip() and not l.startswith("#")]
+            if not segs:
+                return (False, altura)
+            _, pedaco = _abrir(urllib.parse.urljoin(final, segs[-1]), h, 32768)
+            return (len(pedaco) > 1000, altura)
+        return (False, altura)
     except Exception:
         return (False, 0)
 
@@ -438,9 +498,9 @@ def main():
                 fora.append(("qualidade desconhecida", c["nome"], c["pais"]))
             else:
                 tv_ok.append(c)
-        r_ok = [c for c in radios if ok[c["url"]][0]]
-        fora += [("link não respondeu", c["nome"], "Rádio") for c in radios if not ok[c["url"]][0]]
-        tv, radios = tv_ok, r_ok
+        # Rádios ficam todas: o GitHub testa fora de Portugal e muitas rádios portuguesas
+        # bloqueiam ou demoram a responder lá fora (o Radio Browser já tira as avariadas).
+        tv = tv_ok
 
     if not tv and not radios:
         log("ERRO: não obtive nenhum canal (sem internet?). Mantenho as listas antigas.")
@@ -465,7 +525,7 @@ def main():
         if p != pais_atual:
             rel_tv.append(f"\n--- {nome_pais} ---")
             pais_atual = p
-        linhas += [linha_extinf(c, n, nome_pais), c["url"]]
+        linhas += [linha_extinf(c, n, nome_pais)] + OPCOES.get(c["url"], []) + [c["url"]]
         q = f"{c['altura']}p" if c.get("altura") else "?"
         rel_tv.append(f"{n:>6}  {c['nome']}  [{q}]")
 
@@ -517,8 +577,7 @@ BASE = sys.argv[1] if len(sys.argv) > 1 else "/opt/tv-radios"
 SO_REFRESCAR = "--refrescar" in sys.argv
 JF = os.environ.get("JELLYFIN_URL", "http://localhost:8096").rstrip("/")
 CHAVE = open(os.path.join(BASE, ".jellyfin_api_key"), encoding="utf-8").read().strip()
-UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+UA = "VLC/3.0.21 LibVLC/3.0.21"
 EPG = "https://m3upt.com/epg"
 TV = os.path.join(BASE, "listas", "tv.m3u")
 RADIOS = os.path.join(BASE, "listas", "radios.m3u")

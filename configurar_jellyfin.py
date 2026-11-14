@@ -16,8 +16,7 @@ BASE = sys.argv[1] if len(sys.argv) > 1 else "/opt/tv-radios"
 SO_REFRESCAR = "--refrescar" in sys.argv
 JF = os.environ.get("JELLYFIN_URL", "http://localhost:8096").rstrip("/")
 CHAVE = open(os.path.join(BASE, ".jellyfin_api_key"), encoding="utf-8").read().strip()
-UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
+UA = "VLC/3.0.21 LibVLC/3.0.21"
 EPG = "https://m3upt.com/epg"
 TV = os.path.join(BASE, "listas", "tv.m3u")
 RADIOS = os.path.join(BASE, "listas", "radios.m3u")
