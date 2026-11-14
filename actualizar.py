@@ -366,6 +366,12 @@ def radios_extra():
                 out.append({"nome": partes[0], "url": partes[1], "fonte": "manual",
                             "regiao": partes[2] if len(partes) > 2 else "", "attrs": {}})
         log(f"Rádios acrescentadas à mão: {len(out)}")
+    f = os.path.join(LISTAS, "radios-referencia.json")  # achadas pelo radios_referencia.py
+    if os.path.exists(f):
+        ref = json.load(open(f, encoding="utf-8"))
+        out += [{"nome": d["nome"], "url": d["url"], "fonte": d.get("fonte", "referencia"),
+                 "regiao": d.get("regiao") or "", "attrs": {"tvg-logo": d.get("logo") or ""}} for d in ref if d.get("url")]
+        log(f"Rádios da lista de referência (CNE) encontradas: {len(ref)}")
     return out
 
 

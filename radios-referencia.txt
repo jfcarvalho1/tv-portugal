@@ -1,0 +1,229 @@
+# Lista de referência de rádios locais — "Nome | Concelho"
+# Fonte: CNE, Rádios Locais (contactos e horários), 2007. Algumas podem ter fechado ou mudado de nome.
+# Pode acrescentar mais rádios aqui; o programa procura sozinho as que faltam.
+Rádio Antena Livre | Abrantes
+Rádio Tágide | Abrantes
+Rádio Soberania | Águeda
+Rádio Botareú | Águeda
+Rádio RTA | Albufeira
+Rádio Benedita | Alcobaça
+Rádio Cister | Alcobaça
+Rádio Voz de Alenquer | Alenquer
+Rádio Alijó | Alijó
+Rádio TLA | Aljustrel
+Rádio Capital | Almada
+Rádio Radar | Almada
+Rádio Fronteira | Almeida
+Rádio Comercial de Almeirim | Almeirim
+Rádio 100 | Alpiarça
+Rádio Bonfim | Alpiarça
+Rádio Clube de Alvaiázere | Alvaiázere
+Rádio Mais | Amadora
+Emitâmega | Amarante
+ERAFM | Amarante
+Rádio Província | Anadia
+Rádio Horizonte Açores | Angra do Heroísmo - Açores
+Rádio Ilha | Angra do Heroísmo - Açores
+Rádio Vida Nova | Ansião
+Rádio Valdevez | Arcos de Valdevez
+Rádio Clube de Arganil | Arganil
+Rádio Aveiro FM | Aveiro
+PFM | Azambuja
+Rádio Cávado FM | Barcelos
+Rádio Barcelos | Barcelos
+Rádio Batalha | Batalha
+Rádio Voz da Planície | Beja
+Rádio Pax | Beja
+Rádio Caria | Belmonte
+Rádio Iris FM | Benavente
+Rádio Borba | Borba
+Rádio Forum Boticas | Boticas
+Rádio Antena Minho | Braga
+Rádio Universitária do Minho | Braga
+Rádio Bragançana | Bragança
+Rádio Mirandum | Bragança
+Rádio Alfândega | Alfândega da Fé
+Rádio Brigantia | Bragança
+Rádio Voz de Basto | Cabeceiras de Basto
+Rádio Cadaval | Cadaval
+Rádio Caldas | Caldas da Rainha
+Rádio Vizela | Vizela
+Rádio Calheta | Calheta - Madeira
+Rádio Popular da Madeira | Câmara de Lobos - Madeira
+Rádio Campo Maior | Campo Maior
+Rádio Ansiães | Carrazeda de Ansiães
+Rádio Soncentro | Carregal do Sal
+Rádio Cartaxo | Cartaxo
+Rádio Marginal | Cascais
+Rádio Urbana | Castelo Branco
+Rádio Juventude | Castelo Branco
+Rádio Independente Paivense | Castelo de Paiva
+Rádio Castrense | Castro Verde
+Rádio Região de Basto | Celorico de Basto
+Rádio Montemuro | Cinfães
+Rádio Regional Centro | Coimbra
+Rádio Voz do Sorraia | Coruche
+Rádio Clube Covilhã | Covilhã
+Rádio Elvas | Elvas
+Rádio Voz do Entroncamento | Entroncamento
+Rádio Voz da Ria | Estarreja
+Rádio Despertar | Estremoz
+Rádio Telefonia do Alentejo | Évora
+Diana FM | Évora
+Rádio Antena Sul | Évora
+Rádio Clube de Fafe | Fafe
+Rádio Clube do Sul | Faro
+Rádio Universitária do Algarve | Faro
+Rádio Felgueiras | Felgueiras
+Emissor Regional do Zêzere | Ferreira do Zêzere
+Rádio Clube Foz do Mondego | Figueira da Foz
+Rádio Maiorca | Figueira da Foz
+Rádio Imagem | Fornos de Algodres
+Rádio Clube Madeira | Funchal - Madeira
+Rádio Cova da Beira | Fundão
+Rádio Jornal do Fundão | Fundão
+Rádio Cultura e Espectáculo | Golegã
+Rádio Antena Livre de Gouveia | Gouveia
+Rádio Clube de Grândola | Grândola
+Rádio F | Guarda
+Rádio Fundação | Guimarães
+Rádio Santiago | Guimarães
+Rádio Antena Nove | Horta - Açores
+Rádio Terra Nova | Ílhavo
+Rádio Lagoa | Lagoa
+Rádio Atlântico Sul | Lagos
+Rádio Montanha | Lajes do Pico - Açores
+Rádio Clube de Lamego | Lamego
+Rádio Douro Sul | Lamego
+Rádio Central FM | Leiria
+Rádio 94 Leiria | Leiria
+Popular FM | Lisboa
+Rádio Total FM | Loulé
+Rádio Horizonte Tejo | Loures
+Rádio Clube da Lourinhã | Lourinhã
+Rádio Onda Livre | Macedo de Cavaleiros
+Rádio Zarco | Machico - Madeira
+Rádio Pico | Madalena - Açores
+Rádio Concelho de Mafra | Mafra
+Rádio Lidador | Maia
+Rádio Voz de Mangualde | Mangualde
+Rádio Marcoense | Marco de Canaveses
+Rádio Clube Marinhense | Marinha Grande
+Rádio Clube de Matosinhos | Matosinhos
+Rádio Clube da Pampilhosa | Mealhada
+Rádio Melgaço | Melgaço
+Mértola FM | Mértola
+Rádio Terra Quente | Mirandela
+Rádio Planalto | Mogadouro
+Rádio Riba Távora | Moimenta da Beira
+Rádio Tropical | Moita
+Rádio Ecos da Raia | Monção
+Rádio Montalegre | Montalegre
+RC Alentejo | Mourão
+SFM Rádio | Murtosa
+Rádio Nazaré | Nazaré
+Rádio Nordeste | Nordeste - Açores
+Rádio Litoral Oeste | Óbidos
+Rádio Praia | Odemira
+Rádio Oxigénio | Oeiras
+Rádio Atlântico FM | Olhão
+Rádio Restauração | Olhão
+Rádio Boa Nova | Oliveira do Hospital
+Rádio Ourique | Ourique
+Rádio Antena Vareira | Ovar
+Rádio Clube de Paços de Ferreira | Paços de Ferreira
+Rádio Palmela | Palmela
+Rádio Jornal FM | Paredes
+Rádio Triângulo | Pedrógão Grande
+Rádio Clube de Penafiel | Penafiel
+Rádio Voz da Raia | Penamacor
+Rádio S. Miguel Penela | Penela
+102 FM Rádio | Peniche
+Rádio Elmo | Pinhel
+Rádio Cardal | Pombal
+Rádio Clube de Pombal | Pombal
+Rádio Atlântida | Ponta Delgada - Açores
+Top Rádio | Ponta Delgada - Açores
+Rádio Comercial dos Açores | Ponta Delgada - Açores
+Rádio Canal Açores | Ponta Delgada - Açores
+Rádio Sol | Ponta do Sol - Madeira
+Rádio Barca | Ponte da Barca
+Rádio Ondas do Lima | Ponte de Lima
+Rádio Tempos Livres | Ponte de Sor
+Rádio Portalegre | Portalegre
+Rádio Terra Mãe | Portel
+Rádio Alvor | Portimão
+Rádio Costa d'Oiro | Portimão
+Rádio Festival | Porto
+Rádio Dom Fuas | Porto de Mós
+Rádio Onda Viva | Póvoa de Varzim
+Rádio Mar | Póvoa de Varzim
+Rádio Povoação | Povoação - Açores
+Rádio Reguengos de Monsaraz | Reguengos de Monsaraz
+Rádio Girão | Ribeira Brava - Madeira
+Rádio Nova Cidade | Ribeira Grande - Açores
+Rádio Hiper FM | Rio Maior
+Rádio Maior FM | Rio Maior
+Inforádio | São João da Madeira
+Rádio Sanjoanense | São João da Madeira
+Rádio Voz do Douro | São João da Pesqueira
+Rádio Horizonte 2 | Ponta Delgada - Açores
+Rádio Lafões | São Pedro do Sul
+Rádio Marinhais | Salvaterra de Magos
+Rádio Palmeira | Santa Cruz - Madeira
+Rádio Graciosa | Santa Cruz da Graciosa - Açores
+Rádio Águia Azul | Santa Maria da Feira
+Rádio Santana | Santana - Madeira
+Rádio Pernes | Santarém
+Rádio Antena Miróbriga | Santiago do Cacém
+Nova Rádio de Santo Tirso | Santo Tirso
+Rádio Cais | São Roque do Pico - Açores
+Rádio Sátão | Sátão
+Rádio Baía | Seixal
+Rádio Guadalupe | Serpa
+Rádio Condestável | Sertã
+Rádio Sesimbra FM | Sesimbra
+Rádio Voz de Setúbal | Setúbal
+Rádio Azul | Setúbal
+Rádio Jornal de Setúbal | Setúbal
+Regional Algarve | Silves
+Rádio Sines | Sines
+Rádio Oásis | Sobral de Monte Agraço
+Rádio Horizonte Algarve | Tavira
+Rádio Gilão | Tavira
+Rádio Hertz | Tomar
+Rádio Cidade de Tomar | Tomar
+Rádio Ao Tom Dela | Tondela
+Torres Novas FM | Torres Novas
+Radioeste | Torres Vedras
+Rádio Bandarra | Trancoso
+Rádio Trofa | Trofa
+Rádio Vagos | Vagos
+Rádio Nova Contrasta | Valença
+Rádio Lumena | Velas - Açores
+Rádio Granada FM | Vendas Novas
+Rádio Geice | Viana do Castelo
+Rádio Popular Afifense | Viana do Castelo
+Rádio Alto Minho | Viana do Castelo
+Rádio Vila de Rei | Vila de Rei
+Rádio Sagres FM | Vila do Bispo
+Rádio Linear | Vila do Conde
+Rádio Foz do Ave | Vila do Conde
+Rádio Lezíria | Vila Franca de Xira
+Rádio Ultra FM | Vila Franca de Xira
+Rádio Vila Franca | Vila Franca do Campo - Açores
+Rádio Cultural de Cerveira | Vila Nova de Cerveira
+Rádio Cidade Hoje | Vila Nova de Famalicão
+Rádio Digital FM | Vila Nova de Famalicão
+Rádio Escuro | Vila Nova de Paiva
+Rádio Santo André | Vila Nova de Poiares
+Rádio Clube Aguiarense | Vila Pouca de Aguiar
+Rádio Universidade Marão | Vila Real
+Rádio Voz do Marão | Vila Real
+Rádio Guadiana | Vila Real de Santo António
+Rádio Voz do Neiva | Vila Verde
+Rádio Campanário | Vila Viçosa
+Rádio Vinhais | Vinhais
+Rádio Noar | Viseu
+Rádio RCI | Viseu
+Rádio Vouzela | Vouzela
