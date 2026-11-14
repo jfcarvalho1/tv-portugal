@@ -72,6 +72,35 @@ RADIO = re.compile(r"r[aá]dio|\bfm\b", re.I)
 TV = re.compile(r"\btv\b|t[ée]l[ée]|televis", re.I)
 
 
+RADIOS_DA_TV = []
+
+
+def juntar_as_radios():
+    """Passa as rádios com imagem para listas/radios.m3u (aba Rádios), sem repetir as que já lá estão."""
+    f = os.path.join(BASE, "listas", "radios.m3u")
+    if not RADIOS_DA_TV or not os.path.exists(f):
+        return
+    texto = open(f, encoding="utf-8").read()
+    chave = lambda n: re.sub(r"[^a-z0-9]", "", re.sub(r"r[aá]dio|\bfm\b", "", n.lower()))
+    existentes = {chave(l.rsplit(",", 1)[-1]) for l in texto.splitlines() if l.startswith("#EXTINF")}
+    urls = set(l for l in texto.splitlines() if l and not l.startswith("#"))
+    novas = []
+    for bloco in RADIOS_DA_TV:
+        inf = next(b for b in bloco if b.startswith("#EXTINF"))
+        nome, url = inf.rsplit(",", 1)[-1], bloco[-1]
+        if chave(nome) in existentes or url in urls:
+            continue
+        pais = inf.split('group-title="', 1)[1].split('"', 1)[0] if 'group-title="' in inf else ""
+        grupo = "Rádios com Imagem" if pais == "Portugal" else "Rádios Estrangeiras"
+        inf = re.sub(r'group-title="[^"]*"', f'group-title="{grupo}"', inf) if 'group-title="' in inf else inf.replace(",", f' group-title="{grupo}",', 1)
+        novas.append([inf] + [b for b in bloco if b.startswith("#EXTVLCOPT")] + [url])
+    novas.sort(key=lambda b: (b[0].count("Estrangeiras"), b[0].rsplit(",", 1)[-1].lower()))
+    with open(f, "a", encoding="utf-8") as out:
+        for b in novas:
+            out.write("\n".join(b) + "\n")
+    print(f"rádios com imagem passadas para a aba Rádios: {len(novas)}")
+
+
 def sem_radios(linhas):
     """Tira da TV as rádios com imagem (On FM, Rádio Sines, Radio 538…): as rádios ficam na aba Rádios."""
     out, bloco, fora = [], [], 0
@@ -82,6 +111,7 @@ def sem_radios(linhas):
             nome = inf.rsplit(",", 1)[-1]
             if inf and RADIO.search(nome) and not TV.search(nome):
                 fora += 1
+                RADIOS_DA_TV.append(list(bloco))
             else:
                 out += bloco
             bloco = []
@@ -96,6 +126,7 @@ def main():
     with open(ORIGEM, encoding="utf-8") as f:
         linhas = aplicar_substituicoes(f.read().splitlines())
     linhas = sem_radios(linhas)
+    juntar_as_radios()
     sites = {u[5:] for u in substituicoes().values() if u.startswith("site:")}
     linhas = [l[5:] if l.startswith("site:") else l for l in linhas]
     # a lista completa (Jellyfin, VLC) fica corrigida e sem os canais que só abrem no site oficial
