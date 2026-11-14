@@ -167,7 +167,7 @@ function programas(c) {
   const lst = g[c.tid || ("n:" + chaveNome(c.nome))]; if (!lst) return null;
   const m = Date.now() / 60000;
   const i = lst.findIndex(p => p[0] <= m && p[1] > m);
-  return i < 0 ? null : { agora: lst[i], seguinte: lst[i + 1] };
+  return i < 0 ? null : { agora: lst[i], seguinte: lst.find(p => p[0] >= lst[i][1]) };
 }
 const hm = min => new Date(min * 60000).toLocaleTimeString("pt-PT", { hour: "2-digit", minute: "2-digit" });
 async function radios() { if (!estado.radios) estado.radios = await buscar("radios.m3u", "radio"); return estado.radios; }
@@ -306,8 +306,16 @@ function experimentar(el, c, aoFalhar) {
     const u = tentativas[i++];
     const ehHls = /\.m3u8(\?|$)/i.test(u);
     if (ehHls && !el.canPlayType("application/vnd.apple.mpegurl") && window.Hls && Hls.isSupported()) {
-      const h = new Hls({ lowLatencyMode: false }); el._hls = h;
-      h.on(Hls.Events.ERROR, (_, d) => { if (d.fatal) proxima(); });
+      const h = new Hls({ lowLatencyMode: false, manifestLoadingMaxRetry: 4, levelLoadingMaxRetry: 4, fragLoadingMaxRetry: 6 }); el._hls = h;
+      let recuperacoes = 0;
+      h.on(Hls.Events.ERROR, (_, d) => {
+        if (!d.fatal) return;
+        if (recuperacoes++ < 3) {
+          if (d.type === Hls.ErrorTypes.MEDIA_ERROR) h.recoverMediaError(); else h.startLoad();
+          return;
+        }
+        proxima();
+      });
       h.loadSource(u); h.attachMedia(el);
       h.on(Hls.Events.MANIFEST_PARSED, () => el.play().catch(() => {}));
     } else {
@@ -316,7 +324,7 @@ function experimentar(el, c, aoFalhar) {
   };
   el.onerror = proxima;
   clearTimeout(el._prazo);
-  el._prazo = setTimeout(() => { if (!ok && estado.aTocar === c) { i = tentativas.length; proxima(); } }, siteOficial(c) ? 12000 : 20000);
+  el._prazo = setTimeout(() => { if (!ok && estado.aTocar === c) { i = tentativas.length; proxima(); } }, 30000);
   el.onplaying = () => { ok = true; marcarBom(c); if (el === audio) aTocarRadio(); };
   proxima();
 }
