@@ -70,8 +70,21 @@ def aplicar_substituicoes(linhas):
 def main():
     with open(ORIGEM, encoding="utf-8") as f:
         linhas = aplicar_substituicoes(f.read().splitlines())
-    with open(ORIGEM, "w", encoding="utf-8") as f:  # a lista completa (Jellyfin, VLC) também fica corrigida
-        f.write("\n".join(linhas) + "\n")
+    sites = {u[5:] for u in substituicoes().values() if u.startswith("site:")}
+    linhas = [l[5:] if l.startswith("site:") else l for l in linhas]
+    # a lista completa (Jellyfin, VLC) fica corrigida e sem os canais que só abrem no site oficial
+    completa, bloco = [], []
+    for l in linhas:
+        bloco.append(l)
+        if l and not l.startswith("#"):
+            if l not in sites:
+                completa += bloco
+            bloco = []
+        elif l.startswith("#EXTM3U"):
+            completa += bloco
+            bloco = []
+    with open(ORIGEM, "w", encoding="utf-8") as f:
+        f.write("\n".join(completa + bloco) + "\n")
     cabecalho = linhas[0] if linhas and linhas[0].startswith("#EXTM3U") else "#EXTM3U"
     grupos, bloco = {}, []
     for linha in linhas[1:]:

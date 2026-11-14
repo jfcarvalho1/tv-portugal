@@ -3,3 +3,6 @@
 # "seguir:" = o GitHub segue o redireccionamento e grava o endereço final (necessário para o Chrome/Linux/Windows).
 # SIC Notícias: emissão oficial da SIC no Kaltura (sem cabeçalhos, confirmada com imagem em 14-11-2026)
 SICNoticias.pt = seguir:https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8
+# "site:" = canal sem emissão aberta: na app abre o directo no site oficial; sai das listas do Jellyfin/VLC.
+# SIC: o endereço da lista M3UPT dá a SIC Alta Definição (confirmado pelo José e com imagem, 14-11-2026).
+SIC.pt = site:https://sic.pt/direto
