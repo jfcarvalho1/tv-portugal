@@ -243,421 +243,423 @@ https://sp0.redeaudio.com:8272/stream
 https://player.radiocalheta.pt/listen/radiocalheta/live
 #EXTINF:-1 tvg-name="RADIO CAMPO MAIOR" tvg-logo="https://radiocampomaior.com/wp-content/uploads/sites/3/2024/01/Client_RCM-768x565.png" tvg-chno="203" radio="true" group-title="Rádios Regionais e Locais",RADIO CAMPO MAIOR
 https://radios2.justweb.pt:8064/stream?type=http&nocache=32
-#EXTINF:-1 tvg-name="Rádio Castrense" tvg-logo="http://img.sedoparking.com/templates/logos/sedo_logo.png" tvg-chno="204" radio="true" group-title="Rádios Regionais e Locais",Rádio Castrense
+#EXTINF:-1 tvg-name="Radio cantinho da senhora da povoa" tvg-chno="204" radio="true" group-title="Rádios Regionais e Locais",Radio cantinho da senhora da povoa
+http://185.32.188.17:8065/stream
+#EXTINF:-1 tvg-name="Rádio Castrense" tvg-logo="http://img.sedoparking.com/templates/logos/sedo_logo.png" tvg-chno="205" radio="true" group-title="Rádios Regionais e Locais",Rádio Castrense
 http://centova.radio.com.pt:8431/;
-#EXTINF:-1 tvg-name="Rádio Cidade FM" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_Radio_Cidade_FM_256x256.avif" tvg-chno="205" radio="true" group-title="Rádios Regionais e Locais",Rádio Cidade FM
+#EXTINF:-1 tvg-name="Rádio Cidade FM" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_Radio_Cidade_FM_256x256.avif" tvg-chno="206" radio="true" group-title="Rádios Regionais e Locais",Rádio Cidade FM
 https://stream-hls.bauermedia.pt/cidade.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Cidade Hip Hop" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_Radio_Cidade_Hip_Hop_256x256.avif" tvg-chno="206" radio="true" group-title="Rádios Regionais e Locais",Rádio Cidade Hip Hop
+#EXTINF:-1 tvg-name="Rádio Cidade Hip Hop" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_Radio_Cidade_Hip_Hop_256x256.avif" tvg-chno="207" radio="true" group-title="Rádios Regionais e Locais",Rádio Cidade Hip Hop
 https://stream-hls.bauermedia.pt/cidhiphop.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Cidade Hoje" tvg-logo="http://cdn-radiotime-logos.tunein.com/s82196q.png" tvg-chno="207" radio="true" group-title="Rádios Regionais e Locais",Rádio Cidade Hoje
+#EXTINF:-1 tvg-name="Rádio Cidade Hoje" tvg-logo="http://cdn-radiotime-logos.tunein.com/s82196q.png" tvg-chno="208" radio="true" group-title="Rádios Regionais e Locais",Rádio Cidade Hoje
 http://centova.radio.com.pt:8119/;
-#EXTINF:-1 tvg-name="Rádio Cidade Latina" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_Radio_Cidade_Latina_256x256.avif" tvg-chno="208" radio="true" group-title="Rádios Regionais e Locais",Rádio Cidade Latina
+#EXTINF:-1 tvg-name="Rádio Cidade Latina" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_Radio_Cidade_Latina_256x256.avif" tvg-chno="209" radio="true" group-title="Rádios Regionais e Locais",Rádio Cidade Latina
 https://stream-hls.bauermedia.pt/cidlatina.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Cister" tvg-logo="http://cdn-radiotime-logos.tunein.com/s9924q.png" tvg-chno="209" radio="true" group-title="Rádios Regionais e Locais",Rádio Cister
+#EXTINF:-1 tvg-name="Rádio Cister" tvg-logo="http://cdn-radiotime-logos.tunein.com/s9924q.png" tvg-chno="210" radio="true" group-title="Rádios Regionais e Locais",Rádio Cister
 http://centova.radio.com.pt:8453/;
-#EXTINF:-1 tvg-name="Rádio Clube da Feira" tvg-chno="210" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube da Feira
+#EXTINF:-1 tvg-name="Rádio Clube da Feira" tvg-chno="211" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube da Feira
 http://centova.radio.com.pt:9544/;
-#EXTINF:-1 tvg-name="Rádio Clube de Arganil" tvg-chno="211" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube de Arganil
+#EXTINF:-1 tvg-name="Rádio Clube de Arganil" tvg-chno="212" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube de Arganil
 http://176.9.43.216:8135/stream
-#EXTINF:-1 tvg-name="Rádio clube de Colares" tvg-logo="https://www.guiadecolares.pt/radio/Favicon.ico" tvg-chno="212" radio="true" group-title="Rádios Regionais e Locais",Rádio clube de Colares
+#EXTINF:-1 tvg-name="Rádio clube de Colares" tvg-logo="https://www.guiadecolares.pt/radio/Favicon.ico" tvg-chno="213" radio="true" group-title="Rádios Regionais e Locais",Rádio clube de Colares
 https://rs3.ptservidor.net/8012/live
-#EXTINF:-1 tvg-name="Rádio Clube de Grândola" tvg-chno="213" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube de Grândola
+#EXTINF:-1 tvg-name="Rádio Clube de Grândola" tvg-chno="214" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube de Grândola
 http://link.radios.pt/rcg
-#EXTINF:-1 tvg-name="Rádio Clube de Lamego" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/5f68f7d3962619.43822648.png" tvg-chno="214" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube de Lamego
+#EXTINF:-1 tvg-name="Rádio Clube de Lamego" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/5f68f7d3962619.43822648.png" tvg-chno="215" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube de Lamego
 https://stream.zeno.fm/9prct7k8h0hvv
-#EXTINF:-1 tvg-name="Rádio Clube de Mafra" tvg-chno="215" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube de Mafra
+#EXTINF:-1 tvg-name="Rádio Clube de Mafra" tvg-chno="216" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube de Mafra
 https://centova.radio.com.pt/proxy/551?mp=/stream
-#EXTINF:-1 tvg-name="Rádio Clube de Sintra" tvg-logo="http://www.radiorcs.pt/favicon.ico" tvg-chno="216" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube de Sintra
+#EXTINF:-1 tvg-name="Rádio Clube de Sintra" tvg-logo="http://www.radiorcs.pt/favicon.ico" tvg-chno="217" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube de Sintra
 http://centova.radio.com.pt:8445/;
-#EXTINF:-1 tvg-name="Rádio Clube do Dão" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-clube-do-dao.webp" tvg-chno="217" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube do Dão
+#EXTINF:-1 tvg-name="Rádio Clube do Dão" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-clube-do-dao.webp" tvg-chno="218" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube do Dão
 https://sp0.redeaudio.com/8052/stream
-#EXTINF:-1 tvg-name="Rádio Clube Foz do Mondego" tvg-chno="218" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube Foz do Mondego
+#EXTINF:-1 tvg-name="Rádio Clube Foz do Mondego" tvg-chno="219" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube Foz do Mondego
 http://nl.digitalrm.pt:8216/stream
-#EXTINF:-1 tvg-name="Rádio Clube Madeira (106.8 FM)" tvg-logo="https://www.celsoazevedo.com/files/random/2024/radio-clube.png" tvg-chno="219" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube Madeira (106.8 FM)
+#EXTINF:-1 tvg-name="Rádio Clube Madeira (106.8 FM)" tvg-logo="https://www.celsoazevedo.com/files/random/2024/radio-clube.png" tvg-chno="220" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube Madeira (106.8 FM)
 https://audio.serv.pt/8020/stream.mp3
-#EXTINF:-1 tvg-name="Rádio Clube Paços de Ferreira 101.8 FM" tvg-logo="https://platform-upload.cdn-brlogic.com/253943/editor/3d5286d73cd7089f2a2c81cb7ae52edb.png" tvg-chno="220" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube Paços de Ferreira 101.8 FM
+#EXTINF:-1 tvg-name="Rádio Clube Paços de Ferreira 101.8 FM" tvg-logo="https://platform-upload.cdn-brlogic.com/253943/editor/3d5286d73cd7089f2a2c81cb7ae52edb.png" tvg-chno="221" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube Paços de Ferreira 101.8 FM
 https://servidor15-3.brlogic.com:7088/live?source=15118
-#EXTINF:-1 tvg-name="Rádio Clube Penafiel" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_radioclubepenafiel.png" tvg-chno="221" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube Penafiel
+#EXTINF:-1 tvg-name="Rádio Clube Penafiel" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_radioclubepenafiel.png" tvg-chno="222" radio="true" group-title="Rádios Regionais e Locais",Rádio Clube Penafiel
 http://centova.radios.pt:9476
-#EXTINF:-1 tvg-name="Rádio Comercial 2000s" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/wr-2000s.png" tvg-chno="222" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial 2000s
+#EXTINF:-1 tvg-name="Rádio Comercial 2000s" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/wr-2000s.png" tvg-chno="223" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial 2000s
 https://stream-hls.bauermedia.pt/rcbest2000.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Comercial 90s" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/wr-90.png" tvg-chno="223" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial 90s
+#EXTINF:-1 tvg-name="Rádio Comercial 90s" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/wr-90.png" tvg-chno="224" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial 90s
 https://stream-hls.bauermedia.pt/rcbest90.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Comercial Brasil" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/wr-brasil.png" tvg-chno="224" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Brasil
+#EXTINF:-1 tvg-name="Rádio Comercial Brasil" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/wr-brasil.png" tvg-chno="225" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Brasil
 https://stream-hls.bauermedia.pt/rcbrasil.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Comercial By Night" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/noCover.png" tvg-chno="225" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial By Night
+#EXTINF:-1 tvg-name="Rádio Comercial By Night" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/noCover.png" tvg-chno="226" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial By Night
 https://stream-hls.bauermedia.pt/rcsoft.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Comercial Dance" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ybykwjqku6rh.png" tvg-chno="226" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Dance
+#EXTINF:-1 tvg-name="Rádio Comercial Dance" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ybykwjqku6rh.png" tvg-chno="227" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Dance
 https://stream-hls.bauermedia.pt/rcdance.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Comercial Kids" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Comercial-Kids.png" tvg-chno="227" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Kids
+#EXTINF:-1 tvg-name="Rádio Comercial Kids" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Comercial-Kids.png" tvg-chno="228" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Kids
 https://stream-hls.bauermedia.pt/rckids.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Comercial Natal" tvg-chno="228" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Natal
+#EXTINF:-1 tvg-name="Rádio Comercial Natal" tvg-chno="229" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Natal
 https://stream-icy.bauermedia.pt/rcxmas.aac
-#EXTINF:-1 tvg-name="Rádio Comercial One Hit Wonders" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/noCover.png" tvg-chno="229" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial One Hit Wonders
+#EXTINF:-1 tvg-name="Rádio Comercial One Hit Wonders" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/noCover.png" tvg-chno="230" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial One Hit Wonders
 https://stream-hls.bauermedia.pt/rchit.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Comercial Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/wr-portugal.png" tvg-chno="230" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Portugal
+#EXTINF:-1 tvg-name="Rádio Comercial Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/wr-portugal.png" tvg-chno="231" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Portugal
 https://stream-hls.bauermedia.pt/rctuga.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Comercial Rock" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/q6clfyhqvcg5.png" tvg-chno="231" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Rock
+#EXTINF:-1 tvg-name="Rádio Comercial Rock" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/q6clfyhqvcg5.png" tvg-chno="232" radio="true" group-title="Rádios Regionais e Locais",Rádio Comercial Rock
 https://stream-hls.rayo.pt/rcrock.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Radio Commercial" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c3/Logo_Radio_Comercial.jpg" tvg-chno="232" radio="true" group-title="Rádios Regionais e Locais",Radio Commercial
+#EXTINF:-1 tvg-name="Radio Commercial" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c3/Logo_Radio_Comercial.jpg" tvg-chno="233" radio="true" group-title="Rádios Regionais e Locais",Radio Commercial
 https://stream-icy.bauermedia.pt/comercial.mp3
-#EXTINF:-1 tvg-name="Rádio Condestável" tvg-logo="http://cdn-radiotime-logos.tunein.com/s11079q.png" tvg-chno="233" radio="true" group-title="Rádios Regionais e Locais",Rádio Condestável
+#EXTINF:-1 tvg-name="Rádio Condestável" tvg-logo="http://cdn-radiotime-logos.tunein.com/s11079q.png" tvg-chno="234" radio="true" group-title="Rádios Regionais e Locais",Rádio Condestável
 http://centova.radio.com.pt:8427/;
-#EXTINF:-1 tvg-name="Rádio Cova da Beira" tvg-chno="234" radio="true" group-title="Rádios Regionais e Locais",Rádio Cova da Beira
+#EXTINF:-1 tvg-name="Rádio Cova da Beira" tvg-chno="235" radio="true" group-title="Rádios Regionais e Locais",Rádio Cova da Beira
 http://centova.radio.com.pt:8467/;
-#EXTINF:-1 tvg-name="Rádio do Concelho de Mafra" tvg-logo="http://www.rcmafra.pt/img/apple-touch-icon.png" tvg-chno="235" radio="true" group-title="Rádios Regionais e Locais",Rádio do Concelho de Mafra
+#EXTINF:-1 tvg-name="Rádio do Concelho de Mafra" tvg-logo="http://www.rcmafra.pt/img/apple-touch-icon.png" tvg-chno="236" radio="true" group-title="Rádios Regionais e Locais",Rádio do Concelho de Mafra
 http://centova.radio.com.pt:8551/;
-#EXTINF:-1 tvg-name="Rádio Dom Bosco FM" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-dom-bosco-fm.webp" tvg-chno="236" radio="true" group-title="Rádios Regionais e Locais",Rádio Dom Bosco FM
+#EXTINF:-1 tvg-name="Rádio Dom Bosco FM" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-dom-bosco-fm.webp" tvg-chno="237" radio="true" group-title="Rádios Regionais e Locais",Rádio Dom Bosco FM
 https://stream.streamaudio.de:8000/radio-dom-bosco-fm
-#EXTINF:-1 tvg-name="Rádio Douro Nacional" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-douro-nacional-lamego.webp" tvg-chno="237" radio="true" group-title="Rádios Regionais e Locais",Rádio Douro Nacional
+#EXTINF:-1 tvg-name="Rádio Douro Nacional" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-douro-nacional-lamego.webp" tvg-chno="238" radio="true" group-title="Rádios Regionais e Locais",Rádio Douro Nacional
 https://sp0.redeaudio.com/9796/stream
-#EXTINF:-1 tvg-name="Rádio Elmo" tvg-chno="238" radio="true" group-title="Rádios Regionais e Locais",Rádio Elmo
+#EXTINF:-1 tvg-name="Rádio Elmo" tvg-chno="239" radio="true" group-title="Rádios Regionais e Locais",Rádio Elmo
 http://centova.radio.com.pt:8463/;
-#EXTINF:-1 tvg-name="Rádio Elvas" tvg-logo="https://radioelvas.com/wp-content/uploads/2024/02/Logo-RE-768x341.png" tvg-chno="239" radio="true" group-title="Rádios Regionais e Locais",Rádio Elvas
+#EXTINF:-1 tvg-name="Rádio Elvas" tvg-logo="https://radioelvas.com/wp-content/uploads/2024/02/Logo-RE-768x341.png" tvg-chno="240" radio="true" group-title="Rádios Regionais e Locais",Rádio Elvas
 https://radios2.justweb.pt:8066/stream?type=http&nocache=297
-#EXTINF:-1 tvg-name="Radio EnterMedia" tvg-chno="240" radio="true" group-title="Rádios Regionais e Locais",Radio EnterMedia
+#EXTINF:-1 tvg-name="Radio EnterMedia" tvg-chno="241" radio="true" group-title="Rádios Regionais e Locais",Radio EnterMedia
 http://radio.radioentermedia.com/listen/entermedia/radio.mp3
-#EXTINF:-1 tvg-name="Rádio Escuro" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-escuro.webp" tvg-chno="241" radio="true" group-title="Rádios Regionais e Locais",Rádio Escuro
+#EXTINF:-1 tvg-name="Rádio Escuro" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-escuro.webp" tvg-chno="242" radio="true" group-title="Rádios Regionais e Locais",Rádio Escuro
 https://nl.digitalrm.pt:8116/stream
-#EXTINF:-1 tvg-name="RÁDIO EU SOU GOIÁS" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEiFjuZpvO8NObJg4xbuvohiOA9-9xz5Ts80exF8_r0kycPUt_vx8D36UCecT4c1hMpBmgz_g9FoUzhVocxpJmsgXxKjKXqe-s5P5c7o7lgIbHEpejbVPMlEYioBRwOKpokdJaeRQghKznhXO6T663om4hMiXPPPFRLMfFvKh7LGCin_Sc25Iq6iDdCfrQy7=s144" tvg-chno="242" radio="true" group-title="Rádios Regionais e Locais",RÁDIO EU SOU GOIÁS
+#EXTINF:-1 tvg-name="RÁDIO EU SOU GOIÁS" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEiFjuZpvO8NObJg4xbuvohiOA9-9xz5Ts80exF8_r0kycPUt_vx8D36UCecT4c1hMpBmgz_g9FoUzhVocxpJmsgXxKjKXqe-s5P5c7o7lgIbHEpejbVPMlEYioBRwOKpokdJaeRQghKznhXO6T663om4hMiXPPPFRLMfFvKh7LGCin_Sc25Iq6iDdCfrQy7=s144" tvg-chno="243" radio="true" group-title="Rádios Regionais e Locais",RÁDIO EU SOU GOIÁS
 https://live9.livemus.com.br:27374/stream
-#EXTINF:-1 tvg-name="Radio Fado de Coimbra" tvg-chno="243" radio="true" group-title="Rádios Regionais e Locais",Radio Fado de Coimbra
+#EXTINF:-1 tvg-name="Radio Fado de Coimbra" tvg-chno="244" radio="true" group-title="Rádios Regionais e Locais",Radio Fado de Coimbra
 https://nl.digitalrm.pt:8048/stream
-#EXTINF:-1 tvg-name="Rádio Felgueiras" tvg-logo="http://cdn-radiotime-logos.tunein.com/s84093q.png" tvg-chno="244" radio="true" group-title="Rádios Regionais e Locais",Rádio Felgueiras
+#EXTINF:-1 tvg-name="Rádio Felgueiras" tvg-logo="http://cdn-radiotime-logos.tunein.com/s84093q.png" tvg-chno="245" radio="true" group-title="Rádios Regionais e Locais",Rádio Felgueiras
 http://centova.radio.com.pt:8459/;
-#EXTINF:-1 tvg-name="Rádio Festival Madeira (98.4 FM)" tvg-logo="https://www.celsoazevedo.com/files/random/2024/radio-festival.png" tvg-chno="245" radio="true" group-title="Rádios Regionais e Locais",Rádio Festival Madeira (98.4 FM)
+#EXTINF:-1 tvg-name="Rádio Festival Madeira (98.4 FM)" tvg-logo="https://www.celsoazevedo.com/files/random/2024/radio-festival.png" tvg-chno="246" radio="true" group-title="Rádios Regionais e Locais",Rádio Festival Madeira (98.4 FM)
 https://audio.serv.pt/8012/stream.mp3
-#EXTINF:-1 tvg-name="Radio FM" tvg-chno="246" radio="true" group-title="Rádios Regionais e Locais",Radio FM
+#EXTINF:-1 tvg-name="Radio FM" tvg-chno="247" radio="true" group-title="Rádios Regionais e Locais",Radio FM
 http://playerservices.streamtheworld.com/api/livestream-redirect/RFM.mp3
-#EXTINF:-1 tvg-name="Rádio Foz do Mondego" tvg-logo="https://rfmondego.pt/wp-content/uploads/2021/09/cropped-LOGO-PEQ-1.png" tvg-chno="247" radio="true" group-title="Rádios Regionais e Locais",Rádio Foz do Mondego
+#EXTINF:-1 tvg-name="Rádio Foz do Mondego" tvg-logo="https://rfmondego.pt/wp-content/uploads/2021/09/cropped-LOGO-PEQ-1.png" tvg-chno="248" radio="true" group-title="Rádios Regionais e Locais",Rádio Foz do Mondego
 https://nl.digitalrm.pt:8216/stream
-#EXTINF:-1 tvg-name="Rádio Freguesia de Belém" tvg-chno="248" radio="true" group-title="Rádios Regionais e Locais",Rádio Freguesia de Belém
+#EXTINF:-1 tvg-name="Rádio Freguesia de Belém" tvg-chno="249" radio="true" group-title="Rádios Regionais e Locais",Rádio Freguesia de Belém
 https://s2.radio.co/s0ddea4a53/listen
-#EXTINF:-1 tvg-name="Rádio Fronteira" tvg-logo="https://i.imgur.com/EB5KAvF.png" tvg-chno="249" radio="true" group-title="Rádios Regionais e Locais",Rádio Fronteira
+#EXTINF:-1 tvg-name="Rádio Fronteira" tvg-logo="https://i.imgur.com/EB5KAvF.png" tvg-chno="250" radio="true" group-title="Rádios Regionais e Locais",Rádio Fronteira
 https://radios2.justweb.pt/8074/stream
-#EXTINF:-1 tvg-name="Rádio Granada FM" tvg-chno="250" radio="true" group-title="Rádios Regionais e Locais",Rádio Granada FM
+#EXTINF:-1 tvg-name="Rádio Granada FM" tvg-chno="251" radio="true" group-title="Rádios Regionais e Locais",Rádio Granada FM
 http://centova.radio.com.pt:8549/;
-#EXTINF:-1 tvg-name="Radio Guadiana" tvg-chno="251" radio="true" group-title="Rádios Regionais e Locais",Radio Guadiana
+#EXTINF:-1 tvg-name="Radio Guadiana" tvg-chno="252" radio="true" group-title="Rádios Regionais e Locais",Radio Guadiana
 http://sp0.redeaudio.com:9844/
-#EXTINF:-1 tvg-name="Rádio Horizonte Algarve" tvg-logo="http://cdn-radiotime-logos.tunein.com/s1653q.png" tvg-chno="252" radio="true" group-title="Rádios Regionais e Locais",Rádio Horizonte Algarve
+#EXTINF:-1 tvg-name="Rádio Horizonte Algarve" tvg-logo="http://cdn-radiotime-logos.tunein.com/s1653q.png" tvg-chno="253" radio="true" group-title="Rádios Regionais e Locais",Rádio Horizonte Algarve
 http://centova.radio.com.pt:9458/;
-#EXTINF:-1 tvg-name="Rádio Jornal do Centro" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-jornal-do-centro.webp" tvg-chno="253" radio="true" group-title="Rádios Regionais e Locais",Rádio Jornal do Centro
+#EXTINF:-1 tvg-name="Rádio Jornal do Centro" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-jornal-do-centro.webp" tvg-chno="254" radio="true" group-title="Rádios Regionais e Locais",Rádio Jornal do Centro
 https://sp0.redeaudio.com:9120//stream
-#EXTINF:-1 tvg-name="Rádio Lafões FM" tvg-logo="https://www.radiolafoes.pt/favicon.ico" tvg-chno="254" radio="true" group-title="Rádios Regionais e Locais",Rádio Lafões FM
+#EXTINF:-1 tvg-name="Rádio Lafões FM" tvg-logo="https://www.radiolafoes.pt/favicon.ico" tvg-chno="255" radio="true" group-title="Rádios Regionais e Locais",Rádio Lafões FM
 https://sp0.redeaudio.com/9304/stream
-#EXTINF:-1 tvg-name="Rádio Lagoa" tvg-chno="255" radio="true" group-title="Rádios Regionais e Locais",Rádio Lagoa
+#EXTINF:-1 tvg-name="Rádio Lagoa" tvg-chno="256" radio="true" group-title="Rádios Regionais e Locais",Rádio Lagoa
 http://centova.radio.com.pt:9488/;
-#EXTINF:-1 tvg-name="Rádio Limite" tvg-logo="http://cdn-radiotime-logos.tunein.com/s84216q.png" tvg-chno="256" radio="true" group-title="Rádios Regionais e Locais",Rádio Limite
+#EXTINF:-1 tvg-name="Rádio Limite" tvg-logo="http://cdn-radiotime-logos.tunein.com/s84216q.png" tvg-chno="257" radio="true" group-title="Rádios Regionais e Locais",Rádio Limite
 http://centova.radio.com.pt:9408/;
-#EXTINF:-1 tvg-name="Rádio Linear" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo.png" tvg-chno="257" radio="true" group-title="Rádios Regionais e Locais",Rádio Linear
+#EXTINF:-1 tvg-name="Rádio Linear" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo.png" tvg-chno="258" radio="true" group-title="Rádios Regionais e Locais",Rádio Linear
 https://nl.digitalrm.pt:8184/stream
-#EXTINF:-1 tvg-name="Rádio Lisboa" tvg-logo="https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/42/78/103539/1/c175.png" tvg-chno="258" radio="true" group-title="Rádios Regionais e Locais",Rádio Lisboa
+#EXTINF:-1 tvg-name="Rádio Lisboa" tvg-logo="https://d3kle7qwymxpcy.cloudfront.net/images/broadcasts/42/78/103539/1/c175.png" tvg-chno="259" radio="true" group-title="Rádios Regionais e Locais",Rádio Lisboa
 http://radiolisboa.ddns.net:8080/stream/1/
-#EXTINF:-1 tvg-name="Rádio Lusitânia" tvg-logo="https://www.celsoazevedo.com/files/2022/11/radio-lusitania.png" tvg-chno="259" radio="true" group-title="Rádios Regionais e Locais",Rádio Lusitânia
+#EXTINF:-1 tvg-name="Rádio Lusitânia" tvg-logo="https://www.celsoazevedo.com/files/2022/11/radio-lusitania.png" tvg-chno="260" radio="true" group-title="Rádios Regionais e Locais",Rádio Lusitânia
 https://streaming-live.rtp.pt/liveradio/lusitania80a/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio M80" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logod.png" tvg-chno="260" radio="true" group-title="Rádios Regionais e Locais",Rádio M80
+#EXTINF:-1 tvg-name="Rádio M80" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logod.png" tvg-chno="261" radio="true" group-title="Rádios Regionais e Locais",Rádio M80
 https://stream-hls.bauermedia.pt/m80.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Maiorca" tvg-logo="https://maiorcafm.pt/maiorcafm_logo.png" tvg-chno="261" radio="true" group-title="Rádios Regionais e Locais",Rádio Maiorca
+#EXTINF:-1 tvg-name="Rádio Maiorca" tvg-logo="https://maiorcafm.pt/maiorcafm_logo.png" tvg-chno="262" radio="true" group-title="Rádios Regionais e Locais",Rádio Maiorca
 https://nl.digitalrm.pt:8182/stream
-#EXTINF:-1 tvg-name="Rádio Marcoense" tvg-chno="262" radio="true" group-title="Rádios Regionais e Locais",Rádio Marcoense
+#EXTINF:-1 tvg-name="Rádio Marcoense" tvg-chno="263" radio="true" group-title="Rádios Regionais e Locais",Rádio Marcoense
 http://137.74.160.250:8000/stream
-#EXTINF:-1 tvg-name="Rádio Marginal" tvg-logo="http://cdn-radiotime-logos.tunein.com/s25146q.png" tvg-chno="263" radio="true" group-title="Rádios Regionais e Locais",Rádio Marginal
+#EXTINF:-1 tvg-name="Rádio Marginal" tvg-logo="http://cdn-radiotime-logos.tunein.com/s25146q.png" tvg-chno="264" radio="true" group-title="Rádios Regionais e Locais",Rádio Marginal
 http://centova.radio.com.pt:8499/;
-#EXTINF:-1 tvg-name="Radio Marginal 98.1 FM" tvg-logo="https://marginal.fm/images/logo-marginal.png" tvg-chno="264" radio="true" group-title="Rádios Regionais e Locais",Radio Marginal 98.1 FM
+#EXTINF:-1 tvg-name="Radio Marginal 98.1 FM" tvg-logo="https://marginal.fm/images/logo-marginal.png" tvg-chno="265" radio="true" group-title="Rádios Regionais e Locais",Radio Marginal 98.1 FM
 http://centova.radios.pt:8499/stream
-#EXTINF:-1 tvg-name="Radio Maria Portugal" tvg-chno="265" radio="true" group-title="Rádios Regionais e Locais",Radio Maria Portugal
+#EXTINF:-1 tvg-name="Radio Maria Portugal" tvg-chno="266" radio="true" group-title="Rádios Regionais e Locais",Radio Maria Portugal
 https://dreamsiteradiocp5.com/proxy/rmportugal1?mp=/stream
-#EXTINF:-1 tvg-name="Rádio Marinahais" tvg-logo="https://www.radiomarinhais.pt/wp-content/uploads/2023/06/cropped-favicon_rm-192x192.png" tvg-chno="266" radio="true" group-title="Rádios Regionais e Locais",Rádio Marinahais
+#EXTINF:-1 tvg-name="Rádio Marinahais" tvg-logo="https://www.radiomarinhais.pt/wp-content/uploads/2023/06/cropped-favicon_rm-192x192.png" tvg-chno="267" radio="true" group-title="Rádios Regionais e Locais",Rádio Marinahais
 https://radios2.justweb.pt/8052/stream
-#EXTINF:-1 tvg-name="Rádio Médio Tejo" tvg-logo="https://i0.wp.com/mediotejo.net/wp-content/uploads/2022/04/cropped-LogoMT800x800.png" tvg-chno="267" radio="true" group-title="Rádios Regionais e Locais",Rádio Médio Tejo
+#EXTINF:-1 tvg-name="Rádio Médio Tejo" tvg-logo="https://i0.wp.com/mediotejo.net/wp-content/uploads/2022/04/cropped-LogoMT800x800.png" tvg-chno="268" radio="true" group-title="Rádios Regionais e Locais",Rádio Médio Tejo
 https://stream.expandenarrativa.pt/radio
-#EXTINF:-1 tvg-name="Rádio Mega Hits" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_megafm_new.png" tvg-chno="268" radio="true" group-title="Rádios Regionais e Locais",Rádio Mega Hits
+#EXTINF:-1 tvg-name="Rádio Mega Hits" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_megafm_new.png" tvg-chno="269" radio="true" group-title="Rádios Regionais e Locais",Rádio Mega Hits
 https://29023.live.streamtheworld.com/MEGA_HITS_SC
-#EXTINF:-1 tvg-name="Radio Meio Do Mato" tvg-logo="https://meiodomato.com/static/img/logo.png" tvg-chno="269" radio="true" group-title="Rádios Regionais e Locais",Radio Meio Do Mato
+#EXTINF:-1 tvg-name="Radio Meio Do Mato" tvg-logo="https://meiodomato.com/static/img/logo.png" tvg-chno="270" radio="true" group-title="Rádios Regionais e Locais",Radio Meio Do Mato
 https://radio.meiodomato.com/stream
-#EXTINF:-1 tvg-name="Rádio MEO Music" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logod.png" tvg-chno="270" radio="true" group-title="Rádios Regionais e Locais",Rádio MEO Music
+#EXTINF:-1 tvg-name="Rádio MEO Music" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logod.png" tvg-chno="271" radio="true" group-title="Rádios Regionais e Locais",Rádio MEO Music
 http://centova.radios.pt:8495/;listen.pls
-#EXTINF:-1 tvg-name="Radio Metal On: 80s HNH" tvg-chno="271" radio="true" group-title="Rádios Regionais e Locais",Radio Metal On: 80s HNH
+#EXTINF:-1 tvg-name="Radio Metal On: 80s HNH" tvg-chno="272" radio="true" group-title="Rádios Regionais e Locais",Radio Metal On: 80s HNH
 https://radiometalon.com/listen/radio_metal_on_80s_hnh/radio.mp3
-#EXTINF:-1 tvg-name="Radio Metal On: The Brutal" tvg-chno="272" radio="true" group-title="Rádios Regionais e Locais",Radio Metal On: The Brutal
+#EXTINF:-1 tvg-name="Radio Metal On: The Brutal" tvg-chno="273" radio="true" group-title="Rádios Regionais e Locais",Radio Metal On: The Brutal
 https://radiometalon.com/listen/radio_metal_on_the_brutal/radio.mp3
-#EXTINF:-1 tvg-name="Radio Metal On: The Heavy" tvg-chno="273" radio="true" group-title="Rádios Regionais e Locais",Radio Metal On: The Heavy
+#EXTINF:-1 tvg-name="Radio Metal On: The Heavy" tvg-chno="274" radio="true" group-title="Rádios Regionais e Locais",Radio Metal On: The Heavy
 https://radiometalon.com/listen/radio_metal_on_the_heavy/radio.mp3
-#EXTINF:-1 tvg-name="Radio Metal On: The Thrasher" tvg-chno="274" radio="true" group-title="Rádios Regionais e Locais",Radio Metal On: The Thrasher
+#EXTINF:-1 tvg-name="Radio Metal On: The Thrasher" tvg-chno="275" radio="true" group-title="Rádios Regionais e Locais",Radio Metal On: The Thrasher
 https://radiometalon.com/listen/radio_metal_on_the_thrasher/radio.mp3
-#EXTINF:-1 tvg-name="Radio Metal On: Toxic" tvg-chno="275" radio="true" group-title="Rádios Regionais e Locais",Radio Metal On: Toxic
+#EXTINF:-1 tvg-name="Radio Metal On: Toxic" tvg-chno="276" radio="true" group-title="Rádios Regionais e Locais",Radio Metal On: Toxic
 https://radiometalon.com/listen/radio_metal_on_toxic/radio.mp3
-#EXTINF:-1 tvg-name="Rádio Miúdos" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo2.png" tvg-chno="276" radio="true" group-title="Rádios Regionais e Locais",Rádio Miúdos
+#EXTINF:-1 tvg-name="Rádio Miúdos" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo2.png" tvg-chno="277" radio="true" group-title="Rádios Regionais e Locais",Rádio Miúdos
 https://s5.radio.co/s9c516a065/listen
-#EXTINF:-1 tvg-name="Rádio Monsanto" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/1727175050_53334890f450a92b45ef.png" tvg-chno="277" radio="true" group-title="Rádios Regionais e Locais",Rádio Monsanto
+#EXTINF:-1 tvg-name="Rádio Monsanto" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/1727175050_53334890f450a92b45ef.png" tvg-chno="278" radio="true" group-title="Rádios Regionais e Locais",Rádio Monsanto
 https://s9.yesstreaming.net:9029/stream
-#EXTINF:-1 tvg-name="Rádio Montalegre" tvg-chno="278" radio="true" group-title="Rádios Regionais e Locais",Rádio Montalegre
+#EXTINF:-1 tvg-name="Rádio Montalegre" tvg-chno="279" radio="true" group-title="Rádios Regionais e Locais",Rádio Montalegre
 http://centova.radio.com.pt:9566/;
-#EXTINF:-1 tvg-name="Rádio Montemuro" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/radio-montemuro.png" tvg-chno="279" radio="true" group-title="Rádios Regionais e Locais",Rádio Montemuro
+#EXTINF:-1 tvg-name="Rádio Montemuro" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/radio-montemuro.png" tvg-chno="280" radio="true" group-title="Rádios Regionais e Locais",Rádio Montemuro
 https://shoutcast.htt.pt:8060/radio.mp3
-#EXTINF:-1 tvg-name="Rádio Movimento" tvg-logo="http://radiomovimento.pt/images/rm-logo_2023.png" tvg-chno="280" radio="true" group-title="Rádios Regionais e Locais",Rádio Movimento
+#EXTINF:-1 tvg-name="Rádio Movimento" tvg-logo="http://radiomovimento.pt/images/rm-logo_2023.png" tvg-chno="281" radio="true" group-title="Rádios Regionais e Locais",Rádio Movimento
 https://stream.rcast.net/61025
-#EXTINF:-1 tvg-name="Radio Musgo" tvg-logo="https://radiomusgo.com/img/musgologo_verde_site_small.png" tvg-chno="281" radio="true" group-title="Rádios Regionais e Locais",Radio Musgo
+#EXTINF:-1 tvg-name="Radio Musgo" tvg-logo="https://radiomusgo.com/img/musgologo_verde_site_small.png" tvg-chno="282" radio="true" group-title="Rádios Regionais e Locais",Radio Musgo
 https://stream.radiomusgo.com/main
-#EXTINF:-1 tvg-name="Rádio Neptuno" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-neptuno.webp" tvg-chno="282" radio="true" group-title="Rádios Regionais e Locais",Rádio Neptuno
+#EXTINF:-1 tvg-name="Rádio Neptuno" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-neptuno.webp" tvg-chno="283" radio="true" group-title="Rádios Regionais e Locais",Rádio Neptuno
 http://85.25.185.202:8801/autodj
-#EXTINF:-1 tvg-name="Rádio NoAr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Radio-NoAr_156.png" tvg-chno="283" radio="true" group-title="Rádios Regionais e Locais",Rádio NoAr
+#EXTINF:-1 tvg-name="Rádio NoAr" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Radio-NoAr_156.png" tvg-chno="284" radio="true" group-title="Rádios Regionais e Locais",Rádio NoAr
 https://radios3.justweb.pt:8026/stream
-#EXTINF:-1 tvg-name="Rádio Nostalgia FM 🇪🇸" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/nostalgia-fm-es.png" tvg-chno="284" radio="true" group-title="Rádios Regionais e Locais",Rádio Nostalgia FM 🇪🇸
+#EXTINF:-1 tvg-name="Rádio Nostalgia FM 🇪🇸" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/nostalgia-fm-es.png" tvg-chno="285" radio="true" group-title="Rádios Regionais e Locais",Rádio Nostalgia FM 🇪🇸
 https://azura.abcorp.es:8040/live
-#EXTINF:-1 tvg-name="Radio Nova" tvg-logo="http://www.radionova.fm/favicon.ico" tvg-chno="285" radio="true" group-title="Rádios Regionais e Locais",Radio Nova
+#EXTINF:-1 tvg-name="Radio Nova" tvg-logo="http://www.radionova.fm/favicon.ico" tvg-chno="286" radio="true" group-title="Rádios Regionais e Locais",Radio Nova
 http://centova.radios.pt:9528/
-#EXTINF:-1 tvg-name="Rádio Nova 98.9 FM" tvg-logo="https://www.radionova.fm/wp-content/uploads/2023/05/cropped-favicon-180x180.png" tvg-chno="286" radio="true" group-title="Rádios Regionais e Locais",Rádio Nova 98.9 FM
+#EXTINF:-1 tvg-name="Rádio Nova 98.9 FM" tvg-logo="https://www.radionova.fm/wp-content/uploads/2023/05/cropped-favicon-180x180.png" tvg-chno="287" radio="true" group-title="Rádios Regionais e Locais",Rádio Nova 98.9 FM
 http://centova.radio.com.pt:9528/
-#EXTINF:-1 tvg-name="Rádio Nova 98.9 FM - Porto" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/cropped-favicon-180x180.png" tvg-chno="287" radio="true" group-title="Rádios Regionais e Locais",Rádio Nova 98.9 FM - Porto
+#EXTINF:-1 tvg-name="Rádio Nova 98.9 FM - Porto" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/cropped-favicon-180x180.png" tvg-chno="288" radio="true" group-title="Rádios Regionais e Locais",Rádio Nova 98.9 FM - Porto
 http://centova.radio.com.pt:9528
-#EXTINF:-1 tvg-name="RADIO NOVA ANTENA" tvg-logo="https://radionovaantena.com/wp-content/uploads/sites/2/2024/01/Logo-RNA.png" tvg-chno="288" radio="true" group-title="Rádios Regionais e Locais",RADIO NOVA ANTENA
+#EXTINF:-1 tvg-name="RADIO NOVA ANTENA" tvg-logo="https://radionovaantena.com/wp-content/uploads/sites/2/2024/01/Logo-RNA.png" tvg-chno="289" radio="true" group-title="Rádios Regionais e Locais",RADIO NOVA ANTENA
 https://radios2.justweb.pt:8068/stream?type=http&nocache=82
-#EXTINF:-1 tvg-name="Rádio Nova Era" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo.png" tvg-chno="289" radio="true" group-title="Rádios Regionais e Locais",Rádio Nova Era
+#EXTINF:-1 tvg-name="Rádio Nova Era" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo.png" tvg-chno="290" radio="true" group-title="Rádios Regionais e Locais",Rádio Nova Era
 http://centova.radios.pt:9478
-#EXTINF:-1 tvg-name="Radio Nova Porto 98.9FM" tvg-logo="https://www.radionova.fm/wp-content/uploads/2023/05/cropped-favicon-32x32.png" tvg-chno="290" radio="true" group-title="Rádios Regionais e Locais",Radio Nova Porto 98.9FM
+#EXTINF:-1 tvg-name="Radio Nova Porto 98.9FM" tvg-logo="https://www.radionova.fm/wp-content/uploads/2023/05/cropped-favicon-32x32.png" tvg-chno="291" radio="true" group-title="Rádios Regionais e Locais",Radio Nova Porto 98.9FM
 http://centova.radios.pt:9528/stream
-#EXTINF:-1 tvg-name="Rádio nove3cinco" tvg-chno="291" radio="true" group-title="Rádios Regionais e Locais",Rádio nove3cinco
+#EXTINF:-1 tvg-name="Rádio nove3cinco" tvg-chno="292" radio="true" group-title="Rádios Regionais e Locais",Rádio nove3cinco
 http://centova.radio.com.pt:9522/;
-#EXTINF:-1 tvg-name="Radio OnBouge" tvg-logo="https://onbouge.eu/images/pictos/png/256/radio.png" tvg-chno="292" radio="true" group-title="Rádios Regionais e Locais",Radio OnBouge
+#EXTINF:-1 tvg-name="Radio OnBouge" tvg-logo="https://onbouge.eu/images/pictos/png/256/radio.png" tvg-chno="293" radio="true" group-title="Rádios Regionais e Locais",Radio OnBouge
 https://onbouge.eu/flux/onbouge.mp3
-#EXTINF:-1 tvg-name="Rádio OnBouge Português" tvg-logo="https://onbouge.eu/images/pictos/png/256/radio.png" tvg-chno="293" radio="true" group-title="Rádios Regionais e Locais",Rádio OnBouge Português
+#EXTINF:-1 tvg-name="Rádio OnBouge Português" tvg-logo="https://onbouge.eu/images/pictos/png/256/radio.png" tvg-chno="294" radio="true" group-title="Rádios Regionais e Locais",Rádio OnBouge Português
 https://onbouge.eu/flux/onbouge-pt.mp3
-#EXTINF:-1 tvg-name="Rádio Onda Azul" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-onda-azul.webp" tvg-chno="294" radio="true" group-title="Rádios Regionais e Locais",Rádio Onda Azul
+#EXTINF:-1 tvg-name="Rádio Onda Azul" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-onda-azul.webp" tvg-chno="295" radio="true" group-title="Rádios Regionais e Locais",Rádio Onda Azul
 https://ecmanager4.pro-fhi.net:1540/stream
-#EXTINF:-1 tvg-name="Rádio Onda Viva" tvg-chno="295" radio="true" group-title="Rádios Regionais e Locais",Rádio Onda Viva
+#EXTINF:-1 tvg-name="Rádio Onda Viva" tvg-chno="296" radio="true" group-title="Rádios Regionais e Locais",Rádio Onda Viva
 http://centova.radio.com.pt:9524/;
-#EXTINF:-1 tvg-name="Rádio Ondas do Lima" tvg-chno="296" radio="true" group-title="Rádios Regionais e Locais",Rádio Ondas do Lima
+#EXTINF:-1 tvg-name="Rádio Ondas do Lima" tvg-chno="297" radio="true" group-title="Rádios Regionais e Locais",Rádio Ondas do Lima
 http://centova.radio.com.pt:8407/;
-#EXTINF:-1 tvg-name="Rádio Orbital" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logod.png" tvg-chno="297" radio="true" group-title="Rádios Regionais e Locais",Rádio Orbital
+#EXTINF:-1 tvg-name="Rádio Orbital" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logod.png" tvg-chno="298" radio="true" group-title="Rádios Regionais e Locais",Rádio Orbital
 https://ec2.yesstreaming.net:3025/stream
-#EXTINF:-1 tvg-name="Rádio Palavra Antiga" tvg-logo="https://palavraantiga.org/web/image/717-e4330d3e/logo-palavraantiga-512.png" tvg-chno="298" radio="true" group-title="Rádios Regionais e Locais",Rádio Palavra Antiga
+#EXTINF:-1 tvg-name="Rádio Palavra Antiga" tvg-logo="https://palavraantiga.org/web/image/717-e4330d3e/logo-palavraantiga-512.png" tvg-chno="299" radio="true" group-title="Rádios Regionais e Locais",Rádio Palavra Antiga
 https://radio.palavraantiga.org/listen/palavraantiga/radio.mp3
-#EXTINF:-1 tvg-name="Rádio Palmeira Madeira (96.1 FM)" tvg-logo="https://www.celsoazevedo.com/files/random/2024/radio-palmeira.png" tvg-chno="299" radio="true" group-title="Rádios Regionais e Locais",Rádio Palmeira Madeira (96.1 FM)
+#EXTINF:-1 tvg-name="Rádio Palmeira Madeira (96.1 FM)" tvg-logo="https://www.celsoazevedo.com/files/random/2024/radio-palmeira.png" tvg-chno="300" radio="true" group-title="Rádios Regionais e Locais",Rádio Palmeira Madeira (96.1 FM)
 https://audio.serv.pt/8018/stream.mp3
-#EXTINF:-1 tvg-name="Rádio Paralelo" tvg-logo="https://radio.indymedia.pt/paralelo-star.png" tvg-chno="300" radio="true" group-title="Rádios Regionais e Locais",Rádio Paralelo
+#EXTINF:-1 tvg-name="Rádio Paralelo" tvg-logo="https://radio.indymedia.pt/paralelo-star.png" tvg-chno="301" radio="true" group-title="Rádios Regionais e Locais",Rádio Paralelo
 https://radioparalelo.indymedia.pt/listen/paralelo/radio.mp3
-#EXTINF:-1 tvg-name="Rádio Pax" tvg-logo="https://radioonline.com.pt/regiao/alentejo/#pax" tvg-chno="301" radio="true" group-title="Rádios Regionais e Locais",Rádio Pax
+#EXTINF:-1 tvg-name="Rádio Pax" tvg-logo="https://radioonline.com.pt/regiao/alentejo/#pax" tvg-chno="302" radio="true" group-title="Rádios Regionais e Locais",Rádio Pax
 https://centova.radio.com.pt/proxy/484?mp=/stream
-#EXTINF:-1 tvg-name="Rádio Pico" tvg-logo="http://www.radiopico.com/fx/logo_radiopico_2012.png" tvg-chno="302" radio="true" group-title="Rádios Regionais e Locais",Rádio Pico
+#EXTINF:-1 tvg-name="Rádio Pico" tvg-logo="http://www.radiopico.com/fx/logo_radiopico_2012.png" tvg-chno="303" radio="true" group-title="Rádios Regionais e Locais",Rádio Pico
 http://centova.radios.pt:9420/stream
-#EXTINF:-1 tvg-name="Rádio Popular Afifense" tvg-logo="http://cdn-radiotime-logos.tunein.com/s84209q.png" tvg-chno="303" radio="true" group-title="Rádios Regionais e Locais",Rádio Popular Afifense
+#EXTINF:-1 tvg-name="Rádio Popular Afifense" tvg-logo="http://cdn-radiotime-logos.tunein.com/s84209q.png" tvg-chno="304" radio="true" group-title="Rádios Regionais e Locais",Rádio Popular Afifense
 http://centova.radio.com.pt:8471/;
-#EXTINF:-1 tvg-name="Rádio Popular de Source" tvg-chno="304" radio="true" group-title="Rádios Regionais e Locais",Rádio Popular de Source
+#EXTINF:-1 tvg-name="Rádio Popular de Source" tvg-chno="305" radio="true" group-title="Rádios Regionais e Locais",Rádio Popular de Source
 https://nl.digitalrm.pt:8072/stream?1671016403075=
-#EXTINF:-1 tvg-name="Rádio Portalegre" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/radioportalegre.png" tvg-chno="305" radio="true" group-title="Rádios Regionais e Locais",Rádio Portalegre
+#EXTINF:-1 tvg-name="Rádio Portalegre" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/radioportalegre.png" tvg-chno="306" radio="true" group-title="Rádios Regionais e Locais",Rádio Portalegre
 http://centova.radios.pt:9492/stream
-#EXTINF:-1 tvg-name="Rádio Portuense" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/oie_dUXe4SR8xHI0.png" tvg-chno="306" radio="true" group-title="Rádios Regionais e Locais",Rádio Portuense
+#EXTINF:-1 tvg-name="Rádio Portuense" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/oie_dUXe4SR8xHI0.png" tvg-chno="307" radio="true" group-title="Rádios Regionais e Locais",Rádio Portuense
 https://sp0.redeaudio.com:10905/stream
-#EXTINF:-1 tvg-name="Radio Portugal Mais" tvg-chno="307" radio="true" group-title="Rádios Regionais e Locais",Radio Portugal Mais
+#EXTINF:-1 tvg-name="Radio Portugal Mais" tvg-chno="308" radio="true" group-title="Rádios Regionais e Locais",Radio Portugal Mais
 https://sv15.hdradios.net:7432/stream
-#EXTINF:-1 tvg-name="Radio Portuguesa do Var" tvg-chno="308" radio="true" group-title="Rádios Regionais e Locais",Radio Portuguesa do Var
+#EXTINF:-1 tvg-name="Radio Portuguesa do Var" tvg-chno="309" radio="true" group-title="Rádios Regionais e Locais",Radio Portuguesa do Var
 https://sonic.servsonic.com:7003/;
-#EXTINF:-1 tvg-name="Rádio Quântica" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/radio-quantica.png" tvg-chno="309" radio="true" group-title="Rádios Regionais e Locais",Rádio Quântica
+#EXTINF:-1 tvg-name="Rádio Quântica" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/radio-quantica.png" tvg-chno="310" radio="true" group-title="Rádios Regionais e Locais",Rádio Quântica
 https://libretime.radioquantica.com/main.mp3
-#EXTINF:-1 tvg-name="Rádio Quinta do Conde" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/radio-quinta-do-conde.png" tvg-chno="310" radio="true" group-title="Rádios Regionais e Locais",Rádio Quinta do Conde
+#EXTINF:-1 tvg-name="Rádio Quinta do Conde" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/radio-quinta-do-conde.png" tvg-chno="311" radio="true" group-title="Rádios Regionais e Locais",Rádio Quinta do Conde
 https://sp0.redeaudio.com/8100/stream
-#EXTINF:-1 tvg-name="Radio RCI" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-rci.webp" tvg-chno="311" radio="true" group-title="Rádios Regionais e Locais",Radio RCI
+#EXTINF:-1 tvg-name="Radio RCI" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-rci.webp" tvg-chno="312" radio="true" group-title="Rádios Regionais e Locais",Radio RCI
 https://nl.digitalrm.pt:8002/stream
-#EXTINF:-1 tvg-name="RADIO RCP-VAR" tvg-chno="312" radio="true" group-title="Rádios Regionais e Locais",RADIO RCP-VAR
+#EXTINF:-1 tvg-name="RADIO RCP-VAR" tvg-chno="313" radio="true" group-title="Rádios Regionais e Locais",RADIO RCP-VAR
 https://sonic.servsonic.com/8028/stream
-#EXTINF:-1 tvg-name="Rádio RCS 91.2 FM" tvg-logo="https://www.novotempo.pt/favicon.ico" tvg-chno="313" radio="true" group-title="Rádios Regionais e Locais",Rádio RCS 91.2 FM
+#EXTINF:-1 tvg-name="Rádio RCS 91.2 FM" tvg-logo="https://www.novotempo.pt/favicon.ico" tvg-chno="314" radio="true" group-title="Rádios Regionais e Locais",Rádio RCS 91.2 FM
 http://centova.radio.com.pt:8445/stream
-#EXTINF:-1 tvg-name="Rádio RDS" tvg-logo="https://scontent.flis5-4.fna.fbcdn.net/v/t39.30808-6/500655283_1250058963794271_2889443567232358165_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=w4U8bIGVv8QQ7kNvwFQYb3f&_nc_oc=Adl1a0tjkODtR6LsxYNF4xmjU3R7pnfIY4H62LN4IULEhOBmH867pgTZecknGItgI7w&_nc_zt=23&_nc_ht=scontent.flis5-4.fna&_nc_gid=VljbMq8gQlSef4mDIf-KBg&_nc_ss=8&oh=00_AfxZw2tULhaZnOXBJD5gH-GRFgzQ7so9glsW0xIr7XUahg&oe=69BAF319BoPBYDAYDIafnv8BMyMWrREjVeQAAAAASUVORK5CYII=" tvg-chno="314" radio="true" group-title="Rádios Regionais e Locais",Rádio RDS
+#EXTINF:-1 tvg-name="Rádio RDS" tvg-logo="https://scontent.flis5-4.fna.fbcdn.net/v/t39.30808-6/500655283_1250058963794271_2889443567232358165_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=w4U8bIGVv8QQ7kNvwFQYb3f&_nc_oc=Adl1a0tjkODtR6LsxYNF4xmjU3R7pnfIY4H62LN4IULEhOBmH867pgTZecknGItgI7w&_nc_zt=23&_nc_ht=scontent.flis5-4.fna&_nc_gid=VljbMq8gQlSef4mDIf-KBg&_nc_ss=8&oh=00_AfxZw2tULhaZnOXBJD5gH-GRFgzQ7so9glsW0xIr7XUahg&oe=69BAF319BoPBYDAYDIafnv8BMyMWrREjVeQAAAAASUVORK5CYII=" tvg-chno="315" radio="true" group-title="Rádios Regionais e Locais",Rádio RDS
 https://s9.yesstreaming.net:7070/stream
-#EXTINF:-1 tvg-name="Radio Record Porto" tvg-chno="315" radio="true" group-title="Rádios Regionais e Locais",Radio Record Porto
+#EXTINF:-1 tvg-name="Radio Record Porto" tvg-chno="316" radio="true" group-title="Rádios Regionais e Locais",Radio Record Porto
 https://nl.digitalrm.pt:8028/stream
-#EXTINF:-1 tvg-name="Rádio Regional" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/0vmzhdz.png" tvg-chno="316" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional
+#EXTINF:-1 tvg-name="Rádio Regional" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/0vmzhdz.png" tvg-chno="317" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional
 http://streaming.radioregional.pt:8002
-#EXTINF:-1 tvg-name="Rádio Regional Arouca" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo-radio1.png" tvg-chno="317" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Arouca
+#EXTINF:-1 tvg-name="Rádio Regional Arouca" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo-radio1.png" tvg-chno="318" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Arouca
 http://centova.radio.com.pt:8485/stream
-#EXTINF:-1 tvg-name="Rádio Regional Dance & DJS" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/hUrEKgu.png" tvg-chno="318" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Dance & DJS
+#EXTINF:-1 tvg-name="Rádio Regional Dance & DJS" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/hUrEKgu.png" tvg-chno="319" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Dance & DJS
 http://streaming.radioregional.pt:8064
-#EXTINF:-1 tvg-name="Rádio regional de Arouca 103.2 FM" tvg-chno="319" radio="true" group-title="Rádios Regionais e Locais",Rádio regional de Arouca 103.2 FM
+#EXTINF:-1 tvg-name="Rádio regional de Arouca 103.2 FM" tvg-chno="320" radio="true" group-title="Rádios Regionais e Locais",Rádio regional de Arouca 103.2 FM
 http://centova.radio.com.pt:8485/;
-#EXTINF:-1 tvg-name="Rádio Regional do Centro" tvg-chno="320" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional do Centro
+#EXTINF:-1 tvg-name="Rádio Regional do Centro" tvg-chno="321" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional do Centro
 https://nl.digitalrm.pt:8030/stream?1671017145140=
-#EXTINF:-1 tvg-name="Rádio Regional Love Songs" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/aPZ5joL.png" tvg-chno="321" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Love Songs
+#EXTINF:-1 tvg-name="Rádio Regional Love Songs" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/aPZ5joL.png" tvg-chno="322" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Love Songs
 http://streaming.radioregional.pt:8058
-#EXTINF:-1 tvg-name="Rádio Regional Oldies" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/1zntJ9S.png" tvg-chno="322" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Oldies
+#EXTINF:-1 tvg-name="Rádio Regional Oldies" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/1zntJ9S.png" tvg-chno="323" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Oldies
 http://streaming.radioregional.pt:8052
-#EXTINF:-1 tvg-name="Rádio Regional Portuguesa" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/x48qEMX.png" tvg-chno="323" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Portuguesa
+#EXTINF:-1 tvg-name="Rádio Regional Portuguesa" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/x48qEMX.png" tvg-chno="324" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Portuguesa
 http://streaming.radioregional.pt:8040
-#EXTINF:-1 tvg-name="Rádio Regional Rock" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/tKrKYOR.png" tvg-chno="324" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Rock
+#EXTINF:-1 tvg-name="Rádio Regional Rock" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/tKrKYOR.png" tvg-chno="325" radio="true" group-title="Rádios Regionais e Locais",Rádio Regional Rock
 http://streaming.radioregional.pt:8046
-#EXTINF:-1 tvg-name="Rádio RFM Oitentas" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/oitentas.png" tvg-chno="325" radio="true" group-title="Rádios Regionais e Locais",Rádio RFM Oitentas
+#EXTINF:-1 tvg-name="Rádio RFM Oitentas" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/oitentas.png" tvg-chno="326" radio="true" group-title="Rádios Regionais e Locais",Rádio RFM Oitentas
 https://22533.live.streamtheworld.com/GR80SRFMAAC
-#EXTINF:-1 tvg-name="Rádio Riba-Távora" tvg-chno="326" radio="true" group-title="Rádios Regionais e Locais",Rádio Riba-Távora
+#EXTINF:-1 tvg-name="Rádio Riba-Távora" tvg-chno="327" radio="true" group-title="Rádios Regionais e Locais",Rádio Riba-Távora
 http://centova.radio.com.pt:9542/;
-#EXTINF:-1 tvg-name="Radio Rock Pirata" tvg-logo="https://radio.softshell-octatonic.ts.net/logo.jpg" tvg-chno="327" radio="true" group-title="Rádios Regionais e Locais",Radio Rock Pirata
+#EXTINF:-1 tvg-name="Radio Rock Pirata" tvg-logo="https://radio.softshell-octatonic.ts.net/logo.jpg" tvg-chno="328" radio="true" group-title="Rádios Regionais e Locais",Radio Rock Pirata
 https://radio.softshell-octatonic.ts.net/stream
-#EXTINF:-1 tvg-name="Rádio RTP África" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png" tvg-chno="328" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP África
+#EXTINF:-1 tvg-name="Rádio RTP África" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-África.png" tvg-chno="329" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP África
 https://streaming-live.rtp.pt/liveradio/rdpafrica80a/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio RTP Antena 1" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena1.png" tvg-chno="329" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Antena 1
+#EXTINF:-1 tvg-name="Rádio RTP Antena 1" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena1.png" tvg-chno="330" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Antena 1
 https://streaming-live.rtp.pt/liveradio/antena180a/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio RTP Antena 2" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena2.png" tvg-chno="330" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Antena 2
+#EXTINF:-1 tvg-name="Rádio RTP Antena 2" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena2.png" tvg-chno="331" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Antena 2
 https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio RTP Antena 3" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena3.png" tvg-chno="331" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Antena 3
+#EXTINF:-1 tvg-name="Rádio RTP Antena 3" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena3.png" tvg-chno="332" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Antena 3
 https://streaming-live.rtp.pt/liveradio/antena380a/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio RTP Fado" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena1fado.png" tvg-chno="332" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Fado
+#EXTINF:-1 tvg-name="Rádio RTP Fado" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena1fado.png" tvg-chno="333" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Fado
 https://streaming-live.rtp.pt/liveradio/antena1fado80a/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio RTP Jazzin'" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena2jazzin.png" tvg-chno="333" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Jazzin'
+#EXTINF:-1 tvg-name="Rádio RTP Jazzin'" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena2jazzin.png" tvg-chno="334" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Jazzin'
 https://streaming-live.rtp.pt/liveradio/antena2jazzin80a/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio RTP Lusitânia" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/radiolusitania.png" tvg-chno="334" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Lusitânia
+#EXTINF:-1 tvg-name="Rádio RTP Lusitânia" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/radiolusitania.png" tvg-chno="335" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Lusitânia
 https://streaming-live.rtp.pt/liveradio/lusitania80a/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio RTP Mundo" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Mundo.png" tvg-chno="335" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Mundo
+#EXTINF:-1 tvg-name="Rádio RTP Mundo" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP-Mundo.png" tvg-chno="336" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Mundo
 https://streaming-live.rtp.pt/liveradio/rdpint80a/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio RTP Ópera" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena2opera.png" tvg-chno="336" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Ópera
+#EXTINF:-1 tvg-name="Rádio RTP Ópera" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/antena2opera.png" tvg-chno="337" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Ópera
 https://streaming-live.rtp.pt/liveradio/antena2opera80a/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio RTP Zig Zag" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_RadioZigZag.png" tvg-chno="337" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Zig Zag
+#EXTINF:-1 tvg-name="Rádio RTP Zig Zag" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_RadioZigZag.png" tvg-chno="338" radio="true" group-title="Rádios Regionais e Locais",Rádio RTP Zig Zag
 https://streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Santiago" tvg-chno="338" radio="true" group-title="Rádios Regionais e Locais",Rádio Santiago
+#EXTINF:-1 tvg-name="Rádio Santiago" tvg-chno="339" radio="true" group-title="Rádios Regionais e Locais",Rádio Santiago
 http://eu6.fastcast4u.com:5002/stream
-#EXTINF:-1 tvg-name="Rádio Sines" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo.png" tvg-chno="339" radio="true" group-title="Rádios Regionais e Locais",Rádio Sines
+#EXTINF:-1 tvg-name="Rádio Sines" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo.png" tvg-chno="340" radio="true" group-title="Rádios Regionais e Locais",Rádio Sines
 https://sp0.redeaudio.com/9580/stream
-#EXTINF:-1 tvg-name="Rádio Smooth FM" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo-smooth-fm_0.png" tvg-chno="340" radio="true" group-title="Rádios Regionais e Locais",Rádio Smooth FM
+#EXTINF:-1 tvg-name="Rádio Smooth FM" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo-smooth-fm_0.png" tvg-chno="341" radio="true" group-title="Rádios Regionais e Locais",Rádio Smooth FM
 https://stream-hls.bauermedia.pt/smooth.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="Rádio Sol Madeira (103.7 FM)" tvg-logo="https://www.celsoazevedo.com/files/random/2024/radio-sol.png" tvg-chno="341" radio="true" group-title="Rádios Regionais e Locais",Rádio Sol Madeira (103.7 FM)
+#EXTINF:-1 tvg-name="Rádio Sol Madeira (103.7 FM)" tvg-logo="https://www.celsoazevedo.com/files/random/2024/radio-sol.png" tvg-chno="342" radio="true" group-title="Rádios Regionais e Locais",Rádio Sol Madeira (103.7 FM)
 https://audio.serv.pt/8010/stream.mp3
-#EXTINF:-1 tvg-name="Rádio Sudoeste" tvg-logo="https://radiosudoeste.pt/favicon.ico" tvg-chno="342" radio="true" group-title="Rádios Regionais e Locais",Rádio Sudoeste
+#EXTINF:-1 tvg-name="Rádio Sudoeste" tvg-logo="https://radiosudoeste.pt/favicon.ico" tvg-chno="343" radio="true" group-title="Rádios Regionais e Locais",Rádio Sudoeste
 https://centova.radios.pt/proxy/495?mp=/stream
-#EXTINF:-1 tvg-name="Rádio Tágide" tvg-logo="https://radiotagide.pt/wp-content/uploads/2022/04/cropped-SIMBOLO_TAGIDE-32x32.png" tvg-chno="343" radio="true" group-title="Rádios Regionais e Locais",Rádio Tágide
+#EXTINF:-1 tvg-name="Rádio Tágide" tvg-logo="https://radiotagide.pt/wp-content/uploads/2022/04/cropped-SIMBOLO_TAGIDE-32x32.png" tvg-chno="344" radio="true" group-title="Rádios Regionais e Locais",Rádio Tágide
 https://azuracast.rhoster.pt/listen/radio_tagide/radio.mp3
-#EXTINF:-1 tvg-name="RÁDIO TERERE" tvg-logo="https://radioterereweb.mixhd.com.br/" tvg-chno="344" radio="true" group-title="Rádios Regionais e Locais",RÁDIO TERERE
+#EXTINF:-1 tvg-name="RÁDIO TERERE" tvg-logo="https://radioterereweb.mixhd.com.br/" tvg-chno="345" radio="true" group-title="Rádios Regionais e Locais",RÁDIO TERERE
 https://stm1.voxhd.com.br:9094/stream
-#EXTINF:-1 tvg-name="Rádio Terra Nova" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logotipoterranova.png" tvg-chno="345" radio="true" group-title="Rádios Regionais e Locais",Rádio Terra Nova
+#EXTINF:-1 tvg-name="Rádio Terra Nova" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logotipoterranova.png" tvg-chno="346" radio="true" group-title="Rádios Regionais e Locais",Rádio Terra Nova
 http://centova.radios.pt:9404/stream
-#EXTINF:-1 tvg-name="Radio Transforma" tvg-logo="https://radiotransforma.net/wp-content/uploads/2025/05/cropped-logo-radio-192x192.jpg" tvg-chno="346" radio="true" group-title="Rádios Regionais e Locais",Radio Transforma
+#EXTINF:-1 tvg-name="Radio Transforma" tvg-logo="https://radiotransforma.net/wp-content/uploads/2025/05/cropped-logo-radio-192x192.jpg" tvg-chno="347" radio="true" group-title="Rádios Regionais e Locais",Radio Transforma
 https://cast1.redeaudio.com/proxy/radiotransforma/stream
-#EXTINF:-1 tvg-name="Rádio TSF" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo-tsf.png" tvg-chno="347" radio="true" group-title="Rádios Regionais e Locais",Rádio TSF
+#EXTINF:-1 tvg-name="Rádio TSF" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo-tsf.png" tvg-chno="348" radio="true" group-title="Rádios Regionais e Locais",Rádio TSF
 http://tsfdirecto.tsf.pt/tsfdirecto.mp3
-#EXTINF:-1 tvg-name="Rádio Universitária de Coimbra" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Logo-RUC-2020_assinaturas_Prancheta-1-copia.png" tvg-chno="348" radio="true" group-title="Rádios Regionais e Locais",Rádio Universitária de Coimbra
+#EXTINF:-1 tvg-name="Rádio Universitária de Coimbra" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Logo-RUC-2020_assinaturas_Prancheta-1-copia.png" tvg-chno="349" radio="true" group-title="Rádios Regionais e Locais",Rádio Universitária de Coimbra
 https://stream.ruc.pt/high
-#EXTINF:-1 tvg-name="Rádio Universitária UMinho" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/773/rum-radio-universitaria-do-minho.b70e0901.png" tvg-chno="349" radio="true" group-title="Rádios Regionais e Locais",Rádio Universitária UMinho
+#EXTINF:-1 tvg-name="Rádio Universitária UMinho" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/773/rum-radio-universitaria-do-minho.b70e0901.png" tvg-chno="350" radio="true" group-title="Rádios Regionais e Locais",Rádio Universitária UMinho
 http://centova.radio.com.pt:9558/stream
-#EXTINF:-1 tvg-name="Rádio US Nelas" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-us-nelas.webp" tvg-chno="350" radio="true" group-title="Rádios Regionais e Locais",Rádio US Nelas
+#EXTINF:-1 tvg-name="Rádio US Nelas" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-us-nelas.webp" tvg-chno="351" radio="true" group-title="Rádios Regionais e Locais",Rádio US Nelas
 https://sp0.redeaudio.com/8054/stream
-#EXTINF:-1 tvg-name="Rádio Valdevez" tvg-logo="http://cdn-radiotime-logos.tunein.com/s84205q.png" tvg-chno="351" radio="true" group-title="Rádios Regionais e Locais",Rádio Valdevez
+#EXTINF:-1 tvg-name="Rádio Valdevez" tvg-logo="http://cdn-radiotime-logos.tunein.com/s84205q.png" tvg-chno="352" radio="true" group-title="Rádios Regionais e Locais",Rádio Valdevez
 http://centova.radios.pt:9508/stream
-#EXTINF:-1 tvg-name="Rádio Vale do Minho" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_rvm-01.png" tvg-chno="352" radio="true" group-title="Rádios Regionais e Locais",Rádio Vale do Minho
+#EXTINF:-1 tvg-name="Rádio Vale do Minho" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/logo_rvm-01.png" tvg-chno="353" radio="true" group-title="Rádios Regionais e Locais",Rádio Vale do Minho
 http://centova.radio.com.pt:9434
-#EXTINF:-1 tvg-name="Rádio VFM" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-vfm.webp" tvg-chno="353" radio="true" group-title="Rádios Regionais e Locais",Rádio VFM
+#EXTINF:-1 tvg-name="Rádio VFM" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-vfm.webp" tvg-chno="354" radio="true" group-title="Rádios Regionais e Locais",Rádio VFM
 https://cast.redewt.net/proxy/vfm/stream
-#EXTINF:-1 tvg-name="Radio Vibe" tvg-logo="https://radio-vibe-101-stream-render-4tnt.onrender.com/static/radio-vibe.png" tvg-chno="354" radio="true" group-title="Rádios Regionais e Locais",Radio Vibe
+#EXTINF:-1 tvg-name="Radio Vibe" tvg-logo="https://radio-vibe-101-stream-render-4tnt.onrender.com/static/radio-vibe.png" tvg-chno="355" radio="true" group-title="Rádios Regionais e Locais",Radio Vibe
 https://radio-vibe-101-stream-render-4tnt.onrender.com/live
-#EXTINF:-1 tvg-name="Rádio Vida FM 97.1" tvg-chno="355" radio="true" group-title="Rádios Regionais e Locais",Rádio Vida FM 97.1
+#EXTINF:-1 tvg-name="Rádio Vida FM 97.1" tvg-chno="356" radio="true" group-title="Rádios Regionais e Locais",Rádio Vida FM 97.1
 http://centova.radio.com.pt:9482/;
-#EXTINF:-1 tvg-name="Rádio Vida Terra Rica" tvg-logo="https://www.facebook.com/radiovidaterraricapr" tvg-chno="356" radio="true" group-title="Rádios Regionais e Locais",Rádio Vida Terra Rica
+#EXTINF:-1 tvg-name="Rádio Vida Terra Rica" tvg-logo="https://www.facebook.com/radiovidaterraricapr" tvg-chno="357" radio="true" group-title="Rádios Regionais e Locais",Rádio Vida Terra Rica
 https://stm1.voxhd.com.br:7706/
-#EXTINF:-1 tvg-name="Rádio Vidigueira" tvg-chno="357" radio="true" group-title="Rádios Regionais e Locais",Rádio Vidigueira
+#EXTINF:-1 tvg-name="Rádio Vidigueira" tvg-chno="358" radio="true" group-title="Rádios Regionais e Locais",Rádio Vidigueira
 http://centova.radio.com.pt:8567/;
-#EXTINF:-1 tvg-name="Rádio Viriato" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-viriato.webp" tvg-chno="358" radio="true" group-title="Rádios Regionais e Locais",Rádio Viriato
+#EXTINF:-1 tvg-name="Rádio Viriato" tvg-logo="https://cdn.radoxo.com/images/portugal/radio-viriato.webp" tvg-chno="359" radio="true" group-title="Rádios Regionais e Locais",Rádio Viriato
 https://smartmedia.stmxp.net:8066/stream
-#EXTINF:-1 tvg-name="Radio Viseu" tvg-logo="https://s2.radio.co/sf5c3ab01d/listen" tvg-chno="359" radio="true" group-title="Rádios Regionais e Locais",Radio Viseu
+#EXTINF:-1 tvg-name="Radio Viseu" tvg-logo="https://s2.radio.co/sf5c3ab01d/listen" tvg-chno="360" radio="true" group-title="Rádios Regionais e Locais",Radio Viseu
 https://s2.radio.co/sf5c3ab01d/listen
-#EXTINF:-1 tvg-name="Rádio Vizela" tvg-chno="360" radio="true" group-title="Rádios Regionais e Locais",Rádio Vizela
+#EXTINF:-1 tvg-name="Rádio Vizela" tvg-chno="361" radio="true" group-title="Rádios Regionais e Locais",Rádio Vizela
 https://proxy-audio.ptisp.com:8100/stream
-#EXTINF:-1 tvg-name="Rádio XL FM" tvg-logo="https://radioxlfm.pt/wp-content/uploads/2020/07/cropped-favicon-novo-180x180.png" tvg-chno="361" radio="true" group-title="Rádios Regionais e Locais",Rádio XL FM
+#EXTINF:-1 tvg-name="Rádio XL FM" tvg-logo="https://radioxlfm.pt/wp-content/uploads/2020/07/cropped-favicon-novo-180x180.png" tvg-chno="362" radio="true" group-title="Rádios Regionais e Locais",Rádio XL FM
 https://radios.justweb.pt/8002/stream
-#EXTINF:-1 tvg-name="Rádio Zarco Madeira (89.6 FM)" tvg-logo="https://www.celsoazevedo.com/files/random/2024/radio-zarco.png" tvg-chno="362" radio="true" group-title="Rádios Regionais e Locais",Rádio Zarco Madeira (89.6 FM)
+#EXTINF:-1 tvg-name="Rádio Zarco Madeira (89.6 FM)" tvg-logo="https://www.celsoazevedo.com/files/random/2024/radio-zarco.png" tvg-chno="363" radio="true" group-title="Rádios Regionais e Locais",Rádio Zarco Madeira (89.6 FM)
 https://audio.serv.pt/8014/stream.mp3
-#EXTINF:-1 tvg-name="Rádio Zig Zag" tvg-logo="https://www.celsoazevedo.com/files/2022/11/radio-zig-zag.png" tvg-chno="363" radio="true" group-title="Rádios Regionais e Locais",Rádio Zig Zag
+#EXTINF:-1 tvg-name="Rádio Zig Zag" tvg-logo="https://www.celsoazevedo.com/files/2022/11/radio-zig-zag.png" tvg-chno="364" radio="true" group-title="Rádios Regionais e Locais",Rádio Zig Zag
 https://streaming-live.rtp.pt/liveradio/zigzag80a/playlist.m3u8
-#EXTINF:-1 tvg-name="radiofutura.pt" tvg-logo="https://www.radiofutura.pt/uploads/1/3/3/3/133330486/ftr-logotipo-slogan-preto-em-branco.png" tvg-chno="364" radio="true" group-title="Rádios Regionais e Locais",radiofutura.pt
+#EXTINF:-1 tvg-name="radiofutura.pt" tvg-logo="https://www.radiofutura.pt/uploads/1/3/3/3/133330486/ftr-logotipo-slogan-preto-em-branco.png" tvg-chno="365" radio="true" group-title="Rádios Regionais e Locais",radiofutura.pt
 https://s4.radio.co/s7e7b6c165/low
-#EXTINF:-1 tvg-name="Rap/Hip Hop" tvg-chno="365" radio="true" group-title="Rádios Regionais e Locais",Rap/Hip Hop
+#EXTINF:-1 tvg-name="Rap/Hip Hop" tvg-chno="366" radio="true" group-title="Rádios Regionais e Locais",Rap/Hip Hop
 http://185.32.188.17:8097/stream
-#EXTINF:-1 tvg-name="RCA - Rádio Clube de Armamar" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/287/rca-radio-clube-de-armamar.d8198e90.png" tvg-chno="366" radio="true" group-title="Rádios Regionais e Locais",RCA - Rádio Clube de Armamar
+#EXTINF:-1 tvg-name="RCA - Rádio Clube de Armamar" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/287/rca-radio-clube-de-armamar.d8198e90.png" tvg-chno="367" radio="true" group-title="Rádios Regionais e Locais",RCA - Rádio Clube de Armamar
 https://radios2.justweb.pt/8054/stream
-#EXTINF:-1 tvg-name="RCP - Rádio Clube da Pampilhosa" tvg-logo="https://www.rcpfm.com/wp-content/uploads/2024/11/92.6elogo-1024x1024.jpg" tvg-chno="367" radio="true" group-title="Rádios Regionais e Locais",RCP - Rádio Clube da Pampilhosa
+#EXTINF:-1 tvg-name="RCP - Rádio Clube da Pampilhosa" tvg-logo="https://www.rcpfm.com/wp-content/uploads/2024/11/92.6elogo-1024x1024.jpg" tvg-chno="368" radio="true" group-title="Rádios Regionais e Locais",RCP - Rádio Clube da Pampilhosa
 https://sp0.redeaudio.com:10977/stream
-#EXTINF:-1 tvg-name="RDS Romantica" tvg-logo="https://player.yesstreaming.com/uploads/logos/1727175777_c4e6b4b27f8127d74391.jpg" tvg-chno="368" radio="true" group-title="Rádios Regionais e Locais",RDS Romantica
+#EXTINF:-1 tvg-name="RDS Romantica" tvg-logo="https://player.yesstreaming.com/uploads/logos/1727175777_c4e6b4b27f8127d74391.jpg" tvg-chno="369" radio="true" group-title="Rádios Regionais e Locais",RDS Romantica
 https://s9.yesstreaming.net:9066/stream
-#EXTINF:-1 tvg-name="Record 101 4 FM" tvg-logo="https://www.radios.com.br/aovivo/radio-record-1077-fm/8928" tvg-chno="369" radio="true" group-title="Rádios Regionais e Locais",Record 101 4 FM
+#EXTINF:-1 tvg-name="Record 101 4 FM" tvg-logo="https://www.radios.com.br/aovivo/radio-record-1077-fm/8928" tvg-chno="370" radio="true" group-title="Rádios Regionais e Locais",Record 101 4 FM
 https://nl.digitalrm.pt:8010/stream
-#EXTINF:-1 tvg-name="Record FM 105 5 santuário" tvg-logo="https://www.recordfm.pt/player_m_santarem.htm" tvg-chno="370" radio="true" group-title="Rádios Regionais e Locais",Record FM 105 5 santuário
+#EXTINF:-1 tvg-name="Record FM 105 5 santuário" tvg-logo="https://www.recordfm.pt/player_m_santarem.htm" tvg-chno="371" radio="true" group-title="Rádios Regionais e Locais",Record FM 105 5 santuário
 https://nl.digitalrm.pt:8018/stream
-#EXTINF:-1 tvg-name="Record FM 91 8 Algarve" tvg-logo="https://www.recordfm.pt/player_m_algarve.htm" tvg-chno="371" radio="true" group-title="Rádios Regionais e Locais",Record FM 91 8 Algarve
+#EXTINF:-1 tvg-name="Record FM 91 8 Algarve" tvg-logo="https://www.recordfm.pt/player_m_algarve.htm" tvg-chno="372" radio="true" group-title="Rádios Regionais e Locais",Record FM 91 8 Algarve
 https://nl.digitalrm.pt:8020/stream
-#EXTINF:-1 tvg-name="REPLAY NEWS - Português" tvg-logo="https://www.publicsante.com/BIENVENU/LOGO%20REPLAY%20NEWS-PT.png" tvg-chno="372" radio="true" group-title="Rádios Regionais e Locais",REPLAY NEWS - Português
+#EXTINF:-1 tvg-name="REPLAY NEWS - Português" tvg-logo="https://www.publicsante.com/BIENVENU/LOGO%20REPLAY%20NEWS-PT.png" tvg-chno="373" radio="true" group-title="Rádios Regionais e Locais",REPLAY NEWS - Português
 https://replaynewspt.ice.infomaniak.ch/replaynewspt-128.mp3
-#EXTINF:-1 tvg-name="RES FM" tvg-logo="https://resfmradio.com/wp-content/uploads/2021/09/Logo_RES-FM_Verde_2.png" tvg-chno="373" radio="true" group-title="Rádios Regionais e Locais",RES FM
+#EXTINF:-1 tvg-name="RES FM" tvg-logo="https://resfmradio.com/wp-content/uploads/2021/09/Logo_RES-FM_Verde_2.png" tvg-chno="374" radio="true" group-title="Rádios Regionais e Locais",RES FM
 http://stream2.soundflux.eu:8440/stream
-#EXTINF:-1 tvg-name="REWIND 2000's" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/KpJGgFhkNZ.png" tvg-chno="374" radio="true" group-title="Rádios Regionais e Locais",REWIND 2000's
+#EXTINF:-1 tvg-name="REWIND 2000's" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/KpJGgFhkNZ.png" tvg-chno="375" radio="true" group-title="Rádios Regionais e Locais",REWIND 2000's
 https://2000.streeemer.com/listen/2000s/radio.aac
-#EXTINF:-1 tvg-name="RFM DANCE IT" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="375" radio="true" group-title="Rádios Regionais e Locais",RFM DANCE IT
+#EXTINF:-1 tvg-name="RFM DANCE IT" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="376" radio="true" group-title="Rádios Regionais e Locais",RFM DANCE IT
 https://25453.live.streamtheworld.com/DANCEONTHEFLOORAAC.aac
-#EXTINF:-1 tvg-name="RFM JAZZY" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="376" radio="true" group-title="Rádios Regionais e Locais",RFM JAZZY
+#EXTINF:-1 tvg-name="RFM JAZZY" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="377" radio="true" group-title="Rádios Regionais e Locais",RFM JAZZY
 https://27753.live.streamtheworld.com/RFM_JAZZYAAC.aac
-#EXTINF:-1 tvg-name="RFM LATINAS" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="377" radio="true" group-title="Rádios Regionais e Locais",RFM LATINAS
+#EXTINF:-1 tvg-name="RFM LATINAS" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="378" radio="true" group-title="Rádios Regionais e Locais",RFM LATINAS
 https://25693.live.streamtheworld.com/RFM_LATINASAAC.aac
-#EXTINF:-1 tvg-name="RFM NOVAS" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="378" radio="true" group-title="Rádios Regionais e Locais",RFM NOVAS
+#EXTINF:-1 tvg-name="RFM NOVAS" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="379" radio="true" group-title="Rádios Regionais e Locais",RFM NOVAS
 https://22733.live.streamtheworld.com/RFM_FRESCASAAC.aac
-#EXTINF:-1 tvg-name="RFM Oceano Pacifico" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="379" radio="true" group-title="Rádios Regionais e Locais",RFM Oceano Pacifico
+#EXTINF:-1 tvg-name="RFM Oceano Pacifico" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="380" radio="true" group-title="Rádios Regionais e Locais",RFM Oceano Pacifico
 https://23543.live.streamtheworld.com/OCEANPACIFICAAC.aac
-#EXTINF:-1 tvg-name="RFM Rocks" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="380" radio="true" group-title="Rádios Regionais e Locais",RFM Rocks
+#EXTINF:-1 tvg-name="RFM Rocks" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="381" radio="true" group-title="Rádios Regionais e Locais",RFM Rocks
 https://25583.live.streamtheworld.com/RFMONTHEROCKAAC.aac
-#EXTINF:-1 tvg-name="RFM TOCA PORTUGAL" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="381" radio="true" group-title="Rádios Regionais e Locais",RFM TOCA PORTUGAL
+#EXTINF:-1 tvg-name="RFM TOCA PORTUGAL" tvg-logo="https://rfmsite2023-images.azureedge.net/icons/favicon.ico" tvg-chno="382" radio="true" group-title="Rádios Regionais e Locais",RFM TOCA PORTUGAL
 https://27793.live.streamtheworld.com/RFM_PORTUGALAAC.aac
-#EXTINF:-1 tvg-name="RFPtv - Rádio só Folclore de Portugal tv" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/img_6a48101830d423.07827183.png" tvg-chno="382" radio="true" group-title="Rádios Regionais e Locais",RFPtv - Rádio só Folclore de Portugal tv
+#EXTINF:-1 tvg-name="RFPtv - Rádio só Folclore de Portugal tv" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/img_6a48101830d423.07827183.png" tvg-chno="383" radio="true" group-title="Rádios Regionais e Locais",RFPtv - Rádio só Folclore de Portugal tv
 https://sonic.servsonic.com:8012/stream
-#EXTINF:-1 tvg-name="RIO - Rádio Internacional Odemira" tvg-chno="383" radio="true" group-title="Rádios Regionais e Locais",RIO - Rádio Internacional Odemira
+#EXTINF:-1 tvg-name="RIO - Rádio Internacional Odemira" tvg-chno="384" radio="true" group-title="Rádios Regionais e Locais",RIO - Rádio Internacional Odemira
 https://hts02.brascast.com:10476/live
-#EXTINF:-1 tvg-name="RTP - Radio ZigZag" tvg-logo="https://cdn-images.rtp.pt/play/zigzag/imgs/zz_logowhite.png" tvg-chno="384" radio="true" group-title="Rádios Regionais e Locais",RTP - Radio ZigZag
+#EXTINF:-1 tvg-name="RTP - Radio ZigZag" tvg-logo="https://cdn-images.rtp.pt/play/zigzag/imgs/zz_logowhite.png" tvg-chno="385" radio="true" group-title="Rádios Regionais e Locais",RTP - Radio ZigZag
 https://radiocast.rtp.pt/zigzag80a.mp3
-#EXTINF:-1 tvg-name="RTP Antena 1 Açores" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Antena1-Açores.png" tvg-chno="385" radio="true" group-title="Rádios Regionais e Locais",RTP Antena 1 Açores
+#EXTINF:-1 tvg-name="RTP Antena 1 Açores" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Antena1-Açores.png" tvg-chno="386" radio="true" group-title="Rádios Regionais e Locais",RTP Antena 1 Açores
 https://streaming-live.rtp.pt/liveradio/antena1acores80a/playlist.m3u8
-#EXTINF:-1 tvg-name="RTP Antena 1 Madeira" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Antena1-Madeira.png" tvg-chno="386" radio="true" group-title="Rádios Regionais e Locais",RTP Antena 1 Madeira
+#EXTINF:-1 tvg-name="RTP Antena 1 Madeira" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Antena1-Madeira.png" tvg-chno="387" radio="true" group-title="Rádios Regionais e Locais",RTP Antena 1 Madeira
 https://streaming-live.rtp.pt/liveradio/antena1madeira80a/playlist.m3u8
-#EXTINF:-1 tvg-name="RTP Antena 3" tvg-chno="387" radio="true" group-title="Rádios Regionais e Locais",RTP Antena 3
+#EXTINF:-1 tvg-name="RTP Antena 3" tvg-chno="388" radio="true" group-title="Rádios Regionais e Locais",RTP Antena 3
 https://radiocast.rtp.pt/antena380a.mp3
-#EXTINF:-1 tvg-name="RTP Antena 3 Madeira" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Antena3-Madeira.png" tvg-chno="388" radio="true" group-title="Rádios Regionais e Locais",RTP Antena 3 Madeira
+#EXTINF:-1 tvg-name="RTP Antena 3 Madeira" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Antena3-Madeira.png" tvg-chno="389" radio="true" group-title="Rádios Regionais e Locais",RTP Antena 3 Madeira
 https://streaming-live.rtp.pt/liveradio/antena3madeira80a/playlist.m3u8
-#EXTINF:-1 tvg-name="RTP Mundo" tvg-chno="389" radio="true" group-title="Rádios Regionais e Locais",RTP Mundo
+#EXTINF:-1 tvg-name="RTP Mundo" tvg-chno="390" radio="true" group-title="Rádios Regionais e Locais",RTP Mundo
 https://streaming-live.rtp.pt/liveradio/rdpint80a/chunklist_DVR.m3u
-#EXTINF:-1 tvg-name="RUC Rádio Universidade de Coimbra" tvg-logo="https://www.ruc.pt/apple-icon.png" tvg-chno="390" radio="true" group-title="Rádios Regionais e Locais",RUC Rádio Universidade de Coimbra
+#EXTINF:-1 tvg-name="RUC Rádio Universidade de Coimbra" tvg-logo="https://www.ruc.pt/apple-icon.png" tvg-chno="391" radio="true" group-title="Rádios Regionais e Locais",RUC Rádio Universidade de Coimbra
 http://stream.ruc.pt/high
-#EXTINF:-1 tvg-name="Sempre NOAR" tvg-logo="https://cdn.radoxo.com/images/portugal/sempre-noar.webp" tvg-chno="391" radio="true" group-title="Rádios Regionais e Locais",Sempre NOAR
+#EXTINF:-1 tvg-name="Sempre NOAR" tvg-logo="https://cdn.radoxo.com/images/portugal/sempre-noar.webp" tvg-chno="392" radio="true" group-title="Rádios Regionais e Locais",Sempre NOAR
 https://stream.zeno.fm/x6s194sq4ehvv
-#EXTINF:-1 tvg-name="SFTD RADIO" tvg-chno="392" radio="true" group-title="Rádios Regionais e Locais",SFTD RADIO
+#EXTINF:-1 tvg-name="SFTD RADIO" tvg-chno="393" radio="true" group-title="Rádios Regionais e Locais",SFTD RADIO
 http://hyades.shoutca.st:8270/stream/1/
-#EXTINF:-1 tvg-name="Singa FM" tvg-logo="http://cdn-radiotime-logos.tunein.com/s82204q.png" tvg-chno="393" radio="true" group-title="Rádios Regionais e Locais",Singa FM
+#EXTINF:-1 tvg-name="Singa FM" tvg-logo="http://cdn-radiotime-logos.tunein.com/s82204q.png" tvg-chno="394" radio="true" group-title="Rádios Regionais e Locais",Singa FM
 http://centova.radio.com.pt:8487/;
-#EXTINF:-1 tvg-name="Smooth Jazz Portugal" tvg-logo="https://bauermedia.pt/favicon.ico" tvg-chno="394" radio="true" group-title="Rádios Regionais e Locais",Smooth Jazz Portugal
+#EXTINF:-1 tvg-name="Smooth Jazz Portugal" tvg-logo="https://bauermedia.pt/favicon.ico" tvg-chno="395" radio="true" group-title="Rádios Regionais e Locais",Smooth Jazz Portugal
 https://stream-hls.bauermedia.pt/smojazz.aac/playlist.m3u8
-#EXTINF:-1 tvg-name="SmoothFM Soul" tvg-logo="https://smoothfm.pt/favicon.ico" tvg-chno="395" radio="true" group-title="Rádios Regionais e Locais",SmoothFM Soul
+#EXTINF:-1 tvg-name="SmoothFM Soul" tvg-logo="https://smoothfm.pt/favicon.ico" tvg-chno="396" radio="true" group-title="Rádios Regionais e Locais",SmoothFM Soul
 https://stream-icy.bauermedia.pt/smoothsoul.aac
-#EXTINF:-1 tvg-name="Tejo Rádio Jornal" tvg-logo="https://www.tejofm.pt/favicon.ico" tvg-chno="396" radio="true" group-title="Rádios Regionais e Locais",Tejo Rádio Jornal
+#EXTINF:-1 tvg-name="Tejo Rádio Jornal" tvg-logo="https://www.tejofm.pt/favicon.ico" tvg-chno="397" radio="true" group-title="Rádios Regionais e Locais",Tejo Rádio Jornal
 http://centova.radio.com.pt:8531/;
-#EXTINF:-1 tvg-name="Terra Quente FM" tvg-logo="http://cdn-radiotime-logos.tunein.com/s83751q.png" tvg-chno="397" radio="true" group-title="Rádios Regionais e Locais",Terra Quente FM
+#EXTINF:-1 tvg-name="Terra Quente FM" tvg-logo="http://cdn-radiotime-logos.tunein.com/s83751q.png" tvg-chno="398" radio="true" group-title="Rádios Regionais e Locais",Terra Quente FM
 http://centova.radio.com.pt:9402/;
-#EXTINF:-1 tvg-name="Terranova 105" tvg-logo="https://www.terranova.pt/themes/custom/terranova/favicon.ico" tvg-chno="398" radio="true" group-title="Rádios Regionais e Locais",Terranova 105
+#EXTINF:-1 tvg-name="Terranova 105" tvg-logo="https://www.terranova.pt/themes/custom/terranova/favicon.ico" tvg-chno="399" radio="true" group-title="Rádios Regionais e Locais",Terranova 105
 http://centova.radios.pt/proxy/404?mp=/stream
-#EXTINF:-1 tvg-name="TLA Rádio" tvg-logo="http://cdn-radiotime-logos.tunein.com/s87851q.png" tvg-chno="399" radio="true" group-title="Rádios Regionais e Locais",TLA Rádio
+#EXTINF:-1 tvg-name="TLA Rádio" tvg-logo="http://cdn-radiotime-logos.tunein.com/s87851q.png" tvg-chno="400" radio="true" group-title="Rádios Regionais e Locais",TLA Rádio
 http://centova.radio.com.pt:8545/;
-#EXTINF:-1 tvg-name="TOP 80 - Todos Os Exitos De 80 A 2000" tvg-logo="https://www.top80.fm/wp-content/uploads/2023/03/cropped-ic_launcher_top80-180x180.png" tvg-chno="400" radio="true" group-title="Rádios Regionais e Locais",TOP 80 - Todos Os Exitos De 80 A 2000
+#EXTINF:-1 tvg-name="TOP 80 - Todos Os Exitos De 80 A 2000" tvg-logo="https://www.top80.fm/wp-content/uploads/2023/03/cropped-ic_launcher_top80-180x180.png" tvg-chno="401" radio="true" group-title="Rádios Regionais e Locais",TOP 80 - Todos Os Exitos De 80 A 2000
 http://live.top80.fm:8086/
-#EXTINF:-1 tvg-name="Torres Novas FM" tvg-logo="http://cdn-radiotime-logos.tunein.com/s107330q.png" tvg-chno="401" radio="true" group-title="Rádios Regionais e Locais",Torres Novas FM
+#EXTINF:-1 tvg-name="Torres Novas FM" tvg-logo="http://cdn-radiotime-logos.tunein.com/s107330q.png" tvg-chno="402" radio="true" group-title="Rádios Regionais e Locais",Torres Novas FM
 http://centova.radio.com.pt:8475/;
-#EXTINF:-1 tvg-name="Total FM" tvg-logo="https://totalfm.pt/wp-content/uploads/fbrfg/favicon.ico" tvg-chno="402" radio="true" group-title="Rádios Regionais e Locais",Total FM
+#EXTINF:-1 tvg-name="Total FM" tvg-logo="https://totalfm.pt/wp-content/uploads/fbrfg/favicon.ico" tvg-chno="403" radio="true" group-title="Rádios Regionais e Locais",Total FM
 https://eu57-sonic.instainternet.com:8068/stream
-#EXTINF:-1 tvg-name="TSF Rádio Açores" tvg-logo="http://www.acorianooriental.pt/favicon.ico" tvg-chno="403" radio="true" group-title="Rádios Regionais e Locais",TSF Rádio Açores
+#EXTINF:-1 tvg-name="TSF Rádio Açores" tvg-logo="http://www.acorianooriental.pt/favicon.ico" tvg-chno="404" radio="true" group-title="Rádios Regionais e Locais",TSF Rádio Açores
 http://centova.radio.com.pt:8243/;
-#EXTINF:-1 tvg-name="TSF Rádio Madeira" tvg-chno="404" radio="true" group-title="Rádios Regionais e Locais",TSF Rádio Madeira
+#EXTINF:-1 tvg-name="TSF Rádio Madeira" tvg-chno="405" radio="true" group-title="Rádios Regionais e Locais",TSF Rádio Madeira
 http://centova.radio.com.pt:9470/;
-#EXTINF:-1 tvg-name="Ultra FM" tvg-logo="http://cdn-radiotime-logos.tunein.com/s87852q.png" tvg-chno="405" radio="true" group-title="Rádios Regionais e Locais",Ultra FM
+#EXTINF:-1 tvg-name="Ultra FM" tvg-logo="http://cdn-radiotime-logos.tunein.com/s87852q.png" tvg-chno="406" radio="true" group-title="Rádios Regionais e Locais",Ultra FM
 http://centova.radio.com.pt:9506/;
-#EXTINF:-1 tvg-name="Universidade FM" tvg-chno="406" radio="true" group-title="Rádios Regionais e Locais",Universidade FM
+#EXTINF:-1 tvg-name="Universidade FM" tvg-chno="407" radio="true" group-title="Rádios Regionais e Locais",Universidade FM
 http://centova.radio.com.pt:8405/;
-#EXTINF:-1 tvg-name="VFM 94.6" tvg-chno="407" radio="true" group-title="Rádios Regionais e Locais",VFM 94.6
+#EXTINF:-1 tvg-name="VFM 94.6" tvg-chno="408" radio="true" group-title="Rádios Regionais e Locais",VFM 94.6
 http://cast.redewt.net:9141/live
-#EXTINF:-1 tvg-name="Voz do Neiva" tvg-logo="https://radiovozdoneiva.net/voz-neiva.jpg" tvg-chno="408" radio="true" group-title="Rádios Regionais e Locais",Voz do Neiva
+#EXTINF:-1 tvg-name="Voz do Neiva" tvg-logo="https://radiovozdoneiva.net/voz-neiva.jpg" tvg-chno="409" radio="true" group-title="Rádios Regionais e Locais",Voz do Neiva
 https://sp0.redeaudio.com/8092/stream
-#EXTINF:-1 tvg-name="Wave Vibes" tvg-chno="409" radio="true" group-title="Rádios Regionais e Locais",Wave Vibes
+#EXTINF:-1 tvg-name="Wave Vibes" tvg-chno="410" radio="true" group-title="Rádios Regionais e Locais",Wave Vibes
 https://a6.asurahosting.com/listen/wave_vibes/radio.mp3
-#EXTINF:-1 tvg-name="Web Radio Apollo" tvg-logo="https://cdn.radoxo.com/images/portugal/web-radio-apollo.webp" tvg-chno="410" radio="true" group-title="Rádios Regionais e Locais",Web Radio Apollo
+#EXTINF:-1 tvg-name="Web Radio Apollo" tvg-logo="https://cdn.radoxo.com/images/portugal/web-radio-apollo.webp" tvg-chno="411" radio="true" group-title="Rádios Regionais e Locais",Web Radio Apollo
 https://smartmedia.stmxp.net:8048/stream
-#EXTINF:-1 tvg-name="Web Radio Voz de Queimada" tvg-logo="https://cdn.radoxo.com/images/portugal/web-radio-voz-de-queimada-armamar.webp" tvg-chno="411" radio="true" group-title="Rádios Regionais e Locais",Web Radio Voz de Queimada
+#EXTINF:-1 tvg-name="Web Radio Voz de Queimada" tvg-logo="https://cdn.radoxo.com/images/portugal/web-radio-voz-de-queimada-armamar.webp" tvg-chno="412" radio="true" group-title="Rádios Regionais e Locais",Web Radio Voz de Queimada
 https://spaudio.servers.pt/8010/stream
-#EXTINF:-1 tvg-name="Wonder 80's" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/2C5DZ9pVXS.jpg" tvg-chno="412" radio="true" group-title="Rádios Regionais e Locais",Wonder 80's
+#EXTINF:-1 tvg-name="Wonder 80's" tvg-logo="https://static2.mytuner.mobi/media/tvos_radios/2C5DZ9pVXS.jpg" tvg-chno="413" radio="true" group-title="Rádios Regionais e Locais",Wonder 80's
 https://80.streeemer.com/listen/80s/radio.mp3
