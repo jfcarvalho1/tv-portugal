@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="TV e Rádios">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>TV e Rádios</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; min-height: 100vh; background: #0e0f12; color: #f2f2f2;
+         font: 17px -apple-system, system-ui, sans-serif;
+         padding: calc(env(safe-area-inset-top) + 28px) 20px 40px; box-sizing: border-box; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  p.sub { color: #9a9ca3; margin: 0 0 28px; }
+  a.botao { display: flex; align-items: center; gap: 16px; text-decoration: none; color: #fff;
+            background: #1c1e24; border-radius: 18px; padding: 22px 20px; margin-bottom: 14px; }
+  a.botao:active { background: #2a2d35; }
+  .icone { font-size: 34px; width: 44px; text-align: center; }
+  .titulo { font-size: 21px; font-weight: 600; }
+  .desc { color: #9a9ca3; font-size: 14px; margin-top: 3px; }
+  details { margin-top: 30px; color: #9a9ca3; font-size: 14px; }
+  details li { margin-bottom: 8px; }
+  code { font-size: 12px; word-break: break-all; color: #c9cbd1; }
+</style>
+</head>
+<body>
+  <h1>TV e Rádios</h1>
+  <p class="sub">Toca e abre no VLC. As listas actualizam-se sozinhas todos os dias.</p>
+
+  <a class="botao" data-lista="tv.m3u" href="#">
+    <span class="icone">📺</span>
+    <span><div class="titulo">Televisão</div><div class="desc">Portugal primeiro, depois por países</div></span>
+  </a>
+  <a class="botao" data-lista="radios.m3u" href="#">
+    <span class="icone">📻</span>
+    <span><div class="titulo">Rádios</div><div class="desc">Nacionais, regionais e locais</div></span>
+  </a>
+
+  <details>
+    <summary>Se o VLC não abrir</summary>
+    <ol>
+      <li>Confirma que tens a app VLC instalada (App Store, gratuita).</li>
+      <li>No VLC: Rede → Abrir fluxo de rede → cola o endereço:<br>
+        <code>https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/tv.m3u</code><br>
+        <code>https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/radios.m3u</code></li>
+    </ol>
+  </details>
+
+<script>
+  var BASE = "https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/";
+  document.querySelectorAll("a[data-lista]").forEach(function (a) {
+    a.href = "vlc-x-callback://x-callback-url/stream?url=" + encodeURIComponent(BASE + a.dataset.lista);
+  });
+</script>
+</body>
+</html>
