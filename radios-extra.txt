@@ -1,0 +1,3 @@
+# Rádios acrescentadas à mão — uma por linha:  Nome | link do stream | Distrito
+# Estas entram sempre e ganham às das listas automáticas.
+Rádio Voz de Basto | https://radios.justweb.pt/8018/; | Braga

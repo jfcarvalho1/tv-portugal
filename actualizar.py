@@ -321,6 +321,23 @@ def radios_tunein():
              "attrs": {"tvg-logo": d.get("logo") or ""}} for d in dados if d.get("url")]
 
 
+def radios_extra():
+    """Rádios acrescentadas à mão no ficheiro radios-extra.txt ("Nome | link | Distrito")."""
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), "radios-extra.txt")
+    out = []
+    if os.path.exists(f):
+        for l in open(f, encoding="utf-8"):
+            l = l.strip()
+            if not l or l.startswith("#"):
+                continue
+            partes = [x.strip() for x in l.split("|")]
+            if len(partes) >= 2 and partes[1].startswith("http"):
+                out.append({"nome": partes[0], "url": partes[1], "fonte": "manual",
+                            "regiao": partes[2] if len(partes) > 2 else "", "attrs": {}})
+        log(f"Rádios acrescentadas à mão: {len(out)}")
+    return out
+
+
 def radio_browser():
     for m in RADIO_BROWSER:
         try:
@@ -455,7 +472,7 @@ def main():
             c["pais"] = GRUPO_ADULTOS
     if cfg["INCLUIR_ADULTOS"] != "1":
         tv_bruto = [c for c in tv_bruto if c["pais"] != GRUPO_ADULTOS]
-    radios_bruto = radios_tunein() + radios_bruto + radio_browser()
+    radios_bruto = radios_extra() + radios_tunein() + radios_bruto + radio_browser()
     excl_url, excl_id = {}, {}
     for motivo, url in CATEGORIAS_FORA.items():
         try:
