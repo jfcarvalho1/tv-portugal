@@ -94,6 +94,7 @@
 
 <div id="aviso"><div id="avisoTexto"></div><div id="avisoBotoes"></div></div>
 
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1/dist/hls.min.js" defer></script>
 <script>
 "use strict";
 const RAW = "https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/";
@@ -212,11 +213,11 @@ const video = $("#video"), audio = $("#audio");
 
 function avisar(c) {
   $("#avisoTexto").innerHTML = "";
-  const t = document.createElement("div"); t.innerHTML = "<b></b> não abre aqui agora.<br>Pode estar em baixo, ou só funcionar no VLC.";
+  const t = document.createElement("div"); t.innerHTML = "<b></b> não abre aqui agora.<br>Pode estar em baixo agora, ou só abrir fora da app: experimenta “Abrir à parte”.";
   t.firstChild.textContent = c.nome; $("#avisoTexto").appendChild(t);
   const b = $("#avisoBotoes"); b.innerHTML = "";
-  const a = document.createElement("a"); a.textContent = "Abrir no VLC";
-  a.href = "vlc-x-callback://x-callback-url/stream?url=" + encodeURIComponent(c.url);
+  const a = document.createElement("a"); a.textContent = "Abrir à parte";
+  a.href = c.url; a.target = "_blank"; a.rel = "noopener";
   const f = document.createElement("button"); f.textContent = "Fechar"; f.onclick = () => $("#aviso").classList.remove("visivel");
   b.append(a, f); $("#aviso").classList.add("visivel");
 }
@@ -227,8 +228,18 @@ function experimentar(el, c, aoFalhar) {
   let i = 0, ok = false;
   const proxima = () => {
     if (ok) return;
+    if (el._hls) { el._hls.destroy(); el._hls = null; }
     if (i >= tentativas.length) { aoFalhar(); return; }
-    el.src = tentativas[i++]; el.play().catch(() => {});
+    const u = tentativas[i++];
+    const ehHls = /\.m3u8(\?|$)/i.test(u);
+    if (ehHls && !el.canPlayType("application/vnd.apple.mpegurl") && window.Hls && Hls.isSupported()) {
+      const h = new Hls({ lowLatencyMode: false }); el._hls = h;
+      h.on(Hls.Events.ERROR, (_, d) => { if (d.fatal) proxima(); });
+      h.loadSource(u); h.attachMedia(el);
+      h.on(Hls.Events.MANIFEST_PARSED, () => el.play().catch(() => {}));
+    } else {
+      el.src = u; el.play().catch(() => {});
+    }
   };
   el.onerror = proxima;
   el.onplaying = () => { ok = true; if (el === audio) aTocarRadio(); };
@@ -263,9 +274,9 @@ function aTocarRadio() { $("#barraEstado").textContent = "Em directo"; $("#tocar
 audio.onpause = () => { $("#tocar").textContent = "▶︎"; };
 audio.onwaiting = () => { $("#barraEstado").textContent = "A carregar…"; };
 $("#tocar").onclick = () => audio.paused ? audio.play().catch(() => {}) : audio.pause();
-function pararRadio() { audio.onerror = null; audio.pause(); audio.removeAttribute("src"); audio.load(); $("#barra").classList.remove("visivel"); }
+function pararRadio() { if (audio._hls) { audio._hls.destroy(); audio._hls = null; } audio.onerror = null; audio.pause(); audio.removeAttribute("src"); audio.load(); $("#barra").classList.remove("visivel"); }
 $("#parar").onclick = () => { pararRadio(); estado.aTocar = null; };
-function fecharTv() { video.onerror = null; video.pause(); video.removeAttribute("src"); video.load(); $("#tv").classList.remove("aberto"); }
+function fecharTv() { if (video._hls) { video._hls.destroy(); video._hls = null; } video.onerror = null; video.pause(); video.removeAttribute("src"); video.load(); $("#tv").classList.remove("aberto"); }
 $("#fecharTv").onclick = () => { fecharTv(); estado.aTocar = null; };
 
 function zap(d) {

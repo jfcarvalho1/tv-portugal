@@ -333,6 +333,38 @@ def nome_radio(nome):
     return NOMES_FIXOS.get(n.lower(), n)
 
 
+NACIONAIS = [  # nome oficial e chaves que o apanham (sem "rádio", "fm" e frequências)
+    ("Antena 1", ["antena1", "rdpantena1", "rtpantena1"]), ("Antena 2", ["antena2", "rtpantena2"]),
+    ("Antena 3", ["antena3", "rtpantena3"]), ("Rádio Renascença", ["renascenca"]), ("RFM", ["rfm"]),
+    ("Rádio Comercial", ["comercial"]), ("M80", ["m80"]), ("Cidade FM", ["cidade"]),
+    ("Smooth FM", ["smooth"]), ("Mega Hits", ["megahits"]),
+    ("TSF Rádio Notícias", ["tsf", "tsfnoticias", "tsfradionoticias"]), ("Rádio Observador", ["observador"]),
+    ("Rádio SBSR", ["sbsr"]), ("Antena 1 Açores", ["antena1acores", "rtpantena1acores", "rdpacoresantena1"]),
+    ("Antena 1 Madeira", ["antena1madeira", "rtpantena1madeira", "rdpmadeiraantena1"]),
+    ("Antena 3 Madeira", ["antena3madeira", "rtpantena3madeira"]),
+    ("RTP Internacional (RDP)", ["rdpinternacional", "rtpmundo", "rtpinternacional"]),
+    ("RTP África (RDP África)", ["rdpafrica", "rtpafrica"]),
+]
+TEMATICOS = ["rfm", "m80", "comercial", "megahits", "antena1", "antena2", "antena3", "rtp", "rdp", "smooth",
+             "renascenca", "tsf"]
+
+
+def chave_nac(nome):
+    return chave_radio(re.sub(r"\s\d{2,3}\s*$", "", nome))  # "Renascença 103", "RFM 93"
+
+
+def nacional(nome):
+    k = chave_nac(nome)
+    return next((i for i, (_, ks) in enumerate(NACIONAIS) if k in ks), None)
+
+
+def tematico(c):
+    k = chave_nac(c["nome"])
+    if c.get("regiao") and c.get("hertziana"):
+        return False  # ex.: Rádio Comercial dos Açores é uma rádio local
+    return any(k.startswith(t) for t in TEMATICOS)
+
+
 def chave_radio(nome):
     """Chave para apanhar duplicados: sem 'rádio', 'fm', frequências nem parênteses."""
     n = re.sub(r"\(.*?\)|\[.*?\]", "", sem_acentos(nome))
@@ -348,7 +380,8 @@ def radios_tunein():
         return []
     dados = json.load(open(f, encoding="utf-8"))
     log(f"TuneIn: {len(dados)} rádios")
-    return [{"nome": d["nome"], "url": d["url"], "fonte": "tunein", "regiao": d.get("regiao") or "",
+    return [{"nome": d["nome"], "url": d["url"], "fonte": d.get("fonte") or "tunein", "regiao": d.get("regiao") or "",
+             "hertziana": bool(d.get("freq")) or d.get("fonte") == "radiogarden",
              "attrs": {"tvg-logo": d.get("logo") or ""}} for d in dados if d.get("url")]
 
 
@@ -548,13 +581,44 @@ def main():
 
     # ---------- rádios: sem duplicados
     radios, vistos = [], set()
+    por_chave = {}
     for c in radios_bruto:
         c["nome"] = nome_radio(c["nome"])
-        k = chave_radio(c["nome"]) or chave(c["nome"])
-        if k and k not in vistos and c["url"] not in vistos and not bloqueado(c["nome"]):
-            vistos.add(c["url"])
-            vistos.add(k)
-            radios.append(c)
+        if not c.get("hertziana") and re.search(r"\b\d{2,3}[.,]\d\b", c["nome"]):
+            c["hertziana"] = True  # tem frequência FM no nome
+        i = nacional(c["nome"])
+        if i is not None:
+            c["nome"], k = NACIONAIS[i][0], "nac%d" % i
+        else:
+            k = chave_radio(c["nome"]) or chave(c["nome"])
+        if not k or bloqueado(c["nome"]):
+            continue
+        if k in por_chave:  # repetida: aproveita o endereço seguro e o logótipo, se o outro não tiver
+            o = por_chave[k]
+            if o["url"].startswith("http://") and c["url"].startswith("https://"):
+                o["url"] = c["url"]
+            if not o["attrs"].get("tvg-logo") and c["attrs"].get("tvg-logo"):
+                o["attrs"]["tvg-logo"] = c["attrs"]["tvg-logo"]
+            o["regiao"] = o.get("regiao") or c.get("regiao", "")
+            o["hertziana"] = o.get("hertziana") or c.get("hertziana")
+            continue
+        if c["url"] in vistos:
+            continue
+        vistos.add(c["url"])
+        por_chave[k] = c
+        radios.append(c)
+
+    # o iPhone só toca endereços https dentro da app: experimenta a versão segura das que são http
+    so_http = [c for c in radios if c["url"].startswith("http://")]
+    if so_http:
+        with cf.ThreadPoolExecutor(max_workers=48) as ex:
+            seguros = list(ex.map(lambda c: testar("https://" + c["url"][7:]), so_http))
+        trocadas = 0
+        for c, (ok_, _) in zip(so_http, seguros):
+            if ok_:
+                c["url"] = "https://" + c["url"][7:]
+                trocadas += 1
+        log(f"Rádios: {trocadas} de {len(so_http)} passaram para https")
 
     # ---------- testar
     if cfg["TESTAR_LINKS"] == "1":
@@ -614,15 +678,21 @@ def main():
 
     # ---------- numerar rádios
     def r_pos(c):
-        k = chave(c["nome"])
-        return next((i for i, rx in enumerate(RADIOS_NACIONAIS) if re.search(rx, k)), 999)
+        i = nacional(c["nome"])
+        return 999 if i is None else i
     def r_grupo(c):
         if r_pos(c) < 999:
             return "Rádios Nacionais"
-        if c.get("regiao"):
+        if tematico(c):
+            return "Nacionais - Canais Temáticos"
+        if c.get("regiao") and c.get("hertziana"):
             return "Rádios Locais - " + c["regiao"]
-        return "Outras Rádios"
-    radios.sort(key=lambda c: (r_pos(c), r_grupo(c) == "Outras Rádios", sem_acentos(r_grupo(c)), sem_acentos(c["nome"])))
+        if c.get("hertziana"):
+            return "Rádios Locais - Outras"
+        return "Rádios Só Online"
+    ordem_g = lambda g: (0 if g == "Rádios Nacionais" else 1 if g.startswith("Nacionais") else
+                         3 if g == "Rádios Locais - Outras" else 4 if g == "Rádios Só Online" else 2)
+    radios.sort(key=lambda c: (r_pos(c), ordem_g(r_grupo(c)), sem_acentos(r_grupo(c)), sem_acentos(c["nome"])))
     linhas_r, rel_r, numerados, nn, nl = [f'#EXTM3U url-tvg="{epg}"'], [], [], 1, 101
     for c in radios:
         nac = r_pos(c) < 999
