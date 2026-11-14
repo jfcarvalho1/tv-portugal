@@ -70,10 +70,6 @@ https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8
 https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8
 #EXTINF:-1 tvg-id="NMTTV.pt" tvg-name="NMT TV" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/NMTTV.pt.png" tvg-chno="21" group-title="Portugal",NMT TV
 https://rtmp.w2.stream-sx.com/live/K6Ole9wB/index.m3u8
-#EXTINF:-1 tvg-id="ONFM.pt" tvg-name="On FM Portugal" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/ONFM.pt.png" tvg-chno="22" group-title="Portugal",On FM Portugal
-https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioSines.pt" tvg-name="Rádio Sines" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RadioSines.pt.png" tvg-chno="23" group-title="Portugal",Rádio Sines
-https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RFPtv.pt" tvg-name="RFPtv" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RFPtv.pt.png" tvg-chno="24" group-title="Portugal",RFPtv
 https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
 #EXTINF:-1 tvg-id="RTPMundo.pt" tvg-name="RTP Mundo" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTPMundo.pt.png" tvg-chno="25" group-title="Portugal",RTP Mundo

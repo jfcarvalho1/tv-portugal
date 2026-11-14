@@ -121,106 +121,102 @@ https://liveingesta318.cdnmedia.tv/lleidatvlive/smil:live.smil/playlist.m3u8?DVR
 https://amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv/playlist/amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="Mega.es@SD" tvg-name="Mega (Spain)" tvg-logo="https://i.imgur.com/Udrt2eK.png" tvg-chno="1057" group-title="Espanha",Mega (Spain)
 https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/mega.mpd
-#EXTINF:-1 tvg-id="Mijas340TV.es@SD" tvg-name="Mijas 3.40TV" tvg-logo="https://i.imgur.com/RH1zLLs.png" tvg-chno="1058" group-title="Espanha",Mijas 3.40TV
-https://streaming004.gestec-video.com/hls/MIJAS.m3u8
-#EXTINF:-1 tvg-id="MrBeanAnimated.uk@ES" tvg-name="Mr Bean Animated ES" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" tvg-chno="1059" group-title="Espanha",Mr Bean Animated ES
+#EXTINF:-1 tvg-id="MrBeanAnimated.uk@ES" tvg-name="Mr Bean Animated ES" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" tvg-chno="1058" group-title="Espanha",Mr Bean Animated ES
 https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
-#EXTINF:-1 tvg-id="MyTimeMovieNetwork.es@SD" tvg-name="MyTime Movie Network (Spain)" tvg-logo="https://i.imgur.com/pw4NZK1.png" tvg-chno="1060" group-title="Espanha",MyTime Movie Network (Spain)
+#EXTINF:-1 tvg-id="MyTimeMovieNetwork.es@SD" tvg-name="MyTime Movie Network (Spain)" tvg-logo="https://i.imgur.com/pw4NZK1.png" tvg-chno="1059" group-title="Espanha",MyTime Movie Network (Spain)
 https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NatureTime.ca@SD" tvg-name="NatureTime" tvg-logo="https://i.imgur.com/72JmyjM.png" tvg-chno="1061" group-title="Espanha",NatureTime
+#EXTINF:-1 tvg-id="NatureTime.ca@SD" tvg-name="NatureTime" tvg-logo="https://i.imgur.com/72JmyjM.png" tvg-chno="1060" group-title="Espanha",NatureTime
 https://bamusa-naturetime-emea-eng-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Neox.es@SD" tvg-name="Neox" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Neox_2023_logo.svg/500px-Neox_2023_logo.svg.png" tvg-chno="1062" group-title="Espanha",Neox
+#EXTINF:-1 tvg-id="Neox.es@SD" tvg-name="Neox" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Neox_2023_logo.svg/500px-Neox_2023_logo.svg.png" tvg-chno="1061" group-title="Espanha",Neox
 https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/neox.mpd
-#EXTINF:-1 tvg-id="Nova.es@SD" tvg-name="Nova (Spain)" tvg-logo="https://i.imgur.com/Vx1F4o5.png" tvg-chno="1063" group-title="Espanha",Nova (Spain)
+#EXTINF:-1 tvg-id="Nova.es@SD" tvg-name="Nova (Spain)" tvg-logo="https://i.imgur.com/Vx1F4o5.png" tvg-chno="1062" group-title="Espanha",Nova (Spain)
 https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/nova.mpd
-#EXTINF:-1 tvg-id="OndaCadiz.es@SD" tvg-name="Onda Cadiz" tvg-logo="https://i.imgur.com/sOBMnby.png" tvg-chno="1064" group-title="Espanha",Onda Cadiz
+#EXTINF:-1 tvg-id="OndaCadiz.es@SD" tvg-name="Onda Cadiz" tvg-logo="https://i.imgur.com/sOBMnby.png" tvg-chno="1063" group-title="Espanha",Onda Cadiz
 https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
-#EXTINF:-1 tvg-id="OndaValenciaTV.es@SD" tvg-name="Onda Valencia TV" tvg-logo="https://i.imgur.com/6HxLUQd.png" tvg-chno="1065" group-title="Espanha",Onda Valencia TV
+#EXTINF:-1 tvg-id="OndaValenciaTV.es@SD" tvg-name="Onda Valencia TV" tvg-logo="https://i.imgur.com/6HxLUQd.png" tvg-chno="1064" group-title="Espanha",Onda Valencia TV
 https://cloudvideo.servers10.com:8081/8116/index.m3u8
-#EXTINF:-1 tvg-id="PenedesTelevisio.es@SD" tvg-name="Penedes Televisio" tvg-logo="https://i.imgur.com/mNuv3OL.png" tvg-chno="1066" group-title="Espanha",Penedes Televisio
+#EXTINF:-1 tvg-id="PenedesTelevisio.es@SD" tvg-name="Penedes Televisio" tvg-logo="https://i.imgur.com/mNuv3OL.png" tvg-chno="1065" group-title="Espanha",Penedes Televisio
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta318.cdnmedia.tv/rtvvilafrancalive/smil:live.smil/playlist.m3u8?DVR=
-#EXTINF:-1 tvg-id="PlatziTV.es@SD" tvg-name="Platzi TV" tvg-logo="https://i.imgur.com/vEzeqHP.png" tvg-chno="1067" group-title="Espanha",Platzi TV
+#EXTINF:-1 tvg-id="PlatziTV.es@SD" tvg-name="Platzi TV" tvg-logo="https://i.imgur.com/vEzeqHP.png" tvg-chno="1066" group-title="Espanha",Platzi TV
 https://mdstrm.com/live-stream-playlist/629a63ae8df27c082901f78b.m3u8
-#EXTINF:-1 tvg-id="PlutoTVKidsClassics.de@ES" tvg-name="Pluto TV Kids Classics" tvg-logo="https://images.pluto.tv/channels/609e7e423e9173000706a681/colorLogoPNG_1750147033956.png" tvg-chno="1068" group-title="Espanha",Pluto TV Kids Classics
+#EXTINF:-1 tvg-id="PlutoTVKidsClassics.de@ES" tvg-name="Pluto TV Kids Classics" tvg-logo="https://images.pluto.tv/channels/609e7e423e9173000706a681/colorLogoPNG_1750147033956.png" tvg-chno="1067" group-title="Espanha",Pluto TV Kids Classics
 https://jmp2.uk/plu-609e7e423e9173000706a681.m3u8
-#EXTINF:-1 tvg-id="PlutoTVTeen.de@ES" tvg-name="Pluto TV Teen" tvg-logo="https://images.pluto.tv/channels/63eb944dc111bc0008fe7021/colorLogoPNG_1761820520562.png" tvg-chno="1069" group-title="Espanha",Pluto TV Teen
+#EXTINF:-1 tvg-id="PlutoTVTeen.de@ES" tvg-name="Pluto TV Teen" tvg-logo="https://images.pluto.tv/channels/63eb944dc111bc0008fe7021/colorLogoPNG_1761820520562.png" tvg-chno="1068" group-title="Espanha",Pluto TV Teen
 https://jmp2.uk/plu-63eb944dc111bc0008fe7021.m3u8
-#EXTINF:-1 tvg-id="POPWorldTV.es@SD" tvg-name="POP World TV" tvg-logo="https://i.imgur.com/LQB6G3s.jpg" tvg-chno="1070" group-title="Espanha",POP World TV
+#EXTINF:-1 tvg-id="POPWorldTV.es@SD" tvg-name="POP World TV" tvg-logo="https://i.imgur.com/LQB6G3s.jpg" tvg-chno="1069" group-title="Espanha",POP World TV
 https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8
-#EXTINF:-1 tvg-id="Punt3.es@SD" tvg-name="Punt 3" tvg-logo="https://i.imgur.com/i9tsnhD.png" tvg-chno="1071" group-title="Espanha",Punt 3
+#EXTINF:-1 tvg-id="Punt3.es@SD" tvg-name="Punt 3" tvg-logo="https://i.imgur.com/i9tsnhD.png" tvg-chno="1070" group-title="Espanha",Punt 3
 https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8
-#EXTINF:-1 tvg-id="Radio3.es@SD" tvg-name="Radio 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/RNE_Radio_3_2026.svg/500px-RNE_Radio_3_2026.svg.png" tvg-chno="1072" group-title="Espanha",Radio 3
-https://rtvelivestream.rtve.es/rtvesec/rne/rne3_main.m3u8
-#EXTINF:-1 tvg-id="RadioTelevisionMarbella.es@SD" tvg-name="Radio Television Marbella" tvg-logo="https://i.imgur.com/o9Ro8TR.png" tvg-chno="1073" group-title="Espanha",Radio Television Marbella
+#EXTINF:-1 tvg-id="RadioTelevisionMarbella.es@SD" tvg-name="Radio Television Marbella" tvg-logo="https://i.imgur.com/o9Ro8TR.png" tvg-chno="1072" group-title="Espanha",Radio Television Marbella
 https://streaming.rtvmarbella.tv/hls/streamingweb.m3u8
-#EXTINF:-1 tvg-id="RakutenTVActionMovies.es@Spain" tvg-name="Rakuten TV Action Movies" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-chno="1074" group-title="Espanha",Rakuten TV Action Movies
+#EXTINF:-1 tvg-id="RakutenTVActionMovies.es@Spain" tvg-name="Rakuten TV Action Movies" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-chno="1073" group-title="Espanha",Rakuten TV Action Movies
 https://87f2e2e5e7624e3bad85da1ca2ed31a7.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6067/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVComedyMovies.es@Spain" tvg-name="Rakuten TV Comedy Movies" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-chno="1075" group-title="Espanha",Rakuten TV Comedy Movies
+#EXTINF:-1 tvg-id="RakutenTVComedyMovies.es@Spain" tvg-name="Rakuten TV Comedy Movies" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-chno="1074" group-title="Espanha",Rakuten TV Comedy Movies
 https://b8bc6c4b9be64bd6aeb3b92aa8521ed4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6184/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVDramaMovies.es@Spain" tvg-name="Rakuten TV Drama Movies" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-chno="1076" group-title="Espanha",Rakuten TV Drama Movies
+#EXTINF:-1 tvg-id="RakutenTVDramaMovies.es@Spain" tvg-name="Rakuten TV Drama Movies" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-chno="1075" group-title="Espanha",Rakuten TV Drama Movies
 https://f84e0b1628464fab846160df957f269e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6094/master.m3u8
-#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Spain" tvg-name="Rakuten TV Family Movies" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-chno="1077" group-title="Espanha",Rakuten TV Family Movies
+#EXTINF:-1 tvg-id="RakutenTVFamilyMovies.es@Spain" tvg-name="Rakuten TV Family Movies" tvg-logo="https://i.imgur.com/Meew6eX.png" tvg-chno="1076" group-title="Espanha",Rakuten TV Family Movies
 https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8
-#EXTINF:-1 tvg-id="RakutenViki.us@Spain" tvg-name="Rakuten Viki" tvg-logo="https://i.imgur.com/pbyd1g2.png" tvg-chno="1078" group-title="Espanha",Rakuten Viki
+#EXTINF:-1 tvg-id="RakutenViki.us@Spain" tvg-name="Rakuten Viki" tvg-logo="https://i.imgur.com/pbyd1g2.png" tvg-chno="1077" group-title="Espanha",Rakuten Viki
 https://fd18f1cadd404894a31a3362c5f319bd.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_RakutenViki-1/playlist.m3u8
-#EXTINF:-1 tvg-id="RedBullTV.at@ES" tvg-name="Red Bull TV ES" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" tvg-chno="1079" group-title="Espanha",Red Bull TV ES
+#EXTINF:-1 tvg-id="RedBullTV.at@ES" tvg-name="Red Bull TV ES" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" tvg-chno="1078" group-title="Espanha",Red Bull TV ES
 https://886bd3fbc782459f8de7555d32d7e9ce.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-957-WORBLATAMESFAST-WHALETVPLUS/957/whaletvplus/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="RNEparatodos.es@SD" tvg-name="RNE para todos" tvg-logo="https://i.ibb.co/dsgrWTP8/fast-rneaudioparatodos-nac.png" tvg-chno="1080" group-title="Espanha",RNE para todos
+#EXTINF:-1 tvg-id="RNEparatodos.es@SD" tvg-name="RNE para todos" tvg-logo="https://i.ibb.co/dsgrWTP8/fast-rneaudioparatodos-nac.png" tvg-chno="1079" group-title="Espanha",RNE para todos
 https://rtvelivestream.rtve.es/rtvesec/rne/rne_para_todos_main.m3u8
-#EXTINF:-1 tvg-id="ROTVValencia.es@SD" tvg-name="ROTV Valencia" tvg-logo="https://i.imgur.com/0TDnVQ4.png" tvg-chno="1081" group-title="Espanha",ROTV Valencia
+#EXTINF:-1 tvg-id="ROTVValencia.es@SD" tvg-name="ROTV Valencia" tvg-logo="https://i.imgur.com/0TDnVQ4.png" tvg-chno="1080" group-title="Espanha",ROTV Valencia
 https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
-#EXTINF:-1 tvg-id="RTVVida.es@SD" tvg-name="RTV Vida" tvg-logo="https://i.imgur.com/EqUfEAh.png" tvg-chno="1082" group-title="Espanha",RTV Vida
+#EXTINF:-1 tvg-id="RTVVida.es@SD" tvg-name="RTV Vida" tvg-logo="https://i.imgur.com/EqUfEAh.png" tvg-chno="1081" group-title="Espanha",RTV Vida
 https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
-#EXTINF:-1 tvg-id="SolMusica.es@SD" tvg-name="Sol Musica" tvg-logo="https://i.imgur.com/rbJrmPw.png" tvg-chno="1083" group-title="Espanha",Sol Musica
+#EXTINF:-1 tvg-id="SolMusica.es@SD" tvg-name="Sol Musica" tvg-logo="https://i.imgur.com/rbJrmPw.png" tvg-chno="1082" group-title="Espanha",Sol Musica
 https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8
-#EXTINF:-1 tvg-id="SpektraTV.es@SD" tvg-name="SpektraTV" tvg-logo="https://i.imgur.com/0zCt8e4.png" tvg-chno="1084" group-title="Espanha",SpektraTV
+#EXTINF:-1 tvg-id="SpektraTV.es@SD" tvg-name="SpektraTV" tvg-logo="https://i.imgur.com/0zCt8e4.png" tvg-chno="1083" group-title="Espanha",SpektraTV
 https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="Tele7.es@SD" tvg-name="Tele 7" tvg-logo="https://i.imgur.com/JcuV9ZE.png" tvg-chno="1085" group-title="Espanha",Tele 7
+#EXTINF:-1 tvg-id="Tele7.es@SD" tvg-name="Tele 7" tvg-logo="https://i.imgur.com/JcuV9ZE.png" tvg-chno="1084" group-title="Espanha",Tele 7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleElx.es@SD" tvg-name="Tele Elx" tvg-logo="https://i.imgur.com/w5NTWpl.png" tvg-chno="1086" group-title="Espanha",Tele Elx
+#EXTINF:-1 tvg-id="TeleElx.es@SD" tvg-name="Tele Elx" tvg-logo="https://i.imgur.com/w5NTWpl.png" tvg-chno="1085" group-title="Espanha",Tele Elx
 https://tvdirecto.teleelx.es/stream/teleelx.m3u8
-#EXTINF:-1 tvg-id="Teleganes.es@SD" tvg-name="Teleganes" tvg-logo="https://i.imgur.com/BXyplMX.png" tvg-chno="1087" group-title="Espanha",Teleganes
+#EXTINF:-1 tvg-id="Teleganes.es@SD" tvg-name="Teleganes" tvg-logo="https://i.imgur.com/BXyplMX.png" tvg-chno="1086" group-title="Espanha",Teleganes
 https://nlb2-live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8
-#EXTINF:-1 tvg-id="TelevisionAranda.es@SD" tvg-name="Television Aranda" tvg-logo="https://i.imgur.com/FwIIdKG.png" tvg-chno="1088" group-title="Espanha",Television Aranda
+#EXTINF:-1 tvg-id="TelevisionAranda.es@SD" tvg-name="Television Aranda" tvg-logo="https://i.imgur.com/FwIIdKG.png" tvg-chno="1087" group-title="Espanha",Television Aranda
 https://cloud.streamingconnect.tv/hls/telearanda/telearanda.m3u8
-#EXTINF:-1 tvg-id="TelevisionCanaria.es@SD" tvg-name="Television Canaria" tvg-logo="https://rtvc.es/archivos/2020/03/logo-mobilretina.png" tvg-chno="1089" group-title="Espanha",Television Canaria
+#EXTINF:-1 tvg-id="TelevisionCanaria.es@SD" tvg-name="Television Canaria" tvg-logo="https://rtvc.es/archivos/2020/03/logo-mobilretina.png" tvg-chno="1088" group-title="Espanha",Television Canaria
 https://rtvclive.flumotion.cloud/rtvc1live/smil:channel1PRG.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ThePetCollective.us@Spain" tvg-name="The Pet Collective Spain" tvg-logo="https://i.imgur.com/yH7n2dF.png" tvg-chno="1090" group-title="Espanha",The Pet Collective Spain
+#EXTINF:-1 tvg-id="ThePetCollective.us@Spain" tvg-name="The Pet Collective Spain" tvg-logo="https://i.imgur.com/yH7n2dF.png" tvg-chno="1089" group-title="Espanha",The Pet Collective Spain
 https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TitoTV.es@HD" tvg-name="Tito TV" tvg-logo="https://tvomix.com/Logos/Titotv.png" tvg-chno="1091" group-title="Espanha",Tito TV
+#EXTINF:-1 tvg-id="TitoTV.es@HD" tvg-name="Tito TV" tvg-logo="https://tvomix.com/Logos/Titotv.png" tvg-chno="1090" group-title="Espanha",Tito TV
 https://cloud.tvomix.com/TITOTV/index.m3u8
-#EXTINF:-1 tvg-id="TodoNovelas.es@SD" tvg-name="Todo Novelas" tvg-logo="https://i.imgur.com/NuYwGok.png" tvg-chno="1092" group-title="Espanha",Todo Novelas
+#EXTINF:-1 tvg-id="TodoNovelas.es@SD" tvg-name="Todo Novelas" tvg-logo="https://i.imgur.com/NuYwGok.png" tvg-chno="1091" group-title="Espanha",Todo Novelas
 https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8
-#EXTINF:-1 tvg-id="TVBRICSSpanish.es@HD" tvg-name="TV BRICS Spanish" tvg-logo="https://i.imgur.com/vLpm8tN.png" tvg-chno="1093" group-title="Espanha",TV BRICS Spanish
+#EXTINF:-1 tvg-id="TVBRICSSpanish.es@HD" tvg-name="TV BRICS Spanish" tvg-logo="https://i.imgur.com/vLpm8tN.png" tvg-chno="1092" group-title="Espanha",TV BRICS Spanish
 https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCostaBrava.es@SD" tvg-name="TV Costa Brava" tvg-logo="https://i.imgur.com/i6EnVZa.png" tvg-chno="1094" group-title="Espanha",TV Costa Brava
+#EXTINF:-1 tvg-id="TVCostaBrava.es@SD" tvg-name="TV Costa Brava" tvg-logo="https://i.imgur.com/i6EnVZa.png" tvg-chno="1093" group-title="Espanha",TV Costa Brava
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta318.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVLHospitalet.es@SD" tvg-name="TV L'Hospitalet" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Logotip_TV_L%27H.svg/960px-Logotip_TV_L%27H.svg.png" tvg-chno="1095" group-title="Espanha",TV L'Hospitalet
+#EXTINF:-1 tvg-id="TVLHospitalet.es@SD" tvg-name="TV L'Hospitalet" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Logotip_TV_L%27H.svg/960px-Logotip_TV_L%27H.svg.png" tvg-chno="1094" group-title="Espanha",TV L'Hospitalet
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta318.cdnmedia.tv/tvhospitaletlive/smil:tvhospitalet.smil/playlist.m3u8?DVR=
-#EXTINF:-1 tvg-id="TVSabadellValles.es@SD" tvg-name="TV Sabadell-Valles" tvg-logo="https://i.imgur.com/fSTsGbG.png" tvg-chno="1096" group-title="Espanha",TV Sabadell-Valles
+#EXTINF:-1 tvg-id="TVSabadellValles.es@SD" tvg-name="TV Sabadell-Valles" tvg-logo="https://i.imgur.com/fSTsGbG.png" tvg-chno="1095" group-title="Espanha",TV Sabadell-Valles
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
-#EXTINF:-1 tvg-id="TVOMIX.es@HD" tvg-name="TVOMIX" tvg-logo="https://ugc.production.linktr.ee/7ef61237-c46d-456b-afe3-a42ef49a979e_Mejorado2.png" tvg-chno="1097" group-title="Espanha",TVOMIX
+#EXTINF:-1 tvg-id="TVOMIX.es@HD" tvg-name="TVOMIX" tvg-logo="https://ugc.production.linktr.ee/7ef61237-c46d-456b-afe3-a42ef49a979e_Mejorado2.png" tvg-chno="1096" group-title="Espanha",TVOMIX
 https://cloud.tvomix.com/TVOMIX/index.m3u8
-#EXTINF:-1 tvg-id="UniversTV.es@SD" tvg-name="Univers TV" tvg-logo="https://i.imgur.com/EW2bfix.png" tvg-chno="1098" group-title="Espanha",Univers TV
+#EXTINF:-1 tvg-id="UniversTV.es@SD" tvg-name="Univers TV" tvg-logo="https://i.imgur.com/EW2bfix.png" tvg-chno="1097" group-title="Espanha",Univers TV
 https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
-#EXTINF:-1 tvg-id="UrolaTelebista.es@SD" tvg-name="Urola Telebista" tvg-logo="https://i.imgur.com/V23bltn.png" tvg-chno="1099" group-title="Espanha",Urola Telebista
+#EXTINF:-1 tvg-id="UrolaTelebista.es@SD" tvg-name="Urola Telebista" tvg-logo="https://i.imgur.com/V23bltn.png" tvg-chno="1098" group-title="Espanha",Urola Telebista
 https://5940924978228.streamlock.net/j_Directo2/mp4:j_Directo2/playlist.m3u8
-#EXTINF:-1 tvg-id="Vision6TV.es@SD" tvg-name="Vision 6 TV" tvg-logo="https://i.imgur.com/TB1wMQ7.jpg" tvg-chno="1100" group-title="Espanha",Vision 6 TV
+#EXTINF:-1 tvg-id="Vision6TV.es@SD" tvg-name="Vision 6 TV" tvg-logo="https://i.imgur.com/TB1wMQ7.jpg" tvg-chno="1099" group-title="Espanha",Vision 6 TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://streaming.proceso.info:8888/vision6-web/stream.m3u8
-#EXTINF:-1 tvg-id="VOTV.es@SD" tvg-name="VOTV" tvg-logo="https://i.imgur.com/1g2Z64L.png" tvg-chno="1101" group-title="Espanha",VOTV
+#EXTINF:-1 tvg-id="VOTV.es@SD" tvg-name="VOTV" tvg-logo="https://i.imgur.com/1g2Z64L.png" tvg-chno="1100" group-title="Espanha",VOTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8
-#EXTINF:-1 tvg-id="WaterBear.ch@SD" tvg-name="WaterBear" tvg-logo="https://framerusercontent.com/images/41VQQ7F0fYlp1MX1N4Ixog5QnPI.png" tvg-chno="1102" group-title="Espanha",WaterBear
+#EXTINF:-1 tvg-id="WaterBear.ch@SD" tvg-name="WaterBear" tvg-logo="https://framerusercontent.com/images/41VQQ7F0fYlp1MX1N4Ixog5QnPI.png" tvg-chno="1101" group-title="Espanha",WaterBear
 https://amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-id="XPTVUS.es@SD" tvg-name="XPTV US" tvg-logo="https://i.imgur.com/1m7kDmc.png" tvg-chno="1103" group-title="Espanha",XPTV US
+#EXTINF:-1 tvg-id="XPTVUS.es@SD" tvg-name="XPTV US" tvg-logo="https://i.imgur.com/1m7kDmc.png" tvg-chno="1102" group-title="Espanha",XPTV US
 https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
-#EXTINF:-1 tvg-id="XPTV1.es@SD" tvg-name="XPTV1" tvg-logo="https://i.imgur.com/Ty7GkoN.png" tvg-chno="1104" group-title="Espanha",XPTV1
+#EXTINF:-1 tvg-id="XPTV1.es@SD" tvg-name="XPTV1" tvg-logo="https://i.imgur.com/Ty7GkoN.png" tvg-chno="1103" group-title="Espanha",XPTV1
 https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
-#EXTINF:-1 tvg-id="XPTV2.es@SD" tvg-name="XPTV2" tvg-logo="https://i.imgur.com/74Z8ATB.png" tvg-chno="1105" group-title="Espanha",XPTV2
+#EXTINF:-1 tvg-id="XPTV2.es@SD" tvg-name="XPTV2" tvg-logo="https://i.imgur.com/74Z8ATB.png" tvg-chno="1104" group-title="Espanha",XPTV2
 https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
