@@ -103,8 +103,6 @@ const PAISES = [["portugal","🇵🇹 Portugal"],["espanha","🇪🇸 Espanha"],
   ["holanda","🇳🇱 Holanda"],["belgica","🇧🇪 Bélgica"],["alemanha","🇩🇪 Alemanha"],["brasil","🇧🇷 Brasil"],
   ["eua","🇺🇸 EUA"],["internacional","🌍 Internacional"],["resto-do-mundo","🗺️ Resto do mundo"],["adultos","🔞 Adultos"]];
 
-// Ponte no NAS (pela rede Tailscale): toca canais que exigem cabeçalhos (SIC, TVI…) e rádios só "http"
-const PONTE = "";
 const $ = s => document.querySelector(s);
 const estado = { aba: "tv", pais: "portugal", regiao: "Todas", procura: "", tv: {}, radios: null, aTocar: null, listaVisivel: [] };
 
@@ -231,31 +229,37 @@ function alternarFav(c) {
 const video = $("#video"), audio = $("#audio");
 
 function falhou(c) {
-  if (precisaPonte(c) && !ponteOk) {
-    avisar(c, "<b></b> só abre através da ponte do NAS.<br>Liga o Tailscale no telemóvel e tenta outra vez.");
+  const site = siteOficial(c);
+  if (site) {
+    fecharTv();
+    avisar(c, "<b></b> só emite para o site do próprio canal.<br>Abre lá o directo, é gratuito.", site, "Abrir site oficial");
     return;
   }
   marcarFalha(c); avisar(c); desenhar();
 }
-function avisar(c, msg) {
+function avisar(c, msg, link, rotulo) {
   $("#avisoTexto").innerHTML = "";
   const t = document.createElement("div"); t.innerHTML = msg || "<b></b> não abriu, por isso escondi-o da lista.<br>Volto a experimentá-lo daqui a 3 dias. Podes tentar já “Abrir à parte”.";
   t.firstChild.textContent = c.nome; $("#avisoTexto").appendChild(t);
   const b = $("#avisoBotoes"); b.innerHTML = "";
-  const a = document.createElement("a"); a.textContent = "Abrir à parte";
-  a.href = c.url; a.target = "_blank"; a.rel = "noopener";
+  const a = document.createElement("a"); a.textContent = rotulo || "Abrir à parte";
+  a.href = link || c.url; a.target = "_blank"; a.rel = "noopener";
   const f = document.createElement("button"); f.textContent = "Fechar"; f.onclick = () => $("#aviso").classList.remove("visivel");
   b.append(a, f); $("#aviso").classList.add("visivel");
 }
 
-function precisaPonte(c) { return /^http:/i.test(c.url) || !!(c.cab && (c.cab.r || c.cab.o)); }
+// Canais que só emitem para o site do próprio canal (SIC, TVI…): o navegador não se pode fazer passar
+// pelo site deles, por isso, se não abrirem cá dentro, abre-se a página oficial de directo (gratuita).
+const SITES = { "sic.pt": "https://sic.pt/direto" };
+function siteOficial(c) {
+  if (!c.cab) return "";
+  const s = c.cab.r || c.cab.o || "";
+  if (!/^https:\/\//.test(s)) return "";
+  try { const h = new URL(s).hostname.replace(/^www\./, ""); return SITES[h] || s; } catch (e) { return ""; }
+}
 function experimentar(el, c, aoFalhar) {
   // o iPhone recusa endereços http dentro de uma página segura: tenta primeiro a versão https
   const tentativas = [...new Set([c.url.replace(/^http:\/\//i, "https://"), c.url])];
-  if (PONTE && ponteOk) {
-    const via = PONTE + "/p?" + new URLSearchParams({ u: c.url, ...(c.cab || {}) }).toString();
-    if (precisaPonte(c)) tentativas.unshift(via); else tentativas.push(via);
-  }
   let i = 0, ok = false;
   const proxima = () => {
     if (ok) return;
@@ -274,7 +278,7 @@ function experimentar(el, c, aoFalhar) {
   };
   el.onerror = proxima;
   clearTimeout(el._prazo);
-  el._prazo = setTimeout(() => { if (!ok && estado.aTocar === c) { i = tentativas.length; proxima(); } }, 20000);
+  el._prazo = setTimeout(() => { if (!ok && estado.aTocar === c) { i = tentativas.length; proxima(); } }, siteOficial(c) ? 8000 : 20000);
   el.onplaying = () => { ok = true; marcarBom(c); if (el === audio) aTocarRadio(); };
   proxima();
 }
@@ -328,11 +332,6 @@ document.querySelectorAll(".abas button").forEach(b => b.onclick = () => {
 let espera;
 $("#procura").oninput = e => { clearTimeout(espera); espera = setTimeout(() => { estado.procura = e.target.value; desenhar(); }, 150); };
 
-let ponteOk = false;
-if (PONTE) {
-  const ctl = new AbortController(); setTimeout(() => ctl.abort(), 4000);
-  fetch(PONTE + "/ok", { signal: ctl.signal, cache: "no-store" }).then(r => { ponteOk = r.ok; }).catch(() => {});
-}
 desenhar();
 </script>
 </body>
