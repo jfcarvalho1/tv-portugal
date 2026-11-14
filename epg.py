@@ -25,9 +25,7 @@ SAIDA = os.path.join(LISTAS, "epg")
 UA = "Mozilla/5.0 (TV-Radios-Portugal EPG)"
 ES = "https://epgshare01.online/epgshare01/epg_ripper_{}.xml.gz"
 FONTES = ["https://raw.githubusercontent.com/LITUATUI/M3UPT/main/EPG/epg-m3upt.xml.xz"] + [
-    ES.format(p) for p in ("PT1", "ES1", "FR1", "IT1", "NL1", "BE2", "DE1", "BR1", "UK1", "US2",
-                           "RAKUTEN_ES1", "RAKUTEN_FR1", "RAKUTEN_IT1", "RAKUTEN_DE1", "SAMSUNG1",
-                           "ALJAZEERA1")]
+    ES.format(p) for p in ("PT1", "ES1", "FR1", "IT1", "NL1", "BE2", "DE1", "BR1", "UK1", "US2")]
 ANTES, DEPOIS = 1 * 3600, 14 * 3600
 
 
