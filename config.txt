@@ -1,0 +1,8 @@
+# Configuração usada pelo GitHub (actualização diária automática)
+MIN_RESOLUCAO=720
+INCLUIR_RESTO_DO_MUNDO=1
+EXCLUIR=
+INCLUIR_ADULTOS=1
+TESTAR_LINKS=1
+# O GitHub testa a partir de fora de Portugal: os canais portugueses ficam sempre
+NAO_TESTAR_PAISES=Portugal

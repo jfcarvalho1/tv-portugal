@@ -1,0 +1,19 @@
+# TV Portugal (e do mundo) — listas M3U livres e legais
+
+Só fontes públicas e oficiais: **M3UPT** (canais portugueses + guia), **iptv-org** (links públicos de todo o mundo) e **Radio Browser** (rádios).
+Sem pirataria, sem religião, sem televendas. Canais +18 num grupo à parte no fim (90001+). Estrangeiros só a partir de **720p**. Links mortos saem sozinhos.
+
+## Listas (actualizadas todos os dias)
+- `listas/tv.m3u` — TV em directo, por países: Portugal (1+), Espanha (1001+), França (2001+), Itália (3001+), Holanda (4001+), Bélgica (5001+), Alemanha (6001+), Brasil (7001+), EUA (8001+), Internacional (9001+), resto do mundo (10001+), Adultos +18 (90001+)
+- `listas/radios.m3u` — rádios portuguesas (nacionais 1+, regionais e locais 101+)
+- `listas/relatorio.txt` — lista canal a canal e o que ficou de fora (e porquê)
+
+## Ver no VLC (Linux)
+`vlc https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/tv.m3u`
+ou no VLC: Media > Abrir fluxo de rede > colar o endereço.
+
+## Jellyfin
+TV em directo > Sintonizador M3U > o mesmo endereço. Guia: `https://m3upt.com/epg`.
+
+## Mudar opções
+Editar `config.txt` (ex.: `EXCLUIR=fashion, rt news`). A actualização seguinte já respeita.
