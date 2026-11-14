@@ -265,7 +265,7 @@ function falhou(c) {
   const site = siteOficial(c);
   if (site) {
     fecharTv();
-    avisar(c, "<b></b> só emite para o site do próprio canal.<br>Abre lá o directo, é gratuito.", site, "Abrir site oficial");
+    avisar(c, "<b></b> não pode ser reproduzido directamente nesta aplicação. Vou abrir o site oficial do canal.", site, "Abrir SIC Notícias");
     return;
   }
   marcarFalha(c); avisar(c); desenhar();
@@ -283,7 +283,7 @@ function avisar(c, msg, link, rotulo) {
 
 // Canais que só emitem para o site do próprio canal (SIC, TVI…): o navegador não se pode fazer passar
 // pelo site deles, por isso, se não abrirem cá dentro, abre-se a página oficial de directo (gratuita).
-const SITES = { "sic.pt": "https://sic.pt/direto" };
+const SITES = { "sic.pt": "https://sic.pt/direto", "sicnoticias.pt": "https://sicnoticias.pt/" };
 function siteOficial(c) {
   if (!c.cab) return "";
   const s = c.cab.r || c.cab.o || "";
