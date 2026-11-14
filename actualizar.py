@@ -67,7 +67,7 @@ TRADUZ = {
 
 # Ordem de importância dentro de cada país (regex sobre o nome simplificado: sem acentos/espaços)
 IMPORTANCIA = {
-    "Portugal": [r"^rtp1$", r"^rtp2$", r"^sic$", r"^tvi$", r"^rtp3$", r"^sicnoticias", r"^cnnportugal",
+    "Portugal": [r"^rtp1$", r"^rtp2$", r"^sic$", r"^tvi$", r"^(rtp3|rtpnoticias)$", r"^sicnoticias", r"^cnnportugal",
                  r"^rtpmemoria", r"^(artv|canalparlamento)", r"^canal11", r"^cmtv", r"^portocanal",
                  r"^rtpacores", r"^rtpmadeira", r"^rtpafrica", r"^rtpinternacional", r"^tviinternacional",
                  r"^sicinternacional", r"^vtvi", r"^euronews.*(pt|portug)"],
@@ -103,6 +103,19 @@ ADULTOS = ["xxx", "adult", "erotic", "porn", "+18", "18+", "playboy", "hustler",
 IPTVORG_ADULTOS = "https://iptv-org.github.io/iptv/index.nsfw.m3u"
 GRUPO_ADULTOS = "Adultos (+18)"
 ADULTOS_INICIO = 90001
+# ANTI-PIRATARIA 1: canais pagos nunca são livres -> qualquer link para eles é ilegal
+PAGOS = ["sport tv", "sporttv", "dazn", "eurosport", "axn", "star channel", "star movies", "star crime",
+         "star life", "star comedy", "disney", "hbo", "sky sport", "sky cinema", "sky atlantic", "canal+",
+         "canal plus", "bein", "espn", "fox sports", "movistar", "discovery", "national geographic", "nat geo",
+         "cartoon network", "cartoonito", "hollywood", "tnt", "warner", "cinemax", "showtime", "starz",
+         "sic mulher", "sic radical", "sic caras", "sic k", "mcm", "premiere", "sportv", "telecine",
+         "globonews", "benfica tv", "btv", "sporting tv", "canal panda", "biggs", "odisseia", "historia",
+         "history", "a&e", "syfy", "amc", "cinemundo", "tvcine", "eleven", "arena sport", "nova sport",
+         "dazn", "max ", "paramount+", "fx ", "e! ", "mtv"]
+# ANTI-PIRATARIA 2: links em servidores caseiros (endereço IP ou DNS dinâmico) não são emissões oficiais
+HOST_SUSPEITO = re.compile(r"^(\d{1,3}\.){3}\d{1,3}$|dyndns|ddns|no-ip|noip|duckdns|myftp|hopto|zapto|"
+                           r"serveftp|sytes|redirectme|ddnsfree|freeddns|dynu|servebeer|servehttp")
+
 # Categorias do iptv-org que ficam de fora: religião e televendas
 CATEGORIAS_FORA = {
     "religião": "https://iptv-org.github.io/iptv/categories/religious.m3u",
@@ -140,6 +153,16 @@ def baixar(url, ua=UA, timeout=60):
 
 def sem_acentos(t):
     return unicodedata.normalize("NFKD", t or "").encode("ascii", "ignore").decode().lower()
+
+
+def pirata(c):
+    host = re.sub(r"^https?://", "", c["url"]).split("/")[0].split(":")[0].lower()
+    if HOST_SUSPEITO.search(host):
+        return "link não oficial (servidor caseiro)"
+    n = " " + sem_acentos(c["nome"]) + " "
+    if any(" " + p.strip() + " " in n or n.strip().startswith(p.strip()) for p in PAGOS):
+        return "canal pago (só existe pirata)"
+    return None
 
 
 def chave(nome):
@@ -296,7 +319,8 @@ def main():
                 continue  # câmaras de praia: não são canais de TV
             else:
                 tid = c["attrs"].get("tvg-id", "").lower()
-                if ".pt" in tid or posicao("Portugal", c["nome"]) < 999:
+                espanhol = posicao("Spain", c["nome"]) < 999 or "tve" in sem_acentos(c["nome"])
+                if (".pt" in tid or posicao("Portugal", c["nome"]) < 999) and not espanhol:
                     c["pais"] = "Portugal"
                     tv_bruto.append(c)
                 # os estrangeiros do M3UPT vêm também do iptv-org, já com o país certo
@@ -352,6 +376,7 @@ def main():
         motivo = excl_url.get(c["url"]) or (excl_id.get(tid) if tid else None)
         if not motivo and any(r in " " + sem_acentos(c["nome"]) + " " for r in RELIGIAO):
             motivo = "religião"
+        motivo = motivo or pirata(c)
         if motivo or bloqueado(c["nome"]):
             fora.append((motivo or "excluído", c["nome"], c["pais"]))
             continue
