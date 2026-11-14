@@ -179,12 +179,11 @@ https://the-pet-collective-international-es.samsung.wurl.tv/playlist.m3u8
 https://cloud.tvomix.com/TITOTV/index.m3u8
 #EXTINF:-1 tvg-id="TodoNovelas.es@SD" tvg-name="Todo Novelas" tvg-logo="https://i.imgur.com/NuYwGok.png" tvg-chno="1085" group-title="Espanha",Todo Novelas
 https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8
-#EXTINF:-1 tvg-id="TVCostaBrava.es@SD" tvg-name="TV Costa Brava" tvg-logo="https://i.imgur.com/i6EnVZa.png" tvg-chno="1086" group-title="Espanha",TV Costa Brava
+#EXTINF:-1 tvg-id="TVBRICSSpanish.es@HD" tvg-name="TV BRICS Spanish" tvg-logo="https://i.imgur.com/vLpm8tN.png" tvg-chno="1086" group-title="Espanha",TV BRICS Spanish
+https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8
+#EXTINF:-1 tvg-id="TVCostaBrava.es@SD" tvg-name="TV Costa Brava" tvg-logo="https://i.imgur.com/i6EnVZa.png" tvg-chno="1087" group-title="Espanha",TV Costa Brava
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta318.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVLHospitalet.es@SD" tvg-name="TV L'Hospitalet" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Logotip_TV_L%27H.svg/960px-Logotip_TV_L%27H.svg.png" tvg-chno="1087" group-title="Espanha",TV L'Hospitalet
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta318.cdnmedia.tv/tvhospitaletlive/smil:tvhospitalet.smil/playlist.m3u8?DVR=
 #EXTINF:-1 tvg-id="TVSabadellValles.es@SD" tvg-name="TV Sabadell-Valles" tvg-logo="https://i.imgur.com/fSTsGbG.png" tvg-chno="1088" group-title="Espanha",TV Sabadell-Valles
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
