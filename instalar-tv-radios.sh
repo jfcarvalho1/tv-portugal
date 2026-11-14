@@ -246,6 +246,32 @@ def _abrir(url, h, n=65536):
         return r.geturl(), r.read(n)
 
 
+def testar_icy(url, h):
+    """Rádios Shoutcast antigas respondem "ICY 200 OK" (não é HTTP normal) e o Python recusa.
+    Aqui falamos directamente com o servidor."""
+    import socket
+    import ssl
+    u = urllib.parse.urlsplit(url)
+    porta = u.port or (443 if u.scheme == "https" else 80)
+    caminho = (u.path or "/") + ("?" + u.query if u.query else "")
+    s = socket.create_connection((u.hostname, porta), timeout=12)
+    try:
+        if u.scheme == "https":
+            s = ssl.create_default_context().wrap_socket(s, server_hostname=u.hostname)
+        pedido = f"GET {caminho} HTTP/1.0\r\nHost: {u.hostname}\r\nUser-Agent: {h['User-Agent']}\r\n"
+        pedido += "Icy-MetaData: 0\r\n\r\n"
+        s.sendall(pedido.encode())
+        dados = b""
+        while len(dados) < 8192:
+            bloco = s.recv(4096)
+            if not bloco:
+                break
+            dados += bloco
+        return dados[:12].upper().startswith((b"ICY 200", b"HTTP/1.0 200", b"HTTP/1.1 200")) and len(dados) > 2000
+    finally:
+        s.close()
+
+
 def testar(url):
     """Teste a sério, como um leitor: abre a lista, escolhe a qualidade, abre a sub-lista
     e descarrega um pedaço de vídeo. Devolve (funciona, altura). Recusa: gravações (não é directo),
@@ -285,13 +311,77 @@ def testar(url):
             _, pedaco = _abrir(urllib.parse.urljoin(final, segs[-1]), h, 32768)
             return (len(pedaco) > 1000, altura)
         return (False, altura)
-    except Exception:
+    except Exception as e:
+        if "BadStatusLine" in type(e).__name__ or "ICY" in str(e) or "RemoteDisconnected" in type(e).__name__:
+            try:
+                return (testar_icy(url, h), 0)
+            except Exception:
+                return (False, 0)
         return (False, 0)
 
 
 def altura_no_nome(c):
     m = re.search(r"\((\d{3,4})p\)", c.get("bruto", ""))
     return int(m.group(1)) if m else 0
+
+
+NOMES_FIXOS = {}  # nomes corrigidos à mão: ficheiro nomes-radios.txt ("nome errado = nome certo")
+if os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), "nomes-radios.txt")):
+    for _l in open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "nomes-radios.txt"), encoding="utf-8"):
+        if "=" in _l and not _l.lstrip().startswith("#"):
+            _a, _b = _l.split("=", 1)
+            NOMES_FIXOS[_a.strip().lower()] = _b.strip()
+
+
+def nome_radio(nome):
+    """Arruma o nome: tira lixo técnico, põe 'Rádio' com acento e preposições em minúsculas."""
+    n = " ".join((nome or "").split())
+    if n.lower() in NOMES_FIXOS:
+        return NOMES_FIXOS[n.lower()]
+    n = re.sub(r"\s*\((portugal|aac|mp3|hls|main)\)|\s+-\s+main$", "", n, flags=re.I).strip()
+    n = re.sub(r"\s*\((?![^)]*\+18)[^)]*\)\s*$", "", n).strip()  # tira "(Música Mundial)", "(Talk)", etc.
+    if n.isupper() and len(n) > 6:
+        n = n.title()
+        n = re.sub(r"\b(Fm|Am|Rtp|Tsf|Rfm|Rdp|Sbsr|Rcp|Rvb|Rcs|Rds|Ii|Tv)\b", lambda m: m.group(1).upper(), n)
+    n = re.sub(r"^r[aá]dio\b", "Rádio", n, flags=re.I)
+    n = re.sub(r"(?<=\s)(Da|De|Do|Das|Dos|E)(?=\s)", lambda m: m.group(1).lower(), n)
+    return NOMES_FIXOS.get(n.lower(), n)
+
+
+def chave_radio(nome):
+    """Chave para apanhar duplicados: sem 'rádio', 'fm', frequências nem parênteses."""
+    n = re.sub(r"\(.*?\)|\[.*?\]", "", sem_acentos(nome))
+    n = re.sub(r"\b(radio|fm|am|online|portugal)\b|\b\d{2,3}[.,]\d\b", "", n)
+    return re.sub(r"[^a-z0-9]", "", n)
+
+
+def radios_tunein():
+    """Rádios do TuneIn (recolhidas pelo radios_tunein.py): têm as locais todas e com nome certo."""
+    f = os.path.join(LISTAS, "radios-tunein.json")
+    if not os.path.exists(f):
+        log("TuneIn: sem radios-tunein.json (corre o radios_tunein.py)")
+        return []
+    dados = json.load(open(f, encoding="utf-8"))
+    log(f"TuneIn: {len(dados)} rádios")
+    return [{"nome": d["nome"], "url": d["url"], "fonte": "tunein", "regiao": d.get("regiao") or "",
+             "attrs": {"tvg-logo": d.get("logo") or ""}} for d in dados if d.get("url")]
+
+
+def radios_extra():
+    """Rádios acrescentadas à mão no ficheiro radios-extra.txt ("Nome | link | Distrito")."""
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), "radios-extra.txt")
+    out = []
+    if os.path.exists(f):
+        for l in open(f, encoding="utf-8"):
+            l = l.strip()
+            if not l or l.startswith("#"):
+                continue
+            partes = [x.strip() for x in l.split("|")]
+            if len(partes) >= 2 and partes[1].startswith("http"):
+                out.append({"nome": partes[0], "url": partes[1], "fonte": "manual",
+                            "regiao": partes[2] if len(partes) > 2 else "", "attrs": {}})
+        log(f"Rádios acrescentadas à mão: {len(out)}")
+    return out
 
 
 def radio_browser():
@@ -428,7 +518,7 @@ def main():
             c["pais"] = GRUPO_ADULTOS
     if cfg["INCLUIR_ADULTOS"] != "1":
         tv_bruto = [c for c in tv_bruto if c["pais"] != GRUPO_ADULTOS]
-    radios_bruto += radio_browser()
+    radios_bruto = radios_extra() + radios_tunein() + radios_bruto + radio_browser()
     excl_url, excl_id = {}, {}
     for motivo, url in CATEGORIAS_FORA.items():
         try:
@@ -468,8 +558,10 @@ def main():
     # ---------- rádios: sem duplicados
     radios, vistos = [], set()
     for c in radios_bruto:
-        k = chave(c["nome"])
-        if k and k not in vistos and not bloqueado(c["nome"]):
+        c["nome"] = nome_radio(c["nome"])
+        k = chave_radio(c["nome"]) or chave(c["nome"])
+        if k and k not in vistos and c["url"] not in vistos and not bloqueado(c["nome"]):
+            vistos.add(c["url"])
             vistos.add(k)
             radios.append(c)
 
@@ -533,13 +625,19 @@ def main():
     def r_pos(c):
         k = chave(c["nome"])
         return next((i for i, rx in enumerate(RADIOS_NACIONAIS) if re.search(rx, k)), 999)
-    radios.sort(key=lambda c: (r_pos(c), sem_acentos(c["nome"])))
+    def r_grupo(c):
+        if r_pos(c) < 999:
+            return "Rádios Nacionais"
+        if c.get("regiao"):
+            return "Rádios Locais - " + c["regiao"]
+        return "Outras Rádios"
+    radios.sort(key=lambda c: (r_pos(c), r_grupo(c) == "Outras Rádios", sem_acentos(r_grupo(c)), sem_acentos(c["nome"])))
     linhas_r, rel_r, numerados, nn, nl = [f'#EXTM3U url-tvg="{epg}"'], [], [], 1, 101
     for c in radios:
         nac = r_pos(c) < 999
         n = nn if nac else nl
         nn, nl = (nn + 1, nl) if nac else (nn, nl + 1)
-        g = "Rádios Nacionais" if nac else "Rádios Regionais e Locais"
+        g = r_grupo(c)
         linhas_r += [linha_extinf(c, n, g, radio=True), c["url"]]
         rel_r.append(f"{n:>6}  [{g}]  {c['nome']}")
         numerados.append((n, nac, c))

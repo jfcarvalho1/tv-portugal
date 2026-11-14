@@ -231,6 +231,32 @@ def _abrir(url, h, n=65536):
         return r.geturl(), r.read(n)
 
 
+def testar_icy(url, h):
+    """Rádios Shoutcast antigas respondem "ICY 200 OK" (não é HTTP normal) e o Python recusa.
+    Aqui falamos directamente com o servidor."""
+    import socket
+    import ssl
+    u = urllib.parse.urlsplit(url)
+    porta = u.port or (443 if u.scheme == "https" else 80)
+    caminho = (u.path or "/") + ("?" + u.query if u.query else "")
+    s = socket.create_connection((u.hostname, porta), timeout=12)
+    try:
+        if u.scheme == "https":
+            s = ssl.create_default_context().wrap_socket(s, server_hostname=u.hostname)
+        pedido = f"GET {caminho} HTTP/1.0\r\nHost: {u.hostname}\r\nUser-Agent: {h['User-Agent']}\r\n"
+        pedido += "Icy-MetaData: 0\r\n\r\n"
+        s.sendall(pedido.encode())
+        dados = b""
+        while len(dados) < 8192:
+            bloco = s.recv(4096)
+            if not bloco:
+                break
+            dados += bloco
+        return dados[:12].upper().startswith((b"ICY 200", b"HTTP/1.0 200", b"HTTP/1.1 200")) and len(dados) > 2000
+    finally:
+        s.close()
+
+
 def testar(url):
     """Teste a sério, como um leitor: abre a lista, escolhe a qualidade, abre a sub-lista
     e descarrega um pedaço de vídeo. Devolve (funciona, altura). Recusa: gravações (não é directo),
@@ -270,7 +296,12 @@ def testar(url):
             _, pedaco = _abrir(urllib.parse.urljoin(final, segs[-1]), h, 32768)
             return (len(pedaco) > 1000, altura)
         return (False, altura)
-    except Exception:
+    except Exception as e:
+        if "BadStatusLine" in type(e).__name__ or "ICY" in str(e) or "RemoteDisconnected" in type(e).__name__:
+            try:
+                return (testar_icy(url, h), 0)
+            except Exception:
+                return (False, 0)
         return (False, 0)
 
 
