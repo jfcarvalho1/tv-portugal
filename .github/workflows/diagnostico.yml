@@ -26,7 +26,7 @@ jobs:
                       await pg.add_init_script("const o=HTMLMediaElement.prototype.canPlayType;HTMLMediaElement.prototype.canPlayType=function(t){return /mpegurl/i.test(t)?'':o.call(this,t)};")
                   await pg.goto("https://jfcarvalho1.github.io/tv-portugal/?v=" + str(forcar))
                   await pg.wait_for_timeout(4000)
-                  for nome in ["TVI", "CNN Portugal", "V+ TVI"]:
+                  for nome in ["RTP 1", "SIC", "TVI", "SIC Notícias", "CNN Portugal", "V+ TVI"]:
                       els = pg.locator(".linha"); n = await els.count()
                       for i in range(n):
                           if (await els.nth(i).locator("b").inner_text()).strip() == nome:
@@ -39,6 +39,6 @@ jobs:
                   await b.close()
           asyncio.run(main(int(sys.argv[1])))
           PY
-          mkdir -p /tmp/out && python3 t.py 0 2>&1 | head -60; python3 t.py 1 2>&1 | head -60
+          mkdir -p /tmp/out && python3 t.py 0 2>&1 | grep ESTADO
       - run: |
           git init -q d && cd d && git checkout -q -b diagnostico && cp /tmp/out/*.png . 2>/dev/null; git add . && git -c user.name=d -c user.email=d@d commit -qm d && git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" diagnostico

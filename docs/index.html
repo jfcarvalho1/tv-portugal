@@ -117,7 +117,7 @@ let falhados = ler("falhados", {});            // id -> data em que falhou
 const TRES_DIAS = 3 * 24 * 3600 * 1000;
 for (const k in falhados) if (Date.now() - falhados[k] > TRES_DIAS) delete falhados[k];
 // versão nova da app: esquecer as falhas antigas (podem já estar resolvidas)
-const VERSAO = "2026-11-14c";
+const VERSAO = "2026-11-14d";
 if (ler("versao", "") !== VERSAO) { falhados = {}; gravar("falhados", falhados); gravar("versao", VERSAO); }
 function marcarFalha(c) {
   if (c.pais === "portugal") return;  // os canais portugueses nunca se escondem
@@ -311,7 +311,10 @@ function experimentar(el, c, aoFalhar) {
     if (i >= tentativas.length) { aoFalhar(); return; }
     const u = tentativas[i++];
     const ehHls = /\.m3u8(\?|$)/i.test(u);
-    if (ehHls && !el.canPlayType("application/vnd.apple.mpegurl") && window.Hls && Hls.isSupported()) {
+    // Fora do Safari (Chrome, Chromium, Edge, Firefox) usa-se sempre o hls.js: o leitor próprio do Chrome
+    // recusa listas guardadas no GitHub (TVI, CNN Portugal, V+ TVI). No iPhone fica o leitor da Apple.
+    const apple = /Apple/.test(navigator.vendor || "");
+    if (ehHls && window.Hls && Hls.isSupported() && (!apple || !el.canPlayType("application/vnd.apple.mpegurl"))) {
       const h = new Hls({ lowLatencyMode: false, manifestLoadingMaxRetry: 4, levelLoadingMaxRetry: 4, fragLoadingMaxRetry: 6 }); el._hls = h;
       let recuperacoes = 0;
       h.on(Hls.Events.ERROR, (_, d) => {
