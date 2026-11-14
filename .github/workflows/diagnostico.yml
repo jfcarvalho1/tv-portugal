@@ -1,18 +1,23 @@
 name: Diagnóstico SIC Notícias
 on:
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   d:
     runs-on: ubuntu-latest
     steps:
+      - run: sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg >/dev/null
       - run: |
-          UA="Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1"
           K="https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8"
-          echo "== Kaltura"; curl -s -A "$UA" -o /tmp/k -w '%{http_code} %{content_type} %{url_effective}\n' -L "$K"; head -c 600 /tmp/k; echo
-          echo "== impresa sem referer"; curl -s -A "$UA" -o /tmp/i -w '%{http_code}\n' https://sicnot.live.impresa.pt/sicnot.m3u8; head -c 300 /tmp/i; echo
-          echo "== impresa com referer"; curl -s -A "$UA" -e https://sicnoticias.pt/ -H "Origin: https://sicnoticias.pt" -o /tmp/i2 -w '%{http_code}\n' https://sicnot.live.impresa.pt/sicnot.m3u8; head -c 300 /tmp/i2; echo
-          echo "== CORS impresa"; curl -s -I -A "$UA" -H "Origin: https://jfcarvalho1.github.io" https://sicnot.live.impresa.pt/sicnot.m3u8 | grep -i -E 'HTTP|access-control' 
-          for u in https://sicnoticias.pt/ https://sicnoticias.pt/directo https://sicnoticias.pt/direto https://sicnoticias.pt/live; do
-            echo "== $u"; curl -s -L -A "$UA" "$u" -o /tmp/p -w '%{http_code} %{url_effective}\n'
-            grep -o -E 'entryId[^,}]{0,60}|entry_id[^,}]{0,60}|partnerId[^,}]{0,30}|https?://[^"'"'"' ]*\.m3u8[^"'"'"' ]*|kaltura[^"'"'"' ]{0,120}|[01]_[a-z0-9]{8}' /tmp/p | sort -u | head -30
-          done
+          F=$(curl -s -L -o /dev/null -w '%{url_effective}' "$K"); echo "final: $F"
+          curl -s "$F"; echo
+          V=$(dirname "$F")/$(curl -s "$F" | grep -v '^#' | head -1); echo "variante: $V"; curl -s "$V" | head -12
+          echo "== CORS"; curl -s -I -H "Origin: https://jfcarvalho1.github.io" "$V" | grep -i -E '^HTTP|access-control|content-type'
+          mkdir -p /tmp/out; timeout 60 ffmpeg -loglevel error -y -i "$K" -frames:v 1 -q:v 3 /tmp/out/sicnot.jpg && echo "imagem ok"
+          timeout 60 ffprobe -v error -show_entries stream=codec_name,width,height -of compact "$K"
+      - run: |
+          git init -q d && cd d && git checkout -q -b diagnostico
+          cp /tmp/out/sicnot.jpg . 2>/dev/null || echo nada > sem-imagem.txt
+          git add . && git -c user.name=diag -c user.email=d@d commit -qm diag
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" diagnostico
