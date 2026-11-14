@@ -146,7 +146,7 @@ RELIGIAO = ["igreja", "church", "gospel", "christ", "cristo", "jesus", "god ", "
 
 
 def ler_config():
-    cfg = {"INCLUIR_RESTO_DO_MUNDO": "1", "TESTAR_LINKS": "1", "EXCLUIR": "", "MIN_RESOLUCAO": "720", "NAO_TESTAR_PAISES": "", "INCLUIR_ADULTOS": "1"}
+    cfg = {"INCLUIR_RESTO_DO_MUNDO": "1", "TESTAR_LINKS": "1", "EXCLUIR": "", "MIN_RESOLUCAO": "720", "NAO_TESTAR_PAISES": "", "INCLUIR_ADULTOS": "0"}
     if os.path.exists(CONFIG):
         for linha in open(CONFIG, encoding="utf-8"):
             linha = linha.strip()
@@ -788,8 +788,8 @@ MIN_RESOLUCAO=720
 INCLUIR_RESTO_DO_MUNDO=1
 # Palavras a excluir, separadas por vírgulas (ex.: fashion, rt news)
 EXCLUIR=
-# Canais para adultos (+18), num grupo à parte no fim (90001+). 0 = tirar
-INCLUIR_ADULTOS=1
+# Canais para adultos: desligado (não há fontes legais grátis)
+INCLUIR_ADULTOS=0
 TESTAR_LINKS=1
 CFG
 cat > "$BASE/actualizar-tudo.sh" <<'SH'

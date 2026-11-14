@@ -1,11 +1,11 @@
 # TV Portugal (e do mundo) — listas M3U livres e legais
 
 Só fontes públicas e oficiais: **M3UPT** (canais portugueses + guia), **iptv-org** (links públicos de todo o mundo) e **Radio Browser** (rádios).
-Sem pirataria, sem religião, sem televendas. Canais +18 num grupo à parte no fim (90001+). Estrangeiros só a partir de **720p**. Links mortos saem sozinhos.
+Sem pirataria, sem religião, sem televendas. Sem canais para adultos. Estrangeiros só a partir de **720p**. Links mortos saem sozinhos.
 
 ## Listas (actualizadas todos os dias)
 - `listas/tv/*.m3u` — a mesma TV dividida por país (listas pequenas para o VLC do iPhone)
-- `listas/tv.m3u` — TV em directo, por países: Portugal (1+), Espanha (1001+), França (2001+), Itália (3001+), Holanda (4001+), Bélgica (5001+), Alemanha (6001+), Brasil (7001+), EUA (8001+), Internacional (9001+), resto do mundo (10001+), Adultos +18 (90001+)
+- `listas/tv.m3u` — TV em directo, por países: Portugal (1+), Espanha (1001+), França (2001+), Itália (3001+), Holanda (4001+), Bélgica (5001+), Alemanha (6001+), Brasil (7001+), EUA (8001+), Internacional (9001+), resto do mundo (10001+)
 - `listas/radios.m3u` — rádios portuguesas (nacionais 1+, regionais e locais 101+)
 - `listas/relatorio.txt` — lista canal a canal e o que ficou de fora (e porquê)
 
