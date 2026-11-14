@@ -116,7 +116,13 @@ let favoritos = ler("favoritos", []);
 let falhados = ler("falhados", {});            // id -> data em que falhou
 const TRES_DIAS = 3 * 24 * 3600 * 1000;
 for (const k in falhados) if (Date.now() - falhados[k] > TRES_DIAS) delete falhados[k];
-function marcarFalha(c) { falhados[c.id] = Date.now(); gravar("falhados", falhados); }
+// versão nova da app: esquecer as falhas antigas (podem já estar resolvidas)
+const VERSAO = "2026-11-14c";
+if (ler("versao", "") !== VERSAO) { falhados = {}; gravar("falhados", falhados); gravar("versao", VERSAO); }
+function marcarFalha(c) {
+  if (c.pais === "portugal") return;  // os canais portugueses nunca se escondem
+  falhados[c.id] = Date.now(); gravar("falhados", falhados);
+}
 function marcarBom(c) { if (falhados[c.id]) { delete falhados[c.id]; gravar("falhados", falhados); } }
 estado.pais = ler("pais", "portugal");
 
