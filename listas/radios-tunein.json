@@ -1,1426 +1,5883 @@
 [
  {
-  "id": "s353747",
-  "nome": "FM oceano Pacifico",
-  "logo": "http://cdn-profiles.tunein.com/s353747/images/logoq.jpg?t=1",
-  "regiao": "Açores",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s353747",
-  "url": "https://stm7.xradios.com.br:6944/live"
+  "id": "rg-w1iN5IjC",
+  "nome": "Azeméis FM 89.7",
+  "logo": "",
+  "local": "Oliveira de Azeméis, Portugal",
+  "url": "https://stream.azfm.com/azfm",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-1YvGPWXo",
+  "nome": "Bairrada FM 99.3",
+  "logo": "",
+  "local": "Águeda, Portugal",
+  "url": "https://sp0.redeaudio.com:8274/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "s362052",
+  "nome": "BairradaFM",
+  "logo": "http://cdn-profiles.tunein.com/s362052/images/logoq.png?t=1",
+  "local": "ÁGUEDA, Portugal",
+  "freq": "99.3 FM",
+  "fonte": "tunein",
+  "regiao": "Aveiro",
+  "url": "https://sp0.redeaudio.com:8274/"
+ },
+ {
+  "id": "rg-nUSNKG0Y",
+  "nome": "Informedia FM 106.3",
+  "logo": "",
+  "local": "São João da Madeira, Portugal",
+  "url": "https://stream-176.surfernetwork.com/vpbuzz4fxuzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2cGJ1eno0Znh1enV2IiwiaG9zdCI6InN0cmVhbS0xNzYuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IklwMkJQZHBwUS11dGs0Z1VVUDdNUnciLCJpYXQiOjE3OTQ2MTY1NjUsImV4cCI6MTc5NDYxNjYyNX0.Af24QD5vT5zUp_zN5v5zE34s6p-X54yY8_SpKdPaUWQ",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-qM8CFTKo",
+  "nome": "NicoFM",
+  "logo": "",
+  "local": "Oliveira de Azeméis, Portugal",
+  "url": "https://s3.citrus3.com:2000/stream/nicofm",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-tYsocFwW",
+  "nome": "Paivense FM 99.5",
+  "logo": "",
+  "local": "Castelo de Paiva, Portugal",
+  "url": "https://paivense.no-ip.info:8080/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "s224651",
+  "nome": "Rádio Agita",
+  "logo": "http://cdn-profiles.tunein.com/s224651/images/logoq.jpg?t=1655544684000",
+  "local": "Agueda, Portugal",
+  "fonte": "tunein",
+  "regiao": "Aveiro",
+  "url": "https://listen.radioking.com/radio/505570/stream/563098"
+ },
+ {
+  "id": "rg-I9zlFLLi",
+  "nome": "Radio AVFM",
+  "logo": "",
+  "local": "Ovar, Portugal",
+  "url": "https://uk2.streamingpulse.com/ssl/radioavfm",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-nZ6s23-G",
+  "nome": "Rádio Botareu 100.0 FM",
+  "logo": "",
+  "local": "Águeda, Portugal",
+  "url": "https://sp0.redeaudio.com:8272/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-G8KzcmaH",
+  "nome": "Rádio Caima FM 97.1",
+  "logo": "",
+  "local": "Oliveira de Azeméis, Portugal",
+  "url": "https://caimafm.ovh/caimafm",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-phcTEUDf",
+  "nome": "Rádio Clube da Feira",
+  "logo": "",
+  "local": "Santa Maria da Feira, Portugal",
+  "url": "http://centova.radio.com.pt:9544/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "s329808",
+  "nome": "Radio Divertilandia",
+  "logo": "http://cdn-profiles.tunein.com/s329808/images/logoq.jpg?t=2",
+  "local": "Aveiro, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Aveiro",
+  "url": "http://webradio.marcioliveiragroup.com:9996/stream"
+ },
+ {
+  "id": "rg-ItO2Lzfl",
+  "nome": "Rádio FestEventos",
+  "logo": "",
+  "local": "Aveiro, Portugal",
+  "url": "http://webradio.festeventos.pt:9998/stream/",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-JHZ-18gL",
+  "nome": "Radio Ovos Moles",
+  "logo": "",
+  "local": "Aveiro, Portugal",
+  "url": "https://sp0.redeaudio.com/9330/",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-VaijFvpB",
+  "nome": "Radio Pirate",
+  "logo": "",
+  "local": "Aveiro, Portugal",
+  "url": "https://sp0.redeaudio.com/9976/stream",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "s83556",
+  "nome": "Radio Regional De Arouca",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s83556q.png",
+  "local": "Arouca, Portugal",
+  "freq": "103.2 FM",
+  "fonte": "tunein",
+  "regiao": "Aveiro",
+  "url": "http://link.radios.pt/regionaldearouca"
+ },
+ {
+  "id": "rg-QLeK3XDO",
+  "nome": "Rádio Regional de Arouca 103.2 FM",
+  "logo": "",
+  "local": "Arouca, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/485?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-B4x9lLti",
+  "nome": "Rádio SFM 98.1",
+  "logo": "",
+  "local": "Murtosa, Portugal",
+  "url": "https://radios3.justweb.pt/8008/stream",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-UaBvxst3",
+  "nome": "Rádio Soberania FM 99.3",
+  "logo": "",
+  "local": "Águeda, Portugal",
+  "url": "https://sp0.redeaudio.com:8274/stream",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-eWkKSYGl",
+  "nome": "Rádio Vila Nova",
+  "logo": "",
+  "local": "Oliveira de Azeméis, Portugal",
+  "url": "https://rs2.ptservidor.com/proxy/livetech?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-Jq1WP424",
+  "nome": "Rádio Voz da Ria 90.2 FM",
+  "logo": "",
+  "local": "Estarreja, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/541?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-Qq3XrYax",
+  "nome": "Rádio Voz de Esmoriz",
+  "logo": "",
+  "local": "Esmoriz, Portugal",
+  "url": "https://cast.redewt.net:9820/stream",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-JJy5orjJ",
+  "nome": "Sintonia Feirense",
+  "logo": "",
+  "local": "Santa Maria da Feira, Portugal",
+  "url": "https://sp0.redeaudio.com/9832/stream",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-syghXliJ",
+  "nome": "Top FM 95.9",
+  "logo": "",
+  "local": "Aveiro, Portugal",
+  "url": "https://radios3.justweb.pt/8012/stream",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-ZSOFU5Kf",
+  "nome": "Vagos FM 88.8",
+  "logo": "",
+  "local": "Vagos, Portugal",
+  "url": "https://nl.digitalrm.pt:8110/stream",
+  "fonte": "radiogarden",
+  "regiao": "Aveiro"
+ },
+ {
+  "id": "rg-rb-kL0Ma",
+  "nome": "Antena Sul FM 90.4",
+  "logo": "",
+  "local": "Almodôvar, Portugal",
+  "url": "https://nl.digitalrm.pt:8014/stream",
+  "fonte": "radiogarden",
+  "regiao": "Beja"
+ },
+ {
+  "id": "s355162",
+  "nome": "NovaWebMix",
+  "logo": "http://cdn-profiles.tunein.com/s355162/images/logoq.jpg?t=2",
+  "local": "Beja, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Beja",
+  "url": "https://streampanel.online/8393/stream"
+ },
+ {
+  "id": "s83595",
+  "nome": "Radio Castrense",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s83595q.png",
+  "local": "Castro Verde, Portugal",
+  "freq": "93.0 FM",
+  "fonte": "tunein",
+  "regiao": "Beja",
+  "url": "http://link.radios.pt/radiocastrense"
+ },
+ {
+  "id": "rg-u5aOKtQB",
+  "nome": "Radio Castrense",
+  "logo": "",
+  "local": "Castro Verde, Portugal",
+  "url": "http://centova.radio.com.pt:8431/stream",
+  "fonte": "radiogarden",
+  "regiao": "Beja"
+ },
+ {
+  "id": "rg-Re3BA8FD",
+  "nome": "Rádio ESDG",
+  "logo": "",
+  "local": "Beja, Portugal",
+  "url": "https://stream-177.surfernetwork.com/0emqj6gcjpzvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIwZW1xajZnY2pwenZ2IiwiaG9zdCI6InN0cmVhbS0xNzcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImhJYlRSVXpaUWNXYVVlT0JXd0hfYlEiLCJpYXQiOjE3OTQ2MTY1NTYsImV4cCI6MTc5NDYxNjYxNn0.Ns7oXIYMGaoWgq3EWQRDfvO6zxf60cnlqCW8W490f3Y",
+  "fonte": "radiogarden",
+  "regiao": "Beja"
+ },
+ {
+  "id": "s276930",
+  "nome": "RADIO GALAXY",
+  "logo": "http://cdn-profiles.tunein.com/s276930/images/logoq.jpg?t=1687670023000",
+  "local": "Moura, Portugal",
+  "fonte": "tunein",
+  "regiao": "Beja",
+  "url": "https://ssl.ndvendas.eu:9472/;"
+ },
+ {
+  "id": "rg-iseCS7kM",
+  "nome": "Rádio H",
+  "logo": "",
+  "local": "Beja, Portugal",
+  "url": "https://sp0.redeaudio.com/8034/stream",
+  "fonte": "radiogarden",
+  "regiao": "Beja"
+ },
+ {
+  "id": "rg-QlOl3bSk",
+  "nome": "Radio Mertola",
+  "logo": "",
+  "local": "Mértola, Portugal",
+  "url": "https://is.ntradio.pt/radiomer",
+  "fonte": "radiogarden",
+  "regiao": "Beja"
+ },
+ {
+  "id": "s83594",
+  "nome": "Radio Pax",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s83594q.png",
+  "local": "Beja, Portugal",
+  "freq": "101.4 FM",
+  "fonte": "tunein",
+  "regiao": "Beja",
+  "url": "http://link.radios.pt/radiopax"
+ },
+ {
+  "id": "rg-8D4GWHHF",
+  "nome": "Rádio Pax",
+  "logo": "",
+  "local": "Beja, Portugal",
+  "url": "http://centova.radio.com.pt:9484/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Beja"
+ },
+ {
+  "id": "s83603",
+  "nome": "Radio Vidigueira",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s83603q.png",
+  "local": "Vidigueira, Portugal",
+  "freq": "90.0 FM",
+  "fonte": "tunein",
+  "regiao": "Beja",
+  "url": "http://link.radios.pt/radiovidigueira"
+ },
+ {
+  "id": "rg-mwv7dwxY",
+  "nome": "Rádio Vidigueira 90.0 FM",
+  "logo": "",
+  "local": "Vidigueira, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/567?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Beja"
+ },
+ {
+  "id": "rg-IDft2iQe",
+  "nome": "Rádio Vox da Planície",
+  "logo": "",
+  "local": "Beja, Portugal",
+  "url": "https://rs2.ptservidor.com/proxy/vozdapla/stream",
+  "fonte": "radiogarden",
+  "regiao": "Beja"
+ },
+ {
+  "id": "rg-T0Ji7nc8",
+  "nome": "RIO - Rádio Internacional",
+  "logo": "",
+  "local": "Odemira, Portugal",
+  "url": "https://hts02.brascast.com:10476/stream",
+  "fonte": "radiogarden",
+  "regiao": "Beja"
+ },
+ {
+  "id": "s82204",
+  "nome": "Singa FM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s82204q.png",
+  "local": "Ferreira do Alentejo, Portugal",
+  "freq": "104.0 FM",
+  "fonte": "tunein",
+  "regiao": "Beja",
+  "url": "http://centova.radios.pt:8487"
+ },
+ {
+  "id": "rg-ARGg0oRh",
+  "nome": "Singa FM",
+  "logo": "",
+  "local": "Ferreira do Alentejo, Portugal",
+  "url": "http://centova.radio.com.pt:8487/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Beja"
+ },
+ {
+  "id": "s87851",
+  "nome": "TLA RÁDIO",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s87851q.png",
+  "local": "Aljustrel, Portugal",
+  "freq": "92.6 FM",
+  "fonte": "tunein",
+  "regiao": "Beja",
+  "url": "http://link.radios.pt/tlaradio"
+ },
+ {
+  "id": "rg-M52c8nWl",
+  "nome": "TLA Rádio",
+  "logo": "",
+  "local": "Aljustrel, Portugal",
+  "url": "http://centova.radios.pt:8545/stream/",
+  "fonte": "radiogarden",
+  "regiao": "Beja"
+ },
+ {
+  "id": "rg-Nde5fFS8",
+  "nome": "Antena Minho",
+  "logo": "",
+  "local": "Braga, Portugal",
+  "url": "http://centova.radio.com.pt:9464/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-lUFHLWJJ",
+  "nome": "FAMA Rádio",
+  "logo": "",
+  "local": "Vila Nova de Famalicão, Portugal",
+  "url": "https://eu10.fastcast4u.com/famaradio",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-4TEyaCSj",
+  "nome": "Radio Alto Ave",
+  "logo": "",
+  "local": "Vieira do Minho, Portugal",
+  "url": "http://centova.radios.pt:8517/stream",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-QzzgmbYl",
+  "nome": "Rádio Barcelos",
+  "logo": "",
+  "local": "Barcelos, Portugal",
+  "url": "http://centova.radio.com.pt:8563/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-lOtv7Sh0",
+  "nome": "Rádio Cávado 102.4 FM",
+  "logo": "",
+  "local": "Barcelos, Portugal",
+  "url": "https://stream.azfm.com/radiocavado",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-GXZct0bh",
+  "nome": "Rádio Cidade Hoje",
+  "logo": "",
+  "local": "Vila Nova de Famalicão, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/119?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-AfHgdy3a",
+  "nome": "Rádio Fundação FM 95.8",
+  "logo": "",
+  "local": "Guimaraes, Portugal",
+  "url": "https://radios2.justweb.pt:8092/stream",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-fIzoWpf9",
+  "nome": "Rádio Inquieta",
+  "logo": "",
+  "local": "Guimaraes, Portugal",
+  "url": "https://servidor20-3.brlogic.com:7022//live",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-FpKlJF3r",
+  "nome": "Rádio Nove3cinco",
+  "logo": "",
+  "local": "Póvoa de Lanhoso, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/522?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "s259792",
+  "nome": "Radio Ondas Cabreira",
+  "logo": "http://cdn-profiles.tunein.com/s259792/images/logoq.png?t=157662",
+  "local": "vieira do minho, Portugal",
+  "fonte": "tunein",
+  "regiao": "Braga",
+  "url": "https://ssl.stmxp.net:7012/;"
+ },
+ {
+  "id": "rg-Ri2O3KZK",
+  "nome": "Rádio Região de Basto FM 105.6",
+  "logo": "",
+  "local": "Celorico de Basto, Portugal",
+  "url": "https://shoutcast.htt.pt:8040/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-zamc3Mwq",
+  "nome": "Rádio Santiago",
+  "logo": "",
+  "local": "Guimaraes, Portugal",
+  "url": "http://eu6.fastcast4u.com:5002/stream",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-qZ104wWY",
+  "nome": "Radio universitária do Minho (RUM)",
+  "logo": "",
+  "local": "Braga, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/558?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-L-GLUf4X",
+  "nome": "Rádio Voz de Basto FM 100.6",
+  "logo": "",
+  "local": "Cabeceiras de Basto, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/L-GLUf4X/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-YOh6JFsf",
+  "nome": "Rádio Voz do Neiva FM 98.7",
+  "logo": "",
+  "local": "Vila Verde, Portugal",
+  "url": "https://radios2.justweb.pt/8030/stream",
+  "fonte": "radiogarden",
+  "regiao": "Braga"
+ },
+ {
+  "id": "rg-CtSx7FPE",
+  "nome": "Onda Livre Macedense",
+  "logo": "",
+  "local": "Macedo de Cavaleiros, Portugal",
+  "url": "http://centova.radio.com.pt:9572/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Bragança"
+ },
+ {
+  "id": "rg-SdSWSZmV",
+  "nome": "Rádio Ansiães",
+  "logo": "",
+  "local": "Carrazeda de Ansiães, Portugal",
+  "url": "http://centova.radio.com.pt:8419/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Bragança"
+ },
+ {
+  "id": "s107037",
+  "nome": "Radio Brigantia",
+  "logo": "http://cdn-profiles.tunein.com/s107037/images/logoq.jpg",
+  "local": "Braganca, Portugal",
+  "freq": "97.3 FM",
+  "fonte": "tunein",
+  "regiao": "Bragança",
+  "url": "http://centova.radios.pt:8491/stream"
+ },
+ {
+  "id": "rg-s5RrmgLy",
+  "nome": "Rádio Brigantia",
+  "logo": "",
+  "local": "Bragança, Portugal",
+  "url": "http://centova.radios.pt:8491/stream",
+  "fonte": "radiogarden",
+  "regiao": "Bragança"
+ },
+ {
+  "id": "s286169",
+  "nome": "Rádio Canto do Paraíso",
+  "logo": "http://cdn-profiles.tunein.com/s286169/images/logoq.png?t=1",
+  "local": "Miranda do Douro, Portugal",
+  "fonte": "tunein",
+  "regiao": "Bragança",
+  "url": "https://player.may-stream.top/proxy/7054"
+ },
+ {
+  "id": "rg-sUMdTRdz",
+  "nome": "Rádio Regional - Emissão Bragança",
+  "logo": "",
+  "local": "Bragança, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/sUMdTRdz/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Bragança"
+ },
+ {
+  "id": "s83751",
+  "nome": "Terra Quente FM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s83751q.png",
+  "local": "Mirandela, Portugal",
+  "freq": "105.5 FM",
+  "fonte": "tunein",
+  "regiao": "Bragança",
+  "url": "http://centova.radios.pt:9402/stream"
+ },
+ {
+  "id": "rg-wpI9gREP",
+  "nome": "Terra Quente FM 105.2",
+  "logo": "",
+  "local": "Mirandela, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/402?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Bragança"
+ },
+ {
+  "id": "s362054",
+  "nome": "Caria FM",
+  "logo": "http://cdn-profiles.tunein.com/s362054/images/logoq.png?t=1",
+  "local": "Belmonte, Portugal",
+  "freq": "102.5 FM",
+  "fonte": "tunein",
+  "regiao": "Castelo Branco",
+  "url": "https://sp0.redeaudio.com/8250/stream"
+ },
+ {
+  "id": "s336444",
+  "nome": "FLUXMEDIA",
+  "logo": "http://cdn-profiles.tunein.com/s336444/images/logoq.jpg?t=1",
+  "local": "Sertã, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Castelo Branco",
+  "url": "https://fluxmedia.radioca.st/stream/"
+ },
+ {
+  "id": "rg-IusmbGtd",
+  "nome": "Rádio Clube da Covilhã FM 95.6",
+  "logo": "",
+  "local": "Covilha, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/450?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Castelo Branco"
+ },
+ {
+  "id": "rg-vAOSixZl",
+  "nome": "Rádio Condestável",
+  "logo": "",
+  "local": "Sertã, Portugal",
+  "url": "http://centova.radio.com.pt:8427/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Castelo Branco"
+ },
+ {
+  "id": "rg-bOYJEFxm",
+  "nome": "Rádio FLUX",
+  "logo": "",
+  "local": "Sertã, Portugal",
+  "url": "https://fluxmedia.radioca.st/stream/",
+  "fonte": "radiogarden",
+  "regiao": "Castelo Branco"
+ },
+ {
+  "id": "s352307",
+  "nome": "Radio Global Portugal",
+  "logo": "http://cdn-profiles.tunein.com/s352307/images/logoq.jpg?t=2",
+  "local": "Covilhã, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Castelo Branco",
+  "url": "https://sonic.sistemahost.es/8122/stream"
+ },
+ {
+  "id": "rg-i24TuMJU",
+  "nome": "Rádio Urbana FM 97.5",
+  "logo": "",
+  "local": "Castelo Branco, Portugal",
+  "url": "https://radios2.justweb.pt/8038/stream",
+  "fonte": "radiogarden",
+  "regiao": "Castelo Branco"
+ },
+ {
+  "id": "rg-L1WeitPp",
+  "nome": "RCB - Rádio Cova da Beira",
+  "logo": "",
+  "local": "Fundão, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/467?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Castelo Branco"
+ },
+ {
+  "id": "rg-lsl-V2BJ",
+  "nome": "The VIBE - Dancefloor Radio",
+  "logo": "",
+  "local": "Castelo Branco, Portugal",
+  "url": "https://radio.vibe.pt/stream",
+  "fonte": "radiogarden",
+  "regiao": "Castelo Branco"
+ },
+ {
+  "id": "s336967",
+  "nome": "Antena4 radio",
+  "logo": "http://cdn-profiles.tunein.com/s336967/images/logoq.jpg?t=1",
+  "local": "Figueira da Foz, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Coimbra",
+  "url": "https://stream.zeno.fm/rdq0ntdjbj2uv"
+ },
+ {
+  "id": "rg-vg8QgCVm",
+  "nome": "Mundial FM",
+  "logo": "",
+  "local": "Vila Nova de Poiares, Portugal",
+  "url": "https://sp0.redeaudio.com/8164/stream",
+  "fonte": "radiogarden",
+  "regiao": "Coimbra"
+ },
+ {
+  "id": "rg-9dst6Da2",
+  "nome": "Rádio Boa Nova FM 100.2",
+  "logo": "",
+  "local": "Oliveira do Hospital, Portugal",
+  "url": "https://nl.digitalrm.pt:8094/stream",
+  "fonte": "radiogarden",
+  "regiao": "Coimbra"
+ },
+ {
+  "id": "s82200",
+  "nome": "Radio Clube De Arganil",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s82200q.png",
+  "local": "Arganil, Portugal",
+  "freq": "88.5 FM",
+  "fonte": "tunein",
+  "regiao": "Coimbra",
+  "url": "http://176.9.43.216:8135/stream"
+ },
+ {
+  "id": "rg-pgKA5wWm",
+  "nome": "Rádio Clube de Arganil 88.5 FM",
+  "logo": "",
+  "local": "Arganil, Portugal",
+  "url": "http://176.9.43.216:8135/stream",
+  "fonte": "radiogarden",
+  "regiao": "Coimbra"
+ },
+ {
+  "id": "s107273",
+  "nome": "Rádio Dueça",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s107273q.png",
+  "local": "Miranda do Corvo, Portugal",
+  "freq": "94.5 FM",
+  "fonte": "tunein",
+  "regiao": "Coimbra",
+  "url": "http://109.71.41.6:8008/"
+ },
+ {
+  "id": "rg-8ogjAlxn",
+  "nome": "Rádio Dueça 94.5 FM",
+  "logo": "",
+  "local": "Miranda do Corvo, Portugal",
+  "url": "http://109.71.41.6:8008/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Coimbra"
+ },
+ {
+  "id": "s267553",
+  "nome": "Radio Figueira da Foz",
+  "logo": "http://cdn-profiles.tunein.com/s267553/images/logoq.jpg?t=157078",
+  "local": "Figueira da Foz , Portugal",
+  "fonte": "tunein",
+  "regiao": "Coimbra",
+  "url": "http://s1.xps-ip.eu:8084/"
+ },
+ {
+  "id": "s345156",
+  "nome": "RADIO FIGUEIRA GOSPEL",
+  "logo": "http://cdn-profiles.tunein.com/s345156/images/logoq.png?t=1",
+  "local": "Figueira da Foz, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Coimbra",
+  "url": "https://stm7.xcast.com.br:7646/"
+ },
+ {
+  "id": "rg-9kFPy5TB",
+  "nome": "Radio Foz do Mondego 99.1 FM",
+  "logo": "",
+  "local": "Figueira da Foz, Portugal",
+  "url": "https://nl.digitalrm.pt:8216/stream",
+  "fonte": "radiogarden",
+  "regiao": "Coimbra"
+ },
+ {
+  "id": "s288245",
+  "nome": "Radio Manchete",
+  "logo": "http://cdn-profiles.tunein.com/s288245/images/logoq.png?t=160252",
+  "local": "Penacova, Portugal",
+  "fonte": "tunein",
+  "regiao": "Coimbra",
+  "url": "https://radios.justweb.pt/8008/stream"
+ },
+ {
+  "id": "rg-sS34WgEF",
+  "nome": "Radio Manchete",
+  "logo": "",
+  "local": "Penacova, Portugal",
+  "url": "https://radios.justweb.pt/8008/stream",
+  "fonte": "radiogarden",
+  "regiao": "Coimbra"
+ },
+ {
+  "id": "rg-AtjpdO_S",
+  "nome": "Radio Mira",
+  "logo": "",
+  "local": "Mira, Portugal",
+  "url": "https://stm18.xcast.com.br:10374//",
+  "fonte": "radiogarden",
+  "regiao": "Coimbra"
+ },
+ {
+  "id": "s254394",
+  "nome": "Rádio MundialFM",
+  "logo": "http://cdn-profiles.tunein.com/s254394/images/logoq.png?t=1729288730000",
+  "local": "Coimbra, Portugal",
+  "freq": "100.5 Stream",
+  "fonte": "tunein",
+  "regiao": "Coimbra",
+  "url": "https://sp0.redeaudio.com/8164/stream"
+ },
+ {
+  "id": "rg-ftrwStx1",
+  "nome": "Rádio Popular de Soure",
+  "logo": "",
+  "local": "Soure, Portugal",
+  "url": "https://nl.digitalrm.pt:8072/stream",
+  "fonte": "radiogarden",
+  "regiao": "Coimbra"
+ },
+ {
+  "id": "rg-zD7uaKOY",
+  "nome": "Rádio Regional do Centro",
+  "logo": "",
+  "local": "Condeixa-a-Nova, Portugal",
+  "url": "https://nl.digitalrm.pt:8030/stream",
+  "fonte": "radiogarden",
+  "regiao": "Coimbra"
+ },
+ {
+  "id": "rg-2rxSmCdE",
+  "nome": "Rádio São Miguel FM 93.4",
+  "logo": "",
+  "local": "Penela, Portugal",
+  "url": "https://nl.digitalrm.pt:8140/stream",
+  "fonte": "radiogarden",
+  "regiao": "Coimbra"
+ },
+ {
+  "id": "s1834",
+  "nome": "Rádio Universidade de Coimbra",
+  "logo": "http://cdn-profiles.tunein.com/s1834/images/logoq.png?t=158870",
+  "local": "Coimbra, Portugal",
+  "freq": "107.9 FM",
+  "fonte": "tunein",
+  "regiao": "Coimbra",
+  "url": "https://stream.ruc.pt/high"
+ },
+ {
+  "id": "rg-883kcz8a",
+  "nome": "RUC FM 107.9",
+  "logo": "",
+  "local": "Coimbra, Portugal",
+  "url": "https://stream.ruc.pt/high",
+  "fonte": "radiogarden",
+  "regiao": "Coimbra"
+ },
+ {
+  "id": "s222394",
+  "nome": "Soulful Chic Classics",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s222394q.png",
+  "local": "Coimbra, Portugal",
+  "fonte": "tunein",
+  "regiao": "Coimbra",
+  "url": "https://cast.redewt.net:9501/stream"
+ },
+ {
+  "id": "s222397",
+  "nome": "Soulful Chic Radio",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s222397q.png",
+  "local": "Coimbra, Portugal",
+  "fonte": "tunein",
+  "regiao": "Coimbra",
+  "url": "https://cast.redewt.net:9126/stream"
+ },
+ {
+  "id": "rg-Ikd1Qx1v",
+  "nome": "Antena Sul",
+  "logo": "",
+  "local": "Évora, Portugal",
+  "url": "https://nl.digitalrm.pt:8022/stream",
+  "fonte": "radiogarden",
+  "regiao": "Évora"
+ },
+ {
+  "id": "s83912",
+  "nome": "Diana FM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s83912q.png",
+  "local": "Evora, Portugal",
+  "freq": "94.1 FM",
+  "fonte": "tunein",
+  "regiao": "Évora",
+  "url": "http://link.radios.pt/dianafm"
+ },
+ {
+  "id": "rg-G3UmF9vO",
+  "nome": "Diana FM",
+  "logo": "",
+  "local": "Évora, Portugal",
+  "url": "http://centova.radio.com.pt:9460/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Évora"
+ },
+ {
+  "id": "rg-OnXvcuEC",
+  "nome": "Rádio Borba",
+  "logo": "",
+  "local": "Borba, Portugal",
+  "url": "http://centova.radios.pt:9578/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Évora"
+ },
+ {
+  "id": "rg-bbEa-2aH",
+  "nome": "Rádio Campanário FM 90.6",
+  "logo": "",
+  "local": "Vila Viçosa, Portugal",
+  "url": "https://rs2.ptservidor.com/proxy/campanario?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Évora"
+ },
+ {
+  "id": "rg-QfX5__M3",
+  "nome": "Rádio Despertar Voz de Estremoz FM 94.5",
+  "logo": "",
+  "local": "Estremoz, Portugal",
+  "url": "https://stream-291.surfernetwork.com/fx5n4m0xkwzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmeDVuNG0weGt3enV2IiwiaG9zdCI6InN0cmVhbS0yOTEuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlZ1SW9jc3VCUndTUVE2cVlxT19obnciLCJpYXQiOjE3OTQ2MTY1NjQsImV4cCI6MTc5NDYxNjYyNH0.NIWqbzdu3jBdC-OB-l6edID0Iq5ASUkZp5hA2m22Ki0",
+  "fonte": "radiogarden",
+  "regiao": "Évora"
+ },
+ {
+  "id": "rg-qG0r7wU5",
+  "nome": "Rádio Granada FM",
+  "logo": "",
+  "local": "Vendas Novas, Portugal",
+  "url": "http://centova.radio.com.pt:8549/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Évora"
+ },
+ {
+  "id": "rg-dj44hpCE",
+  "nome": "Rádio Nova Antena",
+  "logo": "",
+  "local": "Montemor-o-Novo, Portugal",
+  "url": "https://radios2.justweb.pt/8068/stream",
+  "fonte": "radiogarden",
+  "regiao": "Évora"
+ },
+ {
+  "id": "s16298",
+  "nome": "Radio Nova Antena RNA",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s16298q.png",
+  "local": "Montemor-o-Novo, Portugal",
+  "freq": "101.3 FM",
+  "fonte": "tunein",
+  "regiao": "Évora",
+  "url": "http://radios.dotsi.pt:8023/stream"
+ },
+ {
+  "id": "s87848",
+  "nome": "Radio Telefonia do Alentejo",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s87848q.png",
+  "local": "Evora, Portugal",
+  "freq": "103.2 FM",
+  "fonte": "tunein",
+  "regiao": "Évora",
+  "url": "http://link.radios.pt/radiotelefoniadoalentejo"
+ },
+ {
+  "id": "rg-dUMZVyOI",
+  "nome": "Rádio Telefonia do Alentejo",
+  "logo": "",
+  "local": "Évora, Portugal",
+  "url": "https://nl.digitalrm.pt:8046/stream",
+  "fonte": "radiogarden",
+  "regiao": "Évora"
+ },
+ {
+  "id": "s107333",
+  "nome": "Rádio Voz Reguengos 99.0 FM",
+  "logo": "http://cdn-profiles.tunein.com/s107333/images/logoq.png?t=2",
+  "local": "Reguengos de Monsaraz, Portugal",
+  "freq": "99.0 FM",
+  "fonte": "tunein",
+  "regiao": "Évora",
+  "url": "http://rs2.ptservidor.com:2199/tunein/radiovoz.pls"
+ },
+ {
+  "id": "rg-dLdjP582",
+  "nome": "RC Alentejo",
+  "logo": "",
+  "local": "Mourão, Portugal",
+  "url": "http://centova.radio.com.pt:9184/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Évora"
+ },
+ {
+  "id": "s81734",
+  "nome": "Alvor FM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s81734q.png",
+  "local": "Faro, Portugal",
+  "freq": "90.1 FM",
+  "fonte": "tunein",
+  "regiao": "Faro",
+  "url": "http://link.radios.pt/alvorfm"
+ },
+ {
+  "id": "rg-qM3yrj4o",
+  "nome": "Cool FM Albufeira",
+  "logo": "",
+  "local": "Albufeira, Portugal",
+  "url": "https://cool-fm.link/listen/stream/live.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "s342308",
+  "nome": "Cool FM Albufeira - Não suportado",
+  "logo": "http://cdn-profiles.tunein.com/s342308/images/logoq.png?t=1",
+  "local": "Albufeira, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Faro",
+  "url": "https://cool-fm.link/listen/stream/live.mp3"
+ },
+ {
+  "id": "s87830",
+  "nome": "Gilão FM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s87830q.png",
+  "local": "Tavira, Portugal",
+  "freq": "94.8 FM",
+  "fonte": "tunein",
+  "regiao": "Faro",
+  "url": "http://link.radios.pt/gilaofm"
+ },
+ {
+  "id": "rg-Zm53WgCB",
+  "nome": "Gilão FM",
+  "logo": "",
+  "local": "Tavira, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/440?mp=/stream/;",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "rg-phzdci0W",
+  "nome": "Kiss FM 95.8",
+  "logo": "",
+  "local": "Albufeira, Portugal",
+  "url": "https://nl.digitalrm.pt:8024/stream",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "rg-ZjDxq5YB",
+  "nome": "Rádio Alvor FM 90.1",
+  "logo": "",
+  "local": "Portimão, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/469?mp=/stream/",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "s82363",
+  "nome": "Radio Foia - Não suportado",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s82363q.png",
+  "local": "Monchique, Portugal",
+  "freq": "97.1 FM",
+  "fonte": "tunein",
+  "regiao": "Faro",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s82363"
+ },
+ {
+  "id": "rg-LiFzVUhq",
+  "nome": "Rádio Guadiana FM 90.5",
+  "logo": "",
+  "local": "Vila Real de Santo António, Portugal",
+  "url": "http://sp0.redeaudio.com:9844/",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "rg-QyEujNz1",
+  "nome": "Rádio Horizonte Algarve FM 96.9",
+  "logo": "",
+  "local": "Tavira, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/458?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "s9642",
+  "nome": "Rádio Lagoa",
+  "logo": "http://cdn-profiles.tunein.com/s9642/images/logoq.png?t=1742314364000",
+  "local": "Lagoa, Portugal",
+  "freq": "99.4 FM",
+  "fonte": "tunein",
+  "regiao": "Faro",
+  "url": "http://link.radios.pt/radiolagoa"
+ },
+ {
+  "id": "rg-bkbb4G19",
+  "nome": "Rádio Lagoa",
+  "logo": "",
+  "local": "Lagoa, Portugal",
+  "url": "http://centova.radios.pt:9488/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "s340184",
+  "nome": "Radio Nomad",
+  "logo": "http://cdn-profiles.tunein.com/s340184/images/logoq.png?t=1740648212000",
+  "local": "Faro, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Faro",
+  "url": "https://audiounites.org:8000/radio.mp3"
+ },
+ {
+  "id": "rg-JS3ovHT-",
+  "nome": "Rádio Portimão FM 106.5",
+  "logo": "",
+  "local": "Portimão, Portugal",
+  "url": "https://sp0.redeaudio.com/9440/stream",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "s303676",
+  "nome": "Rádio Solar - 94 FM Albufeira",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Albufeira, Portugal",
+  "fonte": "tunein",
+  "regiao": "Faro",
+  "url": "http://5.189.189.245:8006"
+ },
+ {
+  "id": "rg-BA0Oh4Qu",
+  "nome": "RCA 94.4 FM",
+  "logo": "",
+  "local": "Alcoutim, Portugal",
+  "url": "http://rcasul.ddns.net:8000/stream",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "rg-uxw6P0nZ",
+  "nome": "Récord FM Algarve",
+  "logo": "",
+  "local": "Albufeira, Portugal",
+  "url": "https://nl.digitalrm.pt:8020/stream",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "rg-I9iDTjbh",
+  "nome": "RUA FM 102.7",
+  "logo": "",
+  "local": "Faro, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/037?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "rg-NZD1M777",
+  "nome": "Solar 94 FM",
+  "logo": "",
+  "local": "Albufeira, Portugal",
+  "url": "https://radios2.justweb.pt/8052/stream.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "s136434",
+  "nome": "Solar FM - Não suportado",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s136434q.png",
+  "local": "Albufeira, Portugal",
+  "freq": "94.0 FM",
+  "fonte": "tunein",
+  "regiao": "Faro",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s136434"
+ },
+ {
+  "id": "rg-DcyPo0gU",
+  "nome": "Total FM 103.1",
+  "logo": "",
+  "local": "Loulé, Portugal",
+  "url": "https://eu57-sonic.instainternet.com:8068/stream",
+  "fonte": "radiogarden",
+  "regiao": "Faro"
+ },
+ {
+  "id": "s83924",
+  "nome": "Altitude FM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s83924q.png",
+  "local": "Guarda, Portugal",
+  "freq": "90.9 FM",
+  "fonte": "tunein",
+  "regiao": "Guarda",
+  "url": "http://link.radios.pt/altitudefm"
+ },
+ {
+  "id": "rg-HgAfLrv2",
+  "nome": "Altitude FM 90.9",
+  "logo": "",
+  "local": "Guarda, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/034?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Guarda"
+ },
+ {
+  "id": "rg-vcE6EDBR",
+  "nome": "Antena Livre 89.6 FM",
+  "logo": "",
+  "local": "Gouveia, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/456?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Guarda"
+ },
+ {
+  "id": "rg-Oh-dftRf",
+  "nome": "Rádio Clube de Mêda 96.6FM",
+  "logo": "",
+  "local": "Mêda, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/493?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Guarda"
+ },
+ {
+  "id": "s325072",
+  "nome": "Rádio Cultura de Seia",
+  "logo": "http://cdn-profiles.tunein.com/s325072/images/logoq.png?t=1",
+  "local": "Seia, Portugal",
+  "freq": "93.6 FM",
+  "fonte": "tunein",
+  "regiao": "Guarda",
+  "url": "https://nl.digitalrm.pt:8042/stream"
+ },
+ {
+  "id": "s83926",
+  "nome": "Radio Elmo",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s83926q.png",
+  "local": "Pinhel, Portugal",
+  "freq": "99.1 FM",
+  "fonte": "tunein",
+  "regiao": "Guarda",
+  "url": "http://link.radios.pt/radioelmo"
+ },
+ {
+  "id": "rg-SLWndV8x",
+  "nome": "Radio Elmo 99.1",
+  "logo": "",
+  "local": "Pinhel, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/463?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Guarda"
+ },
+ {
+  "id": "rg-VuMNqigH",
+  "nome": "Rádio F 105.8",
+  "logo": "",
+  "local": "Guarda, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/579?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Guarda"
+ },
+ {
+  "id": "rg-QONp3gWM",
+  "nome": "RCS Rádio Cultura de Seia",
+  "logo": "",
+  "local": "Seia, Portugal",
+  "url": "https://nl.digitalrm.pt:8042/stream",
+  "fonte": "radiogarden",
+  "regiao": "Guarda"
+ },
+ {
+  "id": "rg-BzMyqJMJ",
+  "nome": "102 FM",
+  "logo": "",
+  "local": "Peniche, Portugal",
+  "url": "https://media2.streambrothers.com:8132/stream",
+  "fonte": "radiogarden",
+  "regiao": "Leiria"
+ },
+ {
+  "id": "s1250",
+  "nome": "97fm Rádio Clube de Pombal",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s1250q.png",
+  "local": "Pombal, Portugal",
+  "freq": "97.0 FM",
+  "fonte": "tunein",
+  "regiao": "Leiria",
+  "url": "https://centova.radios.com.pt/proxy/410?mp=/stream"
+ },
+ {
+  "id": "rg-lXkkedYV",
+  "nome": "Cister FM",
+  "logo": "",
+  "local": "Alcobaça, Portugal",
+  "url": "http://centova.radio.com.pt:8453/stream",
+  "fonte": "radiogarden",
+  "regiao": "Leiria"
+ },
+ {
+  "id": "s342198",
+  "nome": "Classic Rock Portugal",
+  "logo": "http://cdn-profiles.tunein.com/s342198/images/logoq.png?t=1",
+  "local": "Pombal, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Leiria",
+  "url": "https://online.classicrock.pt/stream1?type=http"
+ },
+ {
+  "id": "rg-uSNvs2qN",
+  "nome": "Mais Oeste 94.2 FM",
+  "logo": "",
+  "local": "Caldas da Rainha, Portugal",
+  "url": "https://s9.yesstreaming.net:9033/stream",
+  "fonte": "radiogarden",
+  "regiao": "Leiria"
+ },
+ {
+  "id": "rg-bWPtiUKG",
+  "nome": "Rádio Alcobaça",
+  "logo": "",
+  "local": "Alcobaça, Portugal",
+  "url": "https://sonic1.transmissaodigital.com/8028/stream",
+  "fonte": "radiogarden",
+  "regiao": "Leiria"
+ },
+ {
+  "id": "rg-HCuxATYZ",
+  "nome": "Rádio Cardal FM 87.6",
+  "logo": "",
+  "local": "Pombal, Portugal",
+  "url": "https://emissao.radiocardal.com/live.ogg",
+  "fonte": "radiogarden",
+  "regiao": "Leiria"
+ },
+ {
+  "id": "s9924",
+  "nome": "Radio Cister",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s9924q.png",
+  "local": "Alcobaca, Portugal",
+  "freq": "95.5 FM",
+  "fonte": "tunein",
+  "regiao": "Leiria",
+  "url": "http://link.radios.pt/radiocister"
+ },
+ {
+  "id": "rg-WfM9ZZnj",
+  "nome": "Rádio Clube de Pombal 97 FM",
+  "logo": "",
+  "local": "Pombal, Portugal",
+  "url": "https://centova.radios.com.pt/proxy/410?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Leiria"
+ },
+ {
+  "id": "rg-saznO2zv",
+  "nome": "Rádio Dom Fuas",
+  "logo": "",
+  "local": "Porto de Mós, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/saznO2zv/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Leiria"
+ },
+ {
+  "id": "rg-UutzZaRh",
+  "nome": "Rádio Miúdos",
+  "logo": "",
+  "local": "Bombarral, Portugal",
+  "url": "https://s5.radio.co/s9c516a065/listen",
+  "fonte": "radiogarden",
+  "regiao": "Leiria"
+ },
+ {
+  "id": "rg-cLDLvLF2",
+  "nome": "Radio Motard FM",
+  "logo": "",
+  "local": "Alcobaça, Portugal",
+  "url": "https://sp0.redeaudio.com:10938/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Leiria"
+ },
+ {
+  "id": "rg-KhEm6cE7",
+  "nome": "RCM 96 FM Radio Clube Marinhense",
+  "logo": "",
+  "local": "Marinha Grande, Portugal",
+  "url": "https://sp0.redeaudio.com/8174/STREAM",
+  "fonte": "radiogarden",
+  "regiao": "Leiria"
  },
  {
   "id": "s189739",
   "nome": "A Melhor Rádio do Mundo (Adulto Contemporânea)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s189739",
   "url": "http://stream.weblayer.co.uk:9958/"
+ },
+ {
+  "id": "s245551",
+  "nome": "amoresdaisa",
+  "logo": "http://cdn-profiles.tunein.com/s245551/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
+  "regiao": "Lisboa",
+  "url": "https://stm2.may-stream.top:7034/"
+ },
+ {
+  "id": "rg-kJZ26vKM",
+  "nome": "Antena 1",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radiocast.rtp.pt/antena180a.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-LqjxkOW7",
+  "nome": "Antena 1 Fado",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radiocast.rtp.pt/antena1fado80a.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-yChWrVUH",
+  "nome": "Antena 2",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radiocast.rtp.pt/antena280a.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-ELGsdHSr",
+  "nome": "Antena 2 Jazzin'",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radiocast.rtp.pt/antena2jazzin80a.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-WCiLFofN",
+  "nome": "Antena 2 Ópera",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radiocast.rtp.pt/antena2opera80a.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-6lS0ncP9",
+  "nome": "Antena 3",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radiocast.rtp.pt/antena380a.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s354698",
   "nome": "Axeldb_Radio (Trance)",
   "logo": "http://cdn-profiles.tunein.com/s354698/images/logoq.jpg?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s354698",
   "url": "https://stream.zeno.fm/zga3isvgz7ztv"
  },
  {
   "id": "s337241",
   "nome": "Batida FM 107.2",
   "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Lisboa, Portugal",
+  "freq": "107.2 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s337241",
   "url": "https://stream-icy.bauermedia.pt/batidafm.mp3"
  },
  {
   "id": "s339797",
   "nome": "Capital FM Radio (Dance Music)",
   "logo": "http://cdn-profiles.tunein.com/s339797/images/logoq.jpg?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s339797",
   "url": "https://a1.asurahosting.com:9320/radio.mp3"
+ },
+ {
+  "id": "rg-i3Dy8lzT",
+  "nome": "Capsão 106.4 FM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://capsaolisboa.ice.infomaniak.ch/capsaolisboa-128.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s137149",
   "nome": "Cascais FM - 105.4 | (Rock)",
   "logo": "http://cdn-profiles.tunein.com/s137149/images/logoq.png?t=152033",
+  "local": "Lisboa, Portugal",
+  "freq": "105.4 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s137149",
   "url": "https://play.radioregional.pt:8220/stream/2/"
+ },
+ {
+  "id": "rg-V4jDGYJC",
+  "nome": "Cascais FM 105.4",
+  "logo": "",
+  "local": "Cascais, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/V4jDGYJC/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "s266167",
+  "nome": "Cascais Net Radio",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s266167q.png",
+  "local": "Portugal",
+  "fonte": "tunein",
+  "regiao": "Lisboa",
+  "url": "http://185.32.188.17:8011/stream"
+ },
+ {
+  "id": "rg-w-XwqDV8",
+  "nome": "Cascais Net Radio",
+  "logo": "",
+  "local": "Cascais, Portugal",
+  "url": "http://185.32.188.17:8009/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-jPy_OHqW",
+  "nome": "City Rockers Radio",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://sp0.redeaudio.com/9980/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s304497",
   "nome": "CITY ROCKERS RADIO (Rock)",
   "logo": "http://cdn-profiles.tunein.com/s304497/images/logoq.jpg?t=153969",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s304497",
   "url": "https://sp0.redeaudio.com:7007/"
+ },
+ {
+  "id": "rg-awYgzZFS",
+  "nome": "CM Rádio",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://emdireto.cmradio.pt/mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s81860",
   "nome": "Dance FM 101.1 (Rock)",
   "logo": "http://cdn-profiles.tunein.com/s81858/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "101.1 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s81860",
   "url": "https://stream.zeno.fm/d20bmvrs4a0uv"
  },
  {
   "id": "s224549",
   "nome": "EVS Radio (Música Mundial)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s224549q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s224549",
   "url": "https://sp0.redeaudio.com/8012/stream"
  },
  {
   "id": "s127276",
   "nome": "Extagy.NET (Música Suave)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s127276q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s127276",
   "url": "https://a8.asurahosting.com:6900/radio.mp3"
  },
  {
   "id": "s221915",
   "nome": "FANTAS HIT FM (Top 40 POP)",
   "logo": "http://cdn-profiles.tunein.com/s221915/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s221915",
   "url": "https://cast1.redeaudio.com/proxy/fantasfm/stream"
  },
  {
   "id": "s362872",
   "nome": "Filtro FM (Música Ambiente)",
   "logo": "http://cdn-profiles.tunein.com/s362872/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s362872",
   "url": "https://radio.sonicpanel.ro/8028/stream"
+ },
+ {
+  "id": "rg-qiExnFLt",
+  "nome": "Futura",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://s4.radio.co/s7e7b6c165/listen",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s339058",
   "nome": "Gongas Radio (Anos 80)",
   "logo": "http://cdn-profiles.tunein.com/s339058/images/logoq.jpg?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s339058",
   "url": "https://a6.asurahosting.com:7930/radio.mp3"
+ },
+ {
+  "id": "rg-660SQsSN",
+  "nome": "Hip Hop Radio",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://rs2.ptservidor.com/proxy/hiphopp?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s292605",
   "nome": "Hit Radio 100% R&B (Soul & R&B)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s292605",
   "url": "http://rnb.ice.infomaniak.ch/rnb-128.mp3"
  },
  {
   "id": "s104511",
   "nome": "Horizonte FM 92.8 (Adulto Contemporânea)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s104511q.png",
+  "local": "Lisboa, Portugal",
+  "freq": "92.8 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s104511",
   "url": "http://link.radios.pt/horizontefm"
  },
  {
   "id": "s48677",
   "nome": "Iris FM 91.4 (Música Local)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s48677q.png",
+  "local": "Lisboa, Portugal",
+  "freq": "91.4 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s48677",
   "url": "http://link.radios.pt/irisfm"
+ },
+ {
+  "id": "rg-YNY0cn5R",
+  "nome": "JOCAVI Radio",
+  "logo": "",
+  "local": "Cascais, Portugal",
+  "url": "https://sp0.redeaudio.com/9930/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-FsWl7DHz",
+  "nome": "La French Radio Portugal",
+  "logo": "",
+  "local": "Estoril, Portugal",
+  "url": "https://listen.radioking.com/radio/540161/stream/598784",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s287635",
   "nome": "LUNA FM",
   "logo": "http://cdn-profiles.tunein.com/s287635/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s287635",
   "url": "https://portugal.lunafm.net/listen/lunaportugal/tunein.aac"
  },
  {
   "id": "s350202",
   "nome": "LUNA FM",
   "logo": "http://cdn-profiles.tunein.com/s350202/images/logoq.png?t=4",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s350202",
   "url": "https://world.lunafm.net/listen/lunaworld/tunein.aac"
+ },
+ {
+  "id": "rg-S7u6Gm3V",
+  "nome": "Mega Hits - Dance",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://27823.live.streamtheworld.com:443/MEGA_DANCEAAC.aac",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s6745",
   "nome": "Mega Hits 92 (Top 40 POP)",
   "logo": "http://cdn-profiles.tunein.com/s6745/images/logoq.png?t=2",
+  "local": "Lisboa, Portugal",
+  "freq": "92 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s6745",
-  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MEGA_HITSAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDYxNTkxMCwiaXNzIjoidGlzcnYifQ.wimaqOlFwa43Kt5qeIkIKZQHEkvzdTa0unxaukUZrh4"
+  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MEGA_HITSAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDYxNjU3NCwiaXNzIjoidGlzcnYifQ.GElkRIKz0tnWMGyQaVJmVoZCy6Lqh2g3YVvHfrIiV5I"
+ },
+ {
+  "id": "rg-hpoysi5e",
+  "nome": "Mega Hits 92.4 FM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://25443.live.streamtheworld.com:443/MEGA_HITSAAC.aac",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s232080",
   "nome": "Megaweb Portugal (Anos 80)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s232080q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s232080",
   "url": "http://185.32.188.17:8034/stream"
  },
  {
   "id": "s106929",
   "nome": "Mehefil Radio (Bollywood)",
   "logo": "http://cdn-profiles.tunein.com/s106929/images/logoq.jpg?t=153858",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s106929",
   "url": "https://xhjfrotkylzlndubqhfo.supabase.co/functions/v1/stream-proxy"
+ },
+ {
+  "id": "rg-J2f6J9Eq",
+  "nome": "NiTFM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://sp0.redeaudio.com/8028/stream/",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-7Sl7wuuh",
+  "nome": "Noite FM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://servidor.noite.pt:9002/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-CyaAylDy",
+  "nome": "Noite FM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "http://live.noite.pt:8080/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s54110",
   "nome": "Noite FM (Dance Music)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s54110q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s54110",
   "url": "http://live.noite.pt:8080"
+ },
+ {
+  "id": "rg-SgBZa7Kb",
+  "nome": "NTR - Network Radio",
+  "logo": "",
+  "local": "Odivelas, Portugal",
+  "url": "https://is.ntradio.pt/ntr#.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-uEMl3oNw",
+  "nome": "On FM 93.8",
+  "logo": "",
+  "local": "Torres Vedras, Portugal",
+  "url": "https://cast1.lunabroadcasting.net/listen/onfm/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s349355",
   "nome": "ON FM 93.8 (Música)",
   "logo": "http://cdn-profiles.tunein.com/s349355/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "93.8 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s349355",
   "url": "https://cast1.lunabroadcasting.net/listen/onfm/stream"
  },
  {
   "id": "s15270",
   "nome": "Orbital FM 101.9 (Dance Music)",
   "logo": "http://cdn-profiles.tunein.com/s15270/images/logoq.png?t=158276",
+  "local": "Lisboa, Portugal",
+  "freq": "101.9 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s15270",
   "url": "http://195.23.85.126:8401/"
+ },
+ {
+  "id": "rg-Wz9Skght",
+  "nome": "Oxigénio FM 102.6",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/Wz9Skght/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s354813",
   "nome": "PLAY BRAZIL RADIO (Brazilian Music)",
   "logo": "http://cdn-profiles.tunein.com/s354813/images/logoq.jpg?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s354813",
   "url": "https://stm5.audiplushd.com.br:7946"
+ },
+ {
+  "id": "rg-nrigdCOx",
+  "nome": "Portugal Star",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "http://185.118.112.12:8028/live",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s337499",
   "nome": "R100 Rádio Digital (Top 40 POP)",
   "logo": "http://cdn-profiles.tunein.com/s337499/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s337499",
   "url": "https://emissao.r100.pt:8093/ouvir.mp3"
+ },
+ {
+  "id": "rg-yjLHNexV",
+  "nome": "Radar FM 97.8",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/yjLHNexV/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s83929",
   "nome": "Radio 94.8 FM | (Música de Portugal)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s83929q.png",
+  "local": "Lisboa, Portugal",
+  "freq": "94.8 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s83929",
   "url": "http://centova.radios.pt:9450"
+ },
+ {
+  "id": "rg-cxS4FoZ6",
+  "nome": "Radio Alta Tensao",
+  "logo": "",
+  "local": "Alenquer, Portugal",
+  "url": "https://hts06.brascast.com:9600/live",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s113888",
   "nome": "Rádio Amália 92.0 (Música de Portugal)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s113888q.png",
+  "local": "Lisboa, Portugal",
+  "freq": "92.0 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s113888",
   "url": "http://link.radios.pt/radioamalia"
+ },
+ {
+  "id": "rg-hlESAi9x",
+  "nome": "Rádio Amália 92.0 FM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://centova.radios.pt/proxy/496?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-QhmBlgm2",
+  "nome": "Rádio Amparo",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://stream.radioamparo.pt/listen/radioamparo/live",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s83922",
   "nome": "Radio Antena Livre Gouveia 89.6 (Debate em Português)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s83922q.png",
+  "local": "Lisboa, Portugal",
+  "freq": "89.6 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s83922",
   "url": "http://link.radios.pt/radioantenalivregouveia"
+ },
+ {
+  "id": "rg-bOHm4YRb",
+  "nome": "Rádio Autónoma",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://spaudio.servers.pt/8006/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "s233544",
+  "nome": "Rádio Azul - Não suportado",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s233544q.png",
+  "local": "Lisboa, Portugal",
+  "freq": "98.9 FM",
+  "fonte": "tunein",
+  "regiao": "Lisboa",
+  "url": "http://sado.radioazul.pt:8000/live?type=.mp3"
  },
  {
   "id": "s359258",
   "nome": "Rádio Azul 98 (Música Mundial)",
   "logo": "http://cdn-profiles.tunein.com/s359258/images/logoq.jpg?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "98 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s359258",
   "url": "https://sado.radioazul.pt/live"
+ },
+ {
+  "id": "rg-3RceshuW",
+  "nome": "Rádio Bobadela 2020",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://cast1.redeaudio.com/proxy/rb2020/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s297680",
   "nome": "Rádio Cidade Matosinhos (Top 40 POP)",
   "logo": "http://cdn-profiles.tunein.com/s297680/images/logoq.jpg?t=155543",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s297680",
   "url": "http://s1.xps-ip.eu:8064/;"
  },
  {
   "id": "s340787",
   "nome": "Radio Cidade Sintra (Música)",
   "logo": "http://cdn-profiles.tunein.com/s340787/images/logoq.jpg?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s340787",
   "url": "http://uk14freenew.listen2myradio.com:13049/stream"
  },
  {
   "id": "s292123",
   "nome": "Radio Confrades da Poesia (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s292123/images/logoq.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s292123",
   "url": "http://176.9.43.216:8087"
  },
  {
   "id": "s352773",
   "nome": "RÁDIO COUNTRY PORTUGAL (Country)",
   "logo": "http://cdn-profiles.tunein.com/s352773/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s352773",
   "url": "https://servidor20.brlogic.com:7048/live"
+ },
+ {
+  "id": "s302248",
+  "nome": "Radio Desifoto Lisboa",
+  "logo": "http://cdn-profiles.tunein.com/s302248/images/logoq.jpg?t=151904",
+  "local": "Portugal",
+  "fonte": "tunein",
+  "regiao": "Lisboa",
+  "url": "http://desifotolisboa.out.airtime.pro:8000/desifotolisboa_a"
  },
  {
   "id": "s83942",
   "nome": "Radio Do Concelho De Mafra 105.6 (Música de Portugal)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s83942q.png",
+  "local": "Lisboa, Portugal",
+  "freq": "105.6 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s83942",
   "url": "http://link.radios.pt/rcmafra"
  },
  {
   "id": "s345570",
   "nome": "Radio dos Amigos Unidos (Top 40 POP)",
   "logo": "http://cdn-profiles.tunein.com/s345570/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s345570",
   "url": "https://sp0.redeaudio.com/8248/strea"
+ },
+ {
+  "id": "rg-qghOkfF0",
+  "nome": "Radio EuroPub",
+  "logo": "",
+  "local": "Sintra, Portugal",
+  "url": "https://servidor26.brlogic.com:7072/live",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s218413",
   "nome": "Rádio Filhos da Escola (Música de Portugal)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s218413q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s218413",
   "url": "http://176.9.43.216:8021/stream"
  },
  {
   "id": "s219224",
   "nome": "RADIO FOLCLORE PORTUGAL (Folclore)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s219224",
   "url": "https://sonic.servsonic.com:7002/"
+ },
+ {
+  "id": "rg-fAW7dM4l",
+  "nome": "Rádio Freguesia de Belém",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://s2.radio.co/s0ddea4a53/listen",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s48700",
   "nome": "Radio Ideias (Variedades)",
   "logo": "http://cdn-profiles.tunein.com/s48700/images/logoq.png?t=636446",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s48700",
   "url": "https://rs3.ptservidor.net/8006/stream"
+ },
+ {
+  "id": "rg-xfV0zWsZ",
+  "nome": "Radio Ideias Web",
+  "logo": "",
+  "local": "Sintra, Portugal",
+  "url": "https://rs4.ptservidor.net/8006/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "s277352",
+  "nome": "Rádio Lisboa",
+  "logo": "http://cdn-profiles.tunein.com/s277352/images/logoq.jpg?t=1",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
+  "regiao": "Lisboa",
+  "url": "https://stream.radiolisboa.pt/"
+ },
+ {
+  "id": "rg-GVPMemP4",
+  "nome": "Rádio Lusitânia",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radiocast.rtp.pt/lusitania80a.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-ZudVx26A",
+  "nome": "Radio Lusophonica",
+  "logo": "",
+  "local": "Cascais, Portugal",
+  "url": "http://n01.radiojar.com/dxkmh6hv1f8uv?rj-ttl=5&rj-tok=AAABodeEokUAC_a3ljUY4smLuw",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-vP9syFJE",
+  "nome": "Radio Marginal",
+  "logo": "",
+  "local": "Cascais, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/499?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-pagZPDHd",
+  "nome": "Rádio Marginal",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://centova.radios.pt/proxy/499?mp=/stream.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s25146",
   "nome": "Radio Marginal 98.1 (Jazz)",
   "logo": "http://cdn-profiles.tunein.com/s25146/images/logoq.png?t=155740",
+  "local": "Lisboa, Portugal",
+  "freq": "98.1 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s25146",
   "url": "http://centova.radios.pt/proxy/499?mp=/stream"
+ },
+ {
+  "id": "rg-w1VTJxj9",
+  "nome": "Radio Maria FM 102.2",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://dreamsiteradiocp5.com/proxy/rmportugal1?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-EV3fw1Tn",
+  "nome": "Rádio Meo Music",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "http://centova.radio.com.pt:8495/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s81786",
   "nome": "Rádio Meo Music 100.8 (Adulto Contemporânea)",
   "logo": "http://cdn-profiles.tunein.com/s81786/images/logoq.png?t=155740",
+  "local": "Lisboa, Portugal",
+  "freq": "100.8 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s81786",
   "url": "http://link.radios.pt/meomusic"
  },
  {
   "id": "s227632",
   "nome": "Radio Misterio (Música)",
   "logo": "http://cdn-profiles.tunein.com/s227632/images/logoq.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s227632",
   "url": "http://95.217.75.38:9954/"
+ },
+ {
+  "id": "rg-a1FlZYch",
+  "nome": "Radio Movimento Lisboa",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "http://ca5.rcast.net:8048/;stream.mp3?_=1",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s129865",
   "nome": "Radio Mundo Romance (Variedades)",
   "logo": "http://cdn-profiles.tunein.com/s129865/images/logoq.jpg?t=1",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s129865",
   "url": "https://emissao.radiomundoromance.com:9997/"
  },
  {
   "id": "s290244",
   "nome": "RADIO MUSICA MRA (Disco)",
   "logo": "http://cdn-profiles.tunein.com/s290244/images/logoq.jpg?t=1657886579000",
+  "local": "Lisboa, Portugal",
+  "freq": "Diaria Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s290244",
   "url": "https://stm1.marioaleixo.top:7002"
+ },
+ {
+  "id": "rg-RsyeFydN",
+  "nome": "Rádio Musical",
+  "logo": "",
+  "local": "Amadora, Portugal",
+  "url": "https://sp0.redeaudio.com/9960/",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s106920",
   "nome": "Radio Observador 92.8 (Música Local)",
   "logo": "http://cdn-profiles.tunein.com/s106920/images/logoq.png?t=1729422908000",
+  "local": "Lisboa, Portugal",
+  "freq": "92.8 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s106920",
   "url": "https://centova.radio.com.pt/proxy/455?mp=/stream"
+ },
+ {
+  "id": "rg-hsCzNndj",
+  "nome": "Rádio Observador FM 98.7",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/455?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-79quqy8L",
+  "nome": "Rádio Olisipo",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "http://n01.radiojar.com/6x85cenb7ehvv?rj-ttl=5&rj-tok=AAABodeE3QAAeYWgVHFGOWQfAA",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-go6EjFE4",
+  "nome": "Rádio Orbital FM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/401?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s83943",
   "nome": "Rádio Oxigénio 102.6 (Dance Music)",
   "logo": "http://cdn-profiles.tunein.com/s83943/images/logoq.jpg?t=151488",
+  "local": "Lisboa, Portugal",
+  "freq": "102.6 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s83943",
   "url": "http://proic1.redeaudio.com/oxigenio_aac"
+ },
+ {
+  "id": "rg-TiIYPKTD",
+  "nome": "Rádio Paranóia",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://azuracast.radioparanoia1000.com/listen/radio-paranoia-1/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s218046",
   "nome": "Rádio Portugal Star (Música de Portugal)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s218046",
   "url": "http://185.118.112.12:8028/live"
  },
  {
   "id": "s119186",
   "nome": "Rádio Portuguesa do Var (Música de Portugal)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s119186q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s119186",
   "url": "http://rcpvar.org:8558"
  },
  {
   "id": "s25249",
   "nome": "Rádio PromoAção Tropical 95.3 FM | (Bossa Nova)",
   "logo": "http://cdn-profiles.tunein.com/s25249/images/logoq.png?t=1753914442000",
+  "local": "Lisboa, Portugal",
+  "freq": "95.3 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s25249",
   "url": "https://s03.transmissaodigital.com:7652/stream"
+ },
+ {
+  "id": "rg-6BWED82w",
+  "nome": "Radio Promove Portugal",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://stream1.svrdedicado.org/8410/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s188975",
   "nome": "Radio Promove Portugal (Anos 60)",
   "logo": "http://cdn-profiles.tunein.com/s188975/images/logoq.png?t=158869",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s188975",
   "url": "https://stream1.svrdedicado.org/8410/stream"
+ },
+ {
+  "id": "rg-K98QtwMx",
+  "nome": "Rádio Quântica",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://libretime.radioquantica.com/main.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s84192",
   "nome": "Rádio RADAR 97.8 (Indie Rock)",
   "logo": "http://cdn-profiles.tunein.com/s84192/images/logoq.png",
+  "local": "Lisboa, Portugal",
+  "freq": "97.8 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s84192",
   "url": "http://proic1.redeaudio.com/radar_mp3"
  },
  {
   "id": "s83945",
   "nome": "Rádio RCS 91.2 (Cristã Contemporânea)",
   "logo": "http://cdn-profiles.tunein.com/s83945/images/logoq.png?t=1680611261000",
+  "local": "Lisboa, Portugal",
+  "freq": "91.2 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s83945",
   "url": "https://centova.radio.com.pt/proxy/445?mp=/stream"
+ },
+ {
+  "id": "rg-mYZdSKn8",
+  "nome": "Rádio Renascença",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://27743.live.streamtheworld.com:443/RADIO_RENASCENCAAAC.aac",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-NnqmXOL6",
+  "nome": "Radio RLCB Tuga",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://ssl.conectastreaming.com:8272/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s270156",
   "nome": "Radio Rlcb Tuga (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s270156/images/logoq.jpg?t=157363",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s270156",
   "url": "http://stm6.conectastreaming.com:8272/"
  },
  {
   "id": "s305671",
   "nome": "Rádio Romântica (Música Romena)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s305671",
   "url": "https://sp0.redeaudio.com:10982/"
+ },
+ {
+  "id": "rg-T9RxGYFT",
+  "nome": "Rádio Salesiana",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://ec2.yesstreaming.net:5125/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-4wasVZSc",
+  "nome": "Rádio SINFA online",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://free.rcast.net/71896",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-6u15snqq",
+  "nome": "Radio Sudoeste 100.8 FM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://centova.radios.pt/proxy/495?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s134731",
   "nome": "Rádio Tráfego (Trânsito)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s134731q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s134731",
   "url": "http://opml.radiotime.com/Tune.ashx?id=s134731"
+ },
+ {
+  "id": "rg-8jfsCkwq",
+  "nome": "Rádio Transmundial de Portugal",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radio.midiaserverbr.com/8008/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s81804",
   "nome": "Radio TugaNet (Anos 80)",
   "logo": "http://cdn-profiles.tunein.com/s81804/images/logoq.jpg?t=1705450062000",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s81804",
   "url": "https://ssl.stmxp.net:8006/;"
+ },
+ {
+  "id": "rg-FOxl7HXH",
+  "nome": "Rádio Ultra FM 88.2",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "http://centova.radios.pt:9506/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-R45nAfDK",
+  "nome": "Radio Utopia",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://az13.yesstreaming.net:8230/utopia.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-F1fOTcvZ",
+  "nome": "Rádio Valor Local",
+  "logo": "",
+  "local": "Azambuja, Portugal",
+  "url": "https://radios2.justweb.pt/8078/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-L8V5yJ95",
+  "nome": "Rádio Vida FM",
+  "logo": "",
+  "local": "Arruda dos Vinhos, Portugal",
+  "url": "http://centova.radio.com.pt:9482/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s114303",
   "nome": "Rádio Vida FM 97.1 (Debate em Português)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s114303q.png",
+  "local": "Lisboa, Portugal",
+  "freq": "97.1 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s114303",
   "url": "http://link.radios.pt/radiovidafm"
+ },
+ {
+  "id": "rg-cLSNW2mF",
+  "nome": "Rádio Voz de Alenquer",
+  "logo": "",
+  "local": "Alenquer, Portugal",
+  "url": "https://ec2.yesstreaming.net:2975/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s83649",
   "nome": "Radio Voz De Alenquer (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s83649/images/logoq.png?t=1733406865000",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s83649",
   "url": "https://ec2.yesstreaming.net:3735/stream"
  },
  {
   "id": "s299573",
   "nome": "Rádio Voz Online (Variedades)",
   "logo": "http://cdn-profiles.tunein.com/s299573/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s299573",
   "url": "http://stream.radiojar.com/e4kgynu5a5zuv"
  },
  {
   "id": "s280123",
   "nome": "Radio Zig Zag (Top 40 POP)",
   "logo": "http://cdn-profiles.tunein.com/s280123/images/logoq.png?t=161228",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s280123",
   "url": "http://radiocast.rtp.pt/zigzag80a.mp3"
+ },
+ {
+  "id": "rg-lHdGrh31",
+  "nome": "Rádio ZigZag",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radiocast.rtp.pt/zigzag80a.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-uCs8OeRi",
+  "nome": "RadiOeste FM 97.8",
+  "logo": "",
+  "local": "Torres Vedras, Portugal",
+  "url": "https://radios2.justweb.pt:8004/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s299314",
   "nome": "radiorockfm.pt (Rock Clássico)",
   "logo": "http://cdn-profiles.tunein.com/s299314/images/logoq.jpg",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s299314",
   "url": "http://148.251.180.161:8086/"
+ },
+ {
+  "id": "rg-GapZq7cH",
+  "nome": "RCL 99FM",
+  "logo": "",
+  "local": "Lourinhã, Portugal",
+  "url": "https://sp0.redeaudio.com:10975/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s83938",
   "nome": "RCL99fm 99.0 (Adulto Contemporânea)",
   "logo": "http://cdn-profiles.tunein.com/s83938/images/logoq.jpg?t=157166",
+  "local": "Lisboa, Portugal",
+  "freq": "99.0 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s83938",
   "url": "https://sp0.redeaudio.com/8116/stream"
+ },
+ {
+  "id": "rg-GQzPO6uB",
+  "nome": "RCM - Rádio do Concelho de Mafra",
+  "logo": "",
+  "local": "Mafra, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/551?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-Oy4r2mVj",
+  "nome": "RCS 91.2 FM Lisboa",
+  "logo": "",
+  "local": "Sintra, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/445?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-N2AzWRX9",
+  "nome": "RDP África",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radiocast.rtp.pt/rdpafrica80a.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-KzaFloTO",
+  "nome": "RDP Internacional",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://radiocast.rtp.pt/rdpint80a.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s66480",
   "nome": "RDP Madeira Antena 1 95.5 (Música Mundial)",
   "logo": "http://cdn-profiles.tunein.com/s55164/images/logoq.png?t=155725",
+  "local": "Lisboa, Portugal",
+  "freq": "95.5 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s66480",
   "url": "https://radiocast.rtp.pt/antena1madeira80a.mp3"
+ },
+ {
+  "id": "rg-xxrqGLXD",
+  "nome": "RDS 87.6 FM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://s9.yesstreaming.net:7070/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-vXtTxeLj",
+  "nome": "Record FM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://nl.digitalrm.pt:8010/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s181175",
   "nome": "REMEMBER FM (Música)",
   "logo": "http://cdn-profiles.tunein.com/s181175/images/logoq.jpg?t=154954",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s181175",
   "url": "http://176.9.43.216:8449/stream"
  },
  {
   "id": "s25179",
   "nome": "Renascença 103 (Notícias)",
   "logo": "http://cdn-profiles.tunein.com/s25179/images/logoq.jpg?t=5",
+  "local": "Lisboa, Portugal",
+  "freq": "103 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s25179",
-  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCAAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDYxNTkxMCwiaXNzIjoidGlzcnYifQ.wimaqOlFwa43Kt5qeIkIKZQHEkvzdTa0unxaukUZrh4"
+  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCAAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDYxNjU3NCwiaXNzIjoidGlzcnYifQ.GElkRIKz0tnWMGyQaVJmVoZCy6Lqh2g3YVvHfrIiV5I"
+ },
+ {
+  "id": "rg-Ejy5Gaa6",
+  "nome": "RFM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://28993.live.streamtheworld.com:443/RFMAAC.aac",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-VvfchTIA",
+  "nome": "RFM - 00's",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://25243.live.streamtheworld.com:443/LIVESTREAMAAC.aac",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-gfl19ErM",
+  "nome": "RFM - 90's",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://25703.live.streamtheworld.com:443/RFM_90SAAC.aac",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-6bVFg3NC",
+  "nome": "RFM - Dance IT",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://22333.live.streamtheworld.com:443/DANCEONTHEFLOORAAC.aac",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-HEdG8Hh_",
+  "nome": "RFM - Oceano Pacífico",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://29053.live.streamtheworld.com:443/OCEANPACIFICAAC.aac",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-Fatb5YZL",
+  "nome": "RFM - Oitenta's",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://27863.live.streamtheworld.com:443/GR80SRFMAAC.aac",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-g8ji0deG",
+  "nome": "RFM - On the rock",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://22533.live.streamtheworld.com:443/RFMONTHEROCKAAC.aac",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s18720",
   "nome": "RFM 93 (Top 40 POP)",
   "logo": "http://cdn-profiles.tunein.com/s18720/images/logoq.png?t=2",
+  "local": "Lisboa, Portugal",
+  "freq": "93 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s18720",
-  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RFM.mp3?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDYxNTkxMCwiaXNzIjoidGlzcnYifQ.wimaqOlFwa43Kt5qeIkIKZQHEkvzdTa0unxaukUZrh4"
+  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RFM.mp3?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDYxNjU3NCwiaXNzIjoidGlzcnYifQ.GElkRIKz0tnWMGyQaVJmVoZCy6Lqh2g3YVvHfrIiV5I"
+ },
+ {
+  "id": "rg-Qc_VMnv2",
+  "nome": "RLX-Rádio Lisboa",
+  "logo": "",
+  "local": "Odivelas, Portugal",
+  "url": "https://c18.radioboss.fm:18206/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s185909",
   "nome": "RQC - Rádio Quinta do Conde (Música de Portugal)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s185909q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s185909",
   "url": "https://sp0.redeaudio.com/8100/stream"
+ },
+ {
+  "id": "rg-CQ7c83wv",
+  "nome": "RSDB",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://sp0.redeaudio.com/8252/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s25214",
   "nome": "RTP Africa 101 (Música Africana)",
   "logo": "http://cdn-profiles.tunein.com/s25214/images/logoq.png?t=161229",
+  "local": "Lisboa, Portugal",
+  "freq": "101 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s25214",
   "url": "https://radiocast.rtp.pt/rdpafrica80a.mp3"
  },
  {
   "id": "s8592",
   "nome": "RTP Antena 1 95 (Notícias)",
   "logo": "http://cdn-profiles.tunein.com/s8592/images/logoq.png?t=161229",
+  "local": "Lisboa, Portugal",
+  "freq": "95 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s8592",
   "url": "https://radiocast.rtp.pt/antena180a.mp3"
  },
  {
   "id": "s157568",
   "nome": "RTP Antena 1 Fado (Folclore)",
   "logo": "http://cdn-profiles.tunein.com/s157568/images/logoq.png?t=155725",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s157568",
   "url": "https://radiocast.rtp.pt/antena1fado80a.mp3"
  },
  {
   "id": "s76364",
   "nome": "RTP Antena 1 Lusitânia (Hits 1964-1989)",
   "logo": "http://cdn-profiles.tunein.com/s76364/images/logoq.png?t=161229",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s76364",
   "url": "https://radiocast.rtp.pt/lusitania80a.mp3"
  },
  {
   "id": "s6746",
   "nome": "RTP Antena 2 94 (Clássica)",
   "logo": "http://cdn-profiles.tunein.com/s6746/images/logoq.png?t=161229",
+  "local": "Lisboa, Portugal",
+  "freq": "94 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s6746",
   "url": "https://radiocast.rtp.pt/antena280a.mp3"
  },
  {
   "id": "s307990",
   "nome": "RTP Antena 2 JazzIn (Jazz)",
   "logo": "http://cdn-profiles.tunein.com/s307990/images/logoq.png?t=161229",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s307990",
   "url": "https://radiocast.rtp.pt/antena2jazzin80a.mp3"
  },
  {
   "id": "s157569",
   "nome": "RTP Antena 2 Ópera (Música Mundial)",
   "logo": "http://cdn-profiles.tunein.com/s157569/images/logoq.png?t=161229",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s157569",
   "url": "https://radiocast.rtp.pt/antena2opera80a.mp3"
  },
  {
   "id": "s24930",
   "nome": "RTP Antena 3 100 (Adulto Contemporânea)",
   "logo": "http://cdn-profiles.tunein.com/s24930/images/logoq.png?t=161229",
+  "local": "Lisboa, Portugal",
+  "freq": "100 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s24930",
   "url": "https://radiocast.rtp.pt/antena380a.mp3"
  },
  {
   "id": "s6747",
   "nome": "RTP Mundo 94 (Debate Mundial)",
   "logo": "http://cdn-profiles.tunein.com/s6747/images/logoq.png?t=161229",
+  "local": "Lisboa, Portugal",
+  "freq": "94 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s6747",
   "url": "https://radiocast.rtp.pt/rdpint80a.mp3"
  },
  {
   "id": "s209536",
   "nome": "RVD Radio (Anos 90)",
   "logo": "http://cdn-profiles.tunein.com/s209536/images/logoq.jpg?t=157311",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s209536",
   "url": "https://sp0.redeaudio.com/9938/;"
+ },
+ {
+  "id": "rg-dN2Ltm0b",
+  "nome": "Saudade Cidade",
+  "logo": "",
+  "local": "Amadora, Portugal",
+  "url": "https://stream-177.surfernetwork.com/q9k377tdzy8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxOWszNzd0ZHp5OHV2IiwiaG9zdCI6InN0cmVhbS0xNzcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImVWMFdzTERwVG9xenk2ckJBbnFzSUEiLCJpYXQiOjE3OTQ2MTY1NjIsImV4cCI6MTc5NDYxNjYyMn0.a40d9SaAHtZwPQfvP5Pl6zpE4F3gGnz300ooL-7po58",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s159210",
   "nome": "Saudade Cidade (Anos 80)",
   "logo": "http://cdn-profiles.tunein.com/s159210/images/logoq.jpg?t=162550",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s159210",
   "url": "http://stream.zeno.fm/q9k377tdzy8uv"
  },
  {
   "id": "s343186",
   "nome": "Sexy Radio (Soul & R&B)",
   "logo": "http://cdn-profiles.tunein.com/s343186/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s343186",
   "url": "https://servidor18.brlogic.com:7682/live?identifier=Sexy%20Radio&source=2503"
+ },
+ {
+  "id": "rg-O5BjlkNU",
+  "nome": "SFTD",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "http://hyades.shoutca.st:8270/stream/1/",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s162753",
   "nome": "SFTD Radio (Metal)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s162753q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s162753",
   "url": "http://hyades.shoutca.st:8270/stream"
  },
  {
   "id": "s214598",
   "nome": "Som da Baixa Setubal (Noticiário Musical)",
   "logo": "http://cdn-profiles.tunein.com/s214598/images/logoq.png?t=157202",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s214598",
   "url": "https://sp0.redeaudio.com/8500/stream"
  },
  {
   "id": "s364799",
   "nome": "Soundscape Radio (Rock Moderno)",
   "logo": "http://cdn-profiles.tunein.com/s364799/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s364799",
   "url": "https://soundscape-radio.duckdns.org/listen/soundscape_radio/radio.mp3"
  },
  {
   "id": "s291860",
   "nome": "SoundWorks Radio (Dance Music)",
   "logo": "http://cdn-profiles.tunein.com/s291860/images/logoq.png?t=1728978104000",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s291860",
   "url": "https://soundworks.live:8000/320kbps.mp3"
  },
  {
   "id": "s357254",
   "nome": "SUN RADIO (Música Mundial)",
   "logo": "http://cdn-profiles.tunein.com/s357254/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s357254",
   "url": "https://servidor18-2.brlogic.com:7682/live?identifier=SUN%20RADIO&source=3089"
  },
  {
   "id": "s15269",
   "nome": "SuperFM - A Tua Radio Rock 104.8 (Rock)",
   "logo": "http://cdn-profiles.tunein.com/s15269/images/logoq.png?t=151739",
+  "local": "Lisboa, Portugal",
+  "freq": "104.8 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s15269",
   "url": "https://play.radioregional.pt:8210/stream/2/"
+ },
+ {
+  "id": "rg-pQLGWlYW",
+  "nome": "Tamil Sangam Portugal Radio",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://ptr-unicast2u.radioca.st/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "s254429",
+  "nome": "Telefonia da Amadora",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s254429q.png",
+  "local": "Portugal",
+  "fonte": "tunein",
+  "regiao": "Lisboa",
+  "url": "http://148.71.86.214:8000/telefoniadaamadora"
+ },
+ {
+  "id": "rg-Y1pYipFL",
+  "nome": "Top 80 FM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://servidor.noite.pt:9001/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-vNwh6ERa",
+  "nome": "Tropical FM 95.3",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://s03.transmissaodigital.com:7652/1/",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s110774",
   "nome": "TSF Radio Noticias (Economia)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s110774q.png",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s110774",
   "url": "http://tsfdirecto.tsf.pt/tsfdirecto.mp3"
+ },
+ {
+  "id": "rg-z8SFkGBq",
+  "nome": "TSF Rádio Notícias 89.5 FM",
+  "logo": "",
+  "local": "Lisbon, Portugal",
+  "url": "https://directo.tsf.pt/tsfdirecto.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-zUtQMcrR",
+  "nome": "TunetRadio",
+  "logo": "",
+  "local": "Arruda dos Vinhos, Portugal",
+  "url": "https://rs2.ptservidor.com/proxy/tunetradio?mp=/stream?type=.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
  },
  {
   "id": "s87852",
   "nome": "Ultra FM 88.2 (Variedades)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s87852q.png",
+  "local": "Lisboa, Portugal",
+  "freq": "88.2 FM",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s87852",
   "url": "http://link.radios.pt/ultrafm"
  },
  {
   "id": "s359805",
   "nome": "Vox pulse FM (Adulto Contemporânea)",
   "logo": "http://cdn-profiles.tunein.com/s359805/images/logoq.png?t=1",
+  "local": "Lisboa, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s359805",
   "url": "https://stm18.voxhd.com.br:12192"
  },
  {
   "id": "s259011",
   "nome": "Zona Rock (Rock)",
   "logo": "http://cdn-profiles.tunein.com/s259011/images/logoq.png?t=158991",
+  "local": "Lisboa, Portugal",
+  "fonte": "tunein",
   "regiao": "Lisboa",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s259011",
   "url": "https://sp0.redeaudio.com/9996/stream"
+ },
+ {
+  "id": "rg-i2e_RpWR",
+  "nome": "Zona Rock Radio Online",
+  "logo": "",
+  "local": "Sintra, Portugal",
+  "url": "https://sp0.redeaudio.com/9996/stream",
+  "fonte": "radiogarden",
+  "regiao": "Lisboa"
+ },
+ {
+  "id": "rg-3WBHKXPF",
+  "nome": "Rádio Elvas 91.5 FM",
+  "logo": "",
+  "local": "Elvas, Portugal",
+  "url": "https://radios2.justweb.pt/8066/stream",
+  "fonte": "radiogarden",
+  "regiao": "Portalegre"
+ },
+ {
+  "id": "rg-pwD7N6SF",
+  "nome": "Rádio Nostalgia-Elvas",
+  "logo": "",
+  "local": "Elvas, Portugal",
+  "url": "https://stm1.brstream.com.br:6698/stream",
+  "fonte": "radiogarden",
+  "regiao": "Portalegre"
+ },
+ {
+  "id": "s10970",
+  "nome": "Radio Portalegre",
+  "logo": "http://cdn-profiles.tunein.com/s10970/images/logoq.png?t=1",
+  "local": "Portalegre, Portugal",
+  "freq": "100.5 FM",
+  "fonte": "tunein",
+  "regiao": "Portalegre",
+  "url": "https://centova.radio.com.pt/proxy/492?mp=/stream"
+ },
+ {
+  "id": "rg-zkPuujWu",
+  "nome": "Rádio Portalegre FM 100.5",
+  "logo": "",
+  "local": "Portalegre, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/492?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Portalegre"
+ },
+ {
+  "id": "rg-eBSsLUcl",
+  "nome": "Rádio Prazeres Interrompidos",
+  "logo": "",
+  "local": "Portalegre, Portugal",
+  "url": "https://streampanel.online/8165/stream",
+  "fonte": "radiogarden",
+  "regiao": "Portalegre"
+ },
+ {
+  "id": "rg-MRQECGnp",
+  "nome": "Radio Super Mundo Paulo Pintao",
+  "logo": "",
+  "local": "Portalegre, Portugal",
+  "url": "https://stream-178.surfernetwork.com/xg9rr7rc445vv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ4ZzlycjdyYzQ0NXZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IktPNVFxd0ZGUkkyZVVuTlk0eV83V2ciLCJpYXQiOjE3OTQ2MTY1NTcsImV4cCI6MTc5NDYxNjYxN30.dgf6BIADMbn6EnANR6VInvanxjr_VsP_V_DC-bbWTPw",
+  "fonte": "radiogarden",
+  "regiao": "Portalegre"
+ },
+ {
+  "id": "s259435",
+  "nome": "Ams Rádio",
+  "logo": "http://cdn-profiles.tunein.com/s259435/images/logoq.jpg?t=1753892540000",
+  "local": "Vila Do Conde, Portugal",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://185.32.188.17:8027/stream"
  },
  {
   "id": "s66284",
   "nome": "Antena 2 88.0 (Clássica)",
   "logo": "http://cdn-profiles.tunein.com/s6746/images/logoq.png?t=161229",
+  "local": "Porto, Portugal",
+  "freq": "88.0 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s66284",
   "url": "https://radiocast.rtp.pt/antena280a.mp3"
  },
  {
   "id": "s25767",
   "nome": "Antena Minho 106.0 (Notícias Esportivas)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s25767q.png",
+  "local": "Porto, Portugal",
+  "freq": "106.0 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s25767",
   "url": "http://centova.radios.pt:9464"
  },
  {
   "id": "s263406",
   "nome": "Beat PT (Dance Music)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s263406q.png",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s263406",
   "url": "https://rs2.ptservidor.com/proxy/incrivei?mp=/stream"
  },
  {
   "id": "s294589",
   "nome": "Costa Verde Rádio Portugal (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s294589/images/logoq.png?t=152162",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s294589",
   "url": "https://sonic1.transmissaodigital.com:7031/"
  },
  {
   "id": "s81858",
   "nome": "Dance FM 105.8 (Rock)",
   "logo": "http://cdn-profiles.tunein.com/s81858/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "105.8 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s81858",
   "url": "https://stream.zeno.fm/d20bmvrs4a0uv"
  },
  {
   "id": "s336859",
   "nome": "DEL PUEBLO MIO FOLKLORE RADIO (Música)",
   "logo": "http://cdn-profiles.tunein.com/s336859/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s336859",
   "url": "https://centova.heplayer.com/proxy/dpmfolklore/stream"
  },
  {
   "id": "s336857",
   "nome": "DEL PUEBLO MIO RADIO MIX (Country)",
   "logo": "http://cdn-profiles.tunein.com/s336857/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s336857",
   "url": "https://centova.heplayer.com/proxy/fmnativ1/stream"
  },
  {
   "id": "s336858",
   "nome": "DEL PUEBLO MIO RADIO ROCK (Música)",
   "logo": "http://cdn-profiles.tunein.com/s336858/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s336858",
   "url": "https://centova.heplayer.com/proxy/dpmradiorock/stream"
  },
  {
   "id": "s107477",
   "nome": "Engenharia Rádio (Rádio Universitária)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s107477q.png",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s107477",
   "url": "http://www.engenhariaradio.pt:8080/live"
+ },
+ {
+  "id": "s109427",
+  "nome": "ERA FM - Não suportado",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s109427q.png",
+  "local": "Porto, Portugal",
+  "freq": "92.7 FM",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s109427"
  },
  {
   "id": "s336091",
   "nome": "Esmeralda Radio",
   "logo": "http://cdn-profiles.tunein.com/s336091/images/logoq.jpg?t=1",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s336091",
   "url": "https://cast.redewt.net:9827/stream"
  },
  {
   "id": "s335831",
   "nome": "ESRADIOPT",
   "logo": "http://cdn-profiles.tunein.com/s335831/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s335831",
   "url": "https://stream.zeno.fm/izxt6zusclruv"
+ },
+ {
+  "id": "rg-gDrTTOhl",
+  "nome": "ESRadioPT",
+  "logo": "",
+  "local": "Porto, Portugal",
+  "url": "https://stream-177.surfernetwork.com/izxt6zusclruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJpenh0Nnp1c2NscnV2IiwiaG9zdCI6InN0cmVhbS0xNzcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkZ0dDVFZkg4VE5HSDJsYmgwaGVVM0EiLCJpYXQiOjE3OTQ2MTY1NTUsImV4cCI6MTc5NDYxNjYxNX0.-3KzlMXzm5ul-I0kCquiW8DZ3PnHWUCrbxGHxaMD6bs",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s334583",
   "nome": "Fama Rádio Portugal 105 (Anos 80)",
   "logo": "http://cdn-profiles.tunein.com/s334583/images/logoq.png?t=2",
+  "local": "Porto, Portugal",
+  "freq": "105 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s334583",
   "url": "https://eu10.fastcast4u.com/famaradio"
  },
  {
   "id": "s278383",
   "nome": "FestEventos - Este é o Teu Momento (Música)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s278383q.png",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s278383",
   "url": "http://webradio.festeventos.pt:9998/stream"
  },
  {
   "id": "s84208",
   "nome": "Geice FM 90.8 (Anos 80)",
   "logo": "http://cdn-profiles.tunein.com/s84208/images/logoq.jpg?t=161850",
+  "local": "Porto, Portugal",
+  "freq": "90.8 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s84208",
   "url": "https://ec2.yesstreaming.net:3275/stream"
+ },
+ {
+  "id": "rg-o6idINZP",
+  "nome": "Golo FM",
+  "logo": "",
+  "local": "Porto, Portugal",
+  "url": "https://sp0.redeaudio.com/8154/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s231300",
   "nome": "Golo FM 94.8 (Debate em Português)",
   "logo": "http://cdn-profiles.tunein.com/s231300/images/logoq.jpg?t=1659715641000",
+  "local": "Porto, Portugal",
+  "freq": "94.8 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s231300",
   "url": "https://sp0.redeaudio.com:10915/stream"
  },
  {
   "id": "s354226",
   "nome": "I Need Music Radio (Dance Music)",
   "logo": "http://cdn-profiles.tunein.com/s354226/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s354226",
   "url": "https://stream.ineedmusic.pt"
+ },
+ {
+  "id": "rg-8eVEnOCM",
+  "nome": "MaisFM",
+  "logo": "",
+  "local": "Amarante, Portugal",
+  "url": "https://stream-178.surfernetwork.com/xgzzzrj4wrwuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ4Z3p6enJqNHdyd3V2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkprbnpFaE1oUkh5TFFWRzl1clRYYWciLCJpYXQiOjE3OTQ2MTY1NjgsImV4cCI6MTc5NDYxNjYyOH0.es72o0EYfDgd37sGylqaBj-xiaMxYUfSrNUj_SIcxes",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s356644",
   "nome": "MAISFM (Rock)",
   "logo": "http://cdn-profiles.tunein.com/s356644/images/logoq.jpg?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s356644",
   "url": "https://stream.zeno.fm/a3u1flszw8zvv"
  },
  {
   "id": "s358007",
   "nome": "MSFS Radio (Música Mundial)",
   "logo": "http://cdn-profiles.tunein.com/s358007/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s358007",
   "url": "https://radio.msfsradio.com/listen/msfs/radio.mp3"
  },
  {
   "id": "s360450",
   "nome": "NicoFM (Música Infantil)",
   "logo": "http://cdn-profiles.tunein.com/s360450/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s360450",
   "url": "https://s3.citrus3.com:2000/stream/nicofm"
+ },
+ {
+  "id": "rg-3bwHAoC7",
+  "nome": "O Cidadão Rádio",
+  "logo": "",
+  "local": "Vila Nova de Gaia, Portugal",
+  "url": "https://servidor27.brlogic.com:7000/live",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
+ },
+ {
+  "id": "s300399",
+  "nome": "OficialRadioCidadePorto",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Portugal",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://62.210.139.130:8094"
  },
  {
   "id": "s172138",
   "nome": "Paivense FM 99.5 (Variedades)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s172138q.png",
+  "local": "Porto, Portugal",
+  "freq": "99.5 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s172138",
   "url": "http://paivense.no-ip.info:8080/"
  },
  {
   "id": "s358604",
   "nome": "R_C_De_Guifoes (Transmissões de Podcasts 24h)",
   "logo": "http://cdn-profiles.tunein.com/s358604/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s358604",
   "url": "https://s1.xpressstream.com:7210"
  },
  {
   "id": "s244826",
   "nome": "Radio Afurada (Variedades)",
   "logo": "http://cdn-profiles.tunein.com/s244826/images/logoq.jpg?t=157858",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s244826",
   "url": "https://sp0.redeaudio.com/9988/stream;"
  },
  {
   "id": "s192283",
   "nome": "Rádio Alpendorada (Debate em Português)",
   "logo": "http://cdn-profiles.tunein.com/s192283/images/logoq.jpg?t=1732807865000",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s192283",
   "url": "http://audio.serv.pt/9316/stream"
  },
  {
   "id": "s48688",
   "nome": "Radio Alto Minho 97.0 (Top 40 POP)",
   "logo": "http://cdn-profiles.tunein.com/s48688/images/logoq.jpg?t=161850",
+  "local": "Porto, Portugal",
+  "freq": "97.0 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s48688",
   "url": "https://ec2.yesstreaming.net:3705/stream"
  },
  {
   "id": "s25083",
   "nome": "Radio Atlantida 106.3 (Música Local)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s16056q.png",
+  "local": "Porto, Portugal",
+  "freq": "106.3 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s25083",
   "url": "http://link.radios.pt/atlantida"
  },
  {
   "id": "s82123",
   "nome": "Rádio Barcelos 91.9 (Notícias Esportivas)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s82123q.png",
+  "local": "Porto, Portugal",
+  "freq": "91.9 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s82123",
   "url": "http://link.radios.pt/radiobarcelos"
  },
  {
   "id": "s48711",
   "nome": "Radio Caima FM 97.1 (Anos 90)",
   "logo": "http://cdn-profiles.tunein.com/s48711/images/logoq.jpg?t=1667349628000",
+  "local": "Porto, Portugal",
+  "freq": "97.1 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s48711",
   "url": "https://caimafm.ovh/caimafm"
  },
  {
   "id": "s358844",
   "nome": "Radio Cantinho De Guifoes (Anos 2000)",
   "logo": "http://cdn-profiles.tunein.com/s358844/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s358844",
   "url": "https://s1.inovacast.top:7020"
  },
  {
   "id": "s82193",
   "nome": "Radio Capital 102.7 (Adulto Contemporânea)",
   "logo": "http://cdn-profiles.tunein.com/s81786/images/logoq.png?t=155740",
+  "local": "Porto, Portugal",
+  "freq": "102.7 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s82193",
   "url": "http://link.radios.pt/meomusic"
  },
  {
   "id": "s340864",
   "nome": "Rádio Casa da Bíblia (Debate em Português)",
   "logo": "http://cdn-profiles.tunein.com/s340864/images/logoq.png?t=1746572147000",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s340864",
   "url": "https://servidor38.brlogic.com:8794/live"
+ },
+ {
+  "id": "rg-_hvdgz7c",
+  "nome": "Rádio Caxinas",
+  "logo": "",
+  "local": "Vila do Conde, Portugal",
+  "url": "https://sp0.redeaudio.com/9826/;stream.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s352778",
   "nome": "radio cidade azul (Música)",
   "logo": "http://cdn-profiles.tunein.com/s352778/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s352778",
   "url": "https://sp0.redeaudio.com:10940/stream"
  },
  {
   "id": "s349300",
   "nome": "RADIO CIDADE AZUL (Música)",
   "logo": "http://cdn-profiles.tunein.com/s349300/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s349300",
   "url": "https://sp0.redeaudio.com/8092/stream"
  },
  {
   "id": "s335563",
   "nome": "RADIO CIDADE GUIMARAES ( A Nº1 DO OUVINTE )",
   "logo": "http://cdn-profiles.tunein.com/s335563/images/logoq.jpg?t=1",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s335563",
   "url": "https://stream.zeno.fm/5fakzd57tvrvv"
  },
  {
   "id": "s82196",
   "nome": "Radio Cidade Hoje 94.0 (Hits Popular)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s82196q.png",
+  "local": "Porto, Portugal",
+  "freq": "94.0 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s82196",
   "url": "http://link.radios.pt/radiocidadehoje"
  },
  {
   "id": "s82199",
   "nome": "Radio Clube Da Feira 104.7 (Variedades)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s82199q.png",
+  "local": "Porto, Portugal",
+  "freq": "104.7 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s82199",
   "url": "http://link.radios.pt/clubedafeira"
  },
  {
   "id": "s84095",
   "nome": "Rádio Clube de Paços de Ferreira 101.8 FM | (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s84095/images/logoq.png?t=164779",
+  "local": "Porto, Portugal",
+  "freq": "101.8 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s84095",
   "url": "https://server3.webradios.com.br:19442/9442"
+ },
+ {
+  "id": "rg-jdS51cfM",
+  "nome": "Rádio Clube FM 101.8",
+  "logo": "",
+  "local": "Paços de Ferreira, Portugal",
+  "url": "https://server3.webradios.com.br:19442/9442",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s84110",
   "nome": "Radio Clube Penafiel 91.8 (Adulto Contemporânea)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s84110q.png",
+  "local": "Porto, Portugal",
+  "freq": "91.8 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s84110",
   "url": "http://link.radios.pt/radioclubedepenafiel"
  },
  {
   "id": "s304688",
   "nome": "Radio Costa Verde (Música Mundial)",
   "logo": "http://cdn-profiles.tunein.com/s304688/images/logoq.png?t=162766",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s304688",
   "url": "http://s1.stmxp.net:8128/;"
  },
  {
   "id": "s233736",
   "nome": "Rádio Dois Corações Uma História (Música Mundial)",
   "logo": "http://cdn-profiles.tunein.com/s233736/images/logoq.jpg?t=158878",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s233736",
   "url": "https://sonic1.transmissaodigital.com:7001/;"
+ },
+ {
+  "id": "rg-oKTcMSrL",
+  "nome": "Rádio Evangélica Maranata",
+  "logo": "",
+  "local": "Vila Nova de Gaia, Portugal",
+  "url": "https://servidor38.brlogic.com:8794/live",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s361772",
   "nome": "Radio Fabio & Sofia (Adulto Contemporânea)",
   "logo": "http://cdn-profiles.tunein.com/s361772/images/logoq.jpg?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s361772",
   "url": "https://stream.marcioliveiragroup.com:8006/stream"
  },
  {
   "id": "s272907",
   "nome": "Radio Feiticeira do Amor (Anos 60)",
   "logo": "http://cdn-profiles.tunein.com/s272907/images/logoq.jpg?t=1",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s272907",
   "url": "https://sbox1.sonybox.top:9004/"
+ },
+ {
+  "id": "s84093",
+  "nome": "Radio Felgueiras",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s84093q.png",
+  "local": "Felgueiras, Portugal",
+  "freq": "92.2 FM",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://centova.radios.pt:8459"
+ },
+ {
+  "id": "rg-JEJBmALw",
+  "nome": "Rádio Felgueiras 92.2 FM",
+  "logo": "",
+  "local": "Felgueiras, Portugal",
+  "url": "https://centova.radios.pt/proxy/459?mp=/stream/1/",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
+ },
+ {
+  "id": "rg-AJP9HCjm",
+  "nome": "Rádio Festival 107.4 FM",
+  "logo": "",
+  "local": "Porto, Portugal",
+  "url": "https://servidor23-1.brlogic.com:7110/live",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s354820",
   "nome": "Radio Flashback Hits (Anos 80)",
   "logo": "http://cdn-profiles.tunein.com/s354820/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s354820",
   "url": "https://cc4.streammaximum.com:20005/"
  },
  {
   "id": "s361469",
   "nome": "Radio Flashback Hits (Anos 80)",
   "logo": "http://cdn-profiles.tunein.com/s361469/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s361469",
   "url": "https://servidor23-1.brlogic.com:7168/live"
+ },
+ {
+  "id": "s87832",
+  "nome": "Rádio Fórum Boticas - Não suportado",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s87832q.png",
+  "local": "Porto, Portugal",
+  "freq": "103.9 FM",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s87832"
  },
  {
   "id": "s107275",
   "nome": "Rádio Fundação 95.8 (Variedades)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s107275q.png",
+  "local": "Porto, Portugal",
+  "freq": "95.8 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s107275",
   "url": "http://46.105.172.166:8044/"
  },
  {
   "id": "s359865",
   "nome": "Radio Globalmix (Variedades)",
   "logo": "http://cdn-profiles.tunein.com/s359865/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s359865",
   "url": "https://s2.stmxp.net:7220/;"
  },
  {
   "id": "s189282",
   "nome": "Rádio Gondomar Mix (Podcasts Musicais)",
   "logo": "http://cdn-profiles.tunein.com/s189282/images/logoq.png?t=152345",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s189282",
   "url": "https://sp0.redeaudio.com:10860/"
+ },
+ {
+  "id": "s16047",
+  "nome": "Radio Graciosa - Não suportado",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s16047q.png",
+  "local": "Porto, Portugal",
+  "freq": "107.9 FM",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s16047"
  },
  {
   "id": "s361154",
   "nome": "Rádio Graúna Portugal (Anos 80)",
   "logo": "http://cdn-profiles.tunein.com/s361154/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s361154",
   "url": "https://radios3.justweb.pt/8034/stream"
+ },
+ {
+  "id": "s16054",
+  "nome": "Radio Horizonte - Não suportado",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s16054q.png",
+  "local": "Porto, Portugal",
+  "freq": "107.2 FM",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s16054"
  },
  {
   "id": "s1653",
   "nome": "Radio Horizonte Algarve 96.9-106.8 (Top 40 POP)",
   "logo": "http://cdn-profiles.tunein.com/s1653/images/logoq.jpg?t=1663085725000",
+  "local": "Porto, Portugal",
+  "freq": "96.9-106.8 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s1653",
   "url": "http://link.radios.pt/radiohorizontealgarve"
  },
  {
   "id": "s281342",
   "nome": "Rádio JM (Variedades)",
   "logo": "http://cdn-profiles.tunein.com/s281342/images/logoq.png?t=162508",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s281342",
   "url": "https://radios3.justweb.pt/8014/stream."
+ },
+ {
+  "id": "rg-NdW_exWZ",
+  "nome": "Rádio Jornal FM 103.6",
+  "logo": "",
+  "local": "Paredes, Portugal",
+  "url": "https://radios.justweb.pt/8032/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s329927",
   "nome": "Radio Junior (Hits 1964-1989)",
   "logo": "http://cdn-profiles.tunein.com/s329927/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s329927",
   "url": "http://webradio.marcioliveiragroup.com:8002/stream"
  },
  {
   "id": "s350942",
   "nome": "Radio Lazer da Loirinha (Música)",
   "logo": "http://cdn-profiles.tunein.com/s350942/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s350942",
   "url": "https://s1.inovacast.top:7012"
  },
  {
   "id": "s84216",
   "nome": "Radio Limite 89.0 (Música Mundial)",
   "logo": "http://cdn-profiles.tunein.com/s84216/images/logoq.png",
+  "local": "Porto, Portugal",
+  "freq": "89.0 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s84216",
   "url": "http://link.radios.pt/radiolimite"
+ },
+ {
+  "id": "rg-aDSa5w4w",
+  "nome": "Rádio Linear FM 88.6",
+  "logo": "",
+  "local": "Vila do Conde, Portugal",
+  "url": "https://nl.digitalrm.pt:8184/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s277284",
   "nome": "Rádio Lousada (Música de Portugal)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s277284q.png",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s277284",
   "url": "https://sp0.redeaudio.com/9932/stream"
  },
  {
   "id": "s48706",
   "nome": "Rádio Lumena 107.1 (Adulto Contemporânea)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s48706q.png",
+  "local": "Porto, Portugal",
+  "freq": "107.1 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s48706",
   "url": "http://rs2.ptservidor.com:8047/stream"
  },
  {
   "id": "s361471",
   "nome": "Radio Marcio Oliveira Group (Euro Hits)",
   "logo": "http://cdn-profiles.tunein.com/s361471/images/logoq.jpg?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s361471",
   "url": "https://stream.marcioliveiragroup.com:8004/stream"
  },
  {
   "id": "s107264",
   "nome": "Radio Marcoense 93.3 (Música Mundial)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s107264q.png",
+  "local": "Porto, Portugal",
+  "freq": "93.3 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s107264",
   "url": "http://137.74.160.250:8000/"
+ },
+ {
+  "id": "rg-z_icHAFI",
+  "nome": "Rádio Marcoense FM",
+  "logo": "",
+  "local": "Marco de Canaveses, Portugal",
+  "url": "https://streaming.shoutcast.com/marcoense-fm",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
+ },
+ {
+  "id": "rg-ww0hTVV0",
+  "nome": "Rádio Matosinhos Online",
+  "logo": "",
+  "local": "Matosinhos, Portugal",
+  "url": "http://185.32.188.17:8035/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s262906",
   "nome": "Rádio Melodias de Amor (Música Ambiente)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s262906",
   "url": "https://server.vendaslotus.pt:7042/"
+ },
+ {
+  "id": "s170072",
+  "nome": "RADIO MONTEMURO - Não suportado",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s170072q.png",
+  "local": "Porto, Portugal",
+  "freq": "87.8 FM",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s170072"
+ },
+ {
+  "id": "s109428",
+  "nome": "Rádio NFM - Não suportado",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s109428q.png",
+  "local": "Porto, Portugal",
+  "freq": "89.2 FM",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s109428"
  },
  {
   "id": "s107133",
   "nome": "Rádio Noar 107 (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s107133/images/logoq.png?t=156140",
+  "local": "Porto, Portugal",
+  "freq": "107 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s107133",
   "url": "https://radios.justweb.pt:7016/"
+ },
+ {
+  "id": "rg-hw1rlgA6",
+  "nome": "Rádio NoAr FM 107.8",
+  "logo": "",
+  "local": "Maia, Portugal",
+  "url": "https://radios.justweb.pt/8034/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s9317",
   "nome": "Rádio Nova 98.9 (Soul & R&B)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s9317q.png",
+  "local": "Porto, Portugal",
+  "freq": "98.9 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s9317",
   "url": "http://centova.radios.pt:9528"
  },
  {
   "id": "s25161",
   "nome": "Radio Nova Era 100.1 (Top 40 POP)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s25161q.png",
+  "local": "Porto, Portugal",
+  "freq": "100.1 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s25161",
   "url": "http://link.radios.pt/novaera"
+ },
+ {
+  "id": "rg-paE5mxjD",
+  "nome": "Radio Nova Era FM 101.3",
+  "logo": "",
+  "local": "Vila Nova de Gaia, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/478?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
+ },
+ {
+  "id": "rg-Z18SS0uN",
+  "nome": "Rádio Nova FM 98.9",
+  "logo": "",
+  "local": "Porto, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/528?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
+ },
+ {
+  "id": "rg-D0LA66eh",
+  "nome": "Rádio Nova Nacional",
+  "logo": "",
+  "local": "Porto, Portugal",
+  "url": "https://stm15.xcast.com.br:7324/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s83746",
   "nome": "Rádio Nove3cinco (Top 40 POP)",
   "logo": "http://cdn-profiles.tunein.com/s83746/images/logoq.png?t=636415",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s83746",
   "url": "https://centova.radio.com.pt/proxy/522?mp=/stream"
  },
  {
   "id": "s353162",
   "nome": "rádio oceano pacifico 76,8 (Anos 80)",
   "logo": "http://cdn-profiles.tunein.com/s353162/images/logoq.jpg?t=2",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s353162",
   "url": "https://cp-1.owh.radio.br/listen/owh_s35225/radio-mp3"
  },
  {
   "id": "s226260",
   "nome": "Rádio Onda Lusa (Adulto Contemporânea)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s226260q.png",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s226260",
   "url": "http://s2.stmxp.net:7008/"
  },
  {
   "id": "s84142",
   "nome": "Radio Onda Viva 96.1 (Noticiário Mundial)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s84142q.png",
+  "local": "Porto, Portugal",
+  "freq": "96.1 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s84142",
   "url": "http://link.radios.pt/radioondaviva"
+ },
+ {
+  "id": "rg-8aBEnLxJ",
+  "nome": "Radio Onda Viva 96.1 FM",
+  "logo": "",
+  "local": "Povoa de Varzim, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/524?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s337356",
   "nome": "Rádio OndaNacional (Música)",
   "logo": "http://cdn-profiles.tunein.com/s337356/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s337356",
   "url": "https://stream.zeno.fm/txecb7da568uv"
  },
  {
   "id": "s200707",
   "nome": "Radio ovos moles (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s200707/images/logoq.png?t=157174",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s200707",
   "url": "https://sp0.redeaudio.com/9330/;"
  },
  {
   "id": "s81795",
   "nome": "Radio Pico 100.2 (Música Local)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s81795q.png",
+  "local": "Porto, Portugal",
+  "freq": "100.2 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s81795",
   "url": "http://link.radios.pt/pico"
  },
  {
   "id": "s84209",
   "nome": "Radio Popular Afifense 87.6 (Música de Portugal)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s84209q.png",
+  "local": "Porto, Portugal",
+  "freq": "87.6 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s84209",
   "url": "http://link.radios.pt/radiopopularafifense"
+ },
+ {
+  "id": "rg-4Cqv8JPt",
+  "nome": "Rádio Portuense",
+  "logo": "",
+  "local": "Porto, Portugal",
+  "url": "https://sp0.redeaudio.com/8160/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s226263",
   "nome": "Rádio Portuense (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s226263/images/logoq.jpg?t=159016",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s226263",
   "url": "https://sp0.redeaudio.com/8160/stream"
  },
  {
   "id": "s360404",
   "nome": "Rádio Prazeres Interrompidos (Artes e Cultura)",
   "logo": "http://cdn-profiles.tunein.com/s360404/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s360404",
   "url": "https://streampanel.online/8165/stream"
+ },
+ {
+  "id": "rg-mHBPqFvL",
+  "nome": "Rádio Record FM",
+  "logo": "",
+  "local": "Vila Nova de Gaia, Portugal",
+  "url": "https://nl.digitalrm.pt:8028/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
+ },
+ {
+  "id": "rg-2tKBoWiW",
+  "nome": "Rádio Regional - Emissão Nacional",
+  "logo": "",
+  "local": "Maia, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/2tKBoWiW/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s84680",
   "nome": "Radio Renascenca 93.7 (Notícias)",
   "logo": "http://cdn-profiles.tunein.com/s25179/images/logoq.jpg?t=5",
+  "local": "Porto, Portugal",
+  "freq": "93.7 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s84680",
-  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCAAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDYxNTkxMCwiaXNzIjoidGlzcnYifQ.wimaqOlFwa43Kt5qeIkIKZQHEkvzdTa0unxaukUZrh4"
+  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCAAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDYxNjU3NSwiaXNzIjoidGlzcnYifQ.i40yfiWMy-0w7KZFMuSmcvNnH7jvGItKdzPtX74T4Kc"
  },
  {
   "id": "s343252",
   "nome": "Rádio Resistência (Rock Cristão)",
   "logo": "http://cdn-profiles.tunein.com/s343252/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s343252",
   "url": "https://servidor38.brlogic.com:7130/live"
+ },
+ {
+  "id": "s277137",
+  "nome": "Rádio Rio Tinto Online",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s277137q.png",
+  "local": "Portugal",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://212.129.34.67:9870"
+ },
+ {
+  "id": "rg-6Pd_xApz",
+  "nome": "Radio Ritmos",
+  "logo": "",
+  "local": "Porto, Portugal",
+  "url": "https://cast2.hoost.com.br:20063/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s281679",
   "nome": "Rádio Ritmos (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s281679/images/logoq.jpg",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s281679",
   "url": "https://cast2.hoost.com.br:20063/stream"
+ },
+ {
+  "id": "s81803",
+  "nome": "Radio SFM - Não suportado",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s81803q.png",
+  "local": "Porto, Portugal",
+  "freq": "98.1 FM",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s81803"
  },
  {
   "id": "s336878",
   "nome": "Radio Taurus (Música)",
   "logo": "http://cdn-profiles.tunein.com/s336878/images/logoq.jpg?t=1",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s336878",
   "url": "https://audio.serv.pt/9318/stream"
  },
  {
   "id": "s219263",
   "nome": "Rádio Toca a Dançar (Hits Popular)",
   "logo": "http://cdn-profiles.tunein.com/s219263/images/logoq.png?t=159042",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s219263",
   "url": "https://sp0.redeaudio.com/9974/stream"
+ },
+ {
+  "id": "rg-Zwr78N7L",
+  "nome": "Rádio Transforma",
+  "logo": "",
+  "local": "Porto, Portugal",
+  "url": "http://176.9.43.216:8560/stream.mp3/",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s346647",
   "nome": "Radio Uniao - A Nossa Voz (Música)",
   "logo": "http://cdn-profiles.tunein.com/s346647/images/logoq.png?t=3",
+  "local": "Porto, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s346647",
   "url": "https://sp0.redeaudio.com/8204/stream"
  },
  {
   "id": "s268930",
   "nome": "Radio Universo PT (Música Mundial)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s268930",
   "url": "http://s1.stmxp.net:8078/"
  },
  {
   "id": "s235749",
   "nome": "Rádio Viva Portugal Albergaria (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s235749/images/logoq.png?t=1",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s235749",
   "url": "https://sp0.redeaudio.com/9920/stream"
  },
  {
   "id": "s7600",
   "nome": "Radio Voz Da Ria 90.2 (Música de Portugal)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s7600q.png",
+  "local": "Porto, Portugal",
+  "freq": "90.2 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s7600",
   "url": "http://link.radios.pt/vozdaria"
  },
  {
   "id": "s1469",
   "nome": "Radio Voz De Esmoriz 93.1 (Podcasts Mídia & Entretenimento)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s1469q.png",
+  "local": "Porto, Portugal",
+  "freq": "93.1 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s1469",
   "url": "https://radio.latremendarg.com:8016/pegasso"
+ },
+ {
+  "id": "rg-NLdIn97L",
+  "nome": "Rádio Voz de Santo Tirso",
+  "logo": "",
+  "local": "Santo Tirso, Portugal",
+  "url": "https://servidor23.brlogic.com:7110/live",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s301110",
   "nome": "RADIO VOZ DO NORTE (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s301110/images/logoq.jpg?t=160824",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s301110",
   "url": "https://sp0.redeaudio.com:10997/"
  },
  {
   "id": "s296338",
   "nome": "Rádio XL FM (Adulto Contemporânea)",
   "logo": "http://cdn-profiles.tunein.com/s296338/images/logoq.jpg?t=159967",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s296338",
   "url": "https://radios.justweb.pt:7000/"
  },
  {
   "id": "s270082",
   "nome": "RadioTop60Olhão (Música Mundial)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Porto, Portugal",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s270082",
   "url": "https://sp0.redeaudio.com:10976/"
+ },
+ {
+  "id": "rg-Jpgi1ioE",
+  "nome": "RCP - Radio Clube Penafiel 91.8 FM",
+  "logo": "",
+  "local": "Penafiel, Portugal",
+  "url": "https://centova.radios.com.pt/proxy/476?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
  },
  {
   "id": "s66419",
   "nome": "RDP Acores 828 (Música de Portugal)",
   "logo": "http://cdn-profiles.tunein.com/s2549/images/logoq.png?t=161229",
+  "local": "Porto, Portugal",
+  "freq": "828 AM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s66419",
   "url": "https://radiocast.rtp.pt/antena1acores80a.mp3"
  },
  {
   "id": "s66217",
   "nome": "RDP Antena 1 91.3 (Notícias)",
   "logo": "http://cdn-profiles.tunein.com/s8592/images/logoq.png?t=161229",
+  "local": "Porto, Portugal",
+  "freq": "91.3 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s66217",
   "url": "https://radiocast.rtp.pt/antena180a.mp3"
  },
  {
   "id": "s66359",
   "nome": "RDP Antena 3 103.0 (Adulto Contemporânea)",
   "logo": "http://cdn-profiles.tunein.com/s24930/images/logoq.png?t=161229",
+  "local": "Porto, Portugal",
+  "freq": "103.0 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s66359",
   "url": "https://radiocast.rtp.pt/antena380a.mp3"
  },
  {
   "id": "s3095",
   "nome": "RUM - Rádio Universitária do Minho 97.5 (Indie)",
   "logo": "http://cdn-radiotime-logos.tunein.com/s3095q.png",
+  "local": "Porto, Portugal",
+  "freq": "97.5 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s3095",
   "url": "http://link.radios.pt/rum"
  },
  {
   "id": "s129939",
   "nome": "Top FM - Portugal 106.6 (Top 40 POP)",
   "logo": "http://cdn-profiles.tunein.com/s129939/images/logoq.png?t=1705496717000",
+  "local": "Porto, Portugal",
+  "freq": "106.6 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s129939",
   "url": "http://5.9.71.122:8420"
  },
  {
   "id": "s107023",
   "nome": "VFM 94.6 (Pop Country)",
   "logo": "http://cdn-profiles.tunein.com/s107023/images/logoq.jpg?t=162628",
+  "local": "Porto, Portugal",
+  "freq": "94.6 FM",
+  "fonte": "tunein",
   "regiao": "Porto",
-  "tune": "http://opml.radiotime.com/Tune.ashx?id=s107023",
   "url": "http://cast.redewt.net:9141/live"
+ },
+ {
+  "id": "s230825",
+  "nome": "Web Radio Amigos De Portugal",
+  "logo": "http://cdn-profiles.tunein.com/s230825/images/logoq.png?t=1754430529000",
+  "local": " Vila do Conde, Portugal",
+  "fonte": "tunein",
+  "regiao": "Porto",
+  "url": "http://stm1.may-stream.top:7006"
+ },
+ {
+  "id": "rg-BtlHpHSi",
+  "nome": "XL Radio",
+  "logo": "",
+  "local": "Porto, Portugal",
+  "url": "https://radios.justweb.pt:7000/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
+ },
+ {
+  "id": "rg-VLRPjwD0",
+  "nome": "Xradio",
+  "logo": "",
+  "local": "Matosinhos, Portugal",
+  "url": "https://radio.xradio.pt/listen/xradio/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Porto"
+ },
+ {
+  "id": "rg-RPVaGxMl",
+  "nome": "ABC Portugal",
+  "logo": "",
+  "local": "Ourém, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/547?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "s355646",
+  "nome": "Antena Livre",
+  "logo": "http://cdn-profiles.tunein.com/s355646/images/logoq.png?t=1",
+  "local": "Abrantes, Portugal",
+  "freq": "96.7 FM",
+  "fonte": "tunein",
+  "regiao": "Santarém",
+  "url": "https://centova.radio.com.pt/proxy/571?mp=/stream"
+ },
+ {
+  "id": "rg-1zaX2U4L",
+  "nome": "Emissor Regional do Zêzere 102.7 FM",
+  "logo": "",
+  "local": "Ferreira do Zêzere, Portugal",
+  "url": "https://radio001.webdighost.eu/8002/stream",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "s81781",
+  "nome": "Hiper FM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s81781q.png",
+  "local": "Rio Maior, Portugal",
+  "freq": "104.6 FM",
+  "fonte": "tunein",
+  "regiao": "Santarém",
+  "url": "http://195.23.85.126:9500/"
+ },
+ {
+  "id": "rg-9n4Pglm8",
+  "nome": "Hiper FM",
+  "logo": "",
+  "local": "Rio Maior, Portugal",
+  "url": "http://195.23.85.126:9500/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "rg-ujHKwxAd",
+  "nome": "Lifestyle Radio",
+  "logo": "",
+  "local": "Cartaxo, Portugal",
+  "url": "https://servidor18.brlogic.com:7682/live",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "rg-OG02AzcP",
+  "nome": "Rádio Antena Livre 96.7 FM",
+  "logo": "",
+  "local": "Abrantes, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/571?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "rg-ZYBvJFzP",
+  "nome": "Rádio Cidade de Tomar FM 90.5",
+  "logo": "",
+  "local": "Tomar, Portugal",
+  "url": "https://shoutcast.htt.pt:8030/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "s107280",
+  "nome": "Radio Hertz",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s107280q.png",
+  "local": "Tomar, Portugal",
+  "freq": "98.0 FM",
+  "fonte": "tunein",
+  "regiao": "Santarém",
+  "url": "http://213.136.92.8:8030/"
+ },
+ {
+  "id": "rg-vOlj1afa",
+  "nome": "Radio Hertz 92 FM",
+  "logo": "",
+  "local": "Tomar, Portugal",
+  "url": "https://radios2.justweb.pt/8042/stream",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "rg-5FP0Jex1",
+  "nome": "Rádio Palavra Antiga",
+  "logo": "",
+  "local": "Fatima, Portugal",
+  "url": "https://radio.palavraantiga.org/listen/palavraantiga/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "rg-RfpXiRn1",
+  "nome": "Rádio Palavra Antiga - Kids",
+  "logo": "",
+  "local": "Fatima, Portugal",
+  "url": "https://radio.palavraantiga.org/listen/kids/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "s336400",
+  "nome": "Rádio Salesiana",
+  "logo": "http://cdn-profiles.tunein.com/s336400/images/logoq.png?t=1",
+  "local": "Entroncamento, Portugal",
+  "freq": "105.7 FM",
+  "fonte": "tunein",
+  "regiao": "Santarém",
+  "url": "https://ec2.yesstreaming.net:2930/aric1/10/itunes.pls"
+ },
+ {
+  "id": "s363960",
+  "nome": "Rádio Tágide",
+  "logo": "http://cdn-profiles.tunein.com/s363960/images/logoq.png?t=1",
+  "local": "Abrantes, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Santarém",
+  "url": "https://stream.radiotagide.pt"
+ },
+ {
+  "id": "rg-BvtBivtw",
+  "nome": "Rádio Tágide",
+  "logo": "",
+  "local": "Abrantes, Portugal",
+  "url": "https://azuracast.rhoster.pt/listen/radio_tagide/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "rg-If6xCdjT",
+  "nome": "Rádio Voz do Sorraia FM 94.7",
+  "logo": "",
+  "local": "Coruche, Portugal",
+  "url": "http://centova.radio.com.pt:8511/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "s282785",
+  "nome": "Radio-Ribatejo-Mix",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s282785q.png",
+  "local": "Entroncamento, Portugal",
+  "fonte": "tunein",
+  "regiao": "Santarém",
+  "url": "https://sonic.servsonic.com/8034/;"
+ },
+ {
+  "id": "rg-Vx9OoDfV",
+  "nome": "RCA Ribatejo 104.0 FM",
+  "logo": "",
+  "local": "Almeirim, Portugal",
+  "url": "https://stream2.soundflux.eu/8430/stream",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "rg-04auL-QR",
+  "nome": "Res FM",
+  "logo": "",
+  "local": "Almeirim, Portugal",
+  "url": "https://stream2.soundflux.eu/8440/stream",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "s10211",
+  "nome": "Tejo Rádio Jornal",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s10211q.png",
+  "local": "Santarém, Portugal",
+  "freq": "102.9 FM",
+  "fonte": "tunein",
+  "regiao": "Santarém",
+  "url": "http://centova.radio.com.pt:8531/"
+ },
+ {
+  "id": "rg-21LtQh0H",
+  "nome": "Tejo Rádio Jornal",
+  "logo": "",
+  "local": "Cartaxo, Portugal",
+  "url": "http://centova.radio.com.pt:8531/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "rg-gzBH0LKb",
+  "nome": "Torres Novas FM",
+  "logo": "",
+  "local": "Torres Novas, Portugal",
+  "url": "http://centova.radio.com.pt:8475/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Santarém"
+ },
+ {
+  "id": "rg-cyxgqmVR",
+  "nome": "Alternativa Radio",
+  "logo": "",
+  "local": "Barreiro, Portugal",
+  "url": "https://sp0.redeaudio.com/9870/stream",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "rg-Wi9WNLb1",
+  "nome": "LUNA FM - Portugal",
+  "logo": "",
+  "local": "Alcochete, Portugal",
+  "url": "https://portugal.lunafm.net/listen/lunaportugal/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "rg-HN2iubIz",
+  "nome": "LUNA FM - World",
+  "logo": "",
+  "local": "Alcochete, Portugal",
+  "url": "https://world.lunafm.net/listen/lunaworld/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "rg-iDYdhh3Z",
+  "nome": "MR80's",
+  "logo": "",
+  "local": "Setúbal, Portugal",
+  "url": "https://stream-179.surfernetwork.com/rgnxkctthm8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyZ254a2N0dGhtOHV2IiwiaG9zdCI6InN0cmVhbS0xNzkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjN6d19lN3I2U3FhZ0FsUjc2RVFTb0EiLCJpYXQiOjE3OTQ2MTY1NTUsImV4cCI6MTc5NDYxNjYxNX0.jaFNjw51TrDKfA58dvV-tSbidfPPAzcFgdeQrfjp8_c",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "rg-gVGjRwLs",
+  "nome": "Rádio Azul FM 98.9",
+  "logo": "",
+  "local": "Setúbal, Portugal",
+  "url": "https://sado.radioazul.pt/live?type=.mp3/;",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "s82205",
+  "nome": "Rádio Clube De Grândola",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s82205q.png",
+  "local": "Grandola, Portugal",
+  "freq": "91.3 FM",
+  "fonte": "tunein",
+  "regiao": "Setúbal",
+  "url": "http://link.radios.pt/rcg"
+ },
+ {
+  "id": "rg-0EfCmAXl",
+  "nome": "Rádio Clube de Grândola",
+  "logo": "",
+  "local": "Grândola, Portugal",
+  "url": "http://centova.radios.pt:9474/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "rg-8VAuBwX5",
+  "nome": "Radio Clube Laranjeiro",
+  "logo": "",
+  "local": "Almada, Portugal",
+  "url": "http://176.9.43.216:8111/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "rg-2prHkq3G",
+  "nome": "Radio Romantica",
+  "logo": "",
+  "local": "Setúbal, Portugal",
+  "url": "https://sp0.redeaudio.com:10982/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "rg-zJuyF8fY",
+  "nome": "Rádio Sesimbra FM",
+  "logo": "",
+  "local": "Sesimbra, Portugal",
+  "url": "http://centova.radio.com.pt:9444/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "s9703",
+  "nome": "Rádio Sines",
+  "logo": "http://cdn-profiles.tunein.com/s9703/images/logoq.png?t=1",
+  "local": "Sines, Portugal",
+  "freq": "95.9 FM",
+  "fonte": "tunein",
+  "regiao": "Setúbal",
+  "url": "https://sp0.redeaudio.com:10840/"
+ },
+ {
+  "id": "rg-uKHqnDZm",
+  "nome": "Radio Sines",
+  "logo": "",
+  "local": "Sines, Portugal",
+  "url": "https://sp0.redeaudio.com/9580/stream",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "s199066",
+  "nome": "Rádio Super Santiago",
+  "logo": "http://cdn-profiles.tunein.com/s199066/images/logoq.png?t=160552",
+  "local": "Santiago do Cacem, Portugal",
+  "fonte": "tunein",
+  "regiao": "Setúbal",
+  "url": "https://s5.stmxp.net/8004/stream"
+ },
+ {
+  "id": "rg-4j8dMsXS",
+  "nome": "RQC - Radio Quinta do Conde",
+  "logo": "",
+  "local": "Quinta do Conde, Portugal",
+  "url": "https://sp0.redeaudio.com/8100/stream",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "s107328",
+  "nome": "Sesimbra FM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s107328q.png",
+  "local": "Varandas, Portugal",
+  "freq": "103.9 FM",
+  "fonte": "tunein",
+  "regiao": "Setúbal",
+  "url": "http://link.radios.pt/sesimbrafm103.9"
+ },
+ {
+  "id": "rg-hiKFpDb0",
+  "nome": "Som da Baixa Setubal",
+  "logo": "",
+  "local": "Setúbal, Portugal",
+  "url": "https://sp0.redeaudio.com:10998/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "rg-Nfwhh-9A",
+  "nome": "Super FM 104.8",
+  "logo": "",
+  "local": "Almada, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/Nfwhh-9A/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "rg-XzkitDfI",
+  "nome": "Tuga FM",
+  "logo": "",
+  "local": "Setúbal, Portugal",
+  "url": "https://tugafm.stream.laut.fm/tugafm",
+  "fonte": "radiogarden",
+  "regiao": "Setúbal"
+ },
+ {
+  "id": "rg-BsZ33bDu",
+  "nome": "Geice FM",
+  "logo": "",
+  "local": "Viana do Castelo, Portugal",
+  "url": "https://ec2.yesstreaming.net:3275/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viana do Castelo"
+ },
+ {
+  "id": "rg-wty904U_",
+  "nome": "Radio Afifense FM 87.6",
+  "logo": "",
+  "local": "Afife, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/471?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viana do Castelo"
+ },
+ {
+  "id": "rg-pTUkPcwM",
+  "nome": "Radio Alto Minho FM 97.0",
+  "logo": "",
+  "local": "Viana do Castelo, Portugal",
+  "url": "https://ec2.yesstreaming.net:3705/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viana do Castelo"
+ },
+ {
+  "id": "s344299",
+  "nome": "Radio Amor Portugal",
+  "logo": "http://cdn-profiles.tunein.com/s344299/images/logoq.png?t=1",
+  "local": "Vila Nova de Cerveira, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Viana do Castelo",
+  "url": "https://stream.radioamorportugal.com:8443/rap.mp3"
+ },
+ {
+  "id": "rg-xrXo8SFo",
+  "nome": "Radio Amor Portugal",
+  "logo": "",
+  "local": "Arcos de Valdevez, Portugal",
+  "url": "http://stream.radioamorportugal.com:8000/rap.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Viana do Castelo"
+ },
+ {
+  "id": "s48695",
+  "nome": "Radio Barca",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s48695q.png",
+  "local": "Ponte da Barca, Portugal",
+  "freq": "99.6 FM",
+  "fonte": "tunein",
+  "regiao": "Viana do Castelo",
+  "url": "http://link.radios.pt/radiobarca"
+ },
+ {
+  "id": "rg-3Skac2Gh",
+  "nome": "Rádio Barca",
+  "logo": "",
+  "local": "Ponte da Barca, Portugal",
+  "url": "http://centova.radio.com.pt:8483/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Viana do Castelo"
+ },
+ {
+  "id": "rg-eygOdGVM",
+  "nome": "Radio Caminha FM 106.2",
+  "logo": "",
+  "local": "Caminha, Portugal",
+  "url": "https://sp0.redeaudio.com/9918/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viana do Castelo"
+ },
+ {
+  "id": "s360208",
+  "nome": "Rádio CNNEWS PT",
+  "logo": "http://cdn-profiles.tunein.com/s360208/images/logoq.jpg?t=1",
+  "local": "Arcos de Valdevez, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Viana do Castelo",
+  "url": "https://radio.cnnewspt.com/listen/cnnewsradio/radio.mp3"
+ },
+ {
+  "id": "rg-wINiEENs",
+  "nome": "Rádio Ondas do Lima",
+  "logo": "",
+  "local": "Ponte de Lima, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/407?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viana do Castelo"
+ },
+ {
+  "id": "rg-vK5t9FBn",
+  "nome": "Radio Popular Afifense FM 87.6",
+  "logo": "",
+  "local": "Viana do Castelo, Portugal",
+  "url": "http://centova.radios.pt:8471/stream/",
+  "fonte": "radiogarden",
+  "regiao": "Viana do Castelo"
+ },
+ {
+  "id": "s84205",
+  "nome": "Radio Valdevez",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s84205q.png",
+  "local": "Arcos de Valdevez, Portugal",
+  "freq": "100.8 FM",
+  "fonte": "tunein",
+  "regiao": "Viana do Castelo",
+  "url": "http://link.radios.pt/radiovaldevez"
+ },
+ {
+  "id": "rg-zcUY27Qw",
+  "nome": "Rádio Valdevez",
+  "logo": "",
+  "local": "Arcos de Valdevez, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/508?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viana do Castelo"
+ },
+ {
+  "id": "rg--dkTmIp8",
+  "nome": "RCC FM 93.6 Radio Cerveira",
+  "logo": "",
+  "local": "Vila Nova de Cerveira, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/-dkTmIp8/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Viana do Castelo"
+ },
+ {
+  "id": "rg-9IQ4AJbC",
+  "nome": "Alto Tâmega FM 103.9",
+  "logo": "",
+  "local": "Boticas, Portugal",
+  "url": "http://188.93.231.97:9300/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Vila Real"
+ },
+ {
+  "id": "rg-lmweTeis",
+  "nome": "Douro FM 91.4",
+  "logo": "",
+  "local": "Peso da Régua, Portugal",
+  "url": "http://centova.radios.pt:8437/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Vila Real"
+ },
+ {
+  "id": "s217731",
+  "nome": "MO Radio",
+  "logo": "http://cdn-profiles.tunein.com/s217731/images/logoq.png?t=2",
+  "local": "Vila Real, Portugal",
+  "fonte": "tunein",
+  "regiao": "Vila Real",
+  "url": "https://c19.radioboss.fm:18041/stream"
+ },
+ {
+  "id": "s206204",
+  "nome": "PT Radio",
+  "logo": "http://cdn-profiles.tunein.com/s206204/images/logoq.png?t=2",
+  "local": "Vila Real , Portugal",
+  "fonte": "tunein",
+  "regiao": "Vila Real",
+  "url": "https://c3.radioboss.fm:8106/stream"
+ },
+ {
+  "id": "rg-WgAPHbTv",
+  "nome": "Radio Alagoas",
+  "logo": "",
+  "local": "Peso da Régua, Portugal",
+  "url": "https://sp0.redeaudio.com/8180/stream/",
+  "fonte": "radiogarden",
+  "regiao": "Vila Real"
+ },
+ {
+  "id": "s227870",
+  "nome": "Rádio Breca from Portugal",
+  "logo": "http://cdn-profiles.tunein.com/s227870/images/logoq.jpg?t=156477",
+  "local": "Vila Real, Portugal",
+  "fonte": "tunein",
+  "regiao": "Vila Real",
+  "url": "https://radiobreca.com/live"
+ },
+ {
+  "id": "rg-rxZMvD8C",
+  "nome": "Rádio Chaves FM 93.5",
+  "logo": "",
+  "local": "Chaves, Portugal",
+  "url": "https://radios2.justweb.pt:8050/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Vila Real"
+ },
+ {
+  "id": "s84210",
+  "nome": "Radio Montalegre",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s84210q.png",
+  "local": "Montalegre, Portugal",
+  "freq": "97.5 FM",
+  "fonte": "tunein",
+  "regiao": "Vila Real",
+  "url": "http://centova.radios.pt:9566"
+ },
+ {
+  "id": "rg-F9p0CmIi",
+  "nome": "Rádio Montalegre FM 97.5",
+  "logo": "",
+  "local": "Montalegre, Portugal",
+  "url": "http://centova.radios.pt:9566/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Vila Real"
+ },
+ {
+  "id": "rg-iqAxXHFb",
+  "nome": "Radio Montanha",
+  "logo": "",
+  "local": "Vila Real, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/iqAxXHFb/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Vila Real"
+ },
+ {
+  "id": "rg-o2Gb7ZiC",
+  "nome": "Rádio Regional - Emissão Chaves",
+  "logo": "",
+  "local": "Valpaços, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/o2Gb7ZiC/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Vila Real"
+ },
+ {
+  "id": "rg-ph3__qx3",
+  "nome": "Rádio Regional - Emissão Vila Real",
+  "logo": "",
+  "local": "Sabrosa, Portugal",
+  "url": "https://radio.garden/api/ara/content/listen/ph3__qx3/channel.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Vila Real"
+ },
+ {
+  "id": "rg-6mtKFGol",
+  "nome": "Rádio Universidade FM",
+  "logo": "",
+  "local": "Vila Real, Portugal",
+  "url": "http://centova.radios.pt:8405/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Vila Real"
+ },
+ {
+  "id": "s16496",
+  "nome": "Universidade FM",
+  "logo": "http://cdn-profiles.tunein.com/s16496/images/logoq.jpg?t=152390",
+  "local": "Vila Real, Portugal",
+  "freq": "104.3 FM",
+  "fonte": "tunein",
+  "regiao": "Vila Real",
+  "url": "http://centova.radios.pt:8405/stream"
+ },
+ {
+  "id": "s333737",
+  "nome": "Cybernet Radio",
+  "logo": "http://cdn-profiles.tunein.com/s333737/images/logoq.jpg?t=2",
+  "local": "Lamego, Portugal",
+  "fonte": "tunein",
+  "regiao": "Viseu",
+  "url": "https://s2.free-shoutcast.com/stream/18130"
+ },
+ {
+  "id": "rg-k5EL1-UG",
+  "nome": "Dao Digital",
+  "logo": "",
+  "local": "Mangualde, Portugal",
+  "url": "https://nl.digitalrm.pt:8206/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "s81780",
+  "nome": "Estação Diária",
+  "logo": "http://cdn-profiles.tunein.com/s81780/images/logoq.png?t=1",
+  "local": "Viseu, Portugal",
+  "freq": "96.8 FM",
+  "fonte": "tunein",
+  "regiao": "Viseu",
+  "url": "http://link.radios.pt/estacaodiariaradioviseu96.8fm"
+ },
+ {
+  "id": "s302523",
+  "nome": "Rádio Alto Douro",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Lamego, Portugal",
+  "fonte": "tunein",
+  "regiao": "Viseu",
+  "url": "http://fluoz.zeno.fm/btxha34m1wzuv/source"
+ },
+ {
+  "id": "rg-rA2aXX41",
+  "nome": "Rádio Armamar 92.3 FM",
+  "logo": "",
+  "local": "Armamar, Portugal",
+  "url": "https://radios2.justweb.pt/8054/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "rg-EJnhT4G0",
+  "nome": "Radio Cidade de Lamego",
+  "logo": "",
+  "local": "Lamego, Portugal",
+  "url": "https://radios3.justweb.pt/8020/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "s1515",
+  "nome": "Rádio Clube de Lamego",
+  "logo": "http://cdn-profiles.tunein.com/s1515/images/logoq.png?t=1",
+  "local": "Lamego, Portugal",
+  "freq": "97 FM",
+  "fonte": "tunein",
+  "regiao": "Viseu",
+  "url": "https://stream.zeno.fm/9prct7k8h0hvv"
+ },
+ {
+  "id": "rg-1hcuDos8",
+  "nome": "Radio Clube de Lamego",
+  "logo": "",
+  "local": "Lamego, Portugal",
+  "url": "https://stream-178.surfernetwork.com/9prct7k8h0hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI5cHJjdDdrOGgwaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlpzZUk4QW9TVFhPbUtqMDVSWDlrSWciLCJpYXQiOjE3OTQ2MTY1NTgsImV4cCI6MTc5NDYxNjYxOH0.EM1dv1ximlOaomGChJhO8MsL6DDUrcPRTqWjTQcrp-I",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "rg-dOkIWFWW",
+  "nome": "Rádio Clube do Dão",
+  "logo": "",
+  "local": "Nelas, Portugal",
+  "url": "https://sp0.redeaudio.com/8052/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "s115125",
+  "nome": "Rádio Cultura de Viseu -  RCi",
+  "logo": "http://cdn-profiles.tunein.com/s115125/images/logoq.png?t=1697821254000",
+  "local": "Viseu, Portugal",
+  "freq": "105.5 FM",
+  "fonte": "tunein",
+  "regiao": "Viseu",
+  "url": "https://nl.digitalrm.pt:8002/stream"
+ },
+ {
+  "id": "rg-76SGygvn",
+  "nome": "Rádio Desporto nas Beiras",
+  "logo": "",
+  "local": "Mangualde, Portugal",
+  "url": "https://sp0.redeaudio.com/9316/",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "rg-uj7f_Y-I",
+  "nome": "Rádio Dom Bosco",
+  "logo": "",
+  "local": "Lamego, Portugal",
+  "url": "https://free.rcast.net/206229",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "s202961",
+  "nome": "Rádio Douro Nacional - Lamego",
+  "logo": "http://cdn-profiles.tunein.com/s202961/images/logoq.jpg?t=1743635587000",
+  "local": "Lamego, Portugal",
+  "fonte": "tunein",
+  "regiao": "Viseu",
+  "url": "https://sp0.redeaudio.com:10930"
+ },
+ {
+  "id": "s82361",
+  "nome": "Rádio Douro Sul - Não suportado",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s82361q.png",
+  "local": "Lamego, Portugal",
+  "freq": "94.0 FM",
+  "fonte": "tunein",
+  "regiao": "Viseu",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s82361"
+ },
+ {
+  "id": "rg-n6LhARPX",
+  "nome": "Rádio Escuro",
+  "logo": "",
+  "local": "Vila Nova de Paiva, Portugal",
+  "url": "https://nl.digitalrm.pt:8116/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "rg-RBiWwy5m",
+  "nome": "Rádio Estaçao Diária",
+  "logo": "",
+  "local": "Viseu, Portugal",
+  "url": "http://centova.radios.pt:9430/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "s281466",
+  "nome": "Rádio Jornal do Centro",
+  "logo": "http://cdn-profiles.tunein.com/s281466/images/logoq.jpg?t=162385",
+  "local": "Viseu, Portugal",
+  "fonte": "tunein",
+  "regiao": "Viseu",
+  "url": "http://95.217.75.38:9120/"
+ },
+ {
+  "id": "rg-b3DKX5eq",
+  "nome": "Rádio Jornal do Centro",
+  "logo": "",
+  "local": "Viseu, Portugal",
+  "url": "https://sp0.redeaudio.com:9120//live/",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "rg-Yprqy26b",
+  "nome": "Rádio Lafões FM 93.0",
+  "logo": "",
+  "local": "São Pedro do Sul, Portugal",
+  "url": "https://sp0.redeaudio.com/9304/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "rg-R5YrPpXT",
+  "nome": "Radio Limite 89.0 FM",
+  "logo": "",
+  "local": "Castro Daire, Portugal",
+  "url": "http://centova.radios.pt:9408/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "rg-jXewejT2",
+  "nome": "Rádio Montemuro FM 87.8",
+  "logo": "",
+  "local": "Cinfães, Portugal",
+  "url": "https://shoutcast.htt.pt:8060/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "s84308",
+  "nome": "Radio Riba-Tavora",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s84308q.png",
+  "local": "Moimenta da Beira, Portugal",
+  "freq": "90.5 FM",
+  "fonte": "tunein",
+  "regiao": "Viseu",
+  "url": "http://link.radios.pt/radioribatavora"
+ },
+ {
+  "id": "rg-HSWAgIsA",
+  "nome": "Rádio Riba-Távora",
+  "logo": "",
+  "local": "Moimenta da Beira, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/542?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "s359323",
+  "nome": "Radio Start Com Deus",
+  "logo": "http://cdn-profiles.tunein.com/s359323/images/logoq.png?t=1",
+  "local": "Viseu, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "Viseu",
+  "url": "https://s2.tgastream.com.br:17783/stream"
+ },
+ {
+  "id": "rg-8xW0GbAC",
+  "nome": "Rádio VFM 94.6",
+  "logo": "",
+  "local": "Vouzela, Portugal",
+  "url": "https://cast.redewt.net/proxy/vfm/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "rg-oQAKwzav",
+  "nome": "Rádio Vilanovenses",
+  "logo": "",
+  "local": "Vila Nova de Paiva, Portugal",
+  "url": "https://ssl.ndvendas.eu:9748/index.html?sid=1",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "rg-Hr0dasGp",
+  "nome": "RCI Viseu",
+  "logo": "",
+  "local": "Viseu, Portugal",
+  "url": "https://nl.digitalrm.pt:8002/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viseu"
+ },
+ {
+  "id": "s114339",
+  "nome": "Canal FM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s114339q.png",
+  "local": "Ponta Delgada, Portugal",
+  "freq": "91.0 FM",
+  "fonte": "tunein",
+  "regiao": "Açores",
+  "url": "http://centova.radios.pt:9466/stream"
+ },
+ {
+  "id": "s114330",
+  "nome": "Rádio Antena Nove",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s114330q.png",
+  "local": "Horta, Portugal",
+  "freq": "91.3 FM",
+  "fonte": "tunein",
+  "regiao": "Açores",
+  "url": "http://link.radios.pt/antenanove"
+ },
+ {
+  "id": "s16056",
+  "nome": "Rádio Atlântida",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s16056q.png",
+  "local": "Ponta Delgada, Portugal",
+  "freq": "104.5 FM",
+  "fonte": "tunein",
+  "regiao": "Açores",
+  "url": "http://link.radios.pt/atlantida"
+ },
+ {
+  "id": "s197801",
+  "nome": "Radio Clube Asas do Atlântico",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s197801q.png",
+  "local": "Vila do Porto , Portugal",
+  "freq": "103.2 FM",
+  "fonte": "tunein",
+  "regiao": "Açores",
+  "url": "http://link.radios.pt/asasdoatlantico"
+ },
+ {
+  "id": "s171239",
+  "nome": "Rádio Comercial dos Açores",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s171239q.png",
+  "local": "Ponta Delgada, Portugal",
+  "freq": "99.4 FM",
+  "fonte": "tunein",
+  "regiao": "Açores",
+  "url": "http://link.radios.pt/comercialdosacores"
+ },
+ {
+  "id": "s83543",
+  "nome": "Rádio Nova Cidade",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s83543q.png",
+  "local": "Ribeira Grande, Portugal",
+  "freq": "105.5 FM",
+  "fonte": "tunein",
+  "regiao": "Açores",
+  "url": "https://sp0.redeaudio.com/9818/stream"
+ },
+ {
+  "id": "s292112",
+  "nome": "Rádio PortugalFm",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s292112q.png",
+  "local": "Ponta Delgada, Portugal",
+  "fonte": "tunein",
+  "regiao": "Açores",
+  "url": "http://167.114.254.147:8104/"
+ },
+ {
+  "id": "s2549",
+  "nome": "RTP Antena 1 Açores",
+  "logo": "http://cdn-profiles.tunein.com/s2549/images/logoq.png?t=161229",
+  "local": "Ponta Delgada, Portugal",
+  "freq": "99 FM",
+  "fonte": "tunein",
+  "regiao": "Açores",
+  "url": "https://radiocast.rtp.pt/antena1acores80a.mp3"
+ },
+ {
+  "id": "s346612",
+  "nome": "88.8 JM FM",
+  "logo": "http://cdn-profiles.tunein.com/s346612/images/logoq.png?t=1",
+  "local": "Funchal , Madeira, Portugal",
+  "freq": "88.8 FM",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "https://radios2.justweb.pt/8046/stream"
+ },
+ {
+  "id": "s346692",
+  "nome": "Clube 106.8 FM",
+  "logo": "http://cdn-profiles.tunein.com/s346692/images/logoq.jpg?t=1",
+  "local": "Funchal, Portugal",
+  "freq": "106.8 FM",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "https://audio.serv.pt/8020/stream.mp3"
+ },
+ {
+  "id": "s84071",
+  "nome": "Posto Emissor do Funchal FM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s84071q.png",
+  "local": "Funchal, Portugal",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "http://link.radios.pt/canal1pef"
+ },
+ {
+  "id": "s84078",
+  "nome": "Posto Emissor Do Funchal OM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s84078q.png",
+  "local": "Funchal, Portugal",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "http://link.radios.pt/canal2pef"
+ },
+ {
+  "id": "s84020",
+  "nome": "RÁDIO CALHETA",
+  "logo": "http://cdn-profiles.tunein.com/s84020/images/logoq.jpg?t=1688039773000",
+  "local": "Calheta, Portugal",
+  "freq": "98.8 FM",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "https://player.radiocalheta.pt/public/radiocalheta"
+ },
+ {
+  "id": "s109177",
+  "nome": "Radio Cantinho da Madeira",
+  "logo": "http://cdn-profiles.tunein.com/s109177/images/logoq.png?t=1665186278000",
+  "local": "Funchal, Portugal",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "https://servidor16-3.brlogic.com:7150/live"
+ },
+ {
+  "id": "s153645",
+  "nome": "Radio Cantinho Dos Emigrantes",
+  "logo": "http://cdn-profiles.tunein.com/s153645/images/logoq.jpg?t=1",
+  "local": "Ribeira Brava, Portugal",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "https://cast.redewt.net:9825/stream"
+ },
+ {
+  "id": "s208602",
+  "nome": "Rádio Clube Madeira",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s208602q.png",
+  "local": "Funchal, Portugal",
+  "freq": "106.8 FM",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "http://radiosmadeira.net:8020/"
+ },
+ {
+  "id": "s297917",
+  "nome": "RADIO CORAÇAO MADEIRENSE",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s297917q.png",
+  "local": "FUNCHAL, Portugal",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "https://sonic.servsonic.com:7015/"
+ },
+ {
+  "id": "s87846",
+  "nome": "Radio Miradouro",
+  "logo": "http://cdn-profiles.tunein.com/s87846/images/logoq.jpg?t=152337",
+  "local": "Madeira, Portugal",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "http://radio.miradouro.pt:8000"
+ },
+ {
+  "id": "s267261",
+  "nome": "Rádio Palmeira Madeira",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s267261q.png",
+  "local": "Santa Cruz, Portugal",
+  "freq": "96.1 FM",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "http://radiosmadeira.net:8018"
+ },
+ {
+  "id": "s208603",
+  "nome": "Rádio Popular Madeira",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s208603q.png",
+  "local": "Câmara de Lobos, Portugal",
+  "freq": "101.0 FM",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "http://radiosmadeira.net:8008/"
+ },
+ {
+  "id": "s299301",
+  "nome": "Rádio São Vicente - Madeira",
+  "logo": "http://cdn-profiles.tunein.com/s299301/images/logoq.png?t=156509",
+  "local": "São Vicente, Portugal",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "https://streamonline.pt/radio/8010/radiosaovicente"
+ },
+ {
+  "id": "s269924",
+  "nome": "Rádio Sol Madeira",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s269924q.png",
+  "local": "Ponta do Sol, Portugal",
+  "freq": "103.7 FM",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "http://radiosmadeira.net:8010"
+ },
+ {
+  "id": "s269980",
+  "nome": "Rádio Zarco",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s269980q.png",
+  "local": "Machico, Portugal",
+  "freq": "89.6 FM",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "http://radiosmadeira.net:8014"
+ },
+ {
+  "id": "s55164",
+  "nome": "RTP Antena 1 Madeira",
+  "logo": "http://cdn-profiles.tunein.com/s55164/images/logoq.png?t=155725",
+  "local": "Funchal, Portugal",
+  "freq": "104 FM",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "https://radiocast.rtp.pt/antena1madeira80a.mp3"
+ },
+ {
+  "id": "s66486",
+  "nome": "RTP Antena 3 Madeira",
+  "logo": "http://cdn-profiles.tunein.com/s66486/images/logoq.png?t=155725",
+  "local": "Funchal, Portugal",
+  "freq": "89 FM",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "https://radiocast.rtp.pt/antena3madeira80a.mp3"
+ },
+ {
+  "id": "s163045",
+  "nome": "TSF Madeira",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s163045q.png",
+  "local": "Funchal, Portugal",
+  "freq": "100.0 FM",
+  "fonte": "tunein",
+  "regiao": "Madeira",
+  "url": "http://centova.radio.com.pt:9470/"
+ },
+ {
+  "id": "rg-_zdng5L3",
+  "nome": "91FM Radio",
+  "logo": "",
+  "local": "Óbidos Municipality, Portugal",
+  "url": "https://sp0.redeaudio.com/9878/stream",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-sk7KFk3Y",
+  "nome": "All Stars Radio",
+  "logo": "",
+  "local": "Baguim do Monte, Portugal",
+  "url": "https://stream.allstarsradio.net:8000/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-QQdq7BeP",
+  "nome": "Beiura Litoral 101.7 FM",
+  "logo": "",
+  "local": "Arazede, Portugal",
+  "url": "http://blitoral.ddns.net:8000/stream",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-O2t1SrdK",
+  "nome": "Benedita FM",
+  "logo": "",
+  "local": "Benedita, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/446?mp=/stream/;",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-h3ayPzQM",
+  "nome": "Cidade Radio",
+  "logo": "",
+  "local": "Silvã de Cima, Portugal",
+  "url": "https://stream-178.surfernetwork.com/70854g7k6s8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3MDg1NGc3azZzOHV2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InNmb0RwMENKVFpTRXFMdkxWMUQwUmciLCJpYXQiOjE3OTQ2MTY1NjMsImV4cCI6MTc5NDYxNjYyM30.VTKjck9iT1vJihevRFUPIpFbJRIMg642YYvJyL5XUbo",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "s353747",
+  "nome": "FM oceano Pacifico",
+  "logo": "http://cdn-profiles.tunein.com/s353747/images/logoq.jpg?t=1",
+  "local": "Portugal",
+  "freq": "0 DAB",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "https://stm7.xradios.com.br:6944/live"
+ },
+ {
+  "id": "rg-EHo1xkwX",
+  "nome": "Íris FM 91.4",
+  "logo": "",
+  "local": "Samora Correia, Portugal",
+  "url": "https://radios3.justweb.pt/8002/stream",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "s281975",
+  "nome": "Jardim dos Apaixonados",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s281975q.png",
+  "local": "Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "http://46.4.94.39:9696"
+ },
+ {
+  "id": "rg-FlIsjo8J",
+  "nome": "Maiorca FM 92.1",
+  "logo": "",
+  "local": "Maiorca, Portugal",
+  "url": "https://nl.digitalrm.pt:8182/stream",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "s183224",
+  "nome": "Morrissey Radio",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s183224q.png",
+  "local": "Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "http://88.198.72.46:9756"
+ },
+ {
+  "id": "rg-4UzLKuZP",
+  "nome": "Popular FM 90.9",
+  "logo": "",
+  "local": "Pinhal Novo, Portugal",
+  "url": "http://185.11.164.106:32281/stream/",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-GJE12EuA",
+  "nome": "Rádio Alpendorada",
+  "logo": "",
+  "local": "Alpendurada e Matos, Portugal",
+  "url": "https://audio.serv.pt:9316/streame",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "s211321",
+  "nome": "Rádio Amor Portugal",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s211321q.png",
+  "local": "Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "http://stream.radioamorportugal.com:8000/rap.mp3"
+ },
+ {
+  "id": "rg-QWr9bUcW",
+  "nome": "Radio Ancorensis",
+  "logo": "",
+  "local": "Vila Praia de Âncora, Portugal",
+  "url": "https://radioancorensis.pt/listen/radioancorensis/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "s83750",
+  "nome": "Radio Ansiães",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s83750q.png",
+  "local": "Carrazeda de Anciaes, Portugal",
+  "freq": "98.1 FM",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "http://link.radios.pt/ansiaes"
+ },
+ {
+  "id": "s107075",
+  "nome": "Radio Beira Interior",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s107075q.png",
+  "local": "Beira, Portugal",
+  "freq": "92.9 FM",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "http://centova.radios.pt:9462"
+ },
+ {
+  "id": "s196736",
+  "nome": "Radio Caxinas",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s196736q.png",
+  "local": "Portugal, Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "https://sp0.redeaudio.com/9826/;stream.mp3"
+ },
+ {
+  "id": "rg-eyUSgf6j",
+  "nome": "Rádio Clube São Mamede",
+  "logo": "",
+  "local": "Deocriste, Portugal",
+  "url": "http://176.9.43.216:8260/:stream",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-6xjLW2rS",
+  "nome": "Rádio Condestável 91.3 FM",
+  "logo": "",
+  "local": "Cernache do Bonjardim, Portugal",
+  "url": "https://centova.radio.com.pt/proxy/427?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-WEvbTF2Q",
+  "nome": "Rádio Cultural da Filarmónica Pampilhosense",
+  "logo": "",
+  "local": "Pampilhosa, Portugal",
+  "url": "https://stream-175.surfernetwork.com/wgwvfzzgunhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ3Z3d2Znp6Z3VuaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkVWNzhjS3hIUndXdmFSbVFHUUVza2ciLCJpYXQiOjE3OTQ2MTY1NTksImV4cCI6MTc5NDYxNjYxOX0.0T5t5a31_QKkz1760TKLSZ_YUhkGwjTzvxGW1MvD9dQ",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "s286876",
+  "nome": "RADIO DA MARIA",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s286876q.png",
+  "local": "Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "http://176.9.220.198:9900/"
+ },
+ {
+  "id": "rg-uN5Yw125",
+  "nome": "Rádio Freamunde",
+  "logo": "",
+  "local": "Freamunde, Portugal",
+  "url": "https://radiofreamunde.ptservidor.net/",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-7eqz__nT",
+  "nome": "Radio Luso Europeu",
+  "logo": "",
+  "local": "Angeja, Portugal",
+  "url": "https://player.stmxp.net/proxy/7000",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-XdpEy4b0",
+  "nome": "Radio Marinhais FM 102.5",
+  "logo": "",
+  "local": "Marinhais, Portugal",
+  "url": "https://radios2.justweb.pt/8052/stream",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-Ybs9BEre",
+  "nome": "Rádio Marmeleira",
+  "logo": "",
+  "local": "Marmeleira (Rio Maior), Portugal",
+  "url": "https://stream-176.surfernetwork.com/ymqxcfkr4a0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5bXF4Y2ZrcjRhMHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImlvSExIbm9SUUdlaENGZng1Z0dSSUEiLCJpYXQiOjE3OTQ2MTY1NjYsImV4cCI6MTc5NDYxNjYyNn0.OOcrZ9KQCau7LambVN0OpE4kGdmP4lbL3PERTzFiiCk",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "s300759",
+  "nome": "Rádio Marte Madeira",
+  "logo": "http://cdn-profiles.tunein.com/s300759/images/logoq.png?t=1660038893000",
+  "local": "Sao Goncalo , Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "http://138.201.198.218:8010/stream"
+ },
+ {
+  "id": "s259611",
+  "nome": "Radio Motard FM",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s0q.png",
+  "local": "Alfeizerão, Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "https://sp0.redeaudio.com:10938/"
+ },
+ {
+  "id": "s306189",
+  "nome": "Radio Musicalmente Falando",
+  "logo": "http://cdn-profiles.tunein.com/s306189/images/logoq.png?t=155247",
+  "local": " FARO DO ALENTEJO, Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "https://s1.ndvendas.com:7078/"
+ },
+ {
+  "id": "s294207",
+  "nome": "Radio novo mundo2017mglc",
+  "logo": "http://cdn-profiles.tunein.com/s294207/images/logoq.png?t=158527",
+  "local": "portugal, Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "http://sonic.servsonic.com:8018/"
+ },
+ {
+  "id": "s260113",
+  "nome": "Rádio O Mundo da Flor",
+  "logo": "http://cdn-profiles.tunein.com/s260113/images/logoq.png?t=157831",
+  "local": "Portugal, Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "https://sp0.redeaudio.com:10966/"
+ },
+ {
+  "id": "rg-hZ5Uvs9H",
+  "nome": "Rádio Oceano Pacífico 76.8 FM",
+  "logo": "",
+  "local": "São João de Caldas de Vizela, Portugal",
+  "url": "https://cp-1.owh.radio.br/listen/owh_s35225/radio-mp3",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-tBdJ5Ank",
+  "nome": "Rádio Onda Celta",
+  "logo": "",
+  "local": "Briteiros, Portugal",
+  "url": "https://stream-179.surfernetwork.com/fbzmurbgu22tv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmYnptdXJiZ3UyMnR2IiwiaG9zdCI6InN0cmVhbS0xNzkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkpOdjVJLUg0UkItX0hCNXJ4UVpzX0EiLCJpYXQiOjE3OTQ2MTY1NjcsImV4cCI6MTc5NDYxNjYyN30.sJzkOXBBnwPdsgmEuXKS_Tc84jkWVu0s34iW3HUy6lQ",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "s48681",
+  "nome": "Radio Ondas Do Lima",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s48681q.png",
+  "local": "Ponte do Lima, Portugal",
+  "freq": "95.0 FM",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "http://link.radios.pt/radioondasdolima"
+ },
+ {
+  "id": "s345710",
+  "nome": "Radio Pop Lusa",
+  "logo": "http://cdn-profiles.tunein.com/s345710/images/logoq.jpg?t=1",
+  "local": "Arrifana Vfr, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "https://stream.zeno.fm/jjqnpfe4zlmuv"
+ },
+ {
+  "id": "s202240",
+  "nome": "Rádio Portugal Mais",
+  "logo": "http://cdn-profiles.tunein.com/s202240/images/logoq.png?t=1",
+  "local": "Lisboa e Seixal e Barreiro, Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "https://sv15.hdradios.net:7432/stream"
+ },
+ {
+  "id": "rg-Ae6kS7C7",
+  "nome": "Radio Redes Na Maré",
+  "logo": "",
+  "local": "Gandra, Viana do Castelo, Portugal",
+  "url": "https://stream-290.surfernetwork.com/2as8wjveo5dtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIyYXM4d2p2ZW81ZHR2IiwiaG9zdCI6InN0cmVhbS0yOTAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImZwc3c0N3lVUWZPWklpcmhHcG9zaUEiLCJpYXQiOjE3OTQ2MTY1NjcsImV4cCI6MTc5NDYxNjYyN30.qfbTu43lBG-p8CAPe5yKDwOzmEq_bEk-Bt2bizO9KvQ",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "s107357",
+  "nome": "Rádio Regional - Portugal",
+  "logo": "http://cdn-profiles.tunein.com/s107357/images/logoq.png?t=164441",
+  "local": "Moreira da Maia, Portugal",
+  "freq": "94.5 FM",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "https://play1.radioregional.pt:80/stream/2/"
+ },
+ {
+  "id": "rg-R14EIUtr",
+  "nome": "Rádio Terranova FM 105.0",
+  "logo": "",
+  "local": "Gafanha da Nazaré, Portugal",
+  "url": "https://centova.radios.pt/proxy/404?mp=/stream",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-o3aCdvLr",
+  "nome": "Rádio Vizela 97.2 FM",
+  "logo": "",
+  "local": "São João de Caldas de Vizela, Portugal",
+  "url": "https://proxy-audio.ptisp.com:8100/stream",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-4awZzLUx",
+  "nome": "RCPFM 92.6",
+  "logo": "",
+  "local": "Pampilhosa, Portugal",
+  "url": "https://sp0.redeaudio.com/9802/stream",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-GcVinDqF",
+  "nome": "RDS 98.7 Monsanto",
+  "logo": "",
+  "local": "Monsanto, Portugal",
+  "url": "https://s9.yesstreaming.net:9029/stream",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "s359440",
+  "nome": "Templo do Rock Radio",
+  "logo": "http://cdn-profiles.tunein.com/s359440/images/logoq.jpg?t=1",
+  "local": "Santar - NLS, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "https://azuracast.rhoster.pt/hls/carlos_santos_radio/live.m3u8"
+ },
+ {
+  "id": "rg-f9pqAY3l",
+  "nome": "Templo do Rock Radio",
+  "logo": "",
+  "local": "Santar, Portugal",
+  "url": "https://azuracast.rhoster.pt/listen/carlos_santos_radio/radio.mp3",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "rg-58idtsV2",
+  "nome": "Vida Nova FM 105.5",
+  "logo": "",
+  "local": "Santiago da Guarda, Portugal",
+  "url": "http://centova.radios.pt:8061/stream/",
+  "fonte": "radiogarden",
+  "regiao": ""
+ },
+ {
+  "id": "s256416",
+  "nome": "Web Radio Kimera",
+  "logo": "http://cdn-profiles.tunein.com/s256416/images/logoq.png?t=1683123048000",
+  "local": "Portugal",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "http://s1.ndvendas.com:7024/"
+ },
+ {
+  "id": "s357927",
+  "nome": "West Portugal Radio",
+  "logo": "http://cdn-profiles.tunein.com/s357927/images/logoq.jpg?t=1",
+  "local": "Atouguia da Baleia, Portugal",
+  "freq": "0 Stream",
+  "fonte": "tunein",
+  "regiao": "",
+  "url": "https://streams.radio.co/s58fa97b95/listen"
  }
 ]
