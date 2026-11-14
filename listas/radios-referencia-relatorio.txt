@@ -233,7 +233,7 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 71
         visto: TuneIn: Rádio A Voz de Deus
         visto: TuneIn: LA VOZ DE LA ALEGRIA
         visto: TuneIn: Radio La Voz de la Trompeta
-        visto: TuneIn: Rádio Voz Reguengos 99.0 FM
+        visto: TuneIn: La Voz de María Radio
         visto: TuneIn: Templo do Rock Radio
         visto: TuneIn: Mangialsonic Radio
         visto: TuneIn: Monoglobal Radio
@@ -297,8 +297,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 71
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: Rádio Amigos do Sertanejo
         visto: TuneIn: UNIVERSALLYT RADIO
-        visto: TuneIn: Radio Capão FM 90,9
         visto: TuneIn: Radio Cine Paradiso
+        visto: TuneIn: ZOE fm
   - Rádio Restauração — Olhão
         visto: TuneIn: Rádio Restauração
         visto: TuneIn: Rádio Melody
@@ -315,17 +315,17 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 71
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: Radio Uruguay
         visto: TuneIn: 106-5 The Arch
-        visto: TuneIn: URC Radio
         visto: TuneIn: Arca de Salvacion Radio
+        visto: TuneIn: URC Radio
   - Rádio Antena Vareira — Ovar
         visto: TuneIn: Radio Antena 3
+        visto: TuneIn: RTP Antena 2
         visto: TuneIn: RTP Antena 1
         visto: TuneIn: RTP Antena 3
-        visto: TuneIn: RTP Antena 2
         visto: TuneIn: AFR Talk
         visto: TuneIn: AVR 97.7
         visto: TuneIn: Over Radio
-        visto: TuneIn: WHFR
+        visto: TuneIn: Yvr98.5
   - Rádio Palmela — Palmela
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
@@ -348,8 +348,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 71
         visto: TuneIn: Voz Line Radio
         visto: TuneIn: 80er 90er OLDIE ANTENNE
         visto: TuneIn: hr3
-        visto: TuneIn: Absolut 80er
         visto: TuneIn: hr3 Rhein-Main
+        visto: TuneIn: Absolut 80er
   - Rádio S. Miguel Penela — Penela
         visto: TuneIn: Radio San Miguel El Salvador
         visto: TuneIn: Rádio Melody
@@ -454,10 +454,10 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 71
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
-        visto: TuneIn: KZFX The Super Rock
-        visto: TuneIn: Ibiza Flower Power Radio
         visto: TuneIn: Santana FM
         visto: TuneIn: Radio Santana Breda
+        visto: TuneIn: The Fox
+        visto: TuneIn: RTP Antena 1 Madeira
   - Rádio Pernes — Santarém
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
@@ -482,9 +482,9 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 71
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: cais
-        visto: TuneIn: KS95
-        visto: TuneIn: C95
+        visto: TuneIn: LA Q
         visto: TuneIn: 2X Radio
+        visto: TuneIn: K104.7
   - Rádio Sátão — Sátão
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
@@ -517,10 +517,10 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 71
         visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
-        visto: TuneIn: Radio Octopus
         visto: TuneIn: ROCK ANTENNE 90er Rock
         visto: TuneIn: OASIS NETWORK
         visto: TuneIn: 96.9 The Oasis
+        visto: TuneIn: Oasis Radio
   - Rádio Ao Tom Dela — Tondela
         visto: TuneIn: Bob and Tom Radio
         visto: TuneIn: Rádio Melody
@@ -547,7 +547,7 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 71
         visto: TuneIn: La Trova Radio
         visto: TuneIn: 97.1 The Drive
         visto: TuneIn: The Drive Tucson
-        visto: TuneIn: The Drive
+        visto: TuneIn: Radio Tarifa
   - Rádio Nova Contrasta — Valença
         visto: TuneIn: Rádio Nova Atalaia
         visto: TuneIn: Rádio Nova FM

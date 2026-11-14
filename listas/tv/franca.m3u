@@ -19,22 +19,22 @@ https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8
 #EXTINF:-1 tvg-id="CannesLerinsTV.fr@SD" tvg-name="Cannes Lerins TV" tvg-logo="https://i.imgur.com/atlgnum.png" tvg-chno="2010" group-title="França",Cannes Lerins TV
 https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8
-#EXTINF:-1 tvg-id="CineNanar.fr@SD" tvg-name="Cine Nanar" tvg-logo="https://i.imgur.com/YnUZd3W.png" tvg-chno="2011" group-title="França",Cine Nanar
+#EXTINF:-1 tvg-id="CGTNFrench.cn" tvg-name="CGTN Français" tvg-logo="https://i.imgur.com/fMsJYzl.png" tvg-chno="2011" group-title="França",CGTN Français
+https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8
+#EXTINF:-1 tvg-id="CineNanar.fr@SD" tvg-name="Cine Nanar" tvg-logo="https://i.imgur.com/YnUZd3W.png" tvg-chno="2012" group-title="França",Cine Nanar
 https://zylo-cinenanar-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="CineWestern.fr@SD" tvg-name="Cine Western (France)" tvg-logo="https://i.imgur.com/tteOFkL.png" tvg-chno="2012" group-title="França",Cine Western (France)
+#EXTINF:-1 tvg-id="CineWestern.fr@SD" tvg-name="Cine Western (France)" tvg-logo="https://i.imgur.com/tteOFkL.png" tvg-chno="2013" group-title="França",Cine Western (France)
 https://amg00711-zylo-amg00711c8-rakuten-uk-2686.playouts.now.amagi.tv/playlist/amg00711-zylofast-cinewestern-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="ClubbingTV.us@France" tvg-name="Clubbing TV France" tvg-logo="https://i.imgur.com/MyiA92q.png" tvg-chno="2013" group-title="França",Clubbing TV France
+#EXTINF:-1 tvg-id="ClubbingTV.us@France" tvg-name="Clubbing TV France" tvg-logo="https://i.imgur.com/MyiA92q.png" tvg-chno="2014" group-title="França",Clubbing TV France
 https://a-cdn.klowdtv.com/live3/clubbingtv_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="CNEWSPRIME.fr@HD" tvg-name="CNEWS PRIME" tvg-logo="https://www.cnews.fr/themes/cnews/img/cnews-prime.png" tvg-chno="2014" group-title="França",CNEWS PRIME
+#EXTINF:-1 tvg-id="CNEWSPRIME.fr@HD" tvg-name="CNEWS PRIME" tvg-logo="https://www.cnews.fr/themes/cnews/img/cnews-prime.png" tvg-chno="2015" group-title="França",CNEWS PRIME
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-prime-dm.m3u8
-#EXTINF:-1 tvg-id="DBMTV.fr@SD" tvg-name="DBM TV" tvg-logo="https://i.imgur.com/ab6p2SW.png" tvg-chno="2015" group-title="França",DBM TV
+#EXTINF:-1 tvg-id="DBMTV.fr@SD" tvg-name="DBM TV" tvg-logo="https://i.imgur.com/ab6p2SW.png" tvg-chno="2016" group-title="França",DBM TV
 https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
-#EXTINF:-1 tvg-id="EmotionL.fr@SD" tvg-name="Emotion L" tvg-logo="https://i.imgur.com/MP34aaj.png" tvg-chno="2016" group-title="França",Emotion L
+#EXTINF:-1 tvg-id="EmotionL.fr@SD" tvg-name="Emotion L" tvg-logo="https://i.imgur.com/MP34aaj.png" tvg-chno="2017" group-title="França",Emotion L
 https://rakutenaa-zylo-emotional-rakuten-r1zkm.amagi.tv/playlist/rakutenAA-zylo-emotional-rakuten/playlist.m3u8
-#EXTINF:-1 tvg-id="Equidia.fr@SD" tvg-name="Equidia" tvg-logo="https://i.imgur.com/QPpbRcZ.png" tvg-chno="2017" group-title="França",Equidia
+#EXTINF:-1 tvg-id="Equidia.fr@SD" tvg-name="Equidia" tvg-logo="https://i.imgur.com/QPpbRcZ.png" tvg-chno="2018" group-title="França",Equidia
 https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
-#EXTINF:-1 tvg-id="EuronewsFrench.fr@SD" tvg-name="Euronews French" tvg-logo="https://i.imgur.com/8t9mdg9.png" tvg-chno="2018" group-title="França",Euronews French
-https://2f6c5bf4.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9FdXJvbmV3c0ZyYW5jYWlzX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr@SD" tvg-name="FashionTV Paris L'Original" tvg-logo="https://i.imgur.com/GFTAN5Q.png" tvg-chno="2019" group-title="França",FashionTV Paris L'Original
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
 #EXTINF:-1 tvg-id="FashionTVSecrets.fr@HD" tvg-name="FashionTV Secrets" tvg-logo="https://i.ibb.co/fVGJyCC8/w512.png" tvg-chno="2020" group-title="França",FashionTV Secrets
