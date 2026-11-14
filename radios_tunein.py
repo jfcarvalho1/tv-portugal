@@ -16,6 +16,9 @@ import unicodedata
 import urllib.parse
 import urllib.request
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from concelhos import mapa  # noqa: E402
+
 BASE = sys.argv[1] if len(sys.argv) > 1 else "."
 SAIDA = os.path.join(BASE, "listas", "radios-tunein.json")
 DEBUG = os.path.join(BASE, "listas", "radios-tunein-relatorio.txt")
@@ -189,6 +192,7 @@ def main():
     achadas = {}
     navegar(achadas)
     conc = concelhos()
+    conc.update(mapa())  # a tabela própria manda (a Wikidata às vezes não traz o distrito)
     termos = sorted(set(conc) | set(DISTRITOS) | {"rádio portugal", "rádio local", "rádio clube", "rádio voz"})
     with cf.ThreadPoolExecutor(max_workers=12) as ex:
         for termo, res in zip(termos, ex.map(procurar, termos)):
