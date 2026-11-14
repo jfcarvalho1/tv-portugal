@@ -1,10 +1,8 @@
 Lista de referência: 226 rádios locais
-Já estavam nas listas: 154
-Encontradas agora (TuneIn / Radio Garden / Radio Browser): 2
+Já estavam nas listas: 156
+Encontradas agora (TuneIn / Radio Garden / Radio Browser): 0
 Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
 
-  + Rádio Lidador  (tunein)
-  + Rádio Sagres FM  (tunein)
 
   - Rádio RTA — Albufeira
         visto: TuneIn: Rádio Melody
@@ -161,7 +159,7 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio Voz Reguengos 99.0 FM
         visto: TuneIn: Rádio A Voz de Deus
         visto: TuneIn: Rádio Voz Espírita
-        visto: TuneIn: Radio Voz Catolica Tacana
+        visto: TuneIn: Voz Line Radio
         visto: TuneIn: Rádio Salesiana
         visto: TuneIn: Radio-Ribatejo-Mix
         visto: TuneIn: Radio Intereconomía
@@ -194,8 +192,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: CULTURA ROCK
         visto: TuneIn: Radio Tv Espectaculo
   - Rádio Atlântico Sul — Lagos
-        visto: TuneIn: Emisora Atlántico
         visto: TuneIn: Rádio Web Som Sul
+        visto: TuneIn: Rádio Estação Sul
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
         visto: TuneIn: Radio Atlantico
@@ -251,8 +249,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Ecos del Caribe
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Ecos Azuero
-        visto: TuneIn: Con Los Manes
         visto: TuneIn: RPR1. Mainz
+        visto: TuneIn: Con Los Manes
         visto: TuneIn: Maine's Coast 93.1
   - Rádio Nazaré — Nazaré
         visto: TuneIn: Rádio Melody
@@ -306,13 +304,13 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: Radio Uruguay
         visto: TuneIn: 106-5 The Arch
-        visto: TuneIn: URC Radio
         visto: TuneIn: Arca de Salvacion Radio
+        visto: TuneIn: URC Radio
   - Rádio Antena Vareira — Ovar
         visto: TuneIn: Radio Antena 3
         visto: TuneIn: RTP Antena 1
-        visto: TuneIn: RTP Antena 2
         visto: TuneIn: RTP Antena 3
+        visto: TuneIn: RTP Antena 2
         visto: TuneIn: AFR Talk
         visto: TuneIn: AVR 97.7
         visto: TuneIn: Over Radio
@@ -336,7 +334,7 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio Voz Reguengos 99.0 FM
         visto: TuneIn: Rádio A Voz de Deus
         visto: TuneIn: Rádio Voz Espírita
-        visto: TuneIn: Radio Voz Catolica Tacana
+        visto: TuneIn: Voz Line Radio
         visto: TuneIn: 80er 90er OLDIE ANTENNE
         visto: TuneIn: hr3
         visto: TuneIn: Absolut 80er
@@ -394,7 +392,7 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: BEVEIK RADIJAS
         visto: TuneIn: BFC Classique
         visto: TuneIn: EL SR BIVACHI
-        visto: TuneIn: WPFC - Não suportado
+        visto: TuneIn: WBVC - Não suportado
   - Rádio Reguengos de Monsaraz — Reguengos de Monsaraz
         visto: TuneIn: Rádio Voz Reguengos 99.0 FM
         visto: TuneIn: Rádio Melody
@@ -445,9 +443,9 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
+        visto: TuneIn: New Life
         visto: TuneIn: Santana FM
         visto: TuneIn: Radio Santana Breda
-        visto: TuneIn: The Fox
         visto: TuneIn: RTP Antena 1 Madeira
   - Rádio Pernes — Santarém
         visto: TuneIn: Rádio Melody
@@ -492,8 +490,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: Radio Transilvania Baia Mare
         visto: TuneIn: Radio Transilvania Cluj Napoca
-        visto: TuneIn: Radio Transilvania Oradea
         visto: TuneIn: Radio Transilvania Bistrita
+        visto: TuneIn: Radio Transilvania Oradea
   - Rádio Guadalupe — Serpa
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
@@ -541,8 +539,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: The Drive
   - Rádio Nova Contrasta — Valença
         visto: TuneIn: Rádio Nova Atalaia
-        visto: TuneIn: Rádio Nova FM
         visto: TuneIn: Radio Nova
+        visto: TuneIn: Rádio Nova FM
         visto: TuneIn: Rádio Nova Geração FM
         visto: TuneIn: Radio NOVA 100
         visto: TuneIn: Nova Radio NE
