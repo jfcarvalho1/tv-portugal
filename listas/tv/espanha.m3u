@@ -194,29 +194,26 @@ https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCostaBrava.es@SD" tvg-name="TV Costa Brava" tvg-logo="https://i.imgur.com/i6EnVZa.png" tvg-chno="1093" group-title="Espanha",TV Costa Brava
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta318.cdnmedia.tv/costabravatvlive/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVLHospitalet.es@SD" tvg-name="TV L'Hospitalet" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Logotip_TV_L%27H.svg/960px-Logotip_TV_L%27H.svg.png" tvg-chno="1094" group-title="Espanha",TV L'Hospitalet
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta318.cdnmedia.tv/tvhospitaletlive/smil:tvhospitalet.smil/playlist.m3u8?DVR=
-#EXTINF:-1 tvg-id="TVSabadellValles.es@SD" tvg-name="TV Sabadell-Valles" tvg-logo="https://i.imgur.com/fSTsGbG.png" tvg-chno="1095" group-title="Espanha",TV Sabadell-Valles
+#EXTINF:-1 tvg-id="TVSabadellValles.es@SD" tvg-name="TV Sabadell-Valles" tvg-logo="https://i.imgur.com/fSTsGbG.png" tvg-chno="1094" group-title="Espanha",TV Sabadell-Valles
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
-#EXTINF:-1 tvg-id="TVOMIX.es@HD" tvg-name="TVOMIX" tvg-logo="https://ugc.production.linktr.ee/7ef61237-c46d-456b-afe3-a42ef49a979e_Mejorado2.png" tvg-chno="1096" group-title="Espanha",TVOMIX
+#EXTINF:-1 tvg-id="TVOMIX.es@HD" tvg-name="TVOMIX" tvg-logo="https://ugc.production.linktr.ee/7ef61237-c46d-456b-afe3-a42ef49a979e_Mejorado2.png" tvg-chno="1095" group-title="Espanha",TVOMIX
 https://cloud.tvomix.com/TVOMIX/index.m3u8
-#EXTINF:-1 tvg-id="UniversTV.es@SD" tvg-name="Univers TV" tvg-logo="https://i.imgur.com/EW2bfix.png" tvg-chno="1097" group-title="Espanha",Univers TV
+#EXTINF:-1 tvg-id="UniversTV.es@SD" tvg-name="Univers TV" tvg-logo="https://i.imgur.com/EW2bfix.png" tvg-chno="1096" group-title="Espanha",Univers TV
 https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
-#EXTINF:-1 tvg-id="UrolaTelebista.es@SD" tvg-name="Urola Telebista" tvg-logo="https://i.imgur.com/V23bltn.png" tvg-chno="1098" group-title="Espanha",Urola Telebista
+#EXTINF:-1 tvg-id="UrolaTelebista.es@SD" tvg-name="Urola Telebista" tvg-logo="https://i.imgur.com/V23bltn.png" tvg-chno="1097" group-title="Espanha",Urola Telebista
 https://5940924978228.streamlock.net/j_Directo2/mp4:j_Directo2/playlist.m3u8
-#EXTINF:-1 tvg-id="Vision6TV.es@SD" tvg-name="Vision 6 TV" tvg-logo="https://i.imgur.com/TB1wMQ7.jpg" tvg-chno="1099" group-title="Espanha",Vision 6 TV
+#EXTINF:-1 tvg-id="Vision6TV.es@SD" tvg-name="Vision 6 TV" tvg-logo="https://i.imgur.com/TB1wMQ7.jpg" tvg-chno="1098" group-title="Espanha",Vision 6 TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://streaming.proceso.info:8888/vision6-web/stream.m3u8
-#EXTINF:-1 tvg-id="VOTV.es@SD" tvg-name="VOTV" tvg-logo="https://i.imgur.com/1g2Z64L.png" tvg-chno="1100" group-title="Espanha",VOTV
+#EXTINF:-1 tvg-id="VOTV.es@SD" tvg-name="VOTV" tvg-logo="https://i.imgur.com/1g2Z64L.png" tvg-chno="1099" group-title="Espanha",VOTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8
-#EXTINF:-1 tvg-id="WaterBear.ch@SD" tvg-name="WaterBear" tvg-logo="https://framerusercontent.com/images/41VQQ7F0fYlp1MX1N4Ixog5QnPI.png" tvg-chno="1101" group-title="Espanha",WaterBear
+#EXTINF:-1 tvg-id="WaterBear.ch@SD" tvg-name="WaterBear" tvg-logo="https://framerusercontent.com/images/41VQQ7F0fYlp1MX1N4Ixog5QnPI.png" tvg-chno="1100" group-title="Espanha",WaterBear
 https://amg01415-waterbearnetwor-waterbear-samsunguk-1h0y8.amagi.tv/playlist/amg01415-waterbearnetwor-waterbear-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-id="XPTVUS.es@SD" tvg-name="XPTV US" tvg-logo="https://i.imgur.com/1m7kDmc.png" tvg-chno="1102" group-title="Espanha",XPTV US
+#EXTINF:-1 tvg-id="XPTVUS.es@SD" tvg-name="XPTV US" tvg-logo="https://i.imgur.com/1m7kDmc.png" tvg-chno="1101" group-title="Espanha",XPTV US
 https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
-#EXTINF:-1 tvg-id="XPTV1.es@SD" tvg-name="XPTV1" tvg-logo="https://i.imgur.com/Ty7GkoN.png" tvg-chno="1103" group-title="Espanha",XPTV1
+#EXTINF:-1 tvg-id="XPTV1.es@SD" tvg-name="XPTV1" tvg-logo="https://i.imgur.com/Ty7GkoN.png" tvg-chno="1102" group-title="Espanha",XPTV1
 https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
-#EXTINF:-1 tvg-id="XPTV2.es@SD" tvg-name="XPTV2" tvg-logo="https://i.imgur.com/74Z8ATB.png" tvg-chno="1104" group-title="Espanha",XPTV2
+#EXTINF:-1 tvg-id="XPTV2.es@SD" tvg-name="XPTV2" tvg-logo="https://i.imgur.com/74Z8ATB.png" tvg-chno="1103" group-title="Espanha",XPTV2
 https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8

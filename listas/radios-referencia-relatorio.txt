@@ -133,9 +133,9 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 71
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
-        visto: TuneIn: Rádio Batuta
         visto: TuneIn: Radio Cóndor
         visto: TuneIn: Voces Fm
+        visto: TuneIn: Lluvia 95.4
         visto: TuneIn: Rádio Cidade Poços de Caldas
   - Rádio Soncentro — Carregal do Sal
         visto: TuneIn: Rádio Melody
@@ -231,7 +231,7 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 71
         visto: TuneIn: Rádio A Voz de Deus
         visto: TuneIn: LA VOZ DE LA ALEGRIA
         visto: TuneIn: Radio La Voz de la Trompeta
-        visto: TuneIn: Rádio Voz Reguengos 99.0 FM
+        visto: TuneIn: La Voz de María Radio
         visto: TuneIn: Templo do Rock Radio
         visto: TuneIn: Mangialsonic Radio
         visto: TuneIn: Monoglobal Radio
@@ -323,7 +323,7 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 71
         visto: TuneIn: AFR Talk
         visto: TuneIn: AVR 97.7
         visto: TuneIn: Over Radio
-        visto: TuneIn: WHFR
+        visto: TuneIn: Yvr98.5
   - Rádio Palmela — Palmela
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
