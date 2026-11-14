@@ -27,8 +27,25 @@ def substituicoes():
         for l in open(f, encoding="utf-8"):
             if "=" in l and not l.lstrip().startswith("#"):
                 a, b = l.split("=", 1)
-                out[a.strip().lower()] = b.strip()
+                b = b.strip()
+                if b.startswith("seguir:"):  # resolver o redireccionamento (o destino final aceita a nossa app)
+                    b = seguir(b[7:].strip())
+                out[a.strip().lower()] = b
     return out
+
+
+def seguir(url):
+    import urllib.request
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            final = r.geturl()
+            if final.startswith("https://") and r.read(7) == b"#EXTM3U":
+                print(f"redireccionamento: {url[:60]}… → {final}")
+                return final
+    except Exception as e:
+        print(f"não consegui seguir {url[:60]}…: {e}")
+    return url
 
 
 def aplicar_substituicoes(linhas):

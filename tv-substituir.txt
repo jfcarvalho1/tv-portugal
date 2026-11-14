@@ -1,4 +1,5 @@
 # Endereços oficiais que substituem os da lista (por tvg-id). Uma linha: tvg-id = endereço
 # Servem para canais cujo endereço normal exige cabeçalhos que os navegadores não enviam.
+# "seguir:" = o GitHub segue o redireccionamento e grava o endereço final (necessário para o Chrome/Linux/Windows).
 # SIC Notícias: emissão oficial da SIC no Kaltura (sem cabeçalhos, confirmada com imagem em 14-11-2026)
-SICNoticias.pt = https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8
+SICNoticias.pt = seguir:https://cdnapisec.kaltura.com/p/4526593/sp/4526593/playManifest/entryId/1_j8ztwihx/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8
