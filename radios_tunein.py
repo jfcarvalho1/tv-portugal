@@ -176,7 +176,7 @@ def main():
         json.dump(pt, f, ensure_ascii=False, indent=1)
     sem = [e for e in pt if not e["regiao"]]
     relatorio.append(f"Guardadas: {len(pt)} | sem distrito: {len(sem)}")
-    relatorio += ["", "Sem distrito (localização do TuneIn):"] + [f"  {e['nome']} — {e['local']}" for e in sem]
+    relatorio.extend(["", "Sem distrito (localização do TuneIn):"] + [f"  {e['nome']} — {e['local']}" for e in sem])
     open(DEBUG, "w", encoding="utf-8").write("\n".join(relatorio) + "\n")
     print("\n".join(relatorio[:8]))
 
