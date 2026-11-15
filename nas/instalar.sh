@@ -53,7 +53,47 @@ python3 "$BASE/lista_casa.py" "$BASE/tv-casa.m3u" "$IP"
 python3 "$BASE/radios_strm.py" "$BASE/radios"
 chmod -R a+rX "$BASE"
 
-echo "== 4/5  Actualização automática (07:40 e 18:10)"
+echo "== 4/5  Actualização automática (listas 07:40 e 18:10; programas de hora a hora)"
+cat > "$BASE/auto-actualizar.sh" <<'SH'
+#!/bin/sh
+# Vai buscar ao GitHub as versões novas dos programas do NAS e reinicia o intermediário se mudou.
+REPO=https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/nas
+B=/opt/tv-radios-nas
+mudou_proxy=0
+for f in proxy_canais.py lista_casa.py radios_strm.py jellyfin_nas.py; do
+  curl -fsSL -m 60 "$REPO/$f" -o "$B/$f.novo" || { rm -f "$B/$f.novo"; continue; }
+  python3 -m py_compile "$B/$f.novo" 2>/dev/null || { rm -f "$B/$f.novo"; continue; }
+  if ! cmp -s "$B/$f.novo" "$B/$f"; then
+    mv "$B/$f.novo" "$B/$f"; chmod 755 "$B/$f"; echo "actualizado: $f"
+    [ "$f" = proxy_canais.py ] && mudou_proxy=1
+  else
+    rm -f "$B/$f.novo"
+  fi
+done
+rm -rf "$B/__pycache__"
+[ "$mudou_proxy" = 1 ] && systemctl restart tv-radios-proxy.service
+exit 0
+SH
+chmod 755 "$BASE/auto-actualizar.sh"
+cat > /etc/systemd/system/tv-radios-programas.service <<'UNIT'
+[Unit]
+Description=Actualizar programas TV/Radios do NAS a partir do GitHub
+Wants=network-online.target
+After=network-online.target
+[Service]
+Type=oneshot
+ExecStart=/opt/tv-radios-nas/auto-actualizar.sh
+UNIT
+cat > /etc/systemd/system/tv-radios-programas.timer <<'UNIT'
+[Unit]
+Description=Programas TV/Radios do NAS de hora a hora
+[Timer]
+OnCalendar=hourly
+OnBootSec=3min
+Persistent=true
+[Install]
+WantedBy=timers.target
+UNIT
 cat > /etc/systemd/system/tv-radios-nas.service <<'UNIT'
 [Unit]
 Description=Sincronizar rádios e actualizar guia de TV no Jellyfin
@@ -77,6 +117,7 @@ WantedBy=timers.target
 UNIT
 systemctl daemon-reload
 systemctl enable --now tv-radios-nas.timer >/dev/null
+systemctl enable --now tv-radios-programas.timer >/dev/null
 # versão antiga (gerava tudo no NAS, 20 min): desligar se existir
 if systemctl list-unit-files 2>/dev/null | grep -q '^tv-radios-actualizar.timer'; then
   systemctl disable --now tv-radios-actualizar.timer >/dev/null 2>&1 || true
