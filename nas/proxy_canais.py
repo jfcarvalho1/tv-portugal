@@ -6,6 +6,7 @@ Intermediário caseiro para canais oficiais e gratuitos que só tocam "vindos do
 oficiais listados em CANAIS.
   http://NAS:8098/c/sic/   -> emissão da SIC (escolhe a melhor qualidade que responder)
 """
+import base64
 import http.server
 import socketserver
 import sys
@@ -36,10 +37,22 @@ def pedir(canal, url):
     return urllib.request.urlopen(req, timeout=20)
 
 
+def codificar(url):
+    return base64.urlsafe_b64encode(url.encode()).decode().rstrip("=")
+
+
+def descodificar(t):
+    return base64.urlsafe_b64decode(t + "=" * (-len(t) % 4)).decode()
+
+
 def reescrever(canal, base, texto, prefixo):
-    """Cada endereço da playlist passa a apontar para este intermediário."""
+    """Cada endereço da playlist passa a apontar para este intermediário. O endereço novo acaba
+    com o nome original do ficheiro (ex.: .../seg123.ts), porque o ffmpeg do Jellyfin recusa
+    pedaços de vídeo sem extensão conhecida."""
     def via(u):
-        return f"{prefixo}/c/{canal}/x?u=" + urllib.parse.quote(urllib.parse.urljoin(base, u), safe="")
+        absoluto = urllib.parse.urljoin(base, u)
+        nome = urllib.parse.urlsplit(absoluto).path.rsplit("/", 1)[-1] or "f.ts"
+        return f"{prefixo}/c/{canal}/p/{codificar(absoluto)}/{urllib.parse.quote(nome)}"
     out = []
     for l in texto.splitlines():
         s = l.strip()
@@ -75,6 +88,11 @@ class Pedido(http.server.BaseHTTPRequestHandler):
             return self.erro(404, "Canal desconhecido. Canais: " + ", ".join(CANAIS))
         canal = bocados[1]
         alvo = urllib.parse.parse_qs(partes.query).get("u", [None])[0]
+        if len(bocados) >= 4 and bocados[2] == "p":
+            try:
+                alvo = descodificar(bocados[3])
+            except Exception:
+                return self.erro(400, "Endereço inválido")
         candidatos = [alvo] if alvo else CANAIS[canal]["inicio"]
         host = self.headers.get("Host") or f"127.0.0.1:{PORTA}"
         prefixo = f"http://{host}"
