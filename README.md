@@ -18,3 +18,12 @@ TV em directo > Sintonizador M3U > o mesmo endereço. Guia: `https://m3upt.com/e
 
 ## Mudar opções
 Editar `config.txt` (ex.: `EXCLUIR=fashion, rt news`). A actualização seguinte já respeita.
+
+## No NAS (Jellyfin) — um só comando
+No terminal do NAS (Debian):
+```
+curl -fsSL https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/nas/instalar.sh | sudo bash
+```
+Pede a chave API do Jellyfin (Painel de controlo > Chaves de API > +). Depois fica:
+- **TV em directo** — lista lida directamente do GitHub (sempre actual)
+- **Biblioteca "Rádios"** — uma pasta por grupo/distrito, actualizada todos os dias às 07:40
