@@ -25,5 +25,5 @@ No terminal do NAS (Debian):
 curl -fsSL https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/nas/instalar.sh | sudo bash
 ```
 Pede a chave API do Jellyfin (Painel de controlo > Chaves de API > +). Depois fica:
-- **TV em directo** — lista lida directamente do GitHub (sempre actual)
-- **Biblioteca "Rádios"** — uma pasta por grupo/distrito, actualizada todos os dias às 07:40
+- **TV em directo** — lista do GitHub + **SIC** (canal 3) através de um intermediário no NAS, que pede a emissão oficial como se fosse o site sic.pt. Só para uso em casa (fora de casa: Tailscale).
+- **Biblioteca "Rádios"** — uma pasta por grupo/distrito, actualizada às 07:40 e 18:10

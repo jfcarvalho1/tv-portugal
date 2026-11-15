@@ -12,7 +12,8 @@ import urllib.request
 BASE = "/opt/tv-radios-nas"
 JF = os.environ.get("JELLYFIN_URL", "http://localhost:8096").rstrip("/")
 CHAVE = open(os.path.join(BASE, ".chave"), encoding="utf-8").read().strip()
-TV = "https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/tv.m3u"
+TV = os.path.join(BASE, "tv-casa.m3u")  # lista do GitHub + SIC pelo intermediário do NAS
+TV_GITHUB = "https://raw.githubusercontent.com/jfcarvalho1/tv-portugal/main/listas/tv.m3u"
 EPG = "https://m3upt.com/epg"
 RADIOS = os.path.join(BASE, "radios")
 NOME_BIB = "Rádios"
@@ -65,7 +66,7 @@ def configurar():
         tirados = 0
         for t in cfg.get("TunerHosts", []):
             u = t.get("Url") or ""
-            if t.get("Id") and ("/opt/tv-radios/listas/" in u):  # instalação antiga (listas geradas no NAS)
+            if t.get("Id") and ("/opt/tv-radios/listas/" in u or u == TV_GITHUB):  # versões anteriores
                 api("DELETE", f"/LiveTv/TunerHosts?id={t['Id']}")
                 tirados += 1
         return f"{tirados} retirados" if tirados else "nada a limpar"
@@ -75,12 +76,12 @@ def configurar():
         if any(t.get("Url") == TV for t in cfg.get("TunerHosts", [])):
             return "já existia"
         api("POST", "/LiveTv/TunerHosts", {
-            "Type": "m3u", "Url": TV, "FriendlyName": "TV (GitHub)", "ImportFavoritesOnly": False,
+            "Type": "m3u", "Url": TV, "FriendlyName": "TV Portugal e Mundo", "ImportFavoritesOnly": False,
             "AllowHWTranscoding": True, "AllowStreamSharing": True, "EnableStreamLooping": False,
             "IgnoreDts": True, "TunerCount": 0, "UserAgent": UA, "Source": "",
             "FallbackMaxStreamingBitrate": 30000000})
         return "adicionado"
-    passo("TV em directo (lista do GitHub)", tuner)
+    passo("TV em directo (com SIC pelo NAS)", tuner)
 
     def guia():
         if any(p.get("Path") == EPG for p in cfg.get("ListingProviders", [])):
