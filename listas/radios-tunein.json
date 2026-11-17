@@ -32,7 +32,7 @@
   "nome": "Informedia FM 106.3",
   "logo": "",
   "local": "São João da Madeira, Portugal",
-  "url": "https://stream-176.surfernetwork.com/vpbuzz4fxuzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2cGJ1eno0Znh1enV2IiwiaG9zdCI6InN0cmVhbS0xNzYuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjZtSDI5dERuUzVha0xQbFRFeUM4QkEiLCJpYXQiOjE3OTQ4NzU1MjYsImV4cCI6MTc5NDg3NTU4Nn0.1JV0icbUNNZBKcRmV140kKphUvHTogpVDpCwKUIGTdY",
+  "url": "https://stream-176.surfernetwork.com/vpbuzz4fxuzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2cGJ1eno0Znh1enV2IiwiaG9zdCI6InN0cmVhbS0xNzYuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ik44dlU2dEpCUkltWWhwYmd2OXQ3a1EiLCJpYXQiOjE3OTQ5MjYzMzUsImV4cCI6MTc5NDkyNjM5NX0.gIFfmJKM9Js-1Vl6jD3-cgZ2MGl6Xk6owHpwwW1Vpjs",
   "fonte": "radiogarden",
   "regiao": "Aveiro"
  },
@@ -42,15 +42,6 @@
   "logo": "",
   "local": "Oliveira de Azeméis, Portugal",
   "url": "https://s3.citrus3.com:2000/stream/nicofm",
-  "fonte": "radiogarden",
-  "regiao": "Aveiro"
- },
- {
-  "id": "rg-tYsocFwW",
-  "nome": "Paivense FM 99.5",
-  "logo": "",
-  "local": "Castelo de Paiva, Portugal",
-  "url": "https://paivense.no-ip.info:8080/index.html?sid=1",
   "fonte": "radiogarden",
   "regiao": "Aveiro"
  },
@@ -270,7 +261,7 @@
   "nome": "Rádio ESDG",
   "logo": "",
   "local": "Beja, Portugal",
-  "url": "https://stream-204.surfernetwork.com/0emqj6gcjpzvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIwZW1xajZnY2pwenZ2IiwiaG9zdCI6InN0cmVhbS0yMDQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjNtY3VSRTh0UXBTekJTcVI1YTdPZ2ciLCJpYXQiOjE3OTQ4NzU1MTYsImV4cCI6MTc5NDg3NTU3Nn0._euvM2OPGrsbwdY9JaZovR0vFkiN80TR2hz6PAr4-nQ",
+  "url": "https://stream-204.surfernetwork.com/0emqj6gcjpzvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIwZW1xajZnY2pwenZ2IiwiaG9zdCI6InN0cmVhbS0yMDQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjRyWHREXzl6VFpLTDV1Zl95WGV3S3ciLCJpYXQiOjE3OTQ5MjYzMjEsImV4cCI6MTc5NDkyNjM4MX0.EVw5IlzTb692r9gZ0VkRMRqlzVvMnIgkCA4AjoVrd3E",
   "fonte": "radiogarden",
   "regiao": "Beja"
  },
@@ -671,15 +662,6 @@
   "regiao": "Castelo Branco"
  },
  {
-  "id": "rg-1yL2TabQ",
-  "nome": "Radio Voz da Raia FM 87.7",
-  "logo": "",
-  "local": "Penamacor, Portugal",
-  "url": "https://centova.radio.com.pt/proxy/557?mp=/stream",
-  "fonte": "radiogarden",
-  "regiao": "Castelo Branco"
- },
- {
   "id": "rg-L1WeitPp",
   "nome": "RCB - Rádio Cova da Beira",
   "logo": "",
@@ -943,7 +925,7 @@
   "nome": "Rádio Despertar Voz de Estremoz FM 94.5",
   "logo": "",
   "local": "Estremoz, Portugal",
-  "url": "https://stream-291.surfernetwork.com/fx5n4m0xkwzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmeDVuNG0weGt3enV2IiwiaG9zdCI6InN0cmVhbS0yOTEuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkJuZm84cEwtUk9LOGswalpUMHFJZGciLCJpYXQiOjE3OTQ4NzU1MjUsImV4cCI6MTc5NDg3NTU4NX0.Ty-xxYzfPrzjT4TtEsoCYCIIVS12OTCLp4ftcNYj3Qs",
+  "url": "https://stream-291.surfernetwork.com/fx5n4m0xkwzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmeDVuNG0weGt3enV2IiwiaG9zdCI6InN0cmVhbS0yOTEuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Il9jNmlfeDdyVGktV1NjeDNaN3Y3THciLCJpYXQiOjE3OTQ5MjYzMzQsImV4cCI6MTc5NDkyNjM5NH0.gdiZwfi4ln7ZZk1fBwE-FhSIYGeXYFfnZaJ6AnvTl00",
   "fonte": "radiogarden",
   "regiao": "Évora"
  },
@@ -1734,7 +1716,7 @@
   "nome": "Mega Hits - Dance",
   "logo": "",
   "local": "Lisbon, Portugal",
-  "url": "https://22603.live.streamtheworld.com:443/MEGA_DANCEAAC.aac",
+  "url": "https://25503.live.streamtheworld.com:443/MEGA_DANCEAAC.aac",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -1746,14 +1728,14 @@
   "freq": "92 FM",
   "fonte": "tunein",
   "regiao": "Lisboa",
-  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MEGA_HITSAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDg3NTUzMCwiaXNzIjoidGlzcnYifQ.AB1Wmljo79vUfUQh31xvHFaxzXBRn2NHnsDHpyVCqDw"
+  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/MEGA_HITSAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDkyNjM0MSwiaXNzIjoidGlzcnYifQ.WoJIVRek_nbi-N_zGDpmWiAK36in2HI1O-JluhUMulo"
  },
  {
   "id": "rg-hpoysi5e",
   "nome": "Mega Hits 92.4 FM",
   "logo": "",
   "local": "Lisbon, Portugal",
-  "url": "https://22593.live.streamtheworld.com:443/MEGA_HITSAAC.aac",
+  "url": "https://25453.live.streamtheworld.com:443/MEGA_HITSAAC.aac",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -2135,7 +2117,7 @@
   "nome": "Radio Lusophonica",
   "logo": "",
   "local": "Cascais, Portugal",
-  "url": "http://n07.radiojar.com/dxkmh6hv1f8uv?rj-ttl=5&rj-tok=AAABoeb0DGsA3h_UCHpfyeepxw",
+  "url": "http://n01.radiojar.com/dxkmh6hv1f8uv?rj-ttl=5&rj-tok=AAABoen7RzoAG0txvcUSeMR8Pw",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -2265,7 +2247,7 @@
   "nome": "Rádio Olisipo",
   "logo": "",
   "local": "Lisbon, Portugal",
-  "url": "http://n01.radiojar.com/6x85cenb7ehvv?rj-ttl=5&rj-tok=AAABoeb0IRwAkMNwehkZWODqiw",
+  "url": "http://n01.radiojar.com/6x85cenb7ehvv?rj-ttl=5&rj-tok=AAABoen7ZS8AStVbDWas8RB7Ww",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -2377,7 +2359,7 @@
   "nome": "Rádio Renascença",
   "logo": "",
   "local": "Lisbon, Portugal",
-  "url": "https://22733.live.streamtheworld.com:443/RADIO_RENASCENCAAAC.aac",
+  "url": "https://25553.live.streamtheworld.com:443/RADIO_RENASCENCAAAC.aac",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -2662,14 +2644,14 @@
   "freq": "103 FM",
   "fonte": "tunein",
   "regiao": "Lisboa",
-  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCAAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDg3NTUzMCwiaXNzIjoidGlzcnYifQ.AB1Wmljo79vUfUQh31xvHFaxzXBRn2NHnsDHpyVCqDw"
+  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCAAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDkyNjM0MiwiaXNzIjoidGlzcnYifQ.mGBNCHrXLJsyL9b77ut-Li0J2FMnkG0HB4P8RCccl3E"
  },
  {
   "id": "rg-Ejy5Gaa6",
   "nome": "RFM",
   "logo": "",
   "local": "Lisbon, Portugal",
-  "url": "https://27953.live.streamtheworld.com:443/RFMAAC.aac",
+  "url": "https://25653.live.streamtheworld.com:443/RFMAAC.aac",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -2678,7 +2660,7 @@
   "nome": "RFM - 00's",
   "logo": "",
   "local": "Lisbon, Portugal",
-  "url": "https://22673.live.streamtheworld.com:443/LIVESTREAMAAC.aac",
+  "url": "https://22663.live.streamtheworld.com:443/LIVESTREAMAAC.aac",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -2687,7 +2669,7 @@
   "nome": "RFM - 90's",
   "logo": "",
   "local": "Lisbon, Portugal",
-  "url": "https://27823.live.streamtheworld.com:443/RFM_90SAAC.aac",
+  "url": "https://25503.live.streamtheworld.com:443/RFM_90SAAC.aac",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -2696,7 +2678,7 @@
   "nome": "RFM - Dance IT",
   "logo": "",
   "local": "Lisbon, Portugal",
-  "url": "https://23553.live.streamtheworld.com:443/DANCEONTHEFLOORAAC.aac",
+  "url": "https://25703.live.streamtheworld.com:443/DANCEONTHEFLOORAAC.aac",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -2705,7 +2687,7 @@
   "nome": "RFM - Oceano Pacífico",
   "logo": "",
   "local": "Lisbon, Portugal",
-  "url": "https://29053.live.streamtheworld.com:443/OCEANPACIFICAAC.aac",
+  "url": "https://23543.live.streamtheworld.com:443/OCEANPACIFICAAC.aac",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -2714,7 +2696,7 @@
   "nome": "RFM - Oitenta's",
   "logo": "",
   "local": "Lisbon, Portugal",
-  "url": "https://22353.live.streamtheworld.com:443/GR80SRFMAAC.aac",
+  "url": "https://29093.live.streamtheworld.com:443/GR80SRFMAAC.aac",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -2723,7 +2705,7 @@
   "nome": "RFM - On the rock",
   "logo": "",
   "local": "Lisbon, Portugal",
-  "url": "https://25223.live.streamtheworld.com:443/RFMONTHEROCKAAC.aac",
+  "url": "https://29093.live.streamtheworld.com:443/RFMONTHEROCKAAC.aac",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -2735,7 +2717,7 @@
   "freq": "93 FM",
   "fonte": "tunein",
   "regiao": "Lisboa",
-  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RFM.mp3?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDg3NTUzMCwiaXNzIjoidGlzcnYifQ.AB1Wmljo79vUfUQh31xvHFaxzXBRn2NHnsDHpyVCqDw"
+  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RFM.mp3?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDkyNjM0MiwiaXNzIjoidGlzcnYifQ.mGBNCHrXLJsyL9b77ut-Li0J2FMnkG0HB4P8RCccl3E"
  },
  {
   "id": "rg-Qc_VMnv2",
@@ -2864,7 +2846,7 @@
   "nome": "Saudade Cidade",
   "logo": "",
   "local": "Amadora, Portugal",
-  "url": "https://stream-204.surfernetwork.com/q9k377tdzy8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxOWszNzd0ZHp5OHV2IiwiaG9zdCI6InN0cmVhbS0yMDQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Imd2X19tQlFhUXFXYkhVaWJZREpXNkEiLCJpYXQiOjE3OTQ4NzU1MjMsImV4cCI6MTc5NDg3NTU4M30.4xoPWSGDb9BkCb-X07HMAzfeVUgyXH_96wiejbvEoj4",
+  "url": "https://stream-204.surfernetwork.com/q9k377tdzy8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxOWszNzd0ZHp5OHV2IiwiaG9zdCI6InN0cmVhbS0yMDQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjlBQkZTbXNyU1RhNTFuSHRMSGJsVkEiLCJpYXQiOjE3OTQ5MjYzMzEsImV4cCI6MTc5NDkyNjM5MX0.NypAS_BZ5DxhlgAd13LGbC8wqgpjtdO3Z8IuYQwA9qE",
   "fonte": "radiogarden",
   "regiao": "Lisboa"
  },
@@ -3065,10 +3047,10 @@
  },
  {
   "id": "rg-pwD7N6SF",
-  "nome": "Rádio Nostalgia-Elvas",
+  "nome": "Radio Nostalgia Elvas",
   "logo": "",
   "local": "Elvas, Portugal",
-  "url": "https://stm1.brstream.com.br:6698/stream",
+  "url": "https://stream-175.surfernetwork.com/y8ba1dguywzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5OGJhMWRndXl3enV2IiwiaG9zdCI6InN0cmVhbS0xNzUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjB2ZTNwZlB1UTlTZjF3dVYxTGxIcUEiLCJpYXQiOjE3OTQ5MjYzNDAsImV4cCI6MTc5NDkyNjQwMH0.lL0Jjzk22zaPlJPCB7_vNAvQUrP7Db-TgiXfKfHE7O0",
   "fonte": "radiogarden",
   "regiao": "Portalegre"
  },
@@ -3105,7 +3087,7 @@
   "nome": "Radio Super Mundo Paulo Pintao",
   "logo": "",
   "local": "Portalegre, Portugal",
-  "url": "https://stream-178.surfernetwork.com/xg9rr7rc445vv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ4ZzlycjdyYzQ0NXZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlRGbHdRM3lJUlJxZVN0LW5BOFl2NUEiLCJpYXQiOjE3OTQ4NzU1MTcsImV4cCI6MTc5NDg3NTU3N30.3fVCJ54cO_eCa73_PUhdYy4tuJBuEg6bpySai6zt8rE",
+  "url": "https://stream-178.surfernetwork.com/xg9rr7rc445vv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ4ZzlycjdyYzQ0NXZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImxxR05aQUpCUzFTUmNGWFl6YkhDbkEiLCJpYXQiOjE3OTQ5MjYzMjIsImV4cCI6MTc5NDkyNjM4Mn0.CrjbW4b6MPo_xP45aZ_XjRmFeRbyJCBBgKPUcIxG6Oo",
   "fonte": "radiogarden",
   "regiao": "Portalegre"
  },
@@ -3238,7 +3220,7 @@
   "nome": "ESRadioPT",
   "logo": "",
   "local": "Porto, Portugal",
-  "url": "https://stream-204.surfernetwork.com/izxt6zusclruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJpenh0Nnp1c2NscnV2IiwiaG9zdCI6InN0cmVhbS0yMDQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ik1hTldWdU9QVDhpWDVKTGdvZVo0WVEiLCJpYXQiOjE3OTQ4NzU1MTUsImV4cCI6MTc5NDg3NTU3NX0.V5fHihUGqSjWFoph9NClhFUdXkKRO5TuKvvfj0G-dvw",
+  "url": "https://stream-204.surfernetwork.com/izxt6zusclruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJpenh0Nnp1c2NscnV2IiwiaG9zdCI6InN0cmVhbS0yMDQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IllVVkV6UjRyUlNDY013OVdQVENfUmciLCJpYXQiOjE3OTQ5MjYzMjEsImV4cCI6MTc5NDkyNjM4MX0.Z64mUPgRSEj31THt4SclcTP6L5RT2S6s8_dBIpDDyE0",
   "fonte": "radiogarden",
   "regiao": "Porto"
  },
@@ -3305,7 +3287,7 @@
   "nome": "MaisFM",
   "logo": "",
   "local": "Amarante, Portugal",
-  "url": "https://stream-178.surfernetwork.com/xgzzzrj4wrwuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ4Z3p6enJqNHdyd3V2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InNXNzBodVlHU0xTeGFUWmhrV1NyeFEiLCJpYXQiOjE3OTQ4NzU1MjcsImV4cCI6MTc5NDg3NTU4N30.WhmIQ3XpGWHbRSJQZU60ig9LsCULWFCkIC9opowQEUk",
+  "url": "https://stream-178.surfernetwork.com/xgzzzrj4wrwuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ4Z3p6enJqNHdyd3V2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkpfYWg4VkVGUmRhOENWVEhWcmQzb3ciLCJpYXQiOjE3OTQ5MjYzMzgsImV4cCI6MTc5NDkyNjM5OH0.jU6tOiNxOTXazeBpOw9VmkobdP5DtsDXwbeLQ8bRYwg",
   "fonte": "radiogarden",
   "regiao": "Porto"
  },
@@ -4073,7 +4055,7 @@
   "freq": "93.7 FM",
   "fonte": "tunein",
   "regiao": "Porto",
-  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCAAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDg3NTUzMSwiaXNzIjoidGlzcnYifQ.S50ObUfQt7VqcciCttb2DRutZX9XfnHTBiu4cqnFoNs"
+  "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCAAAC.aac?dist=tunein&DIST=TuneIn&TGT=TuneIn&maxServers=2&gdpr=0&partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTc5NDkyNjM0MiwiaXNzIjoidGlzcnYifQ.mGBNCHrXLJsyL9b77ut-Li0J2FMnkG0HB4P8RCccl3E"
  },
  {
   "id": "s343252",
@@ -4566,7 +4548,7 @@
   "nome": "MR80's",
   "logo": "",
   "local": "Setúbal, Portugal",
-  "url": "https://stream-179.surfernetwork.com/rgnxkctthm8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyZ254a2N0dGhtOHV2IiwiaG9zdCI6InN0cmVhbS0xNzkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlFSbGpTaFE1UzhLbzhiaDJ6UXZXUFEiLCJpYXQiOjE3OTQ4NzU1MTUsImV4cCI6MTc5NDg3NTU3NX0.vpYUxh8biVpKr9tbq3FfOxxbEX1KLutocTVLXnFkTgk",
+  "url": "https://stream-179.surfernetwork.com/rgnxkctthm8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyZ254a2N0dGhtOHV2IiwiaG9zdCI6InN0cmVhbS0xNzkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImFDSDY1ajQ5U1lHRjZ5NEFqMHBQcnciLCJpYXQiOjE3OTQ5MjYzMjEsImV4cCI6MTc5NDkyNjM4MX0.AkbQmBOu7kaOnFPIQghwU3YlpSvKK-UjzLH6cbX6trM",
   "fonte": "radiogarden",
   "regiao": "Setúbal"
  },
@@ -4821,6 +4803,15 @@
   "regiao": "Viana do Castelo"
  },
  {
+  "id": "rg--dkTmIp8",
+  "nome": "RCC FM 93.6 Radio Cerveira",
+  "logo": "",
+  "local": "Vila Nova de Cerveira, Portugal",
+  "url": "http://185.32.188.17:8062/stream",
+  "fonte": "radiogarden",
+  "regiao": "Viana do Castelo"
+ },
+ {
   "id": "rg-9IQ4AJbC",
   "nome": "Alto Tâmega FM 103.9",
   "logo": "",
@@ -5018,7 +5009,7 @@
   "nome": "Radio Clube de Lamego",
   "logo": "",
   "local": "Lamego, Portugal",
-  "url": "https://stream-178.surfernetwork.com/9prct7k8h0hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI5cHJjdDdrOGgwaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImR2RjlacnVxUzBtYkQ2UHJ2dkJIc1EiLCJpYXQiOjE3OTQ4NzU1MjgsImV4cCI6MTc5NDg3NTU4OH0.-yGiw5ENGFwR-D2BzKqL2jKOf3IVpwyxUEAH9Vu3zTg",
+  "url": "https://stream-178.surfernetwork.com/9prct7k8h0hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI5cHJjdDdrOGgwaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlhlWFRkc0dlUjBpQ1JmSjJhcE9rcnciLCJpYXQiOjE3OTQ5MjYzMzksImV4cCI6MTc5NDkyNjM5OX0.x9Trr5vyvHgcpMpZL5BWGoPrcICSf5vKutosGR61oLk",
   "fonte": "radiogarden",
   "regiao": "Viseu"
  },
@@ -5205,6 +5196,15 @@
   "url": "https://nl.digitalrm.pt:8002/stream",
   "fonte": "radiogarden",
   "regiao": "Viseu"
+ },
+ {
+  "id": "rg-RPdnqL3Y",
+  "nome": "Angostura FM 104.5",
+  "logo": "",
+  "local": "Ponta Delgada, Portugal",
+  "url": "https://centova.neonetwork.cl:9100/stream",
+  "fonte": "radiogarden",
+  "regiao": "Açores"
  },
  {
   "id": "s114339",
@@ -5499,7 +5499,7 @@
   "nome": "Cidade Radio",
   "logo": "",
   "local": "Silvã de Cima, Portugal",
-  "url": "https://stream-178.surfernetwork.com/70854g7k6s8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3MDg1NGc3azZzOHV2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImZicEhGQ2dSUlRlSzdaQ09HNFZneFEiLCJpYXQiOjE3OTQ4NzU1MjQsImV4cCI6MTc5NDg3NTU4NH0.Ep8kpa3NI0HKAGcYq5P2_IfxP3m9Eh8IQxw2x89m1JE",
+  "url": "https://stream-178.surfernetwork.com/70854g7k6s8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3MDg1NGc3azZzOHV2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjR2dHFIczhGUUx1NktycUFuaUtaRnciLCJpYXQiOjE3OTQ5MjYzMzMsImV4cCI6MTc5NDkyNjM5M30.QPH7LKPv-atpb1FFqKQ9xBs7lB6mz1JqUXJnncLHufY",
   "fonte": "radiogarden",
   "regiao": ""
  },
@@ -5637,7 +5637,7 @@
   "nome": "Rádio Cultural da Filarmónica Pampilhosense",
   "logo": "",
   "local": "Pampilhosa, Portugal",
-  "url": "https://stream-175.surfernetwork.com/wgwvfzzgunhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ3Z3d2Znp6Z3VuaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ilo4VjY5WE9jUktLRkdNUnJGaER5WlEiLCJpYXQiOjE3OTQ4NzU1MTgsImV4cCI6MTc5NDg3NTU3OH0.19JCAhFzPZDmwAjLD6B676fqLV1mhPgzS24mkhIpKPM",
+  "url": "https://stream-175.surfernetwork.com/wgwvfzzgunhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ3Z3d2Znp6Z3VuaHZ2IiwiaG9zdCI6InN0cmVhbS0xNzUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InpZYWd4aVBqUTllWDVwcFpjbUEyaXciLCJpYXQiOjE3OTQ5MjYzMjUsImV4cCI6MTc5NDkyNjM4NX0.S0l-AhIglI_f-2y0VFtj5qX-w1a5_VkGwZqPiuEvVlI",
   "fonte": "radiogarden",
   "regiao": ""
  },
@@ -5682,7 +5682,7 @@
   "nome": "Rádio Marmeleira",
   "logo": "",
   "local": "Marmeleira (Rio Maior), Portugal",
-  "url": "https://stream-176.surfernetwork.com/ymqxcfkr4a0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5bXF4Y2ZrcjRhMHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ik1rcVdnV3ZaVHJpZGszeTZmLW5fbmciLCJpYXQiOjE3OTQ4NzU1MjYsImV4cCI6MTc5NDg3NTU4Nn0.W6HMZDzS8OGqCdcjDNv8sGLZmvF-tKfUWj_y2J9Kr7c",
+  "url": "https://stream-176.surfernetwork.com/ymqxcfkr4a0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5bXF4Y2ZrcjRhMHV2IiwiaG9zdCI6InN0cmVhbS0xNzYuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjNHSVFwV3lxVEYySHFXZWM2eFVKRkEiLCJpYXQiOjE3OTQ5MjYzMzYsImV4cCI6MTc5NDkyNjM5Nn0.7NiPaEx8ixk2Jo-dCIKkvYewWu3JVZEkTfjiHaUnA8Q",
   "fonte": "radiogarden",
   "regiao": ""
  },
@@ -5745,7 +5745,7 @@
   "nome": "Rádio Onda Celta",
   "logo": "",
   "local": "Briteiros, Portugal",
-  "url": "https://stream-179.surfernetwork.com/fbzmurbgu22tv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmYnptdXJiZ3UyMnR2IiwiaG9zdCI6InN0cmVhbS0xNzkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjBxUVVjb2dJUXEtU1luS3M0a3diYXciLCJpYXQiOjE3OTQ4NzU1MjcsImV4cCI6MTc5NDg3NTU4N30.JE-UspbR2rpscdbBDErBRTWayZCosPncnpjquQWjovc",
+  "url": "https://stream-179.surfernetwork.com/fbzmurbgu22tv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmYnptdXJiZ3UyMnR2IiwiaG9zdCI6InN0cmVhbS0xNzkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IldLeXl1UHNZUkotcjR2YjA4X0ZSbEEiLCJpYXQiOjE3OTQ5MjYzMzcsImV4cCI6MTc5NDkyNjM5N30.yg4A6KcoU4Js0EGohEaRFhUeJZrdzrzoSO6b44-ydzo",
   "fonte": "radiogarden",
   "regiao": ""
  },
@@ -5783,7 +5783,7 @@
   "nome": "Radio Redes Na Maré",
   "logo": "",
   "local": "Gandra, Viana do Castelo, Portugal",
-  "url": "https://stream-290.surfernetwork.com/2as8wjveo5dtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIyYXM4d2p2ZW81ZHR2IiwiaG9zdCI6InN0cmVhbS0yOTAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImY4WTBlZXBSUVZ5T1p5cFQ5MUJTN0EiLCJpYXQiOjE3OTQ4NzU1MjcsImV4cCI6MTc5NDg3NTU4N30.BJ53Zgey1JG3ywAQqt2Iyu5GvX2TII2vOMSolGgWA_c",
+  "url": "https://stream-290.surfernetwork.com/2as8wjveo5dtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIyYXM4d2p2ZW81ZHR2IiwiaG9zdCI6InN0cmVhbS0yOTAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkNSYk1QWDRmU2xtSHhkUTRYaHFIbXciLCJpYXQiOjE3OTQ5MjYzMzcsImV4cCI6MTc5NDkyNjM5N30.EmwH3bl2OOpifbFJZFGmIHzDT3YicKAIIg2SqKuwZY8",
   "fonte": "radiogarden",
   "regiao": ""
  },
