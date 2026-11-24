@@ -238,8 +238,8 @@ https://3ee905090d464be5a51478fd9c642e93.mediatailor.us-east-1.amazonaws.com/v1/
 https://moldovatv.ro/live-tv/live.m3u8
 #EXTINF:-1 tvg-id="Multilandia.ru@SD" tvg-name="Multilandia" tvg-logo="https://i.imgur.com/ccwijY0.png" tvg-chno="9116" group-title="Internacional",Multilandia
 https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="NBTWorld.th@SD" tvg-name="NBT World" tvg-logo="https://i.imgur.com/GUQhLeg.png" tvg-chno="9117" group-title="Internacional",NBT World
-https://cdn-edge.iiptvcdn.com/live_event/smil:d36f-93c1-9c58-fdcc-427f.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MyanmarInternationalTV.mm@SD" tvg-name="Myanmar International TV" tvg-logo="https://i.imgur.com/ClmWqE5.png" tvg-chno="9117" group-title="Internacional",Myanmar International TV
+https://mrtvott.com/cache/MITV/master.m3u8
 #EXTINF:-1 tvg-id="NewsWorld.hk@FAST" tvg-name="NewsWorld" tvg-logo="https://provider-static.plex.tv/epg/cms/production/2e3bf0d9-3ca6-4f65-b1d4-f180ef725d96/NewsWorld_logo_dark_-_Angela_Chan.png" tvg-chno="9118" group-title="Internacional",NewsWorld
 https://amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/playlist/amg01076-lightning-newsworld-rakutenus/playlist.m3u8
 #EXTINF:-1 tvg-id="NickJrLatinAmerica.us@Panregional" tvg-name="Nick Jr. Latin America" tvg-logo="https://i.imgur.com/KT4tdQs.png" tvg-chno="9119" group-title="Internacional",Nick Jr. Latin America

@@ -1,9 +1,9 @@
-Navegação: 180 rádios
+Navegação: 179 rádios
 Wikidata: 316 concelhos, 0 com distrito
-Depois de procurar 359 termos: 5914 rádios (antes de confirmar o país)
-Confirmadas em Portugal: 319
+Depois de procurar 359 termos: 5909 rádios (antes de confirmar o país)
+Confirmadas em Portugal: 318
 Radio Garden: 171 lugares em Portugal, 315 rádios
-Guardadas: 634 | sem distrito: 46
+Guardadas: 633 | sem distrito: 46
 
 Sem distrito (localização do TuneIn):
   91FM Radio — Óbidos Municipality, Portugal

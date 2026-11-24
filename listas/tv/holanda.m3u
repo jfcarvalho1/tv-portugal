@@ -38,115 +38,109 @@ https://d1qpgfi3ivud4k.cloudfront.net/nlpo/clr-nlpo/langstraat/index.m3u8
 https://ms7.mx-cd.net/tv/278-3414514/RTV_Lansingerland.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LEOMiddelseTV.nl@SD" tvg-name="LEO Middelse TV" tvg-logo="https://i.imgur.com/wF3FFZv.png" tvg-chno="4022" group-title="Holanda",LEO Middelse TV
 https://ms7.mx-cd.net/tv/238-2061506/Omroep_LEO_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="LONTV.nl@SD" tvg-name="LON TV" tvg-logo="https://i.imgur.com/bH4XSGw.png" tvg-chno="4023" group-title="Holanda",LON TV
-https://streamingserver02.omroepnuenen.nl/lon/lonweb/chunklist_w1463772894.m3u8
-#EXTINF:-1 tvg-id="MaLive.nl@SD" tvg-name="MaLive" tvg-logo="https://i.imgur.com/0Vzg2OR.png" tvg-chno="4024" group-title="Holanda",MaLive
+#EXTINF:-1 tvg-id="MaLive.nl@SD" tvg-name="MaLive" tvg-logo="https://i.imgur.com/0Vzg2OR.png" tvg-chno="4023" group-title="Holanda",MaLive
 https://live.salto.nl/hls/malive_high.m3u8
-#EXTINF:-1 tvg-id="MerweTV.nl@SD" tvg-name="MerweTV" tvg-logo="https://i.imgur.com/JjB7U1q.png" tvg-chno="4025" group-title="Holanda",MerweTV
+#EXTINF:-1 tvg-id="MerweTV.nl@SD" tvg-name="MerweTV" tvg-logo="https://i.imgur.com/JjB7U1q.png" tvg-chno="4024" group-title="Holanda",MerweTV
 https://d2ycaxub5x98iw.cloudfront.net/nlpo/clr-nlpo/merwetv/index.m3u8
-#EXTINF:-1 tvg-id="NH.nl@SD" tvg-name="NH" tvg-logo="https://i.imgur.com/SPkK4md.png" tvg-chno="4026" group-title="Holanda",NH
+#EXTINF:-1 tvg-id="NH.nl@SD" tvg-name="NH" tvg-logo="https://i.imgur.com/SPkK4md.png" tvg-chno="4025" group-title="Holanda",NH
 https://takeoff.jetstre.am/?account=nhnieuws&file=live&output=playlist.m3u8&protocol=https&service=wowza&type=live
-#EXTINF:-1 tvg-id="NOOSTV.nl@SD" tvg-name="NOOS TV" tvg-logo="https://i.imgur.com/X8xLcpT.png" tvg-chno="4027" group-title="Holanda",NOOS TV
+#EXTINF:-1 tvg-id="NOOSTV.nl@SD" tvg-name="NOOS TV" tvg-logo="https://i.imgur.com/X8xLcpT.png" tvg-chno="4026" group-title="Holanda",NOOS TV
 https://ms2.mx-cd.net/tv/276-2860564/Omroep_NOOS.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepBrabant.nl@SD" tvg-name="Omroep Brabant" tvg-logo="https://i.imgur.com/KLYsKKC.png" tvg-chno="4028" group-title="Holanda",Omroep Brabant
+#EXTINF:-1 tvg-id="OmroepBrabant.nl@SD" tvg-name="Omroep Brabant" tvg-logo="https://i.imgur.com/KLYsKKC.png" tvg-chno="4027" group-title="Holanda",Omroep Brabant
 https://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmroepDommelland.nl@SD" tvg-name="Omroep Dommelland" tvg-logo="https://i.imgur.com/6Tkd9Pv.png" tvg-chno="4030" group-title="Holanda",Omroep Dommelland
+#EXTINF:-1 tvg-id="OmroepDommelland.nl@SD" tvg-name="Omroep Dommelland" tvg-logo="https://i.imgur.com/6Tkd9Pv.png" tvg-chno="4029" group-title="Holanda",Omroep Dommelland
 https://de68fck4398ez.cloudfront.net/nlpo/clr-nlpo/omroepdommelland/index.m3u8
-#EXTINF:-1 tvg-id="OmroepFlevolandTV.nl" tvg-name="Omroep Flevoland Ⓢ" tvg-logo="https://i.imgur.com/d1CmTcI.png" tvg-chno="4031" group-title="Holanda",Omroep Flevoland Ⓢ
+#EXTINF:-1 tvg-id="OmroepFlevolandTV.nl" tvg-name="Omroep Flevoland Ⓢ" tvg-logo="https://i.imgur.com/d1CmTcI.png" tvg-chno="4030" group-title="Holanda",Omroep Flevoland Ⓢ
 https://d5ms27yy6exnf.cloudfront.net/live/omroepflevoland/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmroepGelderlandTV.nl" tvg-name="Omroep Gelderland" tvg-logo="https://i.imgur.com/TPlyvUQ.png" tvg-chno="4032" group-title="Holanda",Omroep Gelderland
+#EXTINF:-1 tvg-id="OmroepGelderlandTV.nl" tvg-name="Omroep Gelderland" tvg-logo="https://i.imgur.com/TPlyvUQ.png" tvg-chno="4031" group-title="Holanda",Omroep Gelderland
 https://d2od87akyl46nm.cloudfront.net/live/omroepgelderland/tvgelderland-hls/index.m3u8
-#EXTINF:-1 tvg-id="OmroepLandvanCuijk.nl@SD" tvg-name="Omroep Land van Cuijk" tvg-logo="https://i.imgur.com/Pt2gXJ1.png" tvg-chno="4033" group-title="Holanda",Omroep Land van Cuijk
+#EXTINF:-1 tvg-id="OmroepLandvanCuijk.nl@SD" tvg-name="Omroep Land van Cuijk" tvg-logo="https://i.imgur.com/Pt2gXJ1.png" tvg-chno="4032" group-title="Holanda",Omroep Land van Cuijk
 https://d3go236bg358u.cloudfront.net/nlpo/clr-nlpo/omroeplandvancuijk/index.m3u8
-#EXTINF:-1 tvg-id="OmroepLingewaard.nl@SD" tvg-name="Omroep Lingewaard" tvg-logo="https://i.imgur.com/FqyTFVN.png" tvg-chno="4034" group-title="Holanda",Omroep Lingewaard
+#EXTINF:-1 tvg-id="OmroepLingewaard.nl@SD" tvg-name="Omroep Lingewaard" tvg-logo="https://i.imgur.com/FqyTFVN.png" tvg-chno="4033" group-title="Holanda",Omroep Lingewaard
 https://highvolume02.streampartner.nl/omroeplingewaard_1/omroeplingewaard_1/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepPeelrand.nl@SD" tvg-name="Omroep Peelrand" tvg-logo="https://i.imgur.com/K4AhATP.png" tvg-chno="4035" group-title="Holanda",Omroep Peelrand
+#EXTINF:-1 tvg-id="OmroepPeelrand.nl@SD" tvg-name="Omroep Peelrand" tvg-logo="https://i.imgur.com/K4AhATP.png" tvg-chno="4034" group-title="Holanda",Omroep Peelrand
 https://ms7.mx-cd.net/dtv-11/208-1258878/Omroep_Peelrand_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepSudwest.nl@SD" tvg-name="Omroep Sudwest" tvg-logo="https://i.imgur.com/XtKLmQS.png" tvg-chno="4036" group-title="Holanda",Omroep Sudwest
+#EXTINF:-1 tvg-id="OmroepSudwest.nl@SD" tvg-name="Omroep Sudwest" tvg-logo="https://i.imgur.com/XtKLmQS.png" tvg-chno="4035" group-title="Holanda",Omroep Sudwest
 https://d2ecwd3cgy6wo0.cloudfront.net/nlpo/clr-nlpo/omroepsudwest/index.m3u8
-#EXTINF:-1 tvg-id="OmroepTilburg.nl@SD" tvg-name="Omroep Tilburg" tvg-logo="https://i.imgur.com/rhazkU7.png" tvg-chno="4037" group-title="Holanda",Omroep Tilburg
+#EXTINF:-1 tvg-id="OmroepTilburg.nl@SD" tvg-name="Omroep Tilburg" tvg-logo="https://i.imgur.com/rhazkU7.png" tvg-chno="4036" group-title="Holanda",Omroep Tilburg
 https://ms7.mx-cd.net/tv/184-782326/Omroep_Tilburg_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepVenlo.nl@SD" tvg-name="Omroep Venlo" tvg-logo="https://i.imgur.com/zjDZdmM.png" tvg-chno="4038" group-title="Holanda",Omroep Venlo
+#EXTINF:-1 tvg-id="OmroepVenlo.nl@SD" tvg-name="Omroep Venlo" tvg-logo="https://i.imgur.com/zjDZdmM.png" tvg-chno="4037" group-title="Holanda",Omroep Venlo
 https://d2pqcu7r58rgg1.cloudfront.net/nlpo/clr-nlpo/omroepvenlo/index.m3u8
-#EXTINF:-1 tvg-id="OmroepVenray.nl@SD" tvg-name="Omroep Venray" tvg-logo="https://i.imgur.com/uVqTbi2.png" tvg-chno="4039" group-title="Holanda",Omroep Venray
+#EXTINF:-1 tvg-id="OmroepVenray.nl@SD" tvg-name="Omroep Venray" tvg-logo="https://i.imgur.com/uVqTbi2.png" tvg-chno="4038" group-title="Holanda",Omroep Venray
 https://d3j015sg8r68y.cloudfront.net/nlpo/clr-nlpo/omroepvenray/index.m3u8
-#EXTINF:-1 tvg-id="OmroepWestTV.nl" tvg-name="Omroep West" tvg-logo="https://i.imgur.com/aax1HPH.png" tvg-chno="4040" group-title="Holanda",Omroep West
+#EXTINF:-1 tvg-id="OmroepWestTV.nl" tvg-name="Omroep West" tvg-logo="https://i.imgur.com/aax1HPH.png" tvg-chno="4039" group-title="Holanda",Omroep West
 https://d1axml5ozykh3g.cloudfront.net/live/omroepwest/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmroepZeeland.nl@SD" tvg-name="Omroep Zeeland" tvg-logo="https://i.imgur.com/3c3QUSn.png" tvg-chno="4041" group-title="Holanda",Omroep Zeeland
+#EXTINF:-1 tvg-id="OmroepZeeland.nl@SD" tvg-name="Omroep Zeeland" tvg-logo="https://i.imgur.com/3c3QUSn.png" tvg-chno="4040" group-title="Holanda",Omroep Zeeland
 https://d3isaxd2t6q8zm.cloudfront.net/live/omroepzeeland/tv/index.m3u8
-#EXTINF:-1 tvg-id="OmropFryslanTV.nl" tvg-name="Omrop Fryslân" tvg-logo="https://i.imgur.com/0VKJLAK.png" tvg-chno="4042" group-title="Holanda",Omrop Fryslân
+#EXTINF:-1 tvg-id="OmropFryslanTV.nl" tvg-name="Omrop Fryslân" tvg-logo="https://i.imgur.com/0VKJLAK.png" tvg-chno="4041" group-title="Holanda",Omrop Fryslân
 https://d3pvma9xb2775h.cloudfront.net/live/omropfryslan/f8f68bd5/playlist.m3u8
-#EXTINF:-1 tvg-id="OOGTV.nl@SD" tvg-name="OOG TV" tvg-logo="https://i.imgur.com/WzxY0PL.png" tvg-chno="4043" group-title="Holanda",OOG TV
+#EXTINF:-1 tvg-id="OOGTV.nl@SD" tvg-name="OOG TV" tvg-logo="https://i.imgur.com/WzxY0PL.png" tvg-chno="4042" group-title="Holanda",OOG TV
 https://d1xcc1603wntzx.cloudfront.net/nlpo/clr-nlpo/oogtv/index.m3u8
-#EXTINF:-1 tvg-id="Qmusic.nl@SD" tvg-name="Qmusic" tvg-logo="https://i.imgur.com/fMTuqDu.png" tvg-chno="4044" group-title="Holanda",Qmusic
+#EXTINF:-1 tvg-id="Qmusic.nl@SD" tvg-name="Qmusic" tvg-logo="https://i.imgur.com/fMTuqDu.png" tvg-chno="4043" group-title="Holanda",Qmusic
 https://stream.qmusic.nl/qmusic/videohls.m3u8
-#EXTINF:-1 tvg-id="Regio90TV.nl@SD" tvg-name="Regio90 TV" tvg-logo="https://i.imgur.com/UGnm1jd.png" tvg-chno="4049" group-title="Holanda",Regio90 TV
+#EXTINF:-1 tvg-id="Regio90TV.nl@SD" tvg-name="Regio90 TV" tvg-logo="https://i.imgur.com/UGnm1jd.png" tvg-chno="4048" group-title="Holanda",Regio90 TV
 https://ms2.mx-cd.net/dtv-02/260-2403096/Regio90TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RN7.nl@SD" tvg-name="RN7" tvg-logo="https://i.imgur.com/dYBTrLc.png" tvg-chno="4050" group-title="Holanda",RN7
+#EXTINF:-1 tvg-id="RN7.nl@SD" tvg-name="RN7" tvg-logo="https://i.imgur.com/dYBTrLc.png" tvg-chno="4049" group-title="Holanda",RN7
 https://streams.rn7.nl/memfs/49823eea-a17d-4e39-a435-75b6d60df96e.m3u8
-#EXTINF:-1 tvg-id="RPLWoerden.nl@SD" tvg-name="RPL Woerden" tvg-logo="https://i.imgur.com/UdYMXWQ.png" tvg-chno="4051" group-title="Holanda",RPL Woerden
+#EXTINF:-1 tvg-id="RPLWoerden.nl@SD" tvg-name="RPL Woerden" tvg-logo="https://i.imgur.com/UdYMXWQ.png" tvg-chno="4050" group-title="Holanda",RPL Woerden
 https://d1893oi5c6e5u0.cloudfront.net/nlpo/clr-nlpo/rpltvwoerden/index.m3u8
-#EXTINF:-1 tvg-id="RTV1.nl@SD" tvg-name="RTV 1 (Netherlands)" tvg-logo="https://i.imgur.com/lRCsPWT.png" tvg-chno="4052" group-title="Holanda",RTV 1 (Netherlands)
+#EXTINF:-1 tvg-id="RTV1.nl@SD" tvg-name="RTV 1 (Netherlands)" tvg-logo="https://i.imgur.com/lRCsPWT.png" tvg-chno="4051" group-title="Holanda",RTV 1 (Netherlands)
 https://dy7fxpkq4ggk8.cloudfront.net/nlpo/clr-nlpo/rtv1/index.m3u8
-#EXTINF:-1 tvg-id="RTVDrenthe.nl@SD" tvg-name="RTV Drenthe" tvg-logo="https://i.imgur.com/UBQCjnG.png" tvg-chno="4053" group-title="Holanda",RTV Drenthe
+#EXTINF:-1 tvg-id="RTVDrenthe.nl@SD" tvg-name="RTV Drenthe" tvg-logo="https://i.imgur.com/UBQCjnG.png" tvg-chno="4052" group-title="Holanda",RTV Drenthe
 https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVHorizon.nl@SD" tvg-name="RTV Horizon" tvg-logo="https://i.imgur.com/wnRsI8B.png" tvg-chno="4054" group-title="Holanda",RTV Horizon
+#EXTINF:-1 tvg-id="RTVHorizon.nl@SD" tvg-name="RTV Horizon" tvg-logo="https://i.imgur.com/wnRsI8B.png" tvg-chno="4053" group-title="Holanda",RTV Horizon
 https://tv.rtvhorizon.nl/hls/horizon/1_2/index.m3u8
-#EXTINF:-1 tvg-id="RTVLOVE.nl@SD" tvg-name="RTV LOVE" tvg-logo="https://i.imgur.com/hucwX6v.png" tvg-chno="4055" group-title="Holanda",RTV LOVE
+#EXTINF:-1 tvg-id="RTVLOVE.nl@SD" tvg-name="RTV LOVE" tvg-logo="https://i.imgur.com/hucwX6v.png" tvg-chno="4054" group-title="Holanda",RTV LOVE
 https://d2o8iss0ldenh4.cloudfront.net/nlpo/clr-nlpo/rtvlove/index.m3u8
-#EXTINF:-1 tvg-id="RTVMeppel.nl@SD" tvg-name="RTV Meppel" tvg-logo="https://i.imgur.com/RosyQkb.png" tvg-chno="4056" group-title="Holanda",RTV Meppel
+#EXTINF:-1 tvg-id="RTVMeppel.nl@SD" tvg-name="RTV Meppel" tvg-logo="https://i.imgur.com/RosyQkb.png" tvg-chno="4055" group-title="Holanda",RTV Meppel
 https://d2eanln3bsfb0d.cloudfront.net/nlpo/clr-nlpo/rtvmeppel/index.m3u8
-#EXTINF:-1 tvg-id="RTVNoord.nl" tvg-name="RTV Noord" tvg-logo="https://i.imgur.com/pO5Mexa.png" tvg-chno="4057" group-title="Holanda",RTV Noord
+#EXTINF:-1 tvg-id="RTVNoord.nl" tvg-name="RTV Noord" tvg-logo="https://i.imgur.com/pO5Mexa.png" tvg-chno="4056" group-title="Holanda",RTV Noord
 https://media.rtvnoord.nl/live/rtvnoord/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVOost.nl@SD" tvg-name="RTV Oost" tvg-logo="https://i.imgur.com/nTR6q9H.png" tvg-chno="4058" group-title="Holanda",RTV Oost
+#EXTINF:-1 tvg-id="RTVOost.nl@SD" tvg-name="RTV Oost" tvg-logo="https://i.imgur.com/nTR6q9H.png" tvg-chno="4057" group-title="Holanda",RTV Oost
 https://d34cg2bnc08ruf.cloudfront.net/live/rtvoost/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVPurmerend.nl@SD" tvg-name="RTV Purmerend" tvg-logo="https://i.imgur.com/dLKSpqz.png" tvg-chno="4059" group-title="Holanda",RTV Purmerend
+#EXTINF:-1 tvg-id="RTVPurmerend.nl@SD" tvg-name="RTV Purmerend" tvg-logo="https://i.imgur.com/dLKSpqz.png" tvg-chno="4058" group-title="Holanda",RTV Purmerend
 https://ms2.mx-cd.net/dtv-10/268-2641474/RTV_Purmerend_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVRijnmond.nl@SD" tvg-name="RTV Rijnmond" tvg-logo="https://i.imgur.com/fJTs9xH.png" tvg-chno="4060" group-title="Holanda",RTV Rijnmond
+#EXTINF:-1 tvg-id="RTVRijnmond.nl@SD" tvg-name="RTV Rijnmond" tvg-logo="https://i.imgur.com/fJTs9xH.png" tvg-chno="4059" group-title="Holanda",RTV Rijnmond
 https://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv/index.m3u8
-#EXTINF:-1 tvg-id="RTVSLOS.nl@SD" tvg-name="RTV SLOS" tvg-logo="https://i.imgur.com/xdzrT9A.png" tvg-chno="4061" group-title="Holanda",RTV SLOS
-https://d3b6teev8t7bb2.cloudfront.net/nlpo/clr-nlpo/rtvslos/index.m3u8
-#EXTINF:-1 tvg-id="RTVUtrecht.nl@SD" tvg-name="RTV Utrecht" tvg-logo="https://i.imgur.com/nrvs30l.png" tvg-chno="4062" group-title="Holanda",RTV Utrecht
+#EXTINF:-1 tvg-id="RTVUtrecht.nl@SD" tvg-name="RTV Utrecht" tvg-logo="https://i.imgur.com/nrvs30l.png" tvg-chno="4060" group-title="Holanda",RTV Utrecht
 https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/rtvutrecht/index.m3u8
-#EXTINF:-1 tvg-id="RTVVeluwezoomTV.nl@SD" tvg-name="RTV Veluwezoom TV" tvg-logo="https://i.imgur.com/KeHbJTM.png" tvg-chno="4063" group-title="Holanda",RTV Veluwezoom TV
+#EXTINF:-1 tvg-id="RTVVeluwezoomTV.nl@SD" tvg-name="RTV Veluwezoom TV" tvg-logo="https://i.imgur.com/KeHbJTM.png" tvg-chno="4061" group-title="Holanda",RTV Veluwezoom TV
 https://dt4pogjgi3q8s.cloudfront.net/nlpo/clr-nlpo/rtvveluwezoom/index.m3u8
-#EXTINF:-1 tvg-id="RTVZulthe.nl@SD" tvg-name="RTV Zulthe" tvg-logo="https://i.imgur.com/Z3zUUsJ.png" tvg-chno="4064" group-title="Holanda",RTV Zulthe
+#EXTINF:-1 tvg-id="RTVZulthe.nl@SD" tvg-name="RTV Zulthe" tvg-logo="https://i.imgur.com/Z3zUUsJ.png" tvg-chno="4062" group-title="Holanda",RTV Zulthe
 http://ms7.mx-cd.net/tv/212-1299944/RTV-Zulthe.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Salto1.nl@SD" tvg-name="Salto 1" tvg-logo="https://i.imgur.com/hyubvS5.png" tvg-chno="4065" group-title="Holanda",Salto 1
+#EXTINF:-1 tvg-id="Salto1.nl@SD" tvg-name="Salto 1" tvg-logo="https://i.imgur.com/hyubvS5.png" tvg-chno="4063" group-title="Holanda",Salto 1
 https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/2103d417/index.m3u8
-#EXTINF:-1 tvg-id="Salto2.nl@SD" tvg-name="Salto 2" tvg-logo="https://i.imgur.com/6H3ycdL.png" tvg-chno="4066" group-title="Holanda",Salto 2
+#EXTINF:-1 tvg-id="Salto2.nl@SD" tvg-name="Salto 2" tvg-logo="https://i.imgur.com/6H3ycdL.png" tvg-chno="4064" group-title="Holanda",Salto 2
 https://d11lnfpmek70tc.cloudfront.net/nlpo/clr-nlpo/bad78523/index.m3u8
-#EXTINF:-1 tvg-id="SBS6Classics.nl@HD" tvg-name="SBS6 Classics" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8d/SBS_6_logo_2013.png" tvg-chno="4067" group-title="Holanda",SBS6 Classics
-https://sbs6classic.prd1.talpatvcdn.nl/v1/master/8ada1ed2ae3b9c3db6fc5e604cfa78fc7d2d745e/sbs6classic_ssai/fea54560ba684701a2143f33a9cf4489/index.m3u8
-#EXTINF:-1 tvg-id="SchieTV.nl@SD" tvg-name="Schie TV (576i)" tvg-logo="https://i.imgur.com/kt4Aqvq.png" tvg-chno="4068" group-title="Holanda",Schie TV (576i)
+#EXTINF:-1 tvg-id="SchieTV.nl@SD" tvg-name="Schie TV (576i)" tvg-logo="https://i.imgur.com/kt4Aqvq.png" tvg-chno="4065" group-title="Holanda",Schie TV (576i)
 https://d2n2i1jp4j20kw.cloudfront.net/nlpo/clr-nlpo/schietv/index.m3u8
-#EXTINF:-1 tvg-id="SleutelstadTV.nl@SD" tvg-name="Sleutelstad TV" tvg-logo="https://i.imgur.com/ljVGMWV.png" tvg-chno="4069" group-title="Holanda",Sleutelstad TV
+#EXTINF:-1 tvg-id="SleutelstadTV.nl@SD" tvg-name="Sleutelstad TV" tvg-logo="https://i.imgur.com/ljVGMWV.png" tvg-chno="4066" group-title="Holanda",Sleutelstad TV
 https://video-eu1.streamerr.co/hls/s7fdeb27a49/live.m3u8
-#EXTINF:-1 tvg-id="SRCTV.nl@SD" tvg-name="SRC TV" tvg-logo="https://i.imgur.com/VSSbjrM.png" tvg-chno="4070" group-title="Holanda",SRC TV
+#EXTINF:-1 tvg-id="SRCTV.nl@SD" tvg-name="SRC TV" tvg-logo="https://i.imgur.com/VSSbjrM.png" tvg-chno="4067" group-title="Holanda",SRC TV
 http://highvolume155.streampartner.nl/adminsrc/adminsrc/playlist.m3u8
-#EXTINF:-1 tvg-id="StreekstadCentral.nl@SD" tvg-name="Streekstad Central" tvg-logo="https://i.imgur.com/9gM6rPb.png" tvg-chno="4071" group-title="Holanda",Streekstad Central
+#EXTINF:-1 tvg-id="StreekstadCentral.nl@SD" tvg-name="Streekstad Central" tvg-logo="https://i.imgur.com/9gM6rPb.png" tvg-chno="4068" group-title="Holanda",Streekstad Central
 https://videostreams.streekstadcentraal.nl/hls/streekstad_alkmaar/streekstad_alkmaar.m3u8
-#EXTINF:-1 tvg-id="StudioRheden.nl@SD" tvg-name="Studio Rheden" tvg-logo="https://i.imgur.com/swfxaac.png" tvg-chno="4072" group-title="Holanda",Studio Rheden
+#EXTINF:-1 tvg-id="StudioRheden.nl@SD" tvg-name="Studio Rheden" tvg-logo="https://i.imgur.com/swfxaac.png" tvg-chno="4069" group-title="Holanda",Studio Rheden
 https://stream.studiorhedenlive.nl/hlstv/stream.m3u8
-#EXTINF:-1 tvg-id="Studio040TV.nl@SD" tvg-name="Studio040 TV" tvg-logo="https://i.imgur.com/NBludRL.png" tvg-chno="4073" group-title="Holanda",Studio040 TV
+#EXTINF:-1 tvg-id="Studio040TV.nl@SD" tvg-name="Studio040 TV" tvg-logo="https://i.imgur.com/NBludRL.png" tvg-chno="4070" group-title="Holanda",Studio040 TV
 https://d591ovpa48r6h.cloudfront.net/nlpo/clr-nlpo/studio040tv/index.m3u8
-#EXTINF:-1 tvg-id="TMF.nl@HDFAST" tvg-name="TMF" tvg-logo="https://www.maxx-xs.nl/images/assets/3/c/3c123778ef66464786705dc4138303ec/COV/cover_l_01.png" tvg-chno="4074" group-title="Holanda",TMF
+#EXTINF:-1 tvg-id="TMF.nl@HDFAST" tvg-name="TMF" tvg-logo="https://www.maxx-xs.nl/images/assets/3/c/3c123778ef66464786705dc4138303ec/COV/cover_l_01.png" tvg-chno="4071" group-title="Holanda",TMF
 https://tmf-nl-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-hls-aes128-yourchannels-10-restreaming/bitok/eyJzdGlkIjoiMzUzNGNiZTAtNWY4MS00ZmU4LWE1NGYtYjgyMjJmMTM3ZmZjIiwibWt0IjoibmwiLCJjaCI6IjEwIiwicHRmIjo1fQ%3D%3D/mpgmedia/TMF/TMF_NL/TMF_NL.m3u8
-#EXTINF:-1 tvg-id="TVEllef.nl@SD" tvg-name="TV Ellef" tvg-logo="https://i.imgur.com/FaCd2QY.png" tvg-chno="4075" group-title="Holanda",TV Ellef
+#EXTINF:-1 tvg-id="TVEllef.nl@SD" tvg-name="TV Ellef" tvg-logo="https://i.imgur.com/FaCd2QY.png" tvg-chno="4072" group-title="Holanda",TV Ellef
 http://cdn22.streampartner.nl/tvellef/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="UStad.nl@SD" tvg-name="UStad" tvg-logo="https://i.imgur.com/9F8ieEz.png" tvg-chno="4076" group-title="Holanda",UStad
+#EXTINF:-1 tvg-id="UStad.nl@SD" tvg-name="UStad" tvg-logo="https://i.imgur.com/9F8ieEz.png" tvg-chno="4073" group-title="Holanda",UStad
 http://media.rtvutrecht.nl/live/rtvutrecht/ustad/index.m3u8
-#EXTINF:-1 tvg-id="VechtdalTV.nl@SD" tvg-name="Vechtdal TV" tvg-logo="https://i.imgur.com/MhcKEwr.png" tvg-chno="4077" group-title="Holanda",Vechtdal TV
+#EXTINF:-1 tvg-id="VechtdalTV.nl@SD" tvg-name="Vechtdal TV" tvg-logo="https://i.imgur.com/MhcKEwr.png" tvg-chno="4074" group-title="Holanda",Vechtdal TV
 https://ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="WeertFMTV.nl@SD" tvg-name="WeertFM TV" tvg-logo="https://i.imgur.com/8bt6xt2.png" tvg-chno="4078" group-title="Holanda",WeertFM TV
+#EXTINF:-1 tvg-id="WeertFMTV.nl@SD" tvg-name="WeertFM TV" tvg-logo="https://i.imgur.com/8bt6xt2.png" tvg-chno="4075" group-title="Holanda",WeertFM TV
 https://ms2.mx-cd.net/tv/151-573495/WeertFM_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="WOS.nl@SD" tvg-name="WOS" tvg-logo="https://i.imgur.com/L7MUBIo.png" tvg-chno="4079" group-title="Holanda",WOS
+#EXTINF:-1 tvg-id="WOS.nl@SD" tvg-name="WOS" tvg-logo="https://i.imgur.com/L7MUBIo.png" tvg-chno="4076" group-title="Holanda",WOS
 https://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="XITE.nl@SD" tvg-name="XITE" tvg-logo="https://i.imgur.com/jxuwGRi.png" tvg-chno="4080" group-title="Holanda",XITE
+#EXTINF:-1 tvg-id="XITE.nl@SD" tvg-name="XITE" tvg-logo="https://i.imgur.com/jxuwGRi.png" tvg-chno="4077" group-title="Holanda",XITE
 https://xite-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="XITEHits.nl@NL" tvg-name="XITE Hits" tvg-logo="https://i.imgur.com/N51Rp7E.png" tvg-chno="4081" group-title="Holanda",XITE Hits
+#EXTINF:-1 tvg-id="XITEHits.nl@NL" tvg-name="XITE Hits" tvg-logo="https://i.imgur.com/N51Rp7E.png" tvg-chno="4078" group-title="Holanda",XITE Hits
 https://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8
-#EXTINF:-1 tvg-id="XITEReggaeVibes.nl@HD" tvg-name="XITE Reggae Vibes" tvg-logo="https://provider-static.plex.tv/epg/cms/production/c7506335-967f-46a9-917a-2a35475cd96c/xitereggaevibes_logo_light_-_Arlette_FiranRDX.png" tvg-chno="4082" group-title="Holanda",XITE Reggae Vibes
+#EXTINF:-1 tvg-id="XITEReggaeVibes.nl@HD" tvg-name="XITE Reggae Vibes" tvg-logo="https://provider-static.plex.tv/epg/cms/production/c7506335-967f-46a9-917a-2a35475cd96c/xitereggaevibes_logo_light_-_Arlette_FiranRDX.png" tvg-chno="4079" group-title="Holanda",XITE Reggae Vibes
 https://dw2m7yrngfg8c.cloudfront.net/XITE_Reggae_Vibes.m3u8
-#EXTINF:-1 tvg-id="ZO34.nl@SD" tvg-name="ZO!34" tvg-logo="https://i.imgur.com/yiihDg6.png" tvg-chno="4083" group-title="Holanda",ZO!34
+#EXTINF:-1 tvg-id="ZO34.nl@SD" tvg-name="ZO!34" tvg-logo="https://i.imgur.com/yiihDg6.png" tvg-chno="4080" group-title="Holanda",ZO!34
 https://video.uitzending.tv:19360/zo34/zo34.m3u8
