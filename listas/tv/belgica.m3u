@@ -3,13 +3,11 @@
 https://live.zendzend.com/mpegts/29375_107244/media_mpegts_0.m3u8
 #EXTINF:-1 tvg-id="FunVision.be@SD" tvg-name="Fun Vision" tvg-logo="https://i.imgur.com/AhkKr7Y.png" tvg-chno="5002" group-title="Bélgica",Fun Vision
 https://funradiovisionhd.vedge.infomaniak.com/livecast/ik:funradiovisionhd/manifest.m3u8
-#EXTINF:-1 tvg-id="JapanimTV.be@SD" tvg-name="JapanimTV" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/6b97e19f-4243-4d48-b794-ff8cf54d795f-profile_image-300x300.png" tvg-chno="5003" group-title="Bélgica",JapanimTV
-https://foxkidstv.be:3369/stream/play.m3u8
-#EXTINF:-1 tvg-id="Klara.be@SD" tvg-name="Klara" tvg-logo="https://i.ibb.co/YdDkSJW/VRT-Klara-2020-svg.png" tvg-chno="5004" group-title="Bélgica",Klara
+#EXTINF:-1 tvg-id="Klara.be@SD" tvg-name="Klara" tvg-logo="https://i.ibb.co/YdDkSJW/VRT-Klara-2020-svg.png" tvg-chno="5003" group-title="Bélgica",Klara
 https://live.vrtcdn.be/groupb/live/9c429b62-e160-417a-b438-cdf985bcd352/live.isml/.m3u8
-#EXTINF:-1 tvg-id="SterkTV.be@SD" tvg-name="Sterk TV" tvg-logo="https://i.imgur.com/bIheNAI.png" tvg-chno="5007" group-title="Bélgica",Sterk TV
+#EXTINF:-1 tvg-id="SterkTV.be@SD" tvg-name="Sterk TV" tvg-logo="https://i.imgur.com/bIheNAI.png" tvg-chno="5006" group-title="Bélgica",Sterk TV
 https://hlspackager.akamaized.net/live/DB/STERK_TV/HLS/STERK_TV.m3u8
-#EXTINF:-1 tvg-id="StuBru.be@SD" tvg-name="StuBru" tvg-logo="https://i.ibb.co/y0TcsXw/512px-VRT-Stu-Bru-logo-svg.png" tvg-chno="5008" group-title="Bélgica",StuBru
+#EXTINF:-1 tvg-id="StuBru.be@SD" tvg-name="StuBru" tvg-logo="https://i.ibb.co/y0TcsXw/512px-VRT-Stu-Bru-logo-svg.png" tvg-chno="5007" group-title="Bélgica",StuBru
 https://live.vrtcdn.be/groupb/live/450aa9d1-7173-47f3-aaaa-9701426f8ddd/live.isml/.m3u8
-#EXTINF:-1 tvg-id="WTV.be@SD" tvg-name="WTV" tvg-logo="https://i.imgur.com/wvKe8mi.png" tvg-chno="5009" group-title="Bélgica",WTV
+#EXTINF:-1 tvg-id="WTV.be@SD" tvg-name="WTV" tvg-logo="https://i.imgur.com/wvKe8mi.png" tvg-chno="5008" group-title="Bélgica",WTV
 https://wtvlive.b-cdn.net/playlist.m3u8
