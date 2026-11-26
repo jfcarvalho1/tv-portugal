@@ -1,1 +1,16 @@
-[]
+[
+ {
+  "nome": "Rádio Lidador",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s18584",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s18584q.png",
+  "fonte": "tunein",
+  "regiao": "Porto"
+ },
+ {
+  "nome": "Rádio Sagres FM",
+  "url": "http://opml.radiotime.com/Tune.ashx?id=s81809",
+  "logo": "http://cdn-radiotime-logos.tunein.com/s81809q.png",
+  "fonte": "tunein",
+  "regiao": "Faro"
+ }
+]
