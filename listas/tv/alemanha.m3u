@@ -135,27 +135,25 @@ https://leipzig.iptv-playoutcenter.de/leipzig/leipzigfernsehen.stream_1/playlist
 https://h056.video-stream-hosting.de/easycast7-live/_definst_/mp4:livestreamhd20/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="SonnenklarTV.de@SD" tvg-name="Sonnenklar TV" tvg-logo="https://i.imgur.com/g4QeXwF.png" tvg-chno="6069" group-title="Alemanha",Sonnenklar TV
 http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8
-#EXTINF:-1 tvg-id="SophiaTVEspanol.de@SD" tvg-name="Sophia TV Espanol" tvg-logo="https://i.imgur.com/T2JPCq2.png" tvg-chno="6070" group-title="Alemanha",Sophia TV Espanol
-https://bild-und-ton.stream/sophiatv-es/smil:sophia-tv-es.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SpongeBobSchwammkopf.de@DACH" tvg-name="SpongeBob Schwammkopf" tvg-logo="https://images.pluto.tv/channels/5d00e8adaab96b5635b2a005/colorLogoPNG.png" tvg-chno="6071" group-title="Alemanha",SpongeBob Schwammkopf
+#EXTINF:-1 tvg-id="SpongeBobSchwammkopf.de@DACH" tvg-name="SpongeBob Schwammkopf" tvg-logo="https://images.pluto.tv/channels/5d00e8adaab96b5635b2a005/colorLogoPNG.png" tvg-chno="6070" group-title="Alemanha",SpongeBob Schwammkopf
 https://jmp2.uk/plu-5d00e8adaab96b5635b2a005.m3u8
-#EXTINF:-1 tvg-id="Strongman.us@Germany" tvg-name="Strongman" tvg-logo="https://i.imgur.com/bVQBF6R.png" tvg-chno="6072" group-title="Alemanha",Strongman
+#EXTINF:-1 tvg-id="Strongman.us@Germany" tvg-name="Strongman" tvg-logo="https://i.imgur.com/bVQBF6R.png" tvg-chno="6071" group-title="Alemanha",Strongman
 https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="teltOwkanal.de@SD" tvg-name="teltOwkanal" tvg-logo="https://i.imgur.com/G0cImlU.png" tvg-chno="6073" group-title="Alemanha",teltOwkanal
+#EXTINF:-1 tvg-id="teltOwkanal.de@SD" tvg-name="teltOwkanal" tvg-logo="https://i.imgur.com/G0cImlU.png" tvg-chno="6072" group-title="Alemanha",teltOwkanal
 https://h056.video-stream-hosting.de/easycast8-live/_definst_/mp4:livestreamhd8/playlist.m3u8
-#EXTINF:-1 tvg-id="TerraMaterWILD.de@German" tvg-name="Terra Mater WILD" tvg-logo="https://i.imgur.com/EbMK3Ph.png" tvg-chno="6074" group-title="Alemanha",Terra Mater WILD
+#EXTINF:-1 tvg-id="TerraMaterWILD.de@German" tvg-name="Terra Mater WILD" tvg-logo="https://i.imgur.com/EbMK3Ph.png" tvg-chno="6073" group-title="Alemanha",Terra Mater WILD
 https://53ff3982.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmxheHhUVi1ldV9UZXJyYU1hdGVyV2lsZF9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="TheGrahamNortonShow.uk@SD" tvg-name="The Graham Norton Show" tvg-logo="https://image.tmdb.org/t/p/w500/xZkWYamzlT6nFu9MI2Rr6NkjedX.png" tvg-chno="6075" group-title="Alemanha",The Graham Norton Show
+#EXTINF:-1 tvg-id="TheGrahamNortonShow.uk@SD" tvg-name="The Graham Norton Show" tvg-logo="https://image.tmdb.org/t/p/w500/xZkWYamzlT6nFu9MI2Rr6NkjedX.png" tvg-chno="6074" group-title="Alemanha",The Graham Norton Show
 https://amg00654-itv-amg00654c35-rakuten-gb-7598.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVIngolstadt.de@SD" tvg-name="TV Ingolstadt" tvg-logo="https://i.imgur.com/Ymh11VV.png" tvg-chno="6076" group-title="Alemanha",TV Ingolstadt
+#EXTINF:-1 tvg-id="TVIngolstadt.de@SD" tvg-name="TV Ingolstadt" tvg-logo="https://i.imgur.com/Ymh11VV.png" tvg-chno="6075" group-title="Alemanha",TV Ingolstadt
 https://stream01.welocal.stream/stream/fhd-tvingolstadt_44349/ngrp:stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="TV38SudostNiedersachen.de@SD" tvg-name="TV38 Sudost-Niedersachen" tvg-logo="https://i.imgur.com/ob9JJPU.png" tvg-chno="6077" group-title="Alemanha",TV38 Sudost-Niedersachen
+#EXTINF:-1 tvg-id="TV38SudostNiedersachen.de@SD" tvg-name="TV38 Sudost-Niedersachen" tvg-logo="https://i.imgur.com/ob9JJPU.png" tvg-chno="6076" group-title="Alemanha",TV38 Sudost-Niedersachen
 https://h057.video-stream-hosting.de/tv38-live/_definst_/smil:livestream.smil/playlist.m3u8?ref=
-#EXTINF:-1 tvg-id="VolksmusikTV.de@SD" tvg-name="Volksmusik TV" tvg-logo="https://i.imgur.com/EsWuCJ3.png" tvg-chno="6078" group-title="Alemanha",Volksmusik TV
+#EXTINF:-1 tvg-id="VolksmusikTV.de@SD" tvg-name="Volksmusik TV" tvg-logo="https://i.imgur.com/EsWuCJ3.png" tvg-chno="6077" group-title="Alemanha",Volksmusik TV
 https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
-#EXTINF:-1 tvg-id="WeltderWunderTV.de@SD" tvg-name="Welt der Wunder TV" tvg-logo="https://i.imgur.com/DLXssJe.png" tvg-chno="6079" group-title="Alemanha",Welt der Wunder TV
+#EXTINF:-1 tvg-id="WeltderWunderTV.de@SD" tvg-name="Welt der Wunder TV" tvg-logo="https://i.imgur.com/DLXssJe.png" tvg-chno="6078" group-title="Alemanha",Welt der Wunder TV
 https://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
-#EXTINF:-1 tvg-id="WorldofFreesports.de@SD" tvg-name="World of Freesports" tvg-logo="https://i.imgur.com/lta5Mog.png" tvg-chno="6080" group-title="Alemanha",World of Freesports
+#EXTINF:-1 tvg-id="WorldofFreesports.de@SD" tvg-name="World of Freesports" tvg-logo="https://i.imgur.com/lta5Mog.png" tvg-chno="6079" group-title="Alemanha",World of Freesports
 https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="YOLTV.de@SD" tvg-name="YOL TV" tvg-logo="https://i.imgur.com/rTBX6lS.png" tvg-chno="6081" group-title="Alemanha",YOL TV
+#EXTINF:-1 tvg-id="YOLTV.de@SD" tvg-name="YOL TV" tvg-logo="https://i.imgur.com/rTBX6lS.png" tvg-chno="6080" group-title="Alemanha",YOL TV
 https://live.yoltv.com/hls/stream.m3u8

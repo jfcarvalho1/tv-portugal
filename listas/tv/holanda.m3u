@@ -138,11 +138,5 @@ https://ms2.mx-cd.net/tv/81-334271/VechtdalTV.smil/playlist.m3u8
 https://ms2.mx-cd.net/tv/151-573495/WeertFM_TV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="WOS.nl@SD" tvg-name="WOS" tvg-logo="https://i.imgur.com/L7MUBIo.png" tvg-chno="4077" group-title="Holanda",WOS
 https://ms2.mx-cd.net/dtv-11/99-660295/WOS.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="XITE.nl@SD" tvg-name="XITE" tvg-logo="https://i.imgur.com/jxuwGRi.png" tvg-chno="4078" group-title="Holanda",XITE
-https://xite-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="XITEHits.nl@NL" tvg-name="XITE Hits" tvg-logo="https://i.imgur.com/N51Rp7E.png" tvg-chno="4079" group-title="Holanda",XITE Hits
-https://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8
-#EXTINF:-1 tvg-id="XITEReggaeVibes.nl@HD" tvg-name="XITE Reggae Vibes" tvg-logo="https://provider-static.plex.tv/epg/cms/production/c7506335-967f-46a9-917a-2a35475cd96c/xitereggaevibes_logo_light_-_Arlette_FiranRDX.png" tvg-chno="4080" group-title="Holanda",XITE Reggae Vibes
-https://dw2m7yrngfg8c.cloudfront.net/XITE_Reggae_Vibes.m3u8
-#EXTINF:-1 tvg-id="ZO34.nl@SD" tvg-name="ZO!34" tvg-logo="https://i.imgur.com/yiihDg6.png" tvg-chno="4081" group-title="Holanda",ZO!34
+#EXTINF:-1 tvg-id="ZO34.nl@SD" tvg-name="ZO!34" tvg-logo="https://i.imgur.com/yiihDg6.png" tvg-chno="4078" group-title="Holanda",ZO!34
 https://video.uitzending.tv:19360/zo34/zo34.m3u8
