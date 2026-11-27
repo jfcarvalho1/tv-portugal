@@ -1,8 +1,10 @@
 Lista de referência: 226 rádios locais
-Já estavam nas listas: 156
-Encontradas agora (TuneIn / Radio Garden / Radio Browser): 0
+Já estavam nas listas: 154
+Encontradas agora (TuneIn / Radio Garden / Radio Browser): 2
 Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
 
+  + Rádio Lidador  (tunein)
+  + Rádio Sagres FM  (tunein)
 
   - Rádio RTA — Albufeira
         visto: TuneIn: Rádio Melody
@@ -20,8 +22,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: Elijah Radio
         visto: TuneIn: Aloha Joe's Tiki Radio
-        visto: TuneIn: Aloha Joe's Hawaiian Radio
         visto: TuneIn: ALOHA
+        visto: TuneIn: Aloha Joe's Hawaiian Radio
   - Rádio Bonfim — Alpiarça
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
@@ -71,8 +73,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Pérola FM
         visto: TuneIn: Radio Fabio & Sofia
-        visto: TuneIn: Radio Junior
         visto: TuneIn: Radio ovos moles
+        visto: TuneIn: Radio Junior
         visto: TuneIn: Rádio Botaréu
   - PFM — Azambuja
         visto: TuneIn: Radio PFM 99.9
@@ -80,8 +82,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: 95bFM
         visto: TuneIn: B-FM
         visto: TuneIn: Byron BayFM
-        visto: TuneIn: ASAMBLEAS CRISTIANAS RADIO
         visto: TuneIn: La Radio de la Asamblea Nacional
+        visto: TuneIn: ASAMBLEAS CRISTIANAS RADIO
         visto: TuneIn: Asambleas Cristianas Radio
   - Rádio Batalha — Batalha
         visto: TuneIn: Rádio Melody
@@ -93,8 +95,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Bottle o' Groove
         visto: Radio Garden: None (None)
   - Rádio Bragançana — Bragança
-        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: Radio Perkins
@@ -111,8 +113,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Maranatha Radio Ministries
         visto: TuneIn: Maranata
   - Rádio Alfândega — Alfândega da Fé
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: A.M. Eleven Hundred K.F.A.X.
@@ -120,8 +122,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Gospel Highway Eleven - Não suportado
         visto: TuneIn: Business Eleven Ten K.T.E.K. - Não suportado
   - Rádio Cadaval — Cadaval
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: GothVille Radio
@@ -130,8 +132,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: K-Devil FM - Não suportado
   - Rádio Caldas — Caldas da Rainha
         visto: TuneIn: Rádio Caldas
-        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Radio Cóndor
         visto: TuneIn: Voces Fm
@@ -139,8 +141,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio Cidade Poços de Caldas
   - Rádio Cartaxo — Cartaxo
         visto: TuneIn: Tejo Rádio Jornal
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Radio Kimera
         visto: TuneIn: Tropicana Cartagena
@@ -148,8 +150,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: Radio Garden: None (None)
   - Rádio Juventude — Castelo Branco
         visto: TuneIn: Rádio Juventude Peruíbe
-        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Radio Juventud
         visto: TuneIn: Radio Juventud de Canarias
@@ -171,11 +173,11 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Radio Universitaria 93.3
         visto: TuneIn: RADIO UNIVERSITARIA 99.3 CHIRIQUI
-        visto: TuneIn: Radio Universitaria UTE LVT
         visto: TuneIn: FMUC 104,5 FM
+        visto: TuneIn: Radio Universitaria UTE LVT
   - Rádio Imagem — Fornos de Algodres
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: Verde-Oliva FM Santa Maria
@@ -186,15 +188,15 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio Cultura de Arvorezinha
         visto: TuneIn: Rádio Lagos Cultura
         visto: TuneIn: Rádio Cultura Foz
-        visto: TuneIn: Rádio ROCK
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Radio Cultura
         visto: TuneIn: Rádio Cultura FM
         visto: TuneIn: CULTURA ROCK
         visto: TuneIn: Radio Tv Espectaculo
   - Rádio Atlântico Sul — Lagos
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Estação Sul
         visto: TuneIn: Rádio ROCK
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Web Som Sul
         visto: TuneIn: Radio Atlantico
         visto: TuneIn: Radio Atlantico Kizomba
@@ -203,8 +205,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
   - Rádio Central FM — Leiria
         visto: TuneIn: Central FM
         visto: TuneIn: Radio Central FM Caruaru
-        visto: TuneIn: Radio Central
         visto: TuneIn: Rádio Central
+        visto: TuneIn: Radio Central
         visto: TuneIn: B98.5
         visto: TuneIn: 96.9 WOUR
         visto: TuneIn: 96.7 The River
@@ -222,7 +224,7 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio A Voz de Deus
         visto: TuneIn: LA VOZ DE LA ALEGRIA
         visto: TuneIn: Rádio Voz Reguengos 99.0 FM
-        visto: TuneIn: Radio La Voz de la Trompeta
+        visto: TuneIn: Radio La Voz de Jehova
         visto: TuneIn: Templo do Rock Radio
         visto: TuneIn: Mangialsonic Radio
         visto: TuneIn: Manglillera 92.5 fm
@@ -236,8 +238,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Milwaukee's Family Radio - Não suportado
   - Rádio Planalto — Mogadouro
         visto: TuneIn: Rádio Planalto News
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Rádio Studio FM Jaraguá do Sul
         visto: TuneIn: Cacimba FM
@@ -246,8 +248,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
   - Rádio Ecos da Raia — Monção
         visto: TuneIn: Ecos del Combeima
         visto: TuneIn: Ecos del Tiempo
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Ecos del Caribe
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Ecos Azuero
         visto: TuneIn: RPR1. Mainz
         visto: TuneIn: Con Los Manes
@@ -262,8 +264,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Radio Nosara
         visto: TuneIn: The Best Mix WNSR
   - Rádio Nordeste — Nordeste - Açores
-        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Toca Forró
         visto: TuneIn: Rádio Jih
         visto: TuneIn: La Sabrosura del Nordeste
@@ -286,20 +288,20 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: Rádio Amigos do Sertanejo
         visto: TuneIn: UNIVERSALLYT RADIO
-        visto: TuneIn: Radio Capão FM 90,9
         visto: TuneIn: Radio Cine Paradiso
+        visto: TuneIn: ZOE fm
   - Rádio Restauração — Olhão
         visto: TuneIn: Rádio Restauração
-        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Restauración
         visto: TuneIn: The Rooster
         visto: TuneIn: Restauracion Radio
         visto: TuneIn: Radio Isla
   - Rádio Ourique — Ourique
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: Radio Uruguay
@@ -334,11 +336,11 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio Voz Reguengos 99.0 FM
         visto: TuneIn: Rádio A Voz de Deus
         visto: TuneIn: Rádio Voz Espírita
-        visto: TuneIn: Voz Line Radio
+        visto: TuneIn: Radio Voz Catolica Tacana
         visto: TuneIn: 80er 90er OLDIE ANTENNE
         visto: TuneIn: hr3
-        visto: TuneIn: hr3 Rhein-Main
         visto: TuneIn: Absolut 80er
+        visto: TuneIn: hr3 Rhein-Main
   - Rádio S. Miguel Penela — Penela
         visto: TuneIn: Radio San Miguel El Salvador
         visto: TuneIn: Rádio Melody
@@ -349,8 +351,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Radio Peniel
         visto: TuneIn: BNL
   - Rádio Tempos Livres — Ponte de Sor
-        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: sinais dos tempos web rádio
@@ -364,8 +366,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio Jih
         visto: TuneIn: GRD Terra Radio
         visto: TuneIn: Terra Prime Radio Online
-        visto: TuneIn: Terra
         visto: TuneIn: GRD Terra Noël
+        visto: TuneIn: Terra
   - Rádio Costa d'Oiro — Portimão
         visto: TuneIn: RADIO COSTA  FM
         visto: TuneIn: Costa Blanca Radio
@@ -377,9 +379,9 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: PortMix - Não suportado
   - Rádio Mar — Póvoa de Varzim
         visto: TuneIn: Rádio Rio Mar
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
-        visto: TuneIn: Rádio Jih
+        visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio Brisa Mar FM
         visto: TuneIn: SER Ferrol
         visto: TuneIn: SER Roquetas
         visto: TuneIn: Costa Del Mar - Chillout
@@ -403,8 +405,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: RADIO DIEZ RECONQUISTA
         visto: TuneIn: FiestaCaribeRadio
   - Rádio Girão — Ribeira Brava - Madeira
-        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: KUAR
@@ -421,8 +423,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: INFORADIO - Não suportado
         visto: TuneIn: Radio Cantinho da Madeira
   - Rádio Sanjoanense — São João da Madeira
-        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: La Sanjuanerita
@@ -443,9 +445,9 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
+        visto: TuneIn: 90s90s Sommerhits
         visto: TuneIn: Santana FM
         visto: TuneIn: Radio Santana Breda
-        visto: TuneIn: The Fox
         visto: TuneIn: RTP Antena 1 Madeira
   - Rádio Pernes — Santarém
         visto: TuneIn: Rádio Melody
@@ -475,8 +477,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: C95
         visto: TuneIn: 2X Radio
   - Rádio Sátão — Sátão
-        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: La Zeta
@@ -493,8 +495,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Radio Transilvania Bistrita
         visto: TuneIn: Radio Transilvania Satu Mare
   - Rádio Guadalupe — Serpa
-        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: Guadalupe Radio
@@ -502,14 +504,14 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Guadalupe FM
         visto: TuneIn: Communidad Nuestra Senora De Guadalupe
   - Rádio Oásis — Sobral de Monte Agraço
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
+        visto: TuneIn: AI DJ Jukebox
+        visto: TuneIn: Play radio Rock
         visto: TuneIn: ROCK ANTENNE 90er Rock
         visto: TuneIn: OASIS NETWORK
-        visto: TuneIn: 96.9 The Oasis
-        visto: TuneIn: Oasis Radio
   - Rádio Ao Tom Dela — Tondela
         visto: TuneIn: Bob and Tom Radio
         visto: TuneIn: Rádio Melody
@@ -536,7 +538,7 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: La Trova Radio
         visto: TuneIn: 97.1 The Drive
         visto: TuneIn: The Drive Tucson
-        visto: TuneIn: The Drive
+        visto: TuneIn: Radio Tarifa
   - Rádio Nova Contrasta — Valença
         visto: TuneIn: Rádio Nova Atalaia
         visto: TuneIn: Rádio Nova FM
@@ -565,8 +567,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Rádio Clube Foz do Iguaçu
         visto: TuneIn: IPC VILA NASSER
   - Rádio Lezíria — Vila Franca de Xira
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: LAZER 103.3
@@ -574,8 +576,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: Lazer 99.3 & 98.5
         visto: TuneIn: Laser 101
   - Rádio Vila Franca — Vila Franca do Campo - Açores
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: IPC VILA NASSER
@@ -585,8 +587,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
   - Rádio Cultural de Cerveira — Vila Nova de Cerveira
         visto: TuneIn: Radio Cultural TGN
         visto: TuneIn: Radio Cultural Amigos
-        visto: TuneIn: Rádio Melody
         visto: TuneIn: Rádio ROCK
+        visto: TuneIn: Rádio Melody
         visto: TuneIn: La Cultural Nicoya
         visto: TuneIn: Radio Cultural Ayuntamiento
         visto: TuneIn: Radio Nova
@@ -610,8 +612,8 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: WMRA
         visto: TuneIn: WMHR
   - Rádio Vinhais — Vinhais
-        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Melody
+        visto: TuneIn: Rádio ROCK
         visto: TuneIn: Rádio Jih
         visto: TuneIn: Web Rádio Fraternidade
         visto: TuneIn: ORF Radio Wien
@@ -627,6 +629,3 @@ Ainda em falta (sem emissão online conhecida, ou fecharam desde 2007): 70
         visto: TuneIn: WESL RADIO
         visto: TuneIn: radio visual
         visto: TuneIn: Visual FM
-
-Erros nas fontes:
-  Radio Browser: <urlopen error [Errno -2] Name or service not known>
